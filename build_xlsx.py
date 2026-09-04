@@ -707,6 +707,32 @@ def build(results: dict, path: Path):
         wc.column_dimensions[cl].width = w
     wc.sheet_properties.tabColor = "999999"
 
+    # ------------------------------------------------------------------ Glossary
+    wg = wb.create_sheet("Glossary")
+    wg["A1"] = "The words, in plain English"; wg["A1"].font = F_TITLE
+    gl = [
+        ("Expected points (Mkt xP)", "How many points the pre-season betting market thought a team would take from a game or a block. From Sky Bet's August outright odds turned into a strength per team, then each fixture priced home and away. Frozen for the season, so it is a fair yardstick. Arsenal at home to Coventry ≈ 2.2; away at Man City ≈ 1.0."),
+        ("vs expected (+/-)", "Points won minus expected points over the games played. Positive = ahead of the market, negative = behind."),
+        ("Deserved points (xG xP)", "The points a team would have averaged if each game were decided by the chances created (xG) rather than who finished them. Each match is replayed thousands of times from its xG."),
+        ("Playing (Perf)", "Deserved points minus expected points: whether a team is genuinely better or worse than the market thought, ignoring luck."),
+        ("Luck", "Points won minus deserved points. Positive = getting more than the chances deserved (likely to fall back); negative = unlucky (likely to bounce). This is 'playing better / worse than the points say'."),
+        ("z", "How unusual a divergence is, in standard deviations given those fixtures. Beyond ±2 is rare; within ±1 is noise."),
+        ("xG / xGA", "Expected goals for / against: the quality of chances created / allowed, added up."),
+        ("Finishing", "Goals minus expected goals on target (xGoT): finishing better or worse than the shots deserved. Usually fades."),
+        ("Strength / Rating", "The model's number for how good a team is: 0 = league average, +0.7 = title favourite, −0.8 = likely relegation side. 'Aug' from the market; 'now' after re-rating on this season's xG."),
+        ("Projected points (Sim)", "Current points plus the rest of the season simulated 10,000 times with current strengths."),
+        ("Season target", "Expected points for the whole season from the August market (matches the Spreadex points lines in the PL)."),
+        ("Next 4 / Run-in", "Expected points from the next four fixtures (8+ soft, under 5 hard) / average per remaining game."),
+        ("Scanner: Bookie says / Model says / Gap / Blend / Value / Stake guide", "The bookmaker's price as a percentage (margin removed); the model's percentage; the difference; halfway between the two; expected return per £1; full-Kelly stake on the blend (most people use a quarter)."),
+        ("This week: Tilt", "−5 to +5 (positive = home): luck gap + playing gap + the model's disagreement with the match price, shrunk while samples are small."),
+        ("Blocks", "Each team's fixtures in date order cut into fours. Each block: points won / expected, and the difference."),
+    ]
+    for i, (a, b) in enumerate(gl, 3):
+        wg.cell(row=i, column=1, value=a).font = F_BOLD
+        c = wg.cell(row=i, column=2, value=b); c.font = F_BASE; c.alignment = Alignment(wrap_text=True, vertical="top")
+    wg.column_dimensions["A"].width = 34; wg.column_dimensions["B"].width = 120
+    wg.sheet_properties.tabColor = "1F3864"
+
     # ------------------------------------------------------------------ README
     wd = wb.create_sheet("README", 0)
     lines = [
@@ -754,7 +780,7 @@ def build(results: dict, path: Path):
     wd.sheet_properties.tabColor = "1F3864"
 
     # order sheets
-    order = ["README"] + [DIVS[d]["name"] for d in DIVS] + ["Team", "This week", "Scanner", "Movers", "What-if", "Charts", "Blocks", "TeamGames", "Matches", "Ratings", "Context", "Helper", "NextGames"]
+    order = ["README", "Glossary"] + [DIVS[d]["name"] for d in DIVS] + ["Team", "This week", "Scanner", "Movers", "What-if", "Charts", "Blocks", "TeamGames", "Matches", "Ratings", "Context", "Helper", "NextGames"]
     wb._sheets = [wb[n] for n in order]
     wb.active = 1
     wb.calculation.fullCalcOnLoad = True
