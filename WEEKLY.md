@@ -1,6 +1,6 @@
 # Weekly refresh runbook
 
-Run every Monday morning (after the weekend round) — by the scheduled Claude task, or by hand.
+Run every Monday and Thursday morning (after the weekend and midweek rounds) — by the scheduled Claude task, or by hand.
 The dashboard's artifact URL is `https://claude.ai/code/artifact/5398eee2-48dc-44fa-ace3-7b354a290c1a`.
 
 ## 0. Get the project

@@ -585,7 +585,7 @@ function renderStart(){
   $('#intro').innerHTML=`<p><b>What this is.</b> Every team in the Premier League, Championship, League One and League Two, with its season cut into blocks of four games. For each block you see the points the team <b>won</b>, the points the betting market <b>expected</b> before the season, and the points the team <b>deserved</b> on the chances it created. Blue means ahead of expectations, red behind.</p>
     <p><b>How to use it.</b> Pick a division at the top. <b>Blocks</b> is the main grid — click any team for its full story. <b>This week</b> rates the coming fixtures. <b>Value scanner</b> shows where the model and the bookmaker disagree. Use the <b>?</b> next to any word for a plain explanation, and switch <b>Simple / Everything</b> to hide or show the technical columns.</p>
     <p><b>Prices.</b> Every price is shown as <b>August → now</b> (Sky Bet pre-season, then bet365 at each weekly refresh). Click a team for its full price history with a date picker.</p>
-    <p class="tsub">Data to ${DATA.updated} · ${n} games played across the four divisions · updates itself automatically every Monday at 7am UK — no need to ask.</p>`;
+    <p class="tsub">Data to ${DATA.updated} · ${n} games played across the four divisions · updates itself automatically every Monday and Thursday at 7am UK (after the weekend and midweek games) — no need to ask.</p>`;
   const all=startRows();
   $('#chips').innerHTML=CHIPS.map(([k,l])=>`<button data-chip="${k}" aria-pressed="${S.chip===k}">${l}</button>`).join('');
   $$('#chips button').forEach(b=>b.onclick=()=>{ S.chip=b.dataset.chip; renderStart(); });
