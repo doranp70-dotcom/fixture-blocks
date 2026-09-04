@@ -259,7 +259,7 @@ table{border-collapse:separate;border-spacing:0;width:100%}
   <div id="v-scanner" class="hidden">
     <section class="panel">
       <div class="filters">
-        <label>Market <select id="sMarket"><option value="">all</option><option value="title">title</option><option value="promotion">promotion</option><option value="top4">top 4</option><option value="top6">top 6 / play-offs</option><option value="relegation">relegation</option></select></label>
+        <label>Market <select id="sMarket"><option value="">all</option><option value="title">title</option><option value="promotion">promotion</option><option value="top4">top 4</option><option value="top6">play-off zone (top 6 / top 7)</option><option value="relegation">relegation</option></select></label>
         <label><input type="checkbox" id="sFlag" checked> flagged only</label>
         <label>Max price <input type="number" id="sMax" value="50"></label>
         <span class="tsub" id="scount"></span>
@@ -357,13 +357,14 @@ const esc = s => String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const cls = x => x>0.005?'pos':x<-0.005?'neg':'';
 const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-');
 const ALLDIVS = Object.keys(DATA.divs);
-const MK_LABEL = {title:'Title', promotion:'Promotion', relegation:'Relegation', top4:'Top 4', top6:'Top 6 / play-offs'};
+const MK_LABEL = {title:'Title', promotion:'Promotion', relegation:'Relegation', top4:'Top 4', top6:'Play-off zone (top 6/7)'};
 
 function mix(hex, t, base){ const h=c=>[parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16)]; const a=h(hex),b=h(base); const m=a.map((v,i)=>Math.round(v*t+b[i]*(1-t))); return `rgb(${m[0]},${m[1]},${m[2]})`; }
 function cssVar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
 function divFill(diff, played, cap=1.6){ const t=Math.min(1, Math.abs(diff)/Math.max(cap*played,0.01)); return mix(diff>=0?cssVar('--pos'):cssVar('--neg'), 0.12+0.55*t, cssVar('--surface')); }
 function diffFill(ppg){ const steps=['--seq-1','--seq-2','--seq-3','--seq-4','--seq-5']; const t=Math.max(0,Math.min(1,(1.75-ppg)/0.95)); return cssVar(steps[Math.min(4,Math.floor(t*5))]); }
 
+function normCdf(x){ const t=1/(1+0.2316419*Math.abs(x)); const dd=0.3989423*Math.exp(-x*x/2); let p=dd*t*(0.3193815+t*(-0.3565638+t*(1.781478+t*(-1.821256+t*1.330274)))); return x>0?1-p:p; }
 // ---------- Poisson (Dixon-Coles) for in-page xG -> xP, mirrors model.py
 function poisPmf(k, l){ let p=Math.exp(-l); for(let i=1;i<=k;i++) p*=l/i; return p; }
 function xgProbs(lh, la, rho=-0.10){ const G=10; let ph=[],pa=[]; for(let i=0;i<=G;i++){ph.push(poisPmf(i,lh));pa.push(poisPmf(i,la));}
@@ -384,8 +385,11 @@ function applyManual(){
       t.played=pl.length; t.ptsWon=pl.reduce((a,g)=>a+g.pts,0); t.pts=t.ptsWon+t.deduction; t.mktXpPlayed=pl.reduce((a,g)=>a+g.mxp,0);
       t.xg=pl.reduce((a,g)=>a+(g.xg||0),0); t.xga=pl.reduce((a,g)=>a+(g.xga||0),0); t.xgXp=pl.reduce((a,g)=>a+(g.xgxp||0),0); t.luck=t.ptsWon-t.xgXp;
       t.gf=pl.reduce((a,g)=>a+g.gf,0); t.ga=pl.reduce((a,g)=>a+g.ga,0);
+      const mv=pl.reduce((a,g)=>a+(g.mvar||0),0); t.z=mv>0?(t.ptsWon-t.mktXpPlayed)/Math.sqrt(mv):null;
+      if(gs.some(g=>g.manual)){ t.simPts=null; t.simTitle=null; t.simPromo=null; t.simReleg=null; t.simTop=null; t.next4Now=null; }
       for(const b of D.blocks[t.team]){ const bg=gs.filter(g=>g.b===b.b), bp=bg.filter(g=>g.pts!=null); b.played=bp.length; b.pts=bp.reduce((a,g)=>a+g.pts,0); b.mktXpPlayed=bp.reduce((a,g)=>a+g.mxp,0);
-        b.xg=bp.reduce((a,g)=>a+(g.xg||0),0); b.xga=bp.reduce((a,g)=>a+(g.xga||0),0); b.xgXp=bp.reduce((a,g)=>a+(g.xgxp||0),0); b.luck=b.pts-b.xgXp; b.status=b.played===0?'upcoming':b.played===b.games?'complete':'in progress'; }
+        b.xg=bp.reduce((a,g)=>a+(g.xg||0),0); b.xga=bp.reduce((a,g)=>a+(g.xga||0),0); b.xgXp=bp.reduce((a,g)=>a+(g.xgxp||0),0); b.luck=b.pts-b.xgXp; b.status=b.played===0?'upcoming':b.played===b.games?'complete':'in progress';
+        const bv=bp.reduce((a,g)=>a+(g.mvar||0),0); b.z=bv>0?(b.pts-b.mktXpPlayed)/Math.sqrt(bv):null; b.pChance=b.z!=null?2*(1-normCdf(Math.abs(b.z))):null; if(bg.some(g=>g.manual)) b.nowXp=null; }
       const un=gs.filter(g=>g.pts==null); t.remGames=un.length; t.next4Fix=un.slice(0,4).map(g=>`${g.opp} (${g.v})`).join(' · '); t.next4Mkt=un.slice(0,4).reduce((a,g)=>a+g.mxp,0);
     }
     // positions
@@ -440,14 +444,14 @@ function bindStars(root){ $$('button[data-star]', root).forEach(b=>b.onclick=e=>
 function renderGrid(){
   const d=DATA.divs[S.div==='ALL'?'E0':S.div]; const nb=Math.max(...Object.values(d.blocks).map(b=>b.length));
   const rows=d.teams.map(t=>({t, blocks:d.blocks[t.team], vs:t.ptsWon-t.mktXpPlayed, perf:t.xgXp-t.mktXpPlayed}));
-  if(S.sort.key){ const k=S.sort.key; rows.sort((a,b)=>{ const va=k==='rank'?a.t.rank:k==='pts'?a.t.pts:k==='vs'?a.vs:k==='perf'?a.perf:k==='luck'?a.t.luck:k==='xg'?a.t.xg:k==='xga'?a.t.xga:k==='mkt'?a.t.mktXp:k==='pos'?a.t.pos:k.startsWith('b')?(a.blocks[+k.slice(1)]?a.blocks[+k.slice(1)].mktXp:0):0;
-    const vb=k==='rank'?b.t.rank:k==='pts'?b.t.pts:k==='vs'?b.vs:k==='perf'?b.perf:k==='luck'?b.t.luck:k==='xg'?b.t.xg:k==='xga'?b.t.xga:k==='mkt'?b.t.mktXp:k==='pos'?b.t.pos:k.startsWith('b')?(b.blocks[+k.slice(1)]?b.blocks[+k.slice(1)].mktXp:0):0; return (va-vb)*S.sort.dir; }); }
+  if(S.sort.key){ const k=S.sort.key; rows.sort((a,b)=>{ const va=k==='rank'?a.t.rank:k==='pts'?a.t.pts:k==='p'?a.t.played:k==='mktp'?a.t.mktXpPlayed:k==='xgxp'?a.t.xgXp:k==='vs'?a.vs:k==='perf'?a.perf:k==='luck'?a.t.luck:k==='xg'?a.t.xg:k==='xga'?a.t.xga:k==='mkt'?a.t.mktXp:k==='pos'?a.t.pos:k.startsWith('b')?(a.blocks[+k.slice(1)]?a.blocks[+k.slice(1)].mktXp:0):0;
+    const vb=k==='rank'?b.t.rank:k==='pts'?b.t.pts:k==='p'?b.t.played:k==='mktp'?b.t.mktXpPlayed:k==='xgxp'?b.t.xgXp:k==='vs'?b.vs:k==='perf'?b.perf:k==='luck'?b.t.luck:k==='xg'?b.t.xg:k==='xga'?b.t.xga:k==='mkt'?b.t.mktXp:k==='pos'?b.t.pos:k.startsWith('b')?(b.blocks[+k.slice(1)]?b.blocks[+k.slice(1)].mktXp:0):0; return (va-vb)*S.sort.dir; }); }
   const th=(label,key,extra='')=>`<th data-key="${key}" class="${S.sort.key===key?'sorted':''}${S.sort.key===key&&S.sort.dir>0?' asc':''} ${extra}">${label}</th>`;
   let h='<thead><tr>'+th('Team <span class="tsub">(market order)</span>','rank','tm');
   for(let b=1;b<=nb;b++) h+=th(`Block ${b}`,'b'+(b-1));
   h+=th('Pos','pos','sep')+th('P','p')+th('Pts','pts')+th('Mkt xP','mktp')+th('+/-','vs')+th('xG xP','xgxp')+th('Perf','perf')+th('Luck','luck')+th('xG','xg')+th('xGA','xga')+th('Season Mkt','mkt')+'</tr></thead><tbody>';
   for(const {t,blocks,vs,perf} of rows){
-    h+=`<tr data-team="${esc(t.team)}" tabindex="0" class="${t.team===S.team?'sel':''}"><td class="tm">${starBtn(t.team)}<span class="rk">${t.rank}</span><span class="tn">${esc(t.team)}</span> <span class="tsub">${t.title} · ${t.releg}</span>${t.europe?` <span class="chip eu" title="${esc(t.europe)}">EU</span>`:''}${t.deduction?` <span class="chip warn">${t.deduction}</span>`:''}</td>`;
+    h+=`<tr data-team="${esc(t.team)}" tabindex="0" class="${t.team===S.team?'sel':''}"><td class="tm">${starBtn(t.team)}<span class="rk">${t.rank}</span><span class="tn">${esc(t.team)}</span> <span class="tsub">${t.title} · ${t.releg}</span>${t.europe?` <span class="chip eu" title="${esc(t.europe)}">EU</span>`:''}${t.deduction?` <span class="chip warn">−${Math.abs(t.deduction)}</span>`:''}</td>`;
     for(let b=0;b<nb;b++){ const k=blocks[b]; if(!k){h+='<td></td>';continue;}
       let style='', inner='';
       const euTag=k.eu?`<span class="eu" title="${k.eu} European week${k.eu>1?'s':''}">·EU</span>`:'';
@@ -485,15 +489,15 @@ function renderWeek(){
   let rows=[]; for(const d of ALLDIVS) for(const w of DATA.divs[d].week) rows.push({...w, div:d});
   // cards: unlucky (playing better than points) / lucky (worse than points) with next fixture
   const all=[]; for(const d of ALLDIVS) for(const t of DATA.divs[d].teams) if(t.played>0){ const sh=t.played/(t.played+4); const nxt=DATA.divs[d].gamesByTeam[t.team].find(g=>g.pts==null); all.push({...t, div:d, luckPg:t.luck/t.played*sh, perfPg:(t.xgXp-t.mktXpPlayed)/t.played*sh, nxt}); }
-  const card=(title, list, good)=>`<div class="card"><h3>${title}</h3><ol>${list.map(t=>`<li data-team="${esc(t.team)}"><span>${esc(t.team)} <span class="tsub">${DATA.divs[t.div].short} · luck ${pm(t.luck,1)} · perf ${pm(t.xgXp-t.mktXpPlayed,1)}</span><br><span class="tsub">next: ${t.nxt?(t.nxt.v==='H'?'v ':'@ ')+esc(t.nxt.opp)+' '+dfmt(t.nxt.date):'—'}</span></span><b class="${good?'pos':'neg'}">${pm(t.luckPg,2)}<span class="tsub">/gm</span></b></li>`).join('')}</ol></div>`;
+  const card=(title, list, good)=>`<div class="card"><h3>${title}</h3><ol>${list.map(t=>`<li data-team="${esc(t.team)}"><span>${esc(t.team)} <span class="tsub">${DATA.divs[t.div].short} · luck ${pm(t.luck,1)} · perf ${pm(t.xgXp-t.mktXpPlayed,1)}</span><br><span class="tsub">next: ${t.nxt?(t.nxt.v==='H'?'v ':'@ ')+esc(t.nxt.opp)+' '+dfmt(t.nxt.date):'—'}</span></span><b class="${cls(t.luckPg)}">${pm(t.luckPg,2)}<span class="tsub">/gm</span></b></li>`).join('')}</ol></div>`;
   const unlucky=[...all].sort((a,b)=>a.luckPg-b.luckPg).slice(0,6), lucky=[...all].sort((a,b)=>b.luckPg-a.luckPg).slice(0,6);
   $('#wstrip').innerHTML=card('Playing better than the points say (unlucky — due a bounce)', unlucky, true)+card('Playing worse than the points say (lucky — due a fall)', lucky, false);
   $$('#wstrip li[data-team]').forEach(li=>li.onclick=()=>selectTeam(li.dataset.team));
   rows.sort((a,b)=>Math.abs(b.tilt)-Math.abs(a.tilt));
   const bar=v=>{ const w=Math.abs(v)/5*40; return `<span style="display:inline-block;width:84px;height:10px;position:relative;background:var(--line-2);border-radius:2px;vertical-align:middle"><span style="position:absolute;top:0;height:10px;${v>=0?'left:42px':'right:42px'};width:${w}px;background:${v>=0?'var(--pos)':'var(--neg)'};border-radius:2px"></span></span>`; };
   let h='<thead><tr><th class="l">Kick-off</th><th class="l">Fixture</th><th>Home luck</th><th>Home perf</th><th>Away luck</th><th>Away perf</th><th>P(H) Aug</th><th>P(H) market</th><th>P(H) model</th><th>Lean</th><th>Tilt</th></tr></thead><tbody>';
-  for(const w of rows){ h+=`<tr><td class="l">${dfull(w.kickoff)} <span class="tsub">${DATA.divs[w.div].short}</span></td><td class="l"><b class="clk" data-team="${esc(w.home)}">${esc(w.home)}</b> <span class="tsub">(${w.home_pos})</span> v <b class="clk" data-team="${esc(w.away)}">${esc(w.away)}</b> <span class="tsub">(${w.away_pos})</span>${w.home_eu?' <span class="chip eu">EU</span>':''}</td>
-    <td class="${cls(-w.home_luck)}">${pm(w.home_luck,1)}</td><td class="${cls(w.home_perf)}">${pm(w.home_perf,1)}</td><td class="${cls(-w.away_luck)}">${pm(w.away_luck,1)}</td><td class="${cls(w.away_perf)}">${pm(w.away_perf,1)}</td>
+  for(const w of rows){ h+=`<tr><td class="l">${dfull(w.kickoff)} <span class="tsub">${DATA.divs[w.div].short}</span></td><td class="l"><b class="clk" data-team="${esc(w.home)}">${esc(w.home)}</b> <span class="tsub">(${w.home_pos})</span> v <b class="clk" data-team="${esc(w.away)}">${esc(w.away)}</b> <span class="tsub">(${w.away_pos})</span>${w.home_eu?' <span class="chip eu">EU (H)</span>':''}${w.away_eu?' <span class="chip eu">EU (A)</span>':''}</td>
+    <td class="${cls(w.home_luck)}">${pm(w.home_luck,1)}</td><td class="${cls(w.home_perf)}">${pm(w.home_perf,1)}</td><td class="${cls(w.away_luck)}">${pm(w.away_luck,1)}</td><td class="${cls(w.away_perf)}">${pm(w.away_perf,1)}</td>
     <td>${pct(w.aug_pH)}</td><td title="${esc(w.mkt_source)}">${pct(w.mkt_pH)}<span class="tsub"> ${w.mkt_source==='Aug model'?'':'★'}</span></td><td>${pct(w.now_pH)}</td><td><b class="${w.lean==='Home'?'pos':w.lean==='Away'?'neg':''}">${w.lean}</b></td><td>${bar(w.tilt)} <span class="tsub">${pm(w.tilt,1)}</span></td></tr>`; }
   $('#wktable').innerHTML=h+'</tbody>'; $('#wnote').textContent=`${rows.length} fixtures in the next 8 days across all four divisions, biggest tilt first · ★ = published pre-match price`;
   $$('#wktable .clk[data-team]').forEach(b=>b.onclick=()=>selectTeam(b.dataset.team));
@@ -529,12 +533,12 @@ function renderTable(){
 // ---------- scanner
 function renderScanner(){
   const mk=$('#sMarket').value, fo=$('#sFlag').checked, mx=parseFloat($('#sMax').value)||1e9;
-  let rows=[]; for(const d of curDivs()) for(const s of DATA.divs[d].scanner) rows.push({...s, div:d});
+  let rows=[]; for(const d of curDivs()) for(const s of DATA.divs[d].scanner) rows.push({...s, div:d, kellyB:Math.max(0,(s.pBlend*s.odds-1)/(s.odds-1))});
   rows=rows.filter(s=>(!mk||s.market===mk)&&(!fo||s.flag)&&s.odds<=mx+1e-9);
   const k=S.ssort.key; rows.sort((a,b)=>((a[k]??-1e9)-(b[k]??-1e9))*S.ssort.dir);
-  const cols=[['team','Team',1],['market','Market',1],['frac','Price'],['pMkt','p (market)'],['pThen','p (Aug)'],['move','Price move'],['pModel','p (model)'],['pBlend','Blend'],['edge','Edge'],['ev','EV model'],['evBlend','EV blend'],['fair','Fair odds'],['kelly','Kelly']];
+  const cols=[['team','Team',1],['market','Market',1],['frac','Price'],['pMkt','p (market)'],['pThen','p (Aug)'],['move','Price move'],['pModel','p (model)'],['pBlend','Blend'],['edge','Edge'],['ev','EV model'],['evBlend','EV blend'],['fair','Fair odds'],['kellyB','Kelly (blend)']];
   let h='<thead><tr>'+cols.map(([key,l,left])=>`<th data-key="${key}" class="${left?'l':''} ${S.ssort.key===key?'sorted':''}">${l}</th>`).join('')+'</tr></thead><tbody>';
-  for(const s of rows){ h+=`<tr class="clk" data-team="${esc(s.team)}"><td class="l">${starBtn(s.team)}<span class="tn">${esc(s.team)}</span> <span class="tsub">${DATA.divs[s.div].short}</span> ${s.flag?'<span class="chip flag">flag</span>':''}</td><td class="l">${MK_LABEL[s.market]}</td><td><b>${s.frac}</b></td><td>${pct(s.pMkt,1)}</td><td>${pct(s.pThen,1)}</td><td class="${cls(s.move)}">${ppt(s.move)}</td><td><b>${pct(s.pModel,1)}</b></td><td>${pct(s.pBlend,1)}</td><td class="${cls(s.edge)}">${ppt(s.edge)}</td><td class="${cls(s.ev)}">${pct(s.ev,0)}</td><td class="${cls(s.evBlend)}">${pct(s.evBlend,0)}</td><td>${s.fair?fmt(s.fair,1):''}</td><td>${pct(Math.max(0,(s.pBlend*s.odds-1)/(s.odds-1)),1)}</td></tr>`; }
+  for(const s of rows){ h+=`<tr class="clk" data-team="${esc(s.team)}"><td class="l">${starBtn(s.team)}<span class="tn">${esc(s.team)}</span> <span class="tsub">${DATA.divs[s.div].short}</span> ${s.flag?'<span class="chip flag">flag</span>':''}</td><td class="l">${MK_LABEL[s.market]}</td><td><b>${s.frac}</b></td><td>${pct(s.pMkt,1)}</td><td>${pct(s.pThen,1)}</td><td class="${cls(s.move)}">${ppt(s.move)}</td><td><b>${pct(s.pModel,1)}</b></td><td>${pct(s.pBlend,1)}</td><td class="${cls(s.edge)}">${ppt(s.edge)}</td><td class="${cls(s.ev)}">${pct(s.ev,0)}</td><td class="${cls(s.evBlend)}">${pct(s.evBlend,0)}</td><td>${s.fair?fmt(s.fair,1):''}</td><td>${pct(s.kellyB,1)}</td></tr>`; }
   const tbl=$('#stable'); tbl.innerHTML=h+'</tbody>'; $('#scount').textContent=`${rows.length} prices · bet365 as of ${rows[0]?rows[0].asOf:''}`;
   $$('th[data-key]',tbl).forEach(th=>th.onclick=()=>{ const k=th.dataset.key; if(S.ssort.key===k) S.ssort.dir*=-1; else {S.ssort.key=k; S.ssort.dir=-1;} renderScanner(); });
   $$('tbody tr',tbl).forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team)); bindStars(tbl);
@@ -563,7 +567,7 @@ function renderTeam(){
   const diff=t.ptsWon-t.mktXpPlayed, perf=t.xgXp-t.mktXpPlayed;
   const topLabel=d.topLabel;
   $('#teamHead').innerHTML=`<div><div class="eyebrow">${d.name} · market rank ${t.rank} of ${d.n}</div><h2>${starBtn(t.team)} ${esc(t.team)}</h2></div>
-    <div class="kv"><span class="eyebrow">Position</span><span class="v">${t.pos}<small> · ${t.pts} pts from ${t.played}${t.deduction?` (${t.deduction} deducted)`:''}</small></span></div>
+    <div class="kv"><span class="eyebrow">Position</span><span class="v">${t.pos}<small> · ${t.pts} pts from ${t.played}${t.deduction?` (${Math.abs(t.deduction)} deducted)`:''}</small></span></div>
     <div class="kv"><span class="eyebrow">Pts vs market</span><span class="v ${cls(diff)}">${pm(diff,1)}<small> z ${pm(t.z,1)}</small></span></div>
     <div class="kv"><span class="eyebrow">Performance (xG xP − mkt)</span><span class="v ${cls(perf)}">${pm(perf,1)}</span></div>
     <div class="kv"><span class="eyebrow">Luck (pts − xG xP)</span><span class="v ${cls(t.luck)}">${pm(t.luck,1)}<small>${t.finishing!=null?` · finishing ${pm(t.finishing,1)}`:''}</small></span></div>
@@ -573,7 +577,7 @@ function renderTeam(){
     ${d.promo?`<div class="kv"><span class="eyebrow">Promotion · now</span><span class="v">${t.livePromoF||'–'}<small> · model ${pct(t.simPromo,1)}</small></span></div>`:`<div class="kv"><span class="eyebrow">Top 4 · now</span><span class="v">${t.liveTop4F||'–'}<small> · model ${pct(t.simTop,1)}</small></span></div>`}
     <div class="kv"><span class="eyebrow">Relegation · Aug → now</span><span class="v">${t.releg}<small> → </small>${t.liveRelegF||'–'}<small> · model ${pct(t.simReleg,1)}</small></span></div>`;
   bindStars($('#teamHead'));
-  const ctx=[]; if(t.europe) ctx.push(`<span class="chip eu">${esc(t.europe)}</span>`); if(t.deduction) ctx.push(`<span class="chip warn">${t.deduction} pts deducted</span>`);
+  const ctx=[]; if(t.europe) ctx.push(`<span class="chip eu">${esc(t.europe)}</span>`); if(t.deduction) ctx.push(`<span class="chip warn">${Math.abs(t.deduction)} pts deducted</span>`);
   if(t.context) ctx.push(`<span class="note">${esc(t.context)}</span>`);
   ctx.push(`<span class="note">Next four: ${esc(t.next4Fix)} — market xP ${fmt(t.next4Mkt,1)}${t.next4Now?`, current model ${fmt(t.next4Now,1)}`:''}. Run-in ${fmt(t.remPpg,2)} mkt xP/game over ${t.remGames} games.</span>`);
   $('#teamCtx').innerHTML=ctx.join(' ');
@@ -598,10 +602,10 @@ function renderTeam(){
 
 function renderChart(el, series, d, withMkt){
   const W=640,H=300,L=36,R=14,T=14,B=30;
-  const n=series[0].games.length;
+  const n=Math.max(...series.map(s=>s.games.length));
   const lines=[]; let ymaxv=10;
   for(const s of series){ const games=s.games; let a=0,b=0,c=0; const pts=[0],mkt=[0],xg=[0]; for(const g of games){ b+=g.mxp; mkt.push(b); if(g.pts!=null){a+=g.pts; c+=(g.xgxp||0); pts.push(a); xg.push(c);} }
-    lines.push({s,pts,mkt,xg,np:pts.length-1}); ymaxv=Math.max(ymaxv, mkt[n]); }
+    lines.push({s,pts,mkt,xg,np:pts.length-1,nn:games.length}); ymaxv=Math.max(ymaxv, mkt[games.length]); }
   const ymax=Math.ceil((ymaxv*1.05)/10)*10;
   const x=i=>L+(W-L-R)*i/n, y=v=>T+(H-T-B)*(1-v/ymax);
   const path=arr=>arr.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
@@ -614,12 +618,12 @@ function renderChart(el, series, d, withMkt){
     s+=`<path d="${path(ln.mkt)}" fill="none" stroke="${withMkt?'var(--mkt)':col}" stroke-width="${withMkt?2:1.5}" ${withMkt?'':'stroke-dasharray="4 3" opacity=".7"'}/>`;
     if(ln.np){ if(withMkt) s+=`<path d="${path(ln.xg)}" fill="none" stroke="var(--xg)" stroke-width="2"/>`; s+=`<path d="${path(ln.pts)}" fill="none" stroke="${col}" stroke-width="2.5"/>`;
       s+=`<circle cx="${x(ln.np)}" cy="${y(ln.pts[ln.np])}" r="4" fill="${col}" stroke="var(--surface)" stroke-width="2"/><text x="${x(ln.np)+7}" y="${y(ln.pts[ln.np])+4+(i?12:0)}" font-size="11" font-weight="600" fill="var(--ink)">${ln.pts[ln.np]} pts</text>`; }
-    s+=`<text x="${x(n)-4}" y="${y(ln.mkt[n])-6-(i?12:0)}" font-size="10" text-anchor="end" fill="var(--ink-2)">${withMkt?'season mkt':esc(ln.s.team)+' mkt'} ${fmt(ln.mkt[n],1)}</text>`; });
+    s+=`<text x="${x(ln.nn)-4}" y="${y(ln.mkt[ln.nn])-6-(i?12:0)}" font-size="10" text-anchor="end" fill="var(--ink-2)">${withMkt?'season mkt':esc(ln.s.team)+' mkt'} ${fmt(ln.mkt[ln.nn],1)}</text>`; });
   s+=`<line id="xh" x1="0" x2="0" y1="${T}" y2="${H-B}" stroke="var(--ink-3)" style="display:none"/><rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent" class="hit"/></svg>`;
   el.innerHTML=s;
   const svg=el.querySelector('svg'), hit=el.querySelector('.hit'), xh=el.querySelector('#xh');
   hit.onmousemove=e=>{ const r=svg.getBoundingClientRect(); const px=(e.clientX-r.left)*W/r.width; const i=Math.max(1,Math.min(n,Math.round((px-L)/(W-L-R)*n))); xh.setAttribute('x1',x(i)); xh.setAttribute('x2',x(i)); xh.style.display='block';
-    showTip(e, lines.map(ln=>{ const g=ln.s.games[i-1]; return `<b>${esc(ln.s.team)} · game ${i}</b> ${g.v==='H'?'v':'@'} ${esc(g.opp)}<br>Market xP ${fmt(ln.mkt[i],1)}${i<=ln.np?` · Pts ${ln.pts[i]} (${pm(ln.pts[i]-ln.mkt[i],1)}) · xG xP ${fmt(ln.xg[i],1)}`:''}`; }).join('<br>')); };
+    showTip(e, lines.map(ln=>{ const g=ln.s.games[i-1]; if(!g) return ''; return `<b>${esc(ln.s.team)} · game ${i}</b> ${g.v==='H'?'v':'@'} ${esc(g.opp)}<br>Market xP ${fmt(ln.mkt[i],1)}${i<=ln.np?` · Pts ${ln.pts[i]} (${pm(ln.pts[i]-ln.mkt[i],1)}) · xG xP ${fmt(ln.xg[i],1)}`:''}`; }).join('<br>')); };
   hit.onmouseleave=()=>{xh.style.display='none';hideTip();};
 }
 
@@ -628,9 +632,9 @@ function renderPriceChart(t, d){
   const mk = d.promo ? 'promo' : 'title';
   const series=[]; const aug = d.promo ? t.promoP : t.titleP;
   const pts=[{label:'Aug', mkt:aug, model:null}];
-  for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; const lv = d.promo ? r.live_promo : r.live_title; const sm = d.promo ? r.sim_promo : r.sim_title;
-    pts.push({label:h.date.slice(5), mkt: lv? (1/lv) : null, model: sm}); }
-  const relPts=[{label:'Aug', mkt:t.relegP, model:null}]; for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; relPts.push({label:h.date.slice(5), mkt:r.live_releg?1/r.live_releg:null, model:r.sim_releg}); }
+  for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; const pmk = d.promo ? r.pm_promotion : r.pm_title; const sm = d.promo ? r.sim_promo : r.sim_title;
+    pts.push({label:h.date.slice(5), mkt: pmk??null, model: sm}); }
+  const relPts=[{label:'Aug', mkt:t.relegP, model:null}]; for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; relPts.push({label:h.date.slice(5), mkt:r.pm_relegation??null, model:r.sim_releg}); }
   const W=640,H=300,L=40,R=60,T=14,B=30; const n=Math.max(pts.length,2);
   const vals=[...pts,...relPts].flatMap(p=>[p.mkt,p.model]).filter(v=>v!=null); const ymax=Math.max(0.1, Math.min(1, Math.ceil(Math.max(...vals)*1.15*20)/20));
   const x=i=>L+(W-L-R)*i/(n-1), y=v=>T+(H-T-B)*(1-v/ymax);
@@ -640,7 +644,7 @@ function renderPriceChart(t, d){
   const draw=(arr,key,col,dash)=>{ const ps=arr.map((p,i)=>p[key]!=null?[x(i),y(p[key])]:null).filter(Boolean); if(ps.length>1) s+=`<path d="${ps.map((q,i)=>(i?'L':'M')+q[0].toFixed(1)+' '+q[1].toFixed(1)).join(' ')}" fill="none" stroke="${col}" stroke-width="2" ${dash?'stroke-dasharray="4 3"':''}/>`; for(const q of ps) s+=`<circle cx="${q[0]}" cy="${q[1]}" r="4" fill="${col}" stroke="var(--surface)" stroke-width="2"/>`; if(ps.length){ const q=ps[ps.length-1]; const v=arr.filter(p=>p[key]!=null).pop()[key]; s+=`<text x="${q[0]+7}" y="${q[1]+4}" font-size="10" fill="var(--ink-2)">${pct(v,1)}</text>`; } };
   draw(pts,'mkt','var(--mkt)'); draw(pts,'model','var(--mkt)',true); draw(relPts,'mkt','var(--neg)'); draw(relPts,'model','var(--neg)',true);
   s+='</svg>'; $('#pchart').innerHTML=s;
-  $('#plg').innerHTML=`<span><i style="border-color:var(--mkt)"></i>${d.promo?'Promotion':'Title'} — market (implied %)</span><span><i style="border-color:var(--mkt);border-top-style:dashed"></i>model</span><span><i style="border-color:var(--neg)"></i>Relegation — market</span><span><i style="border-color:var(--neg);border-top-style:dashed"></i>model</span><span class="tsub">Aug = Sky Bet pre-season; later points = bet365 at each weekly snapshot</span>`;
+  $('#plg').innerHTML=`<span><i style="border-color:var(--mkt)"></i>${d.promo?'Promotion':'Title'} — market (implied %)</span><span><i style="border-color:var(--mkt);border-top-style:dashed"></i>model</span><span><i style="border-color:var(--neg)"></i>Relegation — market</span><span><i style="border-color:var(--neg);border-top-style:dashed"></i>model</span><span class="tsub">Aug = Sky Bet pre-season; later points = bet365 (overround removed) at each weekly snapshot</span>`;
 }
 
 // ---------- compare

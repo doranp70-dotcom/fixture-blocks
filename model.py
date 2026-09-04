@@ -222,7 +222,14 @@ def implied(odds, total):
 def build_market(odds, cfg, lines):
     teams = list(odds["team"])
     title = implied(odds["title_odds"], 1.0)
-    releg = implied(odds["relegation_odds"], cfg["relegated"])
+    rel_odds = odds["relegation_odds"].astype(float).copy()
+    # a meaningful relegation price on a genuine title contender (Man City 8/1, Aug 2026) is a
+    # points-deduction price, not a strength signal: drop it from the de-vig as well as from the fit
+    t_imp = (1 / odds["title_odds"].astype(float))
+    t_imp = t_imp / t_imp.sum()
+    r_imp = (1 / rel_odds) / (1 / rel_odds).sum() * cfg["relegated"]
+    rel_odds[(r_imp > 0.05) & (t_imp > 0.10)] = 1e6
+    releg = implied(rel_odds, cfg["relegated"])
     top = implied(odds["top6_odds"], cfg["top"]) if odds["top6_odds"].notna().all() else None
     promo = implied(odds["promotion_odds"], cfg["promo"]) if odds["promotion_odds"].notna().all() else None
     ln = np.array([lines.get(t, np.nan) for t in teams]) if lines else None
@@ -406,9 +413,9 @@ def rerate(div, fx, ratings):
 
     res = minimize(nll, np.concatenate([a0, d0]), jac=grad, method="L-BFGS-B")
     a, d = res.x[:n], res.x[n:]
-    # keep the league-average scale fixed (identifiability)
-    shift = (a.mean() - a0.mean() + d.mean() - d0.mean()) / 2
-    return a - (a.mean() - a0.mean()) + 0 * shift, d - (d.mean() - d0.mean()), len(pl)
+    # remove the unidentifiable common mode (att up = def down) with one shared shift; keeps a-d
+    c = ((a.mean() - a0.mean()) + (d.mean() - d0.mean())) / 2
+    return a - c, d - c, len(pl)
 
 
 def simulate_rest(div, fx, teams, att, deff, pts_now, n_played, n_sims=N_SIMS, seed=11):
@@ -769,7 +776,7 @@ def fixtures_this_week(div, fx, ts, today=None, horizon_days=8):
             now_pH=m.now_pW_home, now_pD=m.now_pD, now_pA=m.now_pW_away,
             model_edge_home=model_edge_h, model_edge_away=model_edge_a, luck_gap=luck_gap, perf_gap=perf_gap, tilt=tilt,
             lean=("Home" if tilt >= 1.0 else "Away" if tilt <= -1.0 else "Neutral"),
-            home_eu=bool(((tg_eu(t, h)))), away_eu=False,
+            home_eu=bool(tg_eu(t, h)), away_eu=bool(tg_eu(t, a)),
         ))
     return pd.DataFrame(rows).sort_values(["kickoff", "home"]).reset_index(drop=True)
 

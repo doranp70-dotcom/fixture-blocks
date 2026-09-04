@@ -60,7 +60,14 @@ def load_history():
         t = pd.read_csv(f)
         keep = ["team", "played", "pts", "pts_vs_mkt", "xgxp_vs_mkt", "luck", "rating_now", "sim_title", "sim_promo", "sim_releg", "sim_top4", "sim_top6", "sim_top7", "live_title", "live_promo", "live_releg", "live_top4", "live_top6", "pos"]
         keep = [k for k in keep if k in t.columns]
-        out.append({"date": d.name, "teams": {row["team"]: {k: clean(row[k]) for k in keep if k != "team"} for _, row in t[keep].iterrows()}})
+        rec = {row["team"]: {k: clean(row[k]) for k in keep if k != "team"} for _, row in t[keep].iterrows()}
+        sf = d / "scanner.csv"
+        if sf.exists():
+            sc = pd.read_csv(sf)
+            for _, r in sc.iterrows():
+                if r["team"] in rec:
+                    rec[r["team"]]["pm_" + r["market"]] = clean(r["p_market"])
+        out.append({"date": d.name, "teams": rec})
     return out
 
 
@@ -94,7 +101,7 @@ def build(results: dict, path: Path):
             games[team] = [{
                 "g": int(x.game_no), "b": int(x.block), "bo": int(x.block_orig), "date": clean(x.kickoff), "opp": x.opponent, "v": x.venue, "id": x.match_id,
                 "oppRank": int(x.opp_mkt_rank), "gf": clean(x.gf), "ga": clean(x.ga), "pts": clean(x.pts),
-                "pW": clean(x.mkt_pW), "pD": clean(x.mkt_pD), "pL": clean(x.mkt_pL), "mxp": clean(x.mkt_xP),
+                "pW": clean(x.mkt_pW), "pD": clean(x.mkt_pD), "pL": clean(x.mkt_pL), "mxp": clean(x.mkt_xP), "mvar": clean(x.mkt_var),
                 "xg": clean(x.xg), "xga": clean(x.xga), "xgxp": clean(x.xg_xP), "xgo": clean(x.xg_opta), "xgao": clean(x.xga_opta),
                 "clW": clean(x.cl_pW), "clxp": clean(x.cl_xP), "clsrc": x.cl_source if isinstance(x.cl_source, str) else "",
                 "nowW": clean(x.now_pW), "nowxp": clean(x.now_xP), "eu": bool(x.congested),

@@ -112,9 +112,9 @@ def ingest_xg(div):
     new = []
     for line in p.read_text().splitlines():
         line = line.strip()
-        m = re.match(r"^(?:\w{3},?\s+)?(\w{3,4})\.?\s+(\d{1,2})(?:,?\s*(\d{4}))?$", line)
-        if m and m.group(1) in MON:
-            mon, day = MON[m.group(1)], int(m.group(2))
+        m = re.match(r"^(?:\w{3,9},?\s+)?(\w{3,9})\.?\s+(\d{1,2})(?:,?\s*(\d{4}))?$", line)
+        if m and m.group(1)[:3].title() in MON:
+            mon, day = MON[m.group(1)[:3].title()], int(m.group(2))
             year = int(m.group(3)) if m.group(3) else (2026 if mon >= 7 else 2027)
             date = datetime(year, mon, day)
             continue
@@ -129,8 +129,8 @@ def ingest_xg(div):
             continue
         try:
             new.append(dict(date=date.strftime("%d/%m/%Y"), home=canon(h), away=canon(a), home_goals=int(ms.group(1)), away_goals=int(ms.group(2)), home_xg=float(hx), away_xg=float(ax), source="oddalerts.com"))
-        except KeyError as e:
-            say(f"{div}: xG unknown team {e}")
+        except (KeyError, ValueError) as e:
+            say(f"{div}: xG row skipped ({e}): {line}")
     if not new:
         say(f"{div}: xG inbox file had no parseable rows")
         return
@@ -163,6 +163,7 @@ def _parse_fd(text):
     hdr = None
     rows = []
     for l in lines:
+        l = l.lstrip("\ufeff")
         if l.startswith("Div,"):
             hdr = l.split(",")
             continue
@@ -230,9 +231,9 @@ def ingest_odds_live(div, as_of):
         line = line.strip().strip("#*- ")
         if not line:
             continue
-        mk = next((m for rx, m in MARKET_MAP if rx.search(line) and len(line) < 60 and "," not in line), None)
-        if mk and "/" not in line:
-            market = mk
+        is_heading = len(line) < 60 and "," not in line and not re.search(r"\d+\s*/\s*\d+|evs|evens", line, re.I)
+        if is_heading:
+            market = next((m for rx, m in MARKET_MAP if rx.search(line)), None)   # None = a market we don't track
             continue
         if market is None:
             continue
