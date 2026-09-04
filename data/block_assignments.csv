@@ -1,0 +1,4073 @@
+div,team,match_id,block_orig
+E0,Arsenal,E0-Arsenal-Coventry,1
+E0,Arsenal,E0-AstonVil-Arsenal,1
+E0,Arsenal,E0-Arsenal-Chelsea,1
+E0,Arsenal,E0-Sunderla-Arsenal,1
+E0,Arsenal,E0-Brighton-Arsenal,2
+E0,Arsenal,E0-Arsenal-Leeds,2
+E0,Arsenal,E0-NottmFor-Arsenal,2
+E0,Arsenal,E0-Arsenal-Everton,2
+E0,Arsenal,E0-Liverpoo-Arsenal,3
+E0,Arsenal,E0-Arsenal-Hull,3
+E0,Arsenal,E0-Newcastl-Arsenal,3
+E0,Arsenal,E0-Arsenal-ManCity,3
+E0,Arsenal,E0-Brentfor-Arsenal,4
+E0,Arsenal,E0-Tottenha-Arsenal,4
+E0,Arsenal,E0-Arsenal-Bournemo,4
+E0,Arsenal,E0-Arsenal-ManUtd,4
+E0,Arsenal,E0-CrystalP-Arsenal,5
+E0,Arsenal,E0-Fulham-Arsenal,5
+E0,Arsenal,E0-Arsenal-Ipswich,5
+E0,Arsenal,E0-Arsenal-Brentfor,5
+E0,Arsenal,E0-Hull-Arsenal,6
+E0,Arsenal,E0-Arsenal-Newcastl,6
+E0,Arsenal,E0-ManCity-Arsenal,6
+E0,Arsenal,E0-Arsenal-Liverpoo,6
+E0,Arsenal,E0-Ipswich-Arsenal,7
+E0,Arsenal,E0-Arsenal-Fulham,7
+E0,Arsenal,E0-ManUtd-Arsenal,7
+E0,Arsenal,E0-Arsenal-CrystalP,7
+E0,Arsenal,E0-Chelsea-Arsenal,8
+E0,Arsenal,E0-Arsenal-Sunderla,8
+E0,Arsenal,E0-Coventry-Arsenal,8
+E0,Arsenal,E0-Arsenal-AstonVil,8
+E0,Arsenal,E0-Bournemo-Arsenal,9
+E0,Arsenal,E0-Arsenal-Tottenha,9
+E0,Arsenal,E0-Leeds-Arsenal,9
+E0,Arsenal,E0-Arsenal-NottmFor,9
+E0,Arsenal,E0-Everton-Arsenal,10
+E0,Arsenal,E0-Arsenal-Brighton,10
+E0,Aston Villa,E0-Brighton-AstonVil,1
+E0,Aston Villa,E0-AstonVil-Arsenal,1
+E0,Aston Villa,E0-Hull-AstonVil,1
+E0,Aston Villa,E0-AstonVil-NottmFor,1
+E0,Aston Villa,E0-Tottenha-AstonVil,2
+E0,Aston Villa,E0-AstonVil-Brentfor,2
+E0,Aston Villa,E0-Newcastl-AstonVil,2
+E0,Aston Villa,E0-AstonVil-ManCity,2
+E0,Aston Villa,E0-AstonVil-Fulham,3
+E0,Aston Villa,E0-ManUtd-AstonVil,3
+E0,Aston Villa,E0-AstonVil-Sunderla,3
+E0,Aston Villa,E0-Ipswich-AstonVil,3
+E0,Aston Villa,E0-AstonVil-Everton,4
+E0,Aston Villa,E0-AstonVil-CrystalP,4
+E0,Aston Villa,E0-Coventry-AstonVil,4
+E0,Aston Villa,E0-Chelsea-AstonVil,4
+E0,Aston Villa,E0-AstonVil-Leeds,5
+E0,Aston Villa,E0-AstonVil-Liverpoo,5
+E0,Aston Villa,E0-Bournemo-AstonVil,5
+E0,Aston Villa,E0-Everton-AstonVil,5
+E0,Aston Villa,E0-AstonVil-ManUtd,6
+E0,Aston Villa,E0-Fulham-AstonVil,6
+E0,Aston Villa,E0-AstonVil-Ipswich,6
+E0,Aston Villa,E0-Sunderla-AstonVil,6
+E0,Aston Villa,E0-AstonVil-Bournemo,7
+E0,Aston Villa,E0-Leeds-AstonVil,7
+E0,Aston Villa,E0-AstonVil-Chelsea,7
+E0,Aston Villa,E0-Liverpoo-AstonVil,7
+E0,Aston Villa,E0-AstonVil-Hull,8
+E0,Aston Villa,E0-NottmFor-AstonVil,8
+E0,Aston Villa,E0-AstonVil-Brighton,8
+E0,Aston Villa,E0-Arsenal-AstonVil,8
+E0,Aston Villa,E0-AstonVil-Coventry,9
+E0,Aston Villa,E0-CrystalP-AstonVil,9
+E0,Aston Villa,E0-Brentfor-AstonVil,9
+E0,Aston Villa,E0-AstonVil-Newcastl,9
+E0,Aston Villa,E0-ManCity-AstonVil,10
+E0,Aston Villa,E0-AstonVil-Tottenha,10
+E0,Bournemouth,E0-ManCity-Bournemo,1
+E0,Bournemouth,E0-Bournemo-Everton,1
+E0,Bournemouth,E0-Newcastl-Bournemo,1
+E0,Bournemouth,E0-Bournemo-Brentfor,1
+E0,Bournemouth,E0-Bournemo-Liverpoo,2
+E0,Bournemouth,E0-Chelsea-Bournemo,2
+E0,Bournemouth,E0-Bournemo-Sunderla,2
+E0,Bournemouth,E0-ManUtd-Bournemo,2
+E0,Bournemouth,E0-Bournemo-Leeds,3
+E0,Bournemouth,E0-Ipswich-Bournemo,3
+E0,Bournemouth,E0-Bournemo-NottmFor,3
+E0,Bournemouth,E0-Fulham-Bournemo,3
+E0,Bournemouth,E0-Bournemo-Brighton,4
+E0,Bournemouth,E0-Bournemo-Hull,4
+E0,Bournemouth,E0-Arsenal-Bournemo,4
+E0,Bournemouth,E0-Bournemo-Coventry,4
+E0,Bournemouth,E0-Tottenha-Bournemo,5
+E0,Bournemouth,E0-CrystalP-Bournemo,5
+E0,Bournemouth,E0-Bournemo-AstonVil,5
+E0,Bournemouth,E0-Brighton-Bournemo,5
+E0,Bournemouth,E0-Bournemo-Ipswich,6
+E0,Bournemouth,E0-NottmFor-Bournemo,6
+E0,Bournemouth,E0-Bournemo-Fulham,6
+E0,Bournemouth,E0-Leeds-Bournemo,6
+E0,Bournemouth,E0-AstonVil-Bournemo,7
+E0,Bournemouth,E0-Bournemo-CrystalP,7
+E0,Bournemouth,E0-Coventry-Bournemo,7
+E0,Bournemouth,E0-Bournemo-Tottenha,7
+E0,Bournemouth,E0-Bournemo-Newcastl,8
+E0,Bournemouth,E0-Brentfor-Bournemo,8
+E0,Bournemouth,E0-Bournemo-ManCity,8
+E0,Bournemouth,E0-Everton-Bournemo,8
+E0,Bournemouth,E0-Bournemo-Arsenal,9
+E0,Bournemouth,E0-Hull-Bournemo,9
+E0,Bournemouth,E0-Bournemo-ManUtd,9
+E0,Bournemouth,E0-Sunderla-Bournemo,9
+E0,Bournemouth,E0-Bournemo-Chelsea,10
+E0,Bournemouth,E0-Liverpoo-Bournemo,10
+E0,Brentford,E0-Brentfor-Tottenha,1
+E0,Brentford,E0-Leeds-Brentfor,1
+E0,Brentford,E0-Brentfor-Sunderla,1
+E0,Brentford,E0-Bournemo-Brentfor,1
+E0,Brentford,E0-Brentfor-Chelsea,2
+E0,Brentford,E0-AstonVil-Brentfor,2
+E0,Brentford,E0-Brentfor-Liverpoo,2
+E0,Brentford,E0-Hull-Brentfor,2
+E0,Brentford,E0-Brentfor-NottmFor,3
+E0,Brentford,E0-Brighton-Brentfor,3
+E0,Brentford,E0-Brentfor-Everton,3
+E0,Brentford,E0-ManUtd-Brentfor,3
+E0,Brentford,E0-Brentfor-Arsenal,4
+E0,Brentford,E0-Brentfor-ManCity,4
+E0,Brentford,E0-Fulham-Brentfor,4
+E0,Brentford,E0-Brentfor-Newcastl,4
+E0,Brentford,E0-Ipswich-Brentfor,5
+E0,Brentford,E0-Coventry-Brentfor,5
+E0,Brentford,E0-Brentfor-CrystalP,5
+E0,Brentford,E0-Arsenal-Brentfor,5
+E0,Brentford,E0-Brentfor-Brighton,6
+E0,Brentford,E0-Everton-Brentfor,6
+E0,Brentford,E0-Brentfor-ManUtd,6
+E0,Brentford,E0-NottmFor-Brentfor,6
+E0,Brentford,E0-CrystalP-Brentfor,7
+E0,Brentford,E0-Brentfor-Coventry,7
+E0,Brentford,E0-Newcastl-Brentfor,7
+E0,Brentford,E0-Brentfor-Ipswich,7
+E0,Brentford,E0-Sunderla-Brentfor,8
+E0,Brentford,E0-Brentfor-Bournemo,8
+E0,Brentford,E0-Tottenha-Brentfor,8
+E0,Brentford,E0-Brentfor-Leeds,8
+E0,Brentford,E0-Brentfor-Fulham,9
+E0,Brentford,E0-ManCity-Brentfor,9
+E0,Brentford,E0-Brentfor-AstonVil,9
+E0,Brentford,E0-Liverpoo-Brentfor,9
+E0,Brentford,E0-Brentfor-Hull,10
+E0,Brentford,E0-Chelsea-Brentfor,10
+E0,Brighton,E0-Brighton-AstonVil,1
+E0,Brighton,E0-Chelsea-Brighton,1
+E0,Brighton,E0-Brighton-Leeds,1
+E0,Brighton,E0-Coventry-Brighton,1
+E0,Brighton,E0-Brighton-Arsenal,2
+E0,Brighton,E0-Sunderla-Brighton,2
+E0,Brighton,E0-Brighton-CrystalP,2
+E0,Brighton,E0-Liverpoo-Brighton,2
+E0,Brighton,E0-ManCity-Brighton,3
+E0,Brighton,E0-Brighton-Brentfor,3
+E0,Brighton,E0-Hull-Brighton,3
+E0,Brighton,E0-Brighton-Newcastl,3
+E0,Brighton,E0-Bournemo-Brighton,4
+E0,Brighton,E0-NottmFor-Brighton,4
+E0,Brighton,E0-Brighton-Everton,4
+E0,Brighton,E0-Brighton-Ipswich,4
+E0,Brighton,E0-Fulham-Brighton,5
+E0,Brighton,E0-Tottenha-Brighton,5
+E0,Brighton,E0-Brighton-ManUtd,5
+E0,Brighton,E0-Brighton-Bournemo,5
+E0,Brighton,E0-Brentfor-Brighton,6
+E0,Brighton,E0-Brighton-ManCity,6
+E0,Brighton,E0-Newcastl-Brighton,6
+E0,Brighton,E0-Brighton-Hull,6
+E0,Brighton,E0-ManUtd-Brighton,7
+E0,Brighton,E0-Brighton-Tottenha,7
+E0,Brighton,E0-Ipswich-Brighton,7
+E0,Brighton,E0-Brighton-Fulham,7
+E0,Brighton,E0-Leeds-Brighton,8
+E0,Brighton,E0-Brighton-Coventry,8
+E0,Brighton,E0-AstonVil-Brighton,8
+E0,Brighton,E0-Brighton-Chelsea,8
+E0,Brighton,E0-Everton-Brighton,9
+E0,Brighton,E0-Brighton-NottmFor,9
+E0,Brighton,E0-Brighton-Sunderla,9
+E0,Brighton,E0-CrystalP-Brighton,9
+E0,Brighton,E0-Brighton-Liverpoo,10
+E0,Brighton,E0-Arsenal-Brighton,10
+E0,Chelsea,E0-Fulham-Chelsea,1
+E0,Chelsea,E0-Chelsea-Brighton,1
+E0,Chelsea,E0-Arsenal-Chelsea,1
+E0,Chelsea,E0-Chelsea-Hull,1
+E0,Chelsea,E0-Brentfor-Chelsea,2
+E0,Chelsea,E0-Chelsea-Bournemo,2
+E0,Chelsea,E0-Everton-Chelsea,2
+E0,Chelsea,E0-Chelsea-Tottenha,2
+E0,Chelsea,E0-Chelsea-ManUtd,3
+E0,Chelsea,E0-Sunderla-Chelsea,3
+E0,Chelsea,E0-Chelsea-Leeds,3
+E0,Chelsea,E0-NottmFor-Chelsea,3
+E0,Chelsea,E0-Chelsea-CrystalP,4
+E0,Chelsea,E0-Chelsea-Liverpoo,4
+E0,Chelsea,E0-ManCity-Chelsea,4
+E0,Chelsea,E0-Chelsea-AstonVil,4
+E0,Chelsea,E0-Coventry-Chelsea,5
+E0,Chelsea,E0-Ipswich-Chelsea,5
+E0,Chelsea,E0-Chelsea-Newcastl,5
+E0,Chelsea,E0-CrystalP-Chelsea,5
+E0,Chelsea,E0-Chelsea-Sunderla,6
+E0,Chelsea,E0-Leeds-Chelsea,6
+E0,Chelsea,E0-Chelsea-NottmFor,6
+E0,Chelsea,E0-ManUtd-Chelsea,6
+E0,Chelsea,E0-Newcastl-Chelsea,7
+E0,Chelsea,E0-Chelsea-Ipswich,7
+E0,Chelsea,E0-AstonVil-Chelsea,7
+E0,Chelsea,E0-Chelsea-Coventry,7
+E0,Chelsea,E0-Chelsea-Arsenal,8
+E0,Chelsea,E0-Hull-Chelsea,8
+E0,Chelsea,E0-Chelsea-Fulham,8
+E0,Chelsea,E0-Brighton-Chelsea,8
+E0,Chelsea,E0-Chelsea-ManCity,9
+E0,Chelsea,E0-Liverpoo-Chelsea,9
+E0,Chelsea,E0-Tottenha-Chelsea,9
+E0,Chelsea,E0-Chelsea-Everton,9
+E0,Chelsea,E0-Bournemo-Chelsea,10
+E0,Chelsea,E0-Chelsea-Brentfor,10
+E0,Coventry,E0-Arsenal-Coventry,1
+E0,Coventry,E0-Coventry-Hull,1
+E0,Coventry,E0-ManCity-Coventry,1
+E0,Coventry,E0-Coventry-Brighton,1
+E0,Coventry,E0-NottmFor-Coventry,2
+E0,Coventry,E0-Coventry-Newcastl,2
+E0,Coventry,E0-Tottenha-Coventry,2
+E0,Coventry,E0-Coventry-Fulham,2
+E0,Coventry,E0-Coventry-Sunderla,3
+E0,Coventry,E0-Everton-Coventry,3
+E0,Coventry,E0-Coventry-CrystalP,3
+E0,Coventry,E0-Leeds-Coventry,3
+E0,Coventry,E0-Coventry-Ipswich,4
+E0,Coventry,E0-ManUtd-Coventry,4
+E0,Coventry,E0-Coventry-AstonVil,4
+E0,Coventry,E0-Bournemo-Coventry,4
+E0,Coventry,E0-Coventry-Chelsea,5
+E0,Coventry,E0-Coventry-Brentfor,5
+E0,Coventry,E0-Liverpoo-Coventry,5
+E0,Coventry,E0-Ipswich-Coventry,5
+E0,Coventry,E0-Coventry-Everton,6
+E0,Coventry,E0-Sunderla-Coventry,6
+E0,Coventry,E0-Coventry-Leeds,6
+E0,Coventry,E0-CrystalP-Coventry,6
+E0,Coventry,E0-Coventry-Liverpoo,7
+E0,Coventry,E0-Brentfor-Coventry,7
+E0,Coventry,E0-Coventry-Bournemo,7
+E0,Coventry,E0-Chelsea-Coventry,7
+E0,Coventry,E0-Coventry-ManCity,8
+E0,Coventry,E0-Brighton-Coventry,8
+E0,Coventry,E0-Coventry-Arsenal,8
+E0,Coventry,E0-Hull-Coventry,8
+E0,Coventry,E0-AstonVil-Coventry,9
+E0,Coventry,E0-Coventry-ManUtd,9
+E0,Coventry,E0-Newcastl-Coventry,9
+E0,Coventry,E0-Coventry-Tottenha,9
+E0,Coventry,E0-Fulham-Coventry,10
+E0,Coventry,E0-Coventry-NottmFor,10
+E0,Crystal Palace,E0-Everton-CrystalP,1
+E0,Crystal Palace,E0-CrystalP-ManCity,1
+E0,Crystal Palace,E0-Fulham-CrystalP,1
+E0,Crystal Palace,E0-CrystalP-Ipswich,1
+E0,Crystal Palace,E0-Leeds-CrystalP,2
+E0,Crystal Palace,E0-CrystalP-NottmFor,2
+E0,Crystal Palace,E0-Brighton-CrystalP,2
+E0,Crystal Palace,E0-CrystalP-Newcastl,2
+E0,Crystal Palace,E0-Tottenha-CrystalP,3
+E0,Crystal Palace,E0-CrystalP-Liverpoo,3
+E0,Crystal Palace,E0-Coventry-CrystalP,3
+E0,Crystal Palace,E0-CrystalP-Hull,3
+E0,Crystal Palace,E0-Chelsea-CrystalP,4
+E0,Crystal Palace,E0-AstonVil-CrystalP,4
+E0,Crystal Palace,E0-CrystalP-ManUtd,4
+E0,Crystal Palace,E0-Sunderla-CrystalP,4
+E0,Crystal Palace,E0-CrystalP-Arsenal,5
+E0,Crystal Palace,E0-CrystalP-Bournemo,5
+E0,Crystal Palace,E0-Brentfor-CrystalP,5
+E0,Crystal Palace,E0-CrystalP-Chelsea,5
+E0,Crystal Palace,E0-Liverpoo-CrystalP,6
+E0,Crystal Palace,E0-CrystalP-Tottenha,6
+E0,Crystal Palace,E0-Hull-CrystalP,6
+E0,Crystal Palace,E0-CrystalP-Coventry,6
+E0,Crystal Palace,E0-CrystalP-Brentfor,7
+E0,Crystal Palace,E0-Bournemo-CrystalP,7
+E0,Crystal Palace,E0-CrystalP-Sunderla,7
+E0,Crystal Palace,E0-Arsenal-CrystalP,7
+E0,Crystal Palace,E0-CrystalP-Fulham,8
+E0,Crystal Palace,E0-Ipswich-CrystalP,8
+E0,Crystal Palace,E0-CrystalP-Everton,8
+E0,Crystal Palace,E0-ManCity-CrystalP,8
+E0,Crystal Palace,E0-ManUtd-CrystalP,9
+E0,Crystal Palace,E0-CrystalP-AstonVil,9
+E0,Crystal Palace,E0-NottmFor-CrystalP,9
+E0,Crystal Palace,E0-CrystalP-Brighton,9
+E0,Crystal Palace,E0-Newcastl-CrystalP,10
+E0,Crystal Palace,E0-CrystalP-Leeds,10
+E0,Everton,E0-Everton-CrystalP,1
+E0,Everton,E0-Bournemo-Everton,1
+E0,Everton,E0-Everton-ManUtd,1
+E0,Everton,E0-Tottenha-Everton,1
+E0,Everton,E0-Everton-Ipswich,2
+E0,Everton,E0-Hull-Everton,2
+E0,Everton,E0-Everton-Chelsea,2
+E0,Everton,E0-Arsenal-Everton,2
+E0,Everton,E0-Newcastl-Everton,3
+E0,Everton,E0-Everton-Coventry,3
+E0,Everton,E0-Brentfor-Everton,3
+E0,Everton,E0-Everton-Liverpoo,3
+E0,Everton,E0-AstonVil-Everton,4
+E0,Everton,E0-Everton-Fulham,4
+E0,Everton,E0-Brighton-Everton,4
+E0,Everton,E0-NottmFor-Everton,4
+E0,Everton,E0-Everton-Sunderla,5
+E0,Everton,E0-Everton-ManCity,5
+E0,Everton,E0-Leeds-Everton,5
+E0,Everton,E0-Everton-AstonVil,5
+E0,Everton,E0-Coventry-Everton,6
+E0,Everton,E0-Everton-Brentfor,6
+E0,Everton,E0-Liverpoo-Everton,6
+E0,Everton,E0-Everton-Newcastl,6
+E0,Everton,E0-Everton-Leeds,7
+E0,Everton,E0-Sunderla-Everton,7
+E0,Everton,E0-Everton-NottmFor,7
+E0,Everton,E0-ManCity-Everton,7
+E0,Everton,E0-ManUtd-Everton,8
+E0,Everton,E0-Everton-Tottenha,8
+E0,Everton,E0-CrystalP-Everton,8
+E0,Everton,E0-Everton-Bournemo,8
+E0,Everton,E0-Everton-Brighton,9
+E0,Everton,E0-Fulham-Everton,9
+E0,Everton,E0-Everton-Hull,9
+E0,Everton,E0-Chelsea-Everton,9
+E0,Everton,E0-Everton-Arsenal,10
+E0,Everton,E0-Ipswich-Everton,10
+E0,Fulham,E0-Fulham-Chelsea,1
+E0,Fulham,E0-Sunderla-Fulham,1
+E0,Fulham,E0-Fulham-CrystalP,1
+E0,Fulham,E0-Liverpoo-Fulham,1
+E0,Fulham,E0-Fulham-ManUtd,2
+E0,Fulham,E0-Ipswich-Fulham,2
+E0,Fulham,E0-Fulham-Hull,2
+E0,Fulham,E0-Coventry-Fulham,2
+E0,Fulham,E0-AstonVil-Fulham,3
+E0,Fulham,E0-Fulham-Newcastl,3
+E0,Fulham,E0-ManCity-Fulham,3
+E0,Fulham,E0-Fulham-Bournemo,3
+E0,Fulham,E0-Tottenha-Fulham,4
+E0,Fulham,E0-Everton-Fulham,4
+E0,Fulham,E0-Fulham-Brentfor,4
+E0,Fulham,E0-Leeds-Fulham,4
+E0,Fulham,E0-Fulham-Brighton,5
+E0,Fulham,E0-Fulham-Arsenal,5
+E0,Fulham,E0-NottmFor-Fulham,5
+E0,Fulham,E0-Fulham-Tottenha,5
+E0,Fulham,E0-Newcastl-Fulham,6
+E0,Fulham,E0-Fulham-AstonVil,6
+E0,Fulham,E0-Bournemo-Fulham,6
+E0,Fulham,E0-Fulham-ManCity,6
+E0,Fulham,E0-Fulham-NottmFor,7
+E0,Fulham,E0-Arsenal-Fulham,7
+E0,Fulham,E0-Fulham-Leeds,7
+E0,Fulham,E0-Brighton-Fulham,7
+E0,Fulham,E0-CrystalP-Fulham,8
+E0,Fulham,E0-Fulham-Liverpoo,8
+E0,Fulham,E0-Chelsea-Fulham,8
+E0,Fulham,E0-Fulham-Sunderla,8
+E0,Fulham,E0-Brentfor-Fulham,9
+E0,Fulham,E0-Fulham-Everton,9
+E0,Fulham,E0-Fulham-Ipswich,9
+E0,Fulham,E0-Hull-Fulham,9
+E0,Fulham,E0-Fulham-Coventry,10
+E0,Fulham,E0-ManUtd-Fulham,10
+E0,Hull,E0-Hull-ManUtd,1
+E0,Hull,E0-Coventry-Hull,1
+E0,Hull,E0-Hull-AstonVil,1
+E0,Hull,E0-Chelsea-Hull,1
+E0,Hull,E0-Newcastl-Hull,2
+E0,Hull,E0-Hull-Everton,2
+E0,Hull,E0-Fulham-Hull,2
+E0,Hull,E0-Hull-Brentfor,2
+E0,Hull,E0-Hull-Ipswich,3
+E0,Hull,E0-Arsenal-Hull,3
+E0,Hull,E0-Hull-Brighton,3
+E0,Hull,E0-CrystalP-Hull,3
+E0,Hull,E0-Hull-NottmFor,4
+E0,Hull,E0-Bournemo-Hull,4
+E0,Hull,E0-Hull-Tottenha,4
+E0,Hull,E0-ManCity-Hull,4
+E0,Hull,E0-Hull-Liverpoo,5
+E0,Hull,E0-Hull-Leeds,5
+E0,Hull,E0-Sunderla-Hull,5
+E0,Hull,E0-NottmFor-Hull,5
+E0,Hull,E0-Hull-Arsenal,6
+E0,Hull,E0-Ipswich-Hull,6
+E0,Hull,E0-Hull-CrystalP,6
+E0,Hull,E0-Brighton-Hull,6
+E0,Hull,E0-Hull-Sunderla,7
+E0,Hull,E0-Liverpoo-Hull,7
+E0,Hull,E0-Hull-ManCity,7
+E0,Hull,E0-Leeds-Hull,7
+E0,Hull,E0-AstonVil-Hull,8
+E0,Hull,E0-Hull-Chelsea,8
+E0,Hull,E0-ManUtd-Hull,8
+E0,Hull,E0-Hull-Coventry,8
+E0,Hull,E0-Tottenha-Hull,9
+E0,Hull,E0-Hull-Bournemo,9
+E0,Hull,E0-Everton-Hull,9
+E0,Hull,E0-Hull-Fulham,9
+E0,Hull,E0-Brentfor-Hull,10
+E0,Hull,E0-Hull-Newcastl,10
+E0,Ipswich,E0-Ipswich-Sunderla,1
+E0,Ipswich,E0-ManUtd-Ipswich,1
+E0,Ipswich,E0-Ipswich-Liverpoo,1
+E0,Ipswich,E0-CrystalP-Ipswich,1
+E0,Ipswich,E0-Everton-Ipswich,2
+E0,Ipswich,E0-Ipswich-Fulham,2
+E0,Ipswich,E0-ManCity-Ipswich,2
+E0,Ipswich,E0-Ipswich-NottmFor,2
+E0,Ipswich,E0-Hull-Ipswich,3
+E0,Ipswich,E0-Ipswich-Bournemo,3
+E0,Ipswich,E0-Tottenha-Ipswich,3
+E0,Ipswich,E0-Ipswich-AstonVil,3
+E0,Ipswich,E0-Coventry-Ipswich,4
+E0,Ipswich,E0-Leeds-Ipswich,4
+E0,Ipswich,E0-Ipswich-Newcastl,4
+E0,Ipswich,E0-Brighton-Ipswich,4
+E0,Ipswich,E0-Ipswich-Brentfor,5
+E0,Ipswich,E0-Ipswich-Chelsea,5
+E0,Ipswich,E0-Arsenal-Ipswich,5
+E0,Ipswich,E0-Ipswich-Coventry,5
+E0,Ipswich,E0-Bournemo-Ipswich,6
+E0,Ipswich,E0-Ipswich-Hull,6
+E0,Ipswich,E0-AstonVil-Ipswich,6
+E0,Ipswich,E0-Ipswich-Tottenha,6
+E0,Ipswich,E0-Ipswich-Arsenal,7
+E0,Ipswich,E0-Chelsea-Ipswich,7
+E0,Ipswich,E0-Ipswich-Brighton,7
+E0,Ipswich,E0-Brentfor-Ipswich,7
+E0,Ipswich,E0-Liverpoo-Ipswich,8
+E0,Ipswich,E0-Ipswich-CrystalP,8
+E0,Ipswich,E0-Sunderla-Ipswich,8
+E0,Ipswich,E0-Ipswich-ManUtd,8
+E0,Ipswich,E0-Newcastl-Ipswich,9
+E0,Ipswich,E0-Ipswich-Leeds,9
+E0,Ipswich,E0-Fulham-Ipswich,9
+E0,Ipswich,E0-Ipswich-ManCity,9
+E0,Ipswich,E0-NottmFor-Ipswich,10
+E0,Ipswich,E0-Ipswich-Everton,10
+E0,Leeds,E0-NottmFor-Leeds,1
+E0,Leeds,E0-Leeds-Brentfor,1
+E0,Leeds,E0-Brighton-Leeds,1
+E0,Leeds,E0-Leeds-Newcastl,1
+E0,Leeds,E0-Leeds-CrystalP,2
+E0,Leeds,E0-Arsenal-Leeds,2
+E0,Leeds,E0-Leeds-ManUtd,2
+E0,Leeds,E0-Sunderla-Leeds,2
+E0,Leeds,E0-Bournemo-Leeds,3
+E0,Leeds,E0-Leeds-Tottenha,3
+E0,Leeds,E0-Chelsea-Leeds,3
+E0,Leeds,E0-Leeds-Coventry,3
+E0,Leeds,E0-ManCity-Leeds,4
+E0,Leeds,E0-Leeds-Ipswich,4
+E0,Leeds,E0-Liverpoo-Leeds,4
+E0,Leeds,E0-Leeds-Fulham,4
+E0,Leeds,E0-AstonVil-Leeds,5
+E0,Leeds,E0-Hull-Leeds,5
+E0,Leeds,E0-Leeds-Everton,5
+E0,Leeds,E0-Leeds-ManCity,5
+E0,Leeds,E0-Tottenha-Leeds,6
+E0,Leeds,E0-Leeds-Chelsea,6
+E0,Leeds,E0-Coventry-Leeds,6
+E0,Leeds,E0-Leeds-Bournemo,6
+E0,Leeds,E0-Everton-Leeds,7
+E0,Leeds,E0-Leeds-AstonVil,7
+E0,Leeds,E0-Fulham-Leeds,7
+E0,Leeds,E0-Leeds-Hull,7
+E0,Leeds,E0-Leeds-Brighton,8
+E0,Leeds,E0-Newcastl-Leeds,8
+E0,Leeds,E0-Leeds-NottmFor,8
+E0,Leeds,E0-Brentfor-Leeds,8
+E0,Leeds,E0-Leeds-Liverpoo,9
+E0,Leeds,E0-Ipswich-Leeds,9
+E0,Leeds,E0-Leeds-Arsenal,9
+E0,Leeds,E0-ManUtd-Leeds,9
+E0,Leeds,E0-Leeds-Sunderla,10
+E0,Leeds,E0-CrystalP-Leeds,10
+E0,Liverpool,E0-Newcastl-Liverpoo,1
+E0,Liverpool,E0-Liverpoo-NottmFor,1
+E0,Liverpool,E0-Ipswich-Liverpoo,1
+E0,Liverpool,E0-Liverpoo-Fulham,1
+E0,Liverpool,E0-Bournemo-Liverpoo,2
+E0,Liverpool,E0-Liverpoo-ManCity,2
+E0,Liverpool,E0-Brentfor-Liverpoo,2
+E0,Liverpool,E0-Liverpoo-Brighton,2
+E0,Liverpool,E0-Liverpoo-Arsenal,3
+E0,Liverpool,E0-CrystalP-Liverpoo,3
+E0,Liverpool,E0-Liverpoo-ManUtd,3
+E0,Liverpool,E0-Everton-Liverpoo,3
+E0,Liverpool,E0-Liverpoo-Sunderla,4
+E0,Liverpool,E0-Chelsea-Liverpoo,4
+E0,Liverpool,E0-Liverpoo-Leeds,4
+E0,Liverpool,E0-Liverpoo-Tottenha,4
+E0,Liverpool,E0-Hull-Liverpoo,5
+E0,Liverpool,E0-AstonVil-Liverpoo,5
+E0,Liverpool,E0-Liverpoo-Coventry,5
+E0,Liverpool,E0-Sunderla-Liverpoo,5
+E0,Liverpool,E0-Liverpoo-CrystalP,6
+E0,Liverpool,E0-ManUtd-Liverpoo,6
+E0,Liverpool,E0-Liverpoo-Everton,6
+E0,Liverpool,E0-Arsenal-Liverpoo,6
+E0,Liverpool,E0-Coventry-Liverpoo,7
+E0,Liverpool,E0-Liverpoo-Hull,7
+E0,Liverpool,E0-Tottenha-Liverpoo,7
+E0,Liverpool,E0-Liverpoo-AstonVil,7
+E0,Liverpool,E0-Liverpoo-Ipswich,8
+E0,Liverpool,E0-Fulham-Liverpoo,8
+E0,Liverpool,E0-Liverpoo-Newcastl,8
+E0,Liverpool,E0-NottmFor-Liverpoo,8
+E0,Liverpool,E0-Leeds-Liverpoo,9
+E0,Liverpool,E0-Liverpoo-Chelsea,9
+E0,Liverpool,E0-ManCity-Liverpoo,9
+E0,Liverpool,E0-Liverpoo-Brentfor,9
+E0,Liverpool,E0-Brighton-Liverpoo,10
+E0,Liverpool,E0-Liverpoo-Bournemo,10
+E0,Man City,E0-ManCity-Bournemo,1
+E0,Man City,E0-CrystalP-ManCity,1
+E0,Man City,E0-ManCity-Coventry,1
+E0,Man City,E0-ManUtd-ManCity,1
+E0,Man City,E0-ManCity-Sunderla,2
+E0,Man City,E0-Liverpoo-ManCity,2
+E0,Man City,E0-ManCity-Ipswich,2
+E0,Man City,E0-AstonVil-ManCity,2
+E0,Man City,E0-ManCity-Brighton,3
+E0,Man City,E0-NottmFor-ManCity,3
+E0,Man City,E0-ManCity-Fulham,3
+E0,Man City,E0-Arsenal-ManCity,3
+E0,Man City,E0-ManCity-Leeds,4
+E0,Man City,E0-Brentfor-ManCity,4
+E0,Man City,E0-ManCity-Chelsea,4
+E0,Man City,E0-ManCity-Hull,4
+E0,Man City,E0-Newcastl-ManCity,5
+E0,Man City,E0-Everton-ManCity,5
+E0,Man City,E0-ManCity-Tottenha,5
+E0,Man City,E0-Leeds-ManCity,5
+E0,Man City,E0-ManCity-NottmFor,6
+E0,Man City,E0-Brighton-ManCity,6
+E0,Man City,E0-ManCity-Arsenal,6
+E0,Man City,E0-Fulham-ManCity,6
+E0,Man City,E0-Tottenha-ManCity,7
+E0,Man City,E0-ManCity-Newcastl,7
+E0,Man City,E0-Hull-ManCity,7
+E0,Man City,E0-ManCity-Everton,7
+E0,Man City,E0-Coventry-ManCity,8
+E0,Man City,E0-ManCity-ManUtd,8
+E0,Man City,E0-Bournemo-ManCity,8
+E0,Man City,E0-ManCity-CrystalP,8
+E0,Man City,E0-Chelsea-ManCity,9
+E0,Man City,E0-ManCity-Brentfor,9
+E0,Man City,E0-ManCity-Liverpoo,9
+E0,Man City,E0-Ipswich-ManCity,9
+E0,Man City,E0-ManCity-AstonVil,10
+E0,Man City,E0-Sunderla-ManCity,10
+E0,Man Utd,E0-Hull-ManUtd,1
+E0,Man Utd,E0-ManUtd-Ipswich,1
+E0,Man Utd,E0-Everton-ManUtd,1
+E0,Man Utd,E0-ManUtd-ManCity,1
+E0,Man Utd,E0-Fulham-ManUtd,2
+E0,Man Utd,E0-ManUtd-Tottenha,2
+E0,Man Utd,E0-Leeds-ManUtd,2
+E0,Man Utd,E0-ManUtd-Bournemo,2
+E0,Man Utd,E0-Chelsea-ManUtd,3
+E0,Man Utd,E0-ManUtd-AstonVil,3
+E0,Man Utd,E0-Liverpoo-ManUtd,3
+E0,Man Utd,E0-ManUtd-Brentfor,3
+E0,Man Utd,E0-Newcastl-ManUtd,4
+E0,Man Utd,E0-ManUtd-Coventry,4
+E0,Man Utd,E0-CrystalP-ManUtd,4
+E0,Man Utd,E0-Arsenal-ManUtd,4
+E0,Man Utd,E0-ManUtd-NottmFor,5
+E0,Man Utd,E0-ManUtd-Sunderla,5
+E0,Man Utd,E0-Brighton-ManUtd,5
+E0,Man Utd,E0-ManUtd-Newcastl,5
+E0,Man Utd,E0-AstonVil-ManUtd,6
+E0,Man Utd,E0-ManUtd-Liverpoo,6
+E0,Man Utd,E0-Brentfor-ManUtd,6
+E0,Man Utd,E0-ManUtd-Chelsea,6
+E0,Man Utd,E0-ManUtd-Brighton,7
+E0,Man Utd,E0-NottmFor-ManUtd,7
+E0,Man Utd,E0-ManUtd-Arsenal,7
+E0,Man Utd,E0-Sunderla-ManUtd,7
+E0,Man Utd,E0-ManUtd-Everton,8
+E0,Man Utd,E0-ManCity-ManUtd,8
+E0,Man Utd,E0-ManUtd-Hull,8
+E0,Man Utd,E0-Ipswich-ManUtd,8
+E0,Man Utd,E0-ManUtd-CrystalP,9
+E0,Man Utd,E0-Coventry-ManUtd,9
+E0,Man Utd,E0-Bournemo-ManUtd,9
+E0,Man Utd,E0-ManUtd-Leeds,9
+E0,Man Utd,E0-Tottenha-ManUtd,10
+E0,Man Utd,E0-ManUtd-Fulham,10
+E0,Newcastle,E0-Newcastl-Liverpoo,1
+E0,Newcastle,E0-Tottenha-Newcastl,1
+E0,Newcastle,E0-Newcastl-Bournemo,1
+E0,Newcastle,E0-Leeds-Newcastl,1
+E0,Newcastle,E0-Newcastl-Hull,2
+E0,Newcastle,E0-Coventry-Newcastl,2
+E0,Newcastle,E0-Newcastl-AstonVil,2
+E0,Newcastle,E0-CrystalP-Newcastl,2
+E0,Newcastle,E0-Newcastl-Everton,3
+E0,Newcastle,E0-Fulham-Newcastl,3
+E0,Newcastle,E0-Newcastl-Arsenal,3
+E0,Newcastle,E0-Brighton-Newcastl,3
+E0,Newcastle,E0-Newcastl-ManUtd,4
+E0,Newcastle,E0-Newcastl-Sunderla,4
+E0,Newcastle,E0-Ipswich-Newcastl,4
+E0,Newcastle,E0-Brentfor-Newcastl,4
+E0,Newcastle,E0-Newcastl-ManCity,5
+E0,Newcastle,E0-Newcastl-NottmFor,5
+E0,Newcastle,E0-Chelsea-Newcastl,5
+E0,Newcastle,E0-ManUtd-Newcastl,5
+E0,Newcastle,E0-Newcastl-Fulham,6
+E0,Newcastle,E0-Arsenal-Newcastl,6
+E0,Newcastle,E0-Newcastl-Brighton,6
+E0,Newcastle,E0-Everton-Newcastl,6
+E0,Newcastle,E0-Newcastl-Chelsea,7
+E0,Newcastle,E0-ManCity-Newcastl,7
+E0,Newcastle,E0-Newcastl-Brentfor,7
+E0,Newcastle,E0-NottmFor-Newcastl,7
+E0,Newcastle,E0-Bournemo-Newcastl,8
+E0,Newcastle,E0-Newcastl-Leeds,8
+E0,Newcastle,E0-Liverpoo-Newcastl,8
+E0,Newcastle,E0-Newcastl-Tottenha,8
+E0,Newcastle,E0-Newcastl-Ipswich,9
+E0,Newcastle,E0-Sunderla-Newcastl,9
+E0,Newcastle,E0-Newcastl-Coventry,9
+E0,Newcastle,E0-AstonVil-Newcastl,9
+E0,Newcastle,E0-Newcastl-CrystalP,10
+E0,Newcastle,E0-Hull-Newcastl,10
+E0,Nott'm Forest,E0-NottmFor-Leeds,1
+E0,Nott'm Forest,E0-Liverpoo-NottmFor,1
+E0,Nott'm Forest,E0-NottmFor-Tottenha,1
+E0,Nott'm Forest,E0-AstonVil-NottmFor,1
+E0,Nott'm Forest,E0-NottmFor-Coventry,2
+E0,Nott'm Forest,E0-CrystalP-NottmFor,2
+E0,Nott'm Forest,E0-NottmFor-Arsenal,2
+E0,Nott'm Forest,E0-Ipswich-NottmFor,2
+E0,Nott'm Forest,E0-Brentfor-NottmFor,3
+E0,Nott'm Forest,E0-NottmFor-ManCity,3
+E0,Nott'm Forest,E0-Bournemo-NottmFor,3
+E0,Nott'm Forest,E0-NottmFor-Chelsea,3
+E0,Nott'm Forest,E0-Hull-NottmFor,4
+E0,Nott'm Forest,E0-NottmFor-Brighton,4
+E0,Nott'm Forest,E0-Sunderla-NottmFor,4
+E0,Nott'm Forest,E0-NottmFor-Everton,4
+E0,Nott'm Forest,E0-ManUtd-NottmFor,5
+E0,Nott'm Forest,E0-Newcastl-NottmFor,5
+E0,Nott'm Forest,E0-NottmFor-Fulham,5
+E0,Nott'm Forest,E0-NottmFor-Hull,5
+E0,Nott'm Forest,E0-ManCity-NottmFor,6
+E0,Nott'm Forest,E0-NottmFor-Bournemo,6
+E0,Nott'm Forest,E0-Chelsea-NottmFor,6
+E0,Nott'm Forest,E0-NottmFor-Brentfor,6
+E0,Nott'm Forest,E0-Fulham-NottmFor,7
+E0,Nott'm Forest,E0-NottmFor-ManUtd,7
+E0,Nott'm Forest,E0-Everton-NottmFor,7
+E0,Nott'm Forest,E0-NottmFor-Newcastl,7
+E0,Nott'm Forest,E0-Tottenha-NottmFor,8
+E0,Nott'm Forest,E0-NottmFor-AstonVil,8
+E0,Nott'm Forest,E0-Leeds-NottmFor,8
+E0,Nott'm Forest,E0-NottmFor-Liverpoo,8
+E0,Nott'm Forest,E0-NottmFor-Sunderla,9
+E0,Nott'm Forest,E0-Brighton-NottmFor,9
+E0,Nott'm Forest,E0-NottmFor-CrystalP,9
+E0,Nott'm Forest,E0-Arsenal-NottmFor,9
+E0,Nott'm Forest,E0-NottmFor-Ipswich,10
+E0,Nott'm Forest,E0-Coventry-NottmFor,10
+E0,Sunderland,E0-Ipswich-Sunderla,1
+E0,Sunderland,E0-Sunderla-Fulham,1
+E0,Sunderland,E0-Brentfor-Sunderla,1
+E0,Sunderland,E0-Sunderla-Arsenal,1
+E0,Sunderland,E0-ManCity-Sunderla,2
+E0,Sunderland,E0-Sunderla-Brighton,2
+E0,Sunderland,E0-Bournemo-Sunderla,2
+E0,Sunderland,E0-Sunderla-Leeds,2
+E0,Sunderland,E0-Coventry-Sunderla,3
+E0,Sunderland,E0-Sunderla-Chelsea,3
+E0,Sunderland,E0-AstonVil-Sunderla,3
+E0,Sunderland,E0-Sunderla-Tottenha,3
+E0,Sunderland,E0-Liverpoo-Sunderla,4
+E0,Sunderland,E0-Newcastl-Sunderla,4
+E0,Sunderland,E0-Sunderla-NottmFor,4
+E0,Sunderland,E0-Sunderla-CrystalP,4
+E0,Sunderland,E0-Everton-Sunderla,5
+E0,Sunderland,E0-ManUtd-Sunderla,5
+E0,Sunderland,E0-Sunderla-Hull,5
+E0,Sunderland,E0-Sunderla-Liverpoo,5
+E0,Sunderland,E0-Chelsea-Sunderla,6
+E0,Sunderland,E0-Sunderla-Coventry,6
+E0,Sunderland,E0-Tottenha-Sunderla,6
+E0,Sunderland,E0-Sunderla-AstonVil,6
+E0,Sunderland,E0-Hull-Sunderla,7
+E0,Sunderland,E0-Sunderla-Everton,7
+E0,Sunderland,E0-CrystalP-Sunderla,7
+E0,Sunderland,E0-Sunderla-ManUtd,7
+E0,Sunderland,E0-Sunderla-Brentfor,8
+E0,Sunderland,E0-Arsenal-Sunderla,8
+E0,Sunderland,E0-Sunderla-Ipswich,8
+E0,Sunderland,E0-Fulham-Sunderla,8
+E0,Sunderland,E0-NottmFor-Sunderla,9
+E0,Sunderland,E0-Sunderla-Newcastl,9
+E0,Sunderland,E0-Brighton-Sunderla,9
+E0,Sunderland,E0-Sunderla-Bournemo,9
+E0,Sunderland,E0-Leeds-Sunderla,10
+E0,Sunderland,E0-Sunderla-ManCity,10
+E0,Tottenham,E0-Brentfor-Tottenha,1
+E0,Tottenham,E0-Tottenha-Newcastl,1
+E0,Tottenham,E0-NottmFor-Tottenha,1
+E0,Tottenham,E0-Tottenha-Everton,1
+E0,Tottenham,E0-Tottenha-AstonVil,2
+E0,Tottenham,E0-ManUtd-Tottenha,2
+E0,Tottenham,E0-Tottenha-Coventry,2
+E0,Tottenham,E0-Chelsea-Tottenha,2
+E0,Tottenham,E0-Tottenha-CrystalP,3
+E0,Tottenham,E0-Leeds-Tottenha,3
+E0,Tottenham,E0-Tottenha-Ipswich,3
+E0,Tottenham,E0-Sunderla-Tottenha,3
+E0,Tottenham,E0-Tottenha-Fulham,4
+E0,Tottenham,E0-Tottenha-Arsenal,4
+E0,Tottenham,E0-Hull-Tottenha,4
+E0,Tottenham,E0-Liverpoo-Tottenha,4
+E0,Tottenham,E0-Tottenha-Bournemo,5
+E0,Tottenham,E0-Tottenha-Brighton,5
+E0,Tottenham,E0-ManCity-Tottenha,5
+E0,Tottenham,E0-Fulham-Tottenha,5
+E0,Tottenham,E0-Tottenha-Leeds,6
+E0,Tottenham,E0-CrystalP-Tottenha,6
+E0,Tottenham,E0-Tottenha-Sunderla,6
+E0,Tottenham,E0-Ipswich-Tottenha,6
+E0,Tottenham,E0-Tottenha-ManCity,7
+E0,Tottenham,E0-Brighton-Tottenha,7
+E0,Tottenham,E0-Tottenha-Liverpoo,7
+E0,Tottenham,E0-Bournemo-Tottenha,7
+E0,Tottenham,E0-Tottenha-NottmFor,8
+E0,Tottenham,E0-Everton-Tottenha,8
+E0,Tottenham,E0-Tottenha-Brentfor,8
+E0,Tottenham,E0-Newcastl-Tottenha,8
+E0,Tottenham,E0-Tottenha-Hull,9
+E0,Tottenham,E0-Arsenal-Tottenha,9
+E0,Tottenham,E0-Tottenha-Chelsea,9
+E0,Tottenham,E0-Coventry-Tottenha,9
+E0,Tottenham,E0-Tottenha-ManUtd,10
+E0,Tottenham,E0-AstonVil-Tottenha,10
+E1,Birmingham,E1-Sheffiel-Birmingh,1
+E1,Birmingham,E1-Birmingh-BristolC,1
+E1,Birmingham,E1-Wrexham-Birmingh,1
+E1,Birmingham,E1-Birmingh-Southamp,1
+E1,Birmingham,E1-Birmingh-Wolves,2
+E1,Birmingham,E1-Norwich-Birmingh,2
+E1,Birmingham,E1-Derby-Birmingh,2
+E1,Birmingham,E1-Birmingh-Middlesb,2
+E1,Birmingham,E1-WestBrom-Birmingh,3
+E1,Birmingham,E1-Birmingh-Preston,3
+E1,Birmingham,E1-Birmingh-QPR,3
+E1,Birmingham,E1-Cardiff-Birmingh,3
+E1,Birmingham,E1-Lincoln-Birmingh,4
+E1,Birmingham,E1-Birmingh-Millwall,4
+E1,Birmingham,E1-Birmingh-Swansea,4
+E1,Birmingham,E1-Stoke-Birmingh,4
+E1,Birmingham,E1-Burnley-Birmingh,5
+E1,Birmingham,E1-Birmingh-Bolton,5
+E1,Birmingham,E1-Charlton-Birmingh,5
+E1,Birmingham,E1-Birmingh-Watford,5
+E1,Birmingham,E1-Portsmou-Birmingh,6
+E1,Birmingham,E1-Birmingh-WestHam,6
+E1,Birmingham,E1-Blackbur-Birmingh,6
+E1,Birmingham,E1-Birmingh-Cardiff,6
+E1,Birmingham,E1-Birmingh-Portsmou,7
+E1,Birmingham,E1-QPR-Birmingh,7
+E1,Birmingham,E1-Birmingh-Lincoln,7
+E1,Birmingham,E1-Millwall-Birmingh,7
+E1,Birmingham,E1-Swansea-Birmingh,8
+E1,Birmingham,E1-Birmingh-Stoke,8
+E1,Birmingham,E1-Birmingh-Derby,8
+E1,Birmingham,E1-Preston-Birmingh,8
+E1,Birmingham,E1-Middlesb-Birmingh,9
+E1,Birmingham,E1-Birmingh-WestBrom,9
+E1,Birmingham,E1-BristolC-Birmingh,9
+E1,Birmingham,E1-Birmingh-Sheffiel,9
+E1,Birmingham,E1-Bolton-Birmingh,10
+E1,Birmingham,E1-Birmingh-Charlton,10
+E1,Birmingham,E1-Birmingh-Blackbur,10
+E1,Birmingham,E1-WestHam-Birmingh,10
+E1,Birmingham,E1-Birmingh-Norwich,11
+E1,Birmingham,E1-Wolves-Birmingh,11
+E1,Birmingham,E1-Birmingh-Wrexham,11
+E1,Birmingham,E1-Southamp-Birmingh,11
+E1,Birmingham,E1-Watford-Birmingh,12
+E1,Birmingham,E1-Birmingh-Burnley,12
+E1,Blackburn,E1-Wolves-Blackbur,1
+E1,Blackburn,E1-Blackbur-Middlesb,1
+E1,Blackburn,E1-Blackbur-QPR,1
+E1,Blackburn,E1-Lincoln-Blackbur,1
+E1,Blackburn,E1-Preston-Blackbur,2
+E1,Blackburn,E1-Blackbur-Sheffiel,2
+E1,Blackburn,E1-Blackbur-Millwall,2
+E1,Blackburn,E1-Portsmou-Blackbur,2
+E1,Blackburn,E1-Blackbur-Cardiff,3
+E1,Blackburn,E1-BristolC-Blackbur,3
+E1,Blackburn,E1-WestBrom-Blackbur,3
+E1,Blackburn,E1-Blackbur-Wrexham,3
+E1,Blackburn,E1-Swansea-Blackbur,4
+E1,Blackburn,E1-Blackbur-Stoke,4
+E1,Blackburn,E1-Blackbur-WestHam,4
+E1,Blackburn,E1-Burnley-Blackbur,4
+E1,Blackburn,E1-Watford-Blackbur,5
+E1,Blackburn,E1-Blackbur-Charlton,5
+E1,Blackburn,E1-Bolton-Blackbur,5
+E1,Blackburn,E1-Blackbur-Norwich,5
+E1,Blackburn,E1-Blackbur-Derby,6
+E1,Blackburn,E1-Southamp-Blackbur,6
+E1,Blackburn,E1-Blackbur-Birmingh,6
+E1,Blackburn,E1-Wrexham-Blackbur,6
+E1,Blackburn,E1-Derby-Blackbur,7
+E1,Blackburn,E1-Blackbur-WestBrom,7
+E1,Blackburn,E1-Blackbur-Swansea,7
+E1,Blackburn,E1-Stoke-Blackbur,7
+E1,Blackburn,E1-WestHam-Blackbur,8
+E1,Blackburn,E1-Blackbur-Burnley,8
+E1,Blackburn,E1-Millwall-Blackbur,8
+E1,Blackburn,E1-Blackbur-BristolC,8
+E1,Blackburn,E1-Blackbur-Portsmou,9
+E1,Blackburn,E1-Cardiff-Blackbur,9
+E1,Blackburn,E1-Middlesb-Blackbur,9
+E1,Blackburn,E1-Blackbur-Wolves,9
+E1,Blackburn,E1-Charlton-Blackbur,10
+E1,Blackburn,E1-Blackbur-Bolton,10
+E1,Blackburn,E1-Birmingh-Blackbur,10
+E1,Blackburn,E1-Blackbur-Southamp,10
+E1,Blackburn,E1-Sheffiel-Blackbur,11
+E1,Blackburn,E1-Blackbur-Preston,11
+E1,Blackburn,E1-QPR-Blackbur,11
+E1,Blackburn,E1-Blackbur-Lincoln,11
+E1,Blackburn,E1-Norwich-Blackbur,12
+E1,Blackburn,E1-Blackbur-Watford,12
+E1,Bolton,E1-Bolton-Preston,1
+E1,Bolton,E1-QPR-Bolton,1
+E1,Bolton,E1-Bolton-Lincoln,1
+E1,Bolton,E1-Sheffiel-Bolton,1
+E1,Bolton,E1-Millwall-Bolton,2
+E1,Bolton,E1-Bolton-WestHam,2
+E1,Bolton,E1-Bolton-Cardiff,2
+E1,Bolton,E1-Norwich-Bolton,2
+E1,Bolton,E1-Bolton-Stoke,3
+E1,Bolton,E1-Wolves-Bolton,3
+E1,Bolton,E1-Southamp-Bolton,3
+E1,Bolton,E1-Bolton-Middlesb,3
+E1,Bolton,E1-Bolton-BristolC,4
+E1,Bolton,E1-Charlton-Bolton,4
+E1,Bolton,E1-Derby-Bolton,4
+E1,Bolton,E1-Bolton-Portsmou,4
+E1,Bolton,E1-Bolton-WestBrom,5
+E1,Bolton,E1-Birmingh-Bolton,5
+E1,Bolton,E1-Bolton-Blackbur,5
+E1,Bolton,E1-Swansea-Bolton,5
+E1,Bolton,E1-Bolton-Wrexham,6
+E1,Bolton,E1-Watford-Bolton,6
+E1,Bolton,E1-Bolton-Burnley,6
+E1,Bolton,E1-Middlesb-Bolton,6
+E1,Bolton,E1-Wrexham-Bolton,7
+E1,Bolton,E1-Bolton-Southamp,7
+E1,Bolton,E1-BristolC-Bolton,7
+E1,Bolton,E1-Bolton-Charlton,7
+E1,Bolton,E1-Bolton-Derby,8
+E1,Bolton,E1-Portsmou-Bolton,8
+E1,Bolton,E1-Cardiff-Bolton,8
+E1,Bolton,E1-Bolton-Wolves,8
+E1,Bolton,E1-Bolton-Norwich,9
+E1,Bolton,E1-Stoke-Bolton,9
+E1,Bolton,E1-Bolton-QPR,9
+E1,Bolton,E1-Preston-Bolton,9
+E1,Bolton,E1-Bolton-Birmingh,10
+E1,Bolton,E1-Blackbur-Bolton,10
+E1,Bolton,E1-Burnley-Bolton,10
+E1,Bolton,E1-Bolton-Watford,10
+E1,Bolton,E1-WestHam-Bolton,11
+E1,Bolton,E1-Bolton-Millwall,11
+E1,Bolton,E1-Lincoln-Bolton,11
+E1,Bolton,E1-Bolton-Sheffiel,11
+E1,Bolton,E1-Bolton-Swansea,12
+E1,Bolton,E1-WestBrom-Bolton,12
+E1,Bristol City,E1-BristolC-Millwall,1
+E1,Bristol City,E1-Birmingh-BristolC,1
+E1,Bristol City,E1-BristolC-Portsmou,1
+E1,Bristol City,E1-Preston-BristolC,1
+E1,Bristol City,E1-Burnley-BristolC,2
+E1,Bristol City,E1-Southamp-BristolC,2
+E1,Bristol City,E1-BristolC-Lincoln,2
+E1,Bristol City,E1-BristolC-Watford,2
+E1,Bristol City,E1-Charlton-BristolC,3
+E1,Bristol City,E1-BristolC-Blackbur,3
+E1,Bristol City,E1-BristolC-Sheffiel,3
+E1,Bristol City,E1-Stoke-BristolC,3
+E1,Bristol City,E1-Bolton-BristolC,4
+E1,Bristol City,E1-BristolC-Wolves,4
+E1,Bristol City,E1-BristolC-Norwich,4
+E1,Bristol City,E1-Middlesb-BristolC,4
+E1,Bristol City,E1-BristolC-Wrexham,5
+E1,Bristol City,E1-WestBrom-BristolC,5
+E1,Bristol City,E1-BristolC-Swansea,5
+E1,Bristol City,E1-Derby-BristolC,5
+E1,Bristol City,E1-WestHam-BristolC,6
+E1,Bristol City,E1-BristolC-Cardiff,6
+E1,Bristol City,E1-QPR-BristolC,6
+E1,Bristol City,E1-BristolC-Stoke,6
+E1,Bristol City,E1-BristolC-WestHam,7
+E1,Bristol City,E1-Sheffiel-BristolC,7
+E1,Bristol City,E1-BristolC-Bolton,7
+E1,Bristol City,E1-Wolves-BristolC,7
+E1,Bristol City,E1-Norwich-BristolC,8
+E1,Bristol City,E1-BristolC-Middlesb,8
+E1,Bristol City,E1-BristolC-Southamp,8
+E1,Bristol City,E1-Blackbur-BristolC,8
+E1,Bristol City,E1-Watford-BristolC,9
+E1,Bristol City,E1-BristolC-Charlton,9
+E1,Bristol City,E1-BristolC-Birmingh,9
+E1,Bristol City,E1-Millwall-BristolC,9
+E1,Bristol City,E1-BristolC-WestBrom,10
+E1,Bristol City,E1-Swansea-BristolC,10
+E1,Bristol City,E1-BristolC-QPR,10
+E1,Bristol City,E1-Cardiff-BristolC,10
+E1,Bristol City,E1-Lincoln-BristolC,11
+E1,Bristol City,E1-BristolC-Burnley,11
+E1,Bristol City,E1-Portsmou-BristolC,11
+E1,Bristol City,E1-BristolC-Preston,11
+E1,Bristol City,E1-BristolC-Derby,12
+E1,Bristol City,E1-Wrexham-BristolC,12
+E1,Burnley,E1-Burnley-WestHam,1
+E1,Burnley,E1-WestBrom-Burnley,1
+E1,Burnley,E1-Norwich-Burnley,1
+E1,Burnley,E1-Burnley-Middlesb,1
+E1,Burnley,E1-Burnley-BristolC,2
+E1,Burnley,E1-Wrexham-Burnley,2
+E1,Burnley,E1-Swansea-Burnley,2
+E1,Burnley,E1-Burnley-Derby,2
+E1,Burnley,E1-Watford-Burnley,3
+E1,Burnley,E1-Burnley-Charlton,3
+E1,Burnley,E1-Burnley-Wolves,3
+E1,Burnley,E1-Lincoln-Burnley,3
+E1,Burnley,E1-Burnley-Portsmou,4
+E1,Burnley,E1-QPR-Burnley,4
+E1,Burnley,E1-Cardiff-Burnley,4
+E1,Burnley,E1-Burnley-Blackbur,4
+E1,Burnley,E1-Burnley-Birmingh,5
+E1,Burnley,E1-Millwall-Burnley,5
+E1,Burnley,E1-Burnley-Preston,5
+E1,Burnley,E1-Southamp-Burnley,5
+E1,Burnley,E1-Sheffiel-Burnley,6
+E1,Burnley,E1-Burnley-Stoke,6
+E1,Burnley,E1-Bolton-Burnley,6
+E1,Burnley,E1-Burnley-Lincoln,6
+E1,Burnley,E1-Burnley-Sheffiel,7
+E1,Burnley,E1-Wolves-Burnley,7
+E1,Burnley,E1-Portsmou-Burnley,7
+E1,Burnley,E1-Burnley-QPR,7
+E1,Burnley,E1-Burnley-Cardiff,8
+E1,Burnley,E1-Blackbur-Burnley,8
+E1,Burnley,E1-Burnley-Swansea,8
+E1,Burnley,E1-Charlton-Burnley,8
+E1,Burnley,E1-Derby-Burnley,9
+E1,Burnley,E1-Burnley-Watford,9
+E1,Burnley,E1-Burnley-WestBrom,9
+E1,Burnley,E1-WestHam-Burnley,9
+E1,Burnley,E1-Burnley-Millwall,10
+E1,Burnley,E1-Preston-Burnley,10
+E1,Burnley,E1-Burnley-Bolton,10
+E1,Burnley,E1-Stoke-Burnley,10
+E1,Burnley,E1-Burnley-Wrexham,11
+E1,Burnley,E1-BristolC-Burnley,11
+E1,Burnley,E1-Burnley-Norwich,11
+E1,Burnley,E1-Middlesb-Burnley,11
+E1,Burnley,E1-Burnley-Southamp,12
+E1,Burnley,E1-Birmingh-Burnley,12
+E1,Cardiff,E1-Cardiff-Wrexham,1
+E1,Cardiff,E1-Derby-Cardiff,1
+E1,Cardiff,E1-Cardiff-Sheffiel,1
+E1,Cardiff,E1-QPR-Cardiff,1
+E1,Cardiff,E1-Portsmou-Cardiff,2
+E1,Cardiff,E1-Cardiff-Stoke,2
+E1,Cardiff,E1-Bolton-Cardiff,2
+E1,Cardiff,E1-Cardiff-Charlton,2
+E1,Cardiff,E1-Blackbur-Cardiff,3
+E1,Cardiff,E1-Cardiff-Watford,3
+E1,Cardiff,E1-Middlesb-Cardiff,3
+E1,Cardiff,E1-Cardiff-Birmingh,3
+E1,Cardiff,E1-Wolves-Cardiff,4
+E1,Cardiff,E1-Cardiff-WestHam,4
+E1,Cardiff,E1-Cardiff-Burnley,4
+E1,Cardiff,E1-Norwich-Cardiff,4
+E1,Cardiff,E1-Cardiff-Preston,5
+E1,Cardiff,E1-Swansea-Cardiff,5
+E1,Cardiff,E1-Cardiff-Lincoln,5
+E1,Cardiff,E1-WestBrom-Cardiff,5
+E1,Cardiff,E1-Cardiff-Southamp,6
+E1,Cardiff,E1-BristolC-Cardiff,6
+E1,Cardiff,E1-Cardiff-Millwall,6
+E1,Cardiff,E1-Birmingh-Cardiff,6
+E1,Cardiff,E1-Southamp-Cardiff,7
+E1,Cardiff,E1-Cardiff-Middlesb,7
+E1,Cardiff,E1-Cardiff-Wolves,7
+E1,Cardiff,E1-WestHam-Cardiff,7
+E1,Cardiff,E1-Burnley-Cardiff,8
+E1,Cardiff,E1-Cardiff-Norwich,8
+E1,Cardiff,E1-Cardiff-Bolton,8
+E1,Cardiff,E1-Watford-Cardiff,8
+E1,Cardiff,E1-Charlton-Cardiff,9
+E1,Cardiff,E1-Cardiff-Blackbur,9
+E1,Cardiff,E1-Cardiff-Derby,9
+E1,Cardiff,E1-Wrexham-Cardiff,9
+E1,Cardiff,E1-Cardiff-Swansea,10
+E1,Cardiff,E1-Lincoln-Cardiff,10
+E1,Cardiff,E1-Millwall-Cardiff,10
+E1,Cardiff,E1-Cardiff-BristolC,10
+E1,Cardiff,E1-Stoke-Cardiff,11
+E1,Cardiff,E1-Cardiff-Portsmou,11
+E1,Cardiff,E1-Sheffiel-Cardiff,11
+E1,Cardiff,E1-Cardiff-QPR,11
+E1,Cardiff,E1-Cardiff-WestBrom,12
+E1,Cardiff,E1-Preston-Cardiff,12
+E1,Charlton,E1-Charlton-Derby,1
+E1,Charlton,E1-WestHam-Charlton,1
+E1,Charlton,E1-Charlton-Preston,1
+E1,Charlton,E1-WestBrom-Charlton,1
+E1,Charlton,E1-Stoke-Charlton,2
+E1,Charlton,E1-Charlton-QPR,2
+E1,Charlton,E1-Charlton-Portsmou,2
+E1,Charlton,E1-Cardiff-Charlton,2
+E1,Charlton,E1-Charlton-BristolC,3
+E1,Charlton,E1-Burnley-Charlton,3
+E1,Charlton,E1-Watford-Charlton,3
+E1,Charlton,E1-Charlton-Norwich,3
+E1,Charlton,E1-Middlesb-Charlton,4
+E1,Charlton,E1-Charlton-Bolton,4
+E1,Charlton,E1-Charlton-Sheffiel,4
+E1,Charlton,E1-Wolves-Charlton,4
+E1,Charlton,E1-Charlton-Lincoln,5
+E1,Charlton,E1-Blackbur-Charlton,5
+E1,Charlton,E1-Charlton-Birmingh,5
+E1,Charlton,E1-Wrexham-Charlton,5
+E1,Charlton,E1-Charlton-Swansea,6
+E1,Charlton,E1-Millwall-Charlton,6
+E1,Charlton,E1-Charlton-Southamp,6
+E1,Charlton,E1-Norwich-Charlton,6
+E1,Charlton,E1-Swansea-Charlton,7
+E1,Charlton,E1-Charlton-Watford,7
+E1,Charlton,E1-Charlton-Middlesb,7
+E1,Charlton,E1-Bolton-Charlton,7
+E1,Charlton,E1-Sheffiel-Charlton,8
+E1,Charlton,E1-Charlton-Wolves,8
+E1,Charlton,E1-Portsmou-Charlton,8
+E1,Charlton,E1-Charlton-Burnley,8
+E1,Charlton,E1-Charlton-Cardiff,9
+E1,Charlton,E1-BristolC-Charlton,9
+E1,Charlton,E1-Charlton-WestHam,9
+E1,Charlton,E1-Derby-Charlton,9
+E1,Charlton,E1-Charlton-Blackbur,10
+E1,Charlton,E1-Birmingh-Charlton,10
+E1,Charlton,E1-Southamp-Charlton,10
+E1,Charlton,E1-Charlton-Millwall,10
+E1,Charlton,E1-QPR-Charlton,11
+E1,Charlton,E1-Charlton-Stoke,11
+E1,Charlton,E1-Preston-Charlton,11
+E1,Charlton,E1-Charlton-WestBrom,11
+E1,Charlton,E1-Charlton-Wrexham,12
+E1,Charlton,E1-Lincoln-Charlton,12
+E1,Derby,E1-Charlton-Derby,1
+E1,Derby,E1-Derby-Cardiff,1
+E1,Derby,E1-Derby-Swansea,1
+E1,Derby,E1-Portsmou-Derby,1
+E1,Derby,E1-WestHam-Derby,2
+E1,Derby,E1-Derby-WestBrom,2
+E1,Derby,E1-Derby-Birmingh,2
+E1,Derby,E1-Burnley-Derby,2
+E1,Derby,E1-Derby-Wrexham,3
+E1,Derby,E1-QPR-Derby,3
+E1,Derby,E1-Derby-Stoke,3
+E1,Derby,E1-Sheffiel-Derby,3
+E1,Derby,E1-Millwall-Derby,4
+E1,Derby,E1-Derby-Norwich,4
+E1,Derby,E1-Derby-Bolton,4
+E1,Derby,E1-Southamp-Derby,4
+E1,Derby,E1-Wolves-Derby,5
+E1,Derby,E1-Derby-Watford,5
+E1,Derby,E1-Middlesb-Derby,5
+E1,Derby,E1-Derby-BristolC,5
+E1,Derby,E1-Blackbur-Derby,6
+E1,Derby,E1-Derby-Lincoln,6
+E1,Derby,E1-Preston-Derby,6
+E1,Derby,E1-Derby-Sheffiel,6
+E1,Derby,E1-Derby-Blackbur,7
+E1,Derby,E1-Stoke-Derby,7
+E1,Derby,E1-Derby-Millwall,7
+E1,Derby,E1-Norwich-Derby,7
+E1,Derby,E1-Bolton-Derby,8
+E1,Derby,E1-Derby-Southamp,8
+E1,Derby,E1-Birmingh-Derby,8
+E1,Derby,E1-Derby-QPR,8
+E1,Derby,E1-Derby-Burnley,9
+E1,Derby,E1-Wrexham-Derby,9
+E1,Derby,E1-Cardiff-Derby,9
+E1,Derby,E1-Derby-Charlton,9
+E1,Derby,E1-Watford-Derby,10
+E1,Derby,E1-Derby-Middlesb,10
+E1,Derby,E1-Derby-Preston,10
+E1,Derby,E1-Lincoln-Derby,10
+E1,Derby,E1-WestBrom-Derby,11
+E1,Derby,E1-Derby-WestHam,11
+E1,Derby,E1-Swansea-Derby,11
+E1,Derby,E1-Derby-Portsmou,11
+E1,Derby,E1-BristolC-Derby,12
+E1,Derby,E1-Derby-Wolves,12
+E1,Lincoln,E1-Middlesb-Lincoln,1
+E1,Lincoln,E1-Lincoln-Portsmou,1
+E1,Lincoln,E1-Bolton-Lincoln,1
+E1,Lincoln,E1-Lincoln-Blackbur,1
+E1,Lincoln,E1-Lincoln-Southamp,2
+E1,Lincoln,E1-Preston-Lincoln,2
+E1,Lincoln,E1-BristolC-Lincoln,2
+E1,Lincoln,E1-Lincoln-Swansea,2
+E1,Lincoln,E1-Sheffiel-Lincoln,3
+E1,Lincoln,E1-Lincoln-WestHam,3
+E1,Lincoln,E1-Millwall-Lincoln,3
+E1,Lincoln,E1-Lincoln-Burnley,3
+E1,Lincoln,E1-Lincoln-Birmingh,4
+E1,Lincoln,E1-Watford-Lincoln,4
+E1,Lincoln,E1-QPR-Lincoln,4
+E1,Lincoln,E1-Lincoln-Wrexham,4
+E1,Lincoln,E1-Charlton-Lincoln,5
+E1,Lincoln,E1-Lincoln-Wolves,5
+E1,Lincoln,E1-Cardiff-Lincoln,5
+E1,Lincoln,E1-Lincoln-Stoke,5
+E1,Lincoln,E1-Lincoln-Norwich,6
+E1,Lincoln,E1-Derby-Lincoln,6
+E1,Lincoln,E1-Lincoln-WestBrom,6
+E1,Lincoln,E1-Burnley-Lincoln,6
+E1,Lincoln,E1-Norwich-Lincoln,7
+E1,Lincoln,E1-Lincoln-Millwall,7
+E1,Lincoln,E1-Birmingh-Lincoln,7
+E1,Lincoln,E1-Lincoln-Watford,7
+E1,Lincoln,E1-Lincoln-QPR,8
+E1,Lincoln,E1-Wrexham-Lincoln,8
+E1,Lincoln,E1-Lincoln-Preston,8
+E1,Lincoln,E1-WestHam-Lincoln,8
+E1,Lincoln,E1-Swansea-Lincoln,9
+E1,Lincoln,E1-Lincoln-Sheffiel,9
+E1,Lincoln,E1-Portsmou-Lincoln,9
+E1,Lincoln,E1-Lincoln-Middlesb,9
+E1,Lincoln,E1-Wolves-Lincoln,10
+E1,Lincoln,E1-Lincoln-Cardiff,10
+E1,Lincoln,E1-WestBrom-Lincoln,10
+E1,Lincoln,E1-Lincoln-Derby,10
+E1,Lincoln,E1-Lincoln-BristolC,11
+E1,Lincoln,E1-Southamp-Lincoln,11
+E1,Lincoln,E1-Lincoln-Bolton,11
+E1,Lincoln,E1-Blackbur-Lincoln,11
+E1,Lincoln,E1-Stoke-Lincoln,12
+E1,Lincoln,E1-Lincoln-Charlton,12
+E1,Middlesbrough,E1-Middlesb-Lincoln,1
+E1,Middlesbrough,E1-Blackbur-Middlesb,1
+E1,Middlesbrough,E1-Middlesb-WestBrom,1
+E1,Middlesbrough,E1-Burnley-Middlesb,1
+E1,Middlesbrough,E1-QPR-Middlesb,2
+E1,Middlesbrough,E1-Middlesb-Norwich,2
+E1,Middlesbrough,E1-Middlesb-Millwall,2
+E1,Middlesbrough,E1-Birmingh-Middlesb,2
+E1,Middlesbrough,E1-Middlesb-Wolves,3
+E1,Middlesbrough,E1-Stoke-Middlesb,3
+E1,Middlesbrough,E1-Middlesb-Cardiff,3
+E1,Middlesbrough,E1-Bolton-Middlesb,3
+E1,Middlesbrough,E1-Middlesb-Charlton,4
+E1,Middlesbrough,E1-Wrexham-Middlesb,4
+E1,Middlesbrough,E1-Watford-Middlesb,4
+E1,Middlesbrough,E1-Middlesb-BristolC,4
+E1,Middlesbrough,E1-Middlesb-Swansea,5
+E1,Middlesbrough,E1-Southamp-Middlesb,5
+E1,Middlesbrough,E1-Middlesb-Derby,5
+E1,Middlesbrough,E1-WestHam-Middlesb,5
+E1,Middlesbrough,E1-Preston-Middlesb,6
+E1,Middlesbrough,E1-Middlesb-Portsmou,6
+E1,Middlesbrough,E1-Sheffiel-Middlesb,6
+E1,Middlesbrough,E1-Middlesb-Bolton,6
+E1,Middlesbrough,E1-Middlesb-Preston,7
+E1,Middlesbrough,E1-Cardiff-Middlesb,7
+E1,Middlesbrough,E1-Charlton-Middlesb,7
+E1,Middlesbrough,E1-Middlesb-Wrexham,7
+E1,Middlesbrough,E1-Middlesb-Watford,8
+E1,Middlesbrough,E1-BristolC-Middlesb,8
+E1,Middlesbrough,E1-Norwich-Middlesb,8
+E1,Middlesbrough,E1-Middlesb-Stoke,8
+E1,Middlesbrough,E1-Middlesb-Birmingh,9
+E1,Middlesbrough,E1-Wolves-Middlesb,9
+E1,Middlesbrough,E1-Middlesb-Blackbur,9
+E1,Middlesbrough,E1-Lincoln-Middlesb,9
+E1,Middlesbrough,E1-Middlesb-Southamp,10
+E1,Middlesbrough,E1-Derby-Middlesb,10
+E1,Middlesbrough,E1-Middlesb-Sheffiel,10
+E1,Middlesbrough,E1-Portsmou-Middlesb,10
+E1,Middlesbrough,E1-Millwall-Middlesb,11
+E1,Middlesbrough,E1-Middlesb-QPR,11
+E1,Middlesbrough,E1-WestBrom-Middlesb,11
+E1,Middlesbrough,E1-Middlesb-Burnley,11
+E1,Middlesbrough,E1-Middlesb-WestHam,12
+E1,Middlesbrough,E1-Swansea-Middlesb,12
+E1,Millwall,E1-BristolC-Millwall,1
+E1,Millwall,E1-Millwall-Norwich,1
+E1,Millwall,E1-Southamp-Millwall,1
+E1,Millwall,E1-Millwall-Wrexham,1
+E1,Millwall,E1-Millwall-Bolton,2
+E1,Millwall,E1-Blackbur-Millwall,2
+E1,Millwall,E1-Middlesb-Millwall,2
+E1,Millwall,E1-Millwall-WestHam,2
+E1,Millwall,E1-Preston-Millwall,3
+E1,Millwall,E1-Millwall-Swansea,3
+E1,Millwall,E1-Millwall-Lincoln,3
+E1,Millwall,E1-Portsmou-Millwall,3
+E1,Millwall,E1-Millwall-Derby,4
+E1,Millwall,E1-Birmingh-Millwall,4
+E1,Millwall,E1-WestBrom-Millwall,4
+E1,Millwall,E1-Millwall-QPR,4
+E1,Millwall,E1-Stoke-Millwall,5
+E1,Millwall,E1-Millwall-Burnley,5
+E1,Millwall,E1-Watford-Millwall,5
+E1,Millwall,E1-Millwall-Sheffiel,5
+E1,Millwall,E1-Wolves-Millwall,6
+E1,Millwall,E1-Millwall-Charlton,6
+E1,Millwall,E1-Cardiff-Millwall,6
+E1,Millwall,E1-Millwall-Portsmou,6
+E1,Millwall,E1-Millwall-Wolves,7
+E1,Millwall,E1-Lincoln-Millwall,7
+E1,Millwall,E1-Derby-Millwall,7
+E1,Millwall,E1-Millwall-Birmingh,7
+E1,Millwall,E1-Millwall-WestBrom,8
+E1,Millwall,E1-QPR-Millwall,8
+E1,Millwall,E1-Millwall-Blackbur,8
+E1,Millwall,E1-Swansea-Millwall,8
+E1,Millwall,E1-WestHam-Millwall,9
+E1,Millwall,E1-Millwall-Preston,9
+E1,Millwall,E1-Norwich-Millwall,9
+E1,Millwall,E1-Millwall-BristolC,9
+E1,Millwall,E1-Burnley-Millwall,10
+E1,Millwall,E1-Millwall-Watford,10
+E1,Millwall,E1-Millwall-Cardiff,10
+E1,Millwall,E1-Charlton-Millwall,10
+E1,Millwall,E1-Millwall-Middlesb,11
+E1,Millwall,E1-Bolton-Millwall,11
+E1,Millwall,E1-Millwall-Southamp,11
+E1,Millwall,E1-Wrexham-Millwall,11
+E1,Millwall,E1-Sheffiel-Millwall,12
+E1,Millwall,E1-Millwall-Stoke,12
+E1,Norwich,E1-Norwich-WestBrom,1
+E1,Norwich,E1-Millwall-Norwich,1
+E1,Norwich,E1-Norwich-Burnley,1
+E1,Norwich,E1-Stoke-Norwich,1
+E1,Norwich,E1-Sheffiel-Norwich,2
+E1,Norwich,E1-Norwich-Birmingh,2
+E1,Norwich,E1-Middlesb-Norwich,2
+E1,Norwich,E1-Norwich-Bolton,2
+E1,Norwich,E1-Swansea-Norwich,3
+E1,Norwich,E1-Norwich-Southamp,3
+E1,Norwich,E1-Norwich-Portsmou,3
+E1,Norwich,E1-Charlton-Norwich,3
+E1,Norwich,E1-Norwich-Watford,4
+E1,Norwich,E1-Derby-Norwich,4
+E1,Norwich,E1-BristolC-Norwich,4
+E1,Norwich,E1-Norwich-Cardiff,4
+E1,Norwich,E1-Norwich-QPR,5
+E1,Norwich,E1-Preston-Norwich,5
+E1,Norwich,E1-Norwich-Wrexham,5
+E1,Norwich,E1-Blackbur-Norwich,5
+E1,Norwich,E1-Lincoln-Norwich,6
+E1,Norwich,E1-Norwich-Wolves,6
+E1,Norwich,E1-WestHam-Norwich,6
+E1,Norwich,E1-Norwich-Charlton,6
+E1,Norwich,E1-Norwich-Lincoln,7
+E1,Norwich,E1-Portsmou-Norwich,7
+E1,Norwich,E1-Watford-Norwich,7
+E1,Norwich,E1-Norwich-Derby,7
+E1,Norwich,E1-Norwich-BristolC,8
+E1,Norwich,E1-Cardiff-Norwich,8
+E1,Norwich,E1-Norwich-Middlesb,8
+E1,Norwich,E1-Southamp-Norwich,8
+E1,Norwich,E1-Bolton-Norwich,9
+E1,Norwich,E1-Norwich-Swansea,9
+E1,Norwich,E1-Norwich-Millwall,9
+E1,Norwich,E1-WestBrom-Norwich,9
+E1,Norwich,E1-Norwich-Preston,10
+E1,Norwich,E1-Wrexham-Norwich,10
+E1,Norwich,E1-Norwich-WestHam,10
+E1,Norwich,E1-Wolves-Norwich,10
+E1,Norwich,E1-Birmingh-Norwich,11
+E1,Norwich,E1-Norwich-Sheffiel,11
+E1,Norwich,E1-Burnley-Norwich,11
+E1,Norwich,E1-Norwich-Stoke,11
+E1,Norwich,E1-Norwich-Blackbur,12
+E1,Norwich,E1-QPR-Norwich,12
+E1,Portsmouth,E1-Portsmou-QPR,1
+E1,Portsmouth,E1-Lincoln-Portsmou,1
+E1,Portsmouth,E1-BristolC-Portsmou,1
+E1,Portsmouth,E1-Portsmou-Derby,1
+E1,Portsmouth,E1-Portsmou-Cardiff,2
+E1,Portsmouth,E1-Charlton-Portsmou,2
+E1,Portsmouth,E1-Portsmou-Blackbur,2
+E1,Portsmouth,E1-Southamp-Portsmou,2
+E1,Portsmouth,E1-Portsmou-Sheffiel,3
+E1,Portsmouth,E1-Norwich-Portsmou,3
+E1,Portsmouth,E1-Wolves-Portsmou,3
+E1,Portsmouth,E1-Portsmou-Millwall,3
+E1,Portsmouth,E1-Burnley-Portsmou,4
+E1,Portsmouth,E1-Portsmou-Swansea,4
+E1,Portsmouth,E1-Portsmou-Stoke,4
+E1,Portsmouth,E1-Bolton-Portsmou,4
+E1,Portsmouth,E1-Portsmou-WestHam,5
+E1,Portsmouth,E1-Wrexham-Portsmou,5
+E1,Portsmouth,E1-Portsmou-WestBrom,5
+E1,Portsmouth,E1-Preston-Portsmou,5
+E1,Portsmouth,E1-Portsmou-Birmingh,6
+E1,Portsmouth,E1-Middlesb-Portsmou,6
+E1,Portsmouth,E1-Portsmou-Watford,6
+E1,Portsmouth,E1-Millwall-Portsmou,6
+E1,Portsmouth,E1-Birmingh-Portsmou,7
+E1,Portsmouth,E1-Portsmou-Norwich,7
+E1,Portsmouth,E1-Portsmou-Burnley,7
+E1,Portsmouth,E1-Swansea-Portsmou,7
+E1,Portsmouth,E1-Stoke-Portsmou,8
+E1,Portsmouth,E1-Portsmou-Bolton,8
+E1,Portsmouth,E1-Portsmou-Charlton,8
+E1,Portsmouth,E1-Sheffiel-Portsmou,8
+E1,Portsmouth,E1-Blackbur-Portsmou,9
+E1,Portsmouth,E1-Portsmou-Southamp,9
+E1,Portsmouth,E1-Portsmou-Lincoln,9
+E1,Portsmouth,E1-QPR-Portsmou,9
+E1,Portsmouth,E1-Portsmou-Wrexham,10
+E1,Portsmouth,E1-WestBrom-Portsmou,10
+E1,Portsmouth,E1-Watford-Portsmou,10
+E1,Portsmouth,E1-Portsmou-Middlesb,10
+E1,Portsmouth,E1-Portsmou-Wolves,11
+E1,Portsmouth,E1-Cardiff-Portsmou,11
+E1,Portsmouth,E1-Portsmou-BristolC,11
+E1,Portsmouth,E1-Derby-Portsmou,11
+E1,Portsmouth,E1-Portsmou-Preston,12
+E1,Portsmouth,E1-WestHam-Portsmou,12
+E1,Preston,E1-Bolton-Preston,1
+E1,Preston,E1-Preston-Wolves,1
+E1,Preston,E1-Charlton-Preston,1
+E1,Preston,E1-Preston-BristolC,1
+E1,Preston,E1-Preston-Blackbur,2
+E1,Preston,E1-Watford-Preston,2
+E1,Preston,E1-Preston-Lincoln,2
+E1,Preston,E1-QPR-Preston,2
+E1,Preston,E1-Preston-Millwall,3
+E1,Preston,E1-Birmingh-Preston,3
+E1,Preston,E1-Wrexham-Preston,3
+E1,Preston,E1-Preston-WestBrom,3
+E1,Preston,E1-Stoke-Preston,4
+E1,Preston,E1-Preston-Sheffiel,4
+E1,Preston,E1-Preston-Southamp,4
+E1,Preston,E1-WestHam-Preston,4
+E1,Preston,E1-Cardiff-Preston,5
+E1,Preston,E1-Preston-Norwich,5
+E1,Preston,E1-Burnley-Preston,5
+E1,Preston,E1-Preston-Portsmou,5
+E1,Preston,E1-Preston-Middlesb,6
+E1,Preston,E1-Swansea-Preston,6
+E1,Preston,E1-Preston-Derby,6
+E1,Preston,E1-WestBrom-Preston,6
+E1,Preston,E1-Middlesb-Preston,7
+E1,Preston,E1-Preston-Wrexham,7
+E1,Preston,E1-Preston-Stoke,7
+E1,Preston,E1-Sheffiel-Preston,7
+E1,Preston,E1-Southamp-Preston,8
+E1,Preston,E1-Preston-WestHam,8
+E1,Preston,E1-Lincoln-Preston,8
+E1,Preston,E1-Preston-Birmingh,8
+E1,Preston,E1-Preston-QPR,9
+E1,Preston,E1-Millwall-Preston,9
+E1,Preston,E1-Wolves-Preston,9
+E1,Preston,E1-Preston-Bolton,9
+E1,Preston,E1-Norwich-Preston,10
+E1,Preston,E1-Preston-Burnley,10
+E1,Preston,E1-Derby-Preston,10
+E1,Preston,E1-Preston-Swansea,10
+E1,Preston,E1-Preston-Watford,11
+E1,Preston,E1-Blackbur-Preston,11
+E1,Preston,E1-Preston-Charlton,11
+E1,Preston,E1-BristolC-Preston,11
+E1,Preston,E1-Portsmou-Preston,12
+E1,Preston,E1-Preston-Cardiff,12
+E1,QPR,E1-Portsmou-QPR,1
+E1,QPR,E1-QPR-Bolton,1
+E1,QPR,E1-Blackbur-QPR,1
+E1,QPR,E1-QPR-Cardiff,1
+E1,QPR,E1-QPR-Middlesb,2
+E1,QPR,E1-Charlton-QPR,2
+E1,QPR,E1-WestBrom-QPR,2
+E1,QPR,E1-QPR-Preston,2
+E1,QPR,E1-WestHam-QPR,3
+E1,QPR,E1-QPR-Derby,3
+E1,QPR,E1-Birmingh-QPR,3
+E1,QPR,E1-QPR-Swansea,3
+E1,QPR,E1-Southamp-QPR,4
+E1,QPR,E1-QPR-Burnley,4
+E1,QPR,E1-QPR-Lincoln,4
+E1,QPR,E1-Millwall-QPR,4
+E1,QPR,E1-Norwich-QPR,5
+E1,QPR,E1-QPR-Sheffiel,5
+E1,QPR,E1-Stoke-QPR,5
+E1,QPR,E1-QPR-Wolves,5
+E1,QPR,E1-QPR-Watford,6
+E1,QPR,E1-Wrexham-QPR,6
+E1,QPR,E1-QPR-BristolC,6
+E1,QPR,E1-Swansea-QPR,6
+E1,QPR,E1-Watford-QPR,7
+E1,QPR,E1-QPR-Birmingh,7
+E1,QPR,E1-QPR-Southamp,7
+E1,QPR,E1-Burnley-QPR,7
+E1,QPR,E1-Lincoln-QPR,8
+E1,QPR,E1-QPR-Millwall,8
+E1,QPR,E1-QPR-WestBrom,8
+E1,QPR,E1-Derby-QPR,8
+E1,QPR,E1-Preston-QPR,9
+E1,QPR,E1-QPR-WestHam,9
+E1,QPR,E1-Bolton-QPR,9
+E1,QPR,E1-QPR-Portsmou,9
+E1,QPR,E1-Sheffiel-QPR,10
+E1,QPR,E1-QPR-Stoke,10
+E1,QPR,E1-BristolC-QPR,10
+E1,QPR,E1-QPR-Wrexham,10
+E1,QPR,E1-QPR-Charlton,11
+E1,QPR,E1-Middlesb-QPR,11
+E1,QPR,E1-QPR-Blackbur,11
+E1,QPR,E1-Cardiff-QPR,11
+E1,QPR,E1-Wolves-QPR,12
+E1,QPR,E1-QPR-Norwich,12
+E1,Sheffield United,E1-Sheffiel-Birmingh,1
+E1,Sheffield United,E1-Swansea-Sheffiel,1
+E1,Sheffield United,E1-Cardiff-Sheffiel,1
+E1,Sheffield United,E1-Sheffiel-Bolton,1
+E1,Sheffield United,E1-Sheffiel-Norwich,2
+E1,Sheffield United,E1-Blackbur-Sheffiel,2
+E1,Sheffield United,E1-Sheffiel-Wolves,2
+E1,Sheffield United,E1-Stoke-Sheffiel,2
+E1,Sheffield United,E1-Sheffiel-Lincoln,3
+E1,Sheffield United,E1-Portsmou-Sheffiel,3
+E1,Sheffield United,E1-BristolC-Sheffiel,3
+E1,Sheffield United,E1-Sheffiel-Derby,3
+E1,Sheffield United,E1-Sheffiel-Wrexham,4
+E1,Sheffield United,E1-Preston-Sheffiel,4
+E1,Sheffield United,E1-Charlton-Sheffiel,4
+E1,Sheffield United,E1-Sheffiel-Watford,4
+E1,Sheffield United,E1-Sheffiel-Southamp,5
+E1,Sheffield United,E1-QPR-Sheffiel,5
+E1,Sheffield United,E1-Sheffiel-WestHam,5
+E1,Sheffield United,E1-Millwall-Sheffiel,5
+E1,Sheffield United,E1-Sheffiel-Burnley,6
+E1,Sheffield United,E1-WestBrom-Sheffiel,6
+E1,Sheffield United,E1-Sheffiel-Middlesb,6
+E1,Sheffield United,E1-Derby-Sheffiel,6
+E1,Sheffield United,E1-Burnley-Sheffiel,7
+E1,Sheffield United,E1-Sheffiel-BristolC,7
+E1,Sheffield United,E1-Wrexham-Sheffiel,7
+E1,Sheffield United,E1-Sheffiel-Preston,7
+E1,Sheffield United,E1-Sheffiel-Charlton,8
+E1,Sheffield United,E1-Watford-Sheffiel,8
+E1,Sheffield United,E1-Wolves-Sheffiel,8
+E1,Sheffield United,E1-Sheffiel-Portsmou,8
+E1,Sheffield United,E1-Sheffiel-Stoke,9
+E1,Sheffield United,E1-Lincoln-Sheffiel,9
+E1,Sheffield United,E1-Sheffiel-Swansea,9
+E1,Sheffield United,E1-Birmingh-Sheffiel,9
+E1,Sheffield United,E1-Sheffiel-QPR,10
+E1,Sheffield United,E1-WestHam-Sheffiel,10
+E1,Sheffield United,E1-Middlesb-Sheffiel,10
+E1,Sheffield United,E1-Sheffiel-WestBrom,10
+E1,Sheffield United,E1-Sheffiel-Blackbur,11
+E1,Sheffield United,E1-Norwich-Sheffiel,11
+E1,Sheffield United,E1-Sheffiel-Cardiff,11
+E1,Sheffield United,E1-Bolton-Sheffiel,11
+E1,Sheffield United,E1-Sheffiel-Millwall,12
+E1,Sheffield United,E1-Southamp-Sheffiel,12
+E1,Southampton,E1-Watford-Southamp,1
+E1,Southampton,E1-Southamp-Stoke,1
+E1,Southampton,E1-Southamp-Millwall,1
+E1,Southampton,E1-Birmingh-Southamp,1
+E1,Southampton,E1-Lincoln-Southamp,2
+E1,Southampton,E1-Southamp-Swansea,2
+E1,Southampton,E1-Southamp-BristolC,2
+E1,Southampton,E1-Wrexham-Southamp,2
+E1,Southampton,E1-Southamp-Portsmou,3
+E1,Southampton,E1-Norwich-Southamp,3
+E1,Southampton,E1-Southamp-Bolton,3
+E1,Southampton,E1-WestHam-Southamp,3
+E1,Southampton,E1-Southamp-QPR,4
+E1,Southampton,E1-WestBrom-Southamp,4
+E1,Southampton,E1-Preston-Southamp,4
+E1,Southampton,E1-Southamp-Derby,4
+E1,Southampton,E1-Sheffiel-Southamp,5
+E1,Southampton,E1-Southamp-Middlesb,5
+E1,Southampton,E1-Wolves-Southamp,5
+E1,Southampton,E1-Southamp-Burnley,5
+E1,Southampton,E1-Cardiff-Southamp,6
+E1,Southampton,E1-Southamp-Blackbur,6
+E1,Southampton,E1-Charlton-Southamp,6
+E1,Southampton,E1-Southamp-WestHam,6
+E1,Southampton,E1-Southamp-Cardiff,7
+E1,Southampton,E1-Bolton-Southamp,7
+E1,Southampton,E1-QPR-Southamp,7
+E1,Southampton,E1-Southamp-WestBrom,7
+E1,Southampton,E1-Southamp-Preston,8
+E1,Southampton,E1-Derby-Southamp,8
+E1,Southampton,E1-BristolC-Southamp,8
+E1,Southampton,E1-Southamp-Norwich,8
+E1,Southampton,E1-Southamp-Wrexham,9
+E1,Southampton,E1-Portsmou-Southamp,9
+E1,Southampton,E1-Stoke-Southamp,9
+E1,Southampton,E1-Southamp-Watford,9
+E1,Southampton,E1-Middlesb-Southamp,10
+E1,Southampton,E1-Southamp-Wolves,10
+E1,Southampton,E1-Southamp-Charlton,10
+E1,Southampton,E1-Blackbur-Southamp,10
+E1,Southampton,E1-Swansea-Southamp,11
+E1,Southampton,E1-Southamp-Lincoln,11
+E1,Southampton,E1-Millwall-Southamp,11
+E1,Southampton,E1-Southamp-Birmingh,11
+E1,Southampton,E1-Burnley-Southamp,12
+E1,Southampton,E1-Southamp-Sheffiel,12
+E1,Stoke,E1-Stoke-Swansea,1
+E1,Stoke,E1-Southamp-Stoke,1
+E1,Stoke,E1-Wolves-Stoke,1
+E1,Stoke,E1-Stoke-Norwich,1
+E1,Stoke,E1-Stoke-Charlton,2
+E1,Stoke,E1-Cardiff-Stoke,2
+E1,Stoke,E1-Watford-Stoke,2
+E1,Stoke,E1-Stoke-Sheffiel,2
+E1,Stoke,E1-Bolton-Stoke,3
+E1,Stoke,E1-Stoke-Middlesb,3
+E1,Stoke,E1-Derby-Stoke,3
+E1,Stoke,E1-Stoke-BristolC,3
+E1,Stoke,E1-Stoke-Preston,4
+E1,Stoke,E1-Blackbur-Stoke,4
+E1,Stoke,E1-Portsmou-Stoke,4
+E1,Stoke,E1-Stoke-Birmingh,4
+E1,Stoke,E1-Stoke-Millwall,5
+E1,Stoke,E1-WestHam-Stoke,5
+E1,Stoke,E1-Stoke-QPR,5
+E1,Stoke,E1-Lincoln-Stoke,5
+E1,Stoke,E1-Stoke-WestBrom,6
+E1,Stoke,E1-Burnley-Stoke,6
+E1,Stoke,E1-Stoke-Wrexham,6
+E1,Stoke,E1-BristolC-Stoke,6
+E1,Stoke,E1-WestBrom-Stoke,7
+E1,Stoke,E1-Stoke-Derby,7
+E1,Stoke,E1-Preston-Stoke,7
+E1,Stoke,E1-Stoke-Blackbur,7
+E1,Stoke,E1-Stoke-Portsmou,8
+E1,Stoke,E1-Birmingh-Stoke,8
+E1,Stoke,E1-Stoke-Watford,8
+E1,Stoke,E1-Middlesb-Stoke,8
+E1,Stoke,E1-Sheffiel-Stoke,9
+E1,Stoke,E1-Stoke-Bolton,9
+E1,Stoke,E1-Stoke-Southamp,9
+E1,Stoke,E1-Swansea-Stoke,9
+E1,Stoke,E1-Stoke-WestHam,10
+E1,Stoke,E1-QPR-Stoke,10
+E1,Stoke,E1-Wrexham-Stoke,10
+E1,Stoke,E1-Stoke-Burnley,10
+E1,Stoke,E1-Stoke-Cardiff,11
+E1,Stoke,E1-Charlton-Stoke,11
+E1,Stoke,E1-Stoke-Wolves,11
+E1,Stoke,E1-Norwich-Stoke,11
+E1,Stoke,E1-Stoke-Lincoln,12
+E1,Stoke,E1-Millwall-Stoke,12
+E1,Swansea,E1-Stoke-Swansea,1
+E1,Swansea,E1-Swansea-Sheffiel,1
+E1,Swansea,E1-Derby-Swansea,1
+E1,Swansea,E1-Swansea-Watford,1
+E1,Swansea,E1-Swansea-Wrexham,2
+E1,Swansea,E1-Southamp-Swansea,2
+E1,Swansea,E1-Swansea-Burnley,2
+E1,Swansea,E1-Lincoln-Swansea,2
+E1,Swansea,E1-Swansea-Norwich,3
+E1,Swansea,E1-Millwall-Swansea,3
+E1,Swansea,E1-Swansea-WestHam,3
+E1,Swansea,E1-QPR-Swansea,3
+E1,Swansea,E1-Swansea-Blackbur,4
+E1,Swansea,E1-Portsmou-Swansea,4
+E1,Swansea,E1-Birmingh-Swansea,4
+E1,Swansea,E1-Swansea-WestBrom,4
+E1,Swansea,E1-Middlesb-Swansea,5
+E1,Swansea,E1-Swansea-Cardiff,5
+E1,Swansea,E1-BristolC-Swansea,5
+E1,Swansea,E1-Swansea-Bolton,5
+E1,Swansea,E1-Charlton-Swansea,6
+E1,Swansea,E1-Swansea-Preston,6
+E1,Swansea,E1-Wolves-Swansea,6
+E1,Swansea,E1-Swansea-QPR,6
+E1,Swansea,E1-Swansea-Charlton,7
+E1,Swansea,E1-WestHam-Swansea,7
+E1,Swansea,E1-Blackbur-Swansea,7
+E1,Swansea,E1-Swansea-Portsmou,7
+E1,Swansea,E1-Swansea-Birmingh,8
+E1,Swansea,E1-WestBrom-Swansea,8
+E1,Swansea,E1-Burnley-Swansea,8
+E1,Swansea,E1-Swansea-Millwall,8
+E1,Swansea,E1-Swansea-Lincoln,9
+E1,Swansea,E1-Norwich-Swansea,9
+E1,Swansea,E1-Sheffiel-Swansea,9
+E1,Swansea,E1-Swansea-Stoke,9
+E1,Swansea,E1-Cardiff-Swansea,10
+E1,Swansea,E1-Swansea-BristolC,10
+E1,Swansea,E1-Swansea-Wolves,10
+E1,Swansea,E1-Preston-Swansea,10
+E1,Swansea,E1-Swansea-Southamp,11
+E1,Swansea,E1-Wrexham-Swansea,11
+E1,Swansea,E1-Swansea-Derby,11
+E1,Swansea,E1-Watford-Swansea,11
+E1,Swansea,E1-Bolton-Swansea,12
+E1,Swansea,E1-Swansea-Middlesb,12
+E1,Watford,E1-Watford-Southamp,1
+E1,Watford,E1-Wrexham-Watford,1
+E1,Watford,E1-Watford-WestHam,1
+E1,Watford,E1-Swansea-Watford,1
+E1,Watford,E1-WestBrom-Watford,2
+E1,Watford,E1-Watford-Preston,2
+E1,Watford,E1-Watford-Stoke,2
+E1,Watford,E1-BristolC-Watford,2
+E1,Watford,E1-Watford-Burnley,3
+E1,Watford,E1-Cardiff-Watford,3
+E1,Watford,E1-Watford-Charlton,3
+E1,Watford,E1-Wolves-Watford,3
+E1,Watford,E1-Norwich-Watford,4
+E1,Watford,E1-Watford-Lincoln,4
+E1,Watford,E1-Watford-Middlesb,4
+E1,Watford,E1-Sheffiel-Watford,4
+E1,Watford,E1-Watford-Blackbur,5
+E1,Watford,E1-Derby-Watford,5
+E1,Watford,E1-Watford-Millwall,5
+E1,Watford,E1-Birmingh-Watford,5
+E1,Watford,E1-QPR-Watford,6
+E1,Watford,E1-Watford-Bolton,6
+E1,Watford,E1-Portsmou-Watford,6
+E1,Watford,E1-Watford-Wolves,6
+E1,Watford,E1-Watford-QPR,7
+E1,Watford,E1-Charlton-Watford,7
+E1,Watford,E1-Watford-Norwich,7
+E1,Watford,E1-Lincoln-Watford,7
+E1,Watford,E1-Middlesb-Watford,8
+E1,Watford,E1-Watford-Sheffiel,8
+E1,Watford,E1-Stoke-Watford,8
+E1,Watford,E1-Watford-Cardiff,8
+E1,Watford,E1-Watford-BristolC,9
+E1,Watford,E1-Burnley-Watford,9
+E1,Watford,E1-Watford-Wrexham,9
+E1,Watford,E1-Southamp-Watford,9
+E1,Watford,E1-Watford-Derby,10
+E1,Watford,E1-Millwall-Watford,10
+E1,Watford,E1-Watford-Portsmou,10
+E1,Watford,E1-Bolton-Watford,10
+E1,Watford,E1-Preston-Watford,11
+E1,Watford,E1-Watford-WestBrom,11
+E1,Watford,E1-WestHam-Watford,11
+E1,Watford,E1-Watford-Swansea,11
+E1,Watford,E1-Watford-Birmingh,12
+E1,Watford,E1-Blackbur-Watford,12
+E1,West Brom,E1-Norwich-WestBrom,1
+E1,West Brom,E1-WestBrom-Burnley,1
+E1,West Brom,E1-Middlesb-WestBrom,1
+E1,West Brom,E1-WestBrom-Charlton,1
+E1,West Brom,E1-WestBrom-Watford,2
+E1,West Brom,E1-Derby-WestBrom,2
+E1,West Brom,E1-WestBrom-QPR,2
+E1,West Brom,E1-Wolves-WestBrom,2
+E1,West Brom,E1-WestBrom-Birmingh,3
+E1,West Brom,E1-Wrexham-WestBrom,3
+E1,West Brom,E1-WestBrom-Blackbur,3
+E1,West Brom,E1-Preston-WestBrom,3
+E1,West Brom,E1-WestHam-WestBrom,4
+E1,West Brom,E1-WestBrom-Southamp,4
+E1,West Brom,E1-WestBrom-Millwall,4
+E1,West Brom,E1-Swansea-WestBrom,4
+E1,West Brom,E1-Bolton-WestBrom,5
+E1,West Brom,E1-WestBrom-BristolC,5
+E1,West Brom,E1-Portsmou-WestBrom,5
+E1,West Brom,E1-WestBrom-Cardiff,5
+E1,West Brom,E1-Stoke-WestBrom,6
+E1,West Brom,E1-WestBrom-Sheffiel,6
+E1,West Brom,E1-Lincoln-WestBrom,6
+E1,West Brom,E1-WestBrom-Preston,6
+E1,West Brom,E1-WestBrom-Stoke,7
+E1,West Brom,E1-Blackbur-WestBrom,7
+E1,West Brom,E1-WestBrom-WestHam,7
+E1,West Brom,E1-Southamp-WestBrom,7
+E1,West Brom,E1-Millwall-WestBrom,8
+E1,West Brom,E1-WestBrom-Swansea,8
+E1,West Brom,E1-QPR-WestBrom,8
+E1,West Brom,E1-WestBrom-Wrexham,8
+E1,West Brom,E1-WestBrom-Wolves,9
+E1,West Brom,E1-Birmingh-WestBrom,9
+E1,West Brom,E1-Burnley-WestBrom,9
+E1,West Brom,E1-WestBrom-Norwich,9
+E1,West Brom,E1-BristolC-WestBrom,10
+E1,West Brom,E1-WestBrom-Portsmou,10
+E1,West Brom,E1-WestBrom-Lincoln,10
+E1,West Brom,E1-Sheffiel-WestBrom,10
+E1,West Brom,E1-WestBrom-Derby,11
+E1,West Brom,E1-Watford-WestBrom,11
+E1,West Brom,E1-WestBrom-Middlesb,11
+E1,West Brom,E1-Charlton-WestBrom,11
+E1,West Brom,E1-Cardiff-WestBrom,12
+E1,West Brom,E1-WestBrom-Bolton,12
+E1,West Ham,E1-Burnley-WestHam,1
+E1,West Ham,E1-WestHam-Charlton,1
+E1,West Ham,E1-Watford-WestHam,1
+E1,West Ham,E1-WestHam-Wolves,1
+E1,West Ham,E1-WestHam-Derby,2
+E1,West Ham,E1-Bolton-WestHam,2
+E1,West Ham,E1-WestHam-Wrexham,2
+E1,West Ham,E1-Millwall-WestHam,2
+E1,West Ham,E1-WestHam-QPR,3
+E1,West Ham,E1-Lincoln-WestHam,3
+E1,West Ham,E1-Swansea-WestHam,3
+E1,West Ham,E1-WestHam-Southamp,3
+E1,West Ham,E1-WestHam-WestBrom,4
+E1,West Ham,E1-Cardiff-WestHam,4
+E1,West Ham,E1-Blackbur-WestHam,4
+E1,West Ham,E1-WestHam-Preston,4
+E1,West Ham,E1-Portsmou-WestHam,5
+E1,West Ham,E1-WestHam-Stoke,5
+E1,West Ham,E1-Sheffiel-WestHam,5
+E1,West Ham,E1-WestHam-Middlesb,5
+E1,West Ham,E1-WestHam-BristolC,6
+E1,West Ham,E1-Birmingh-WestHam,6
+E1,West Ham,E1-WestHam-Norwich,6
+E1,West Ham,E1-Southamp-WestHam,6
+E1,West Ham,E1-BristolC-WestHam,7
+E1,West Ham,E1-WestHam-Swansea,7
+E1,West Ham,E1-WestBrom-WestHam,7
+E1,West Ham,E1-WestHam-Cardiff,7
+E1,West Ham,E1-WestHam-Blackbur,8
+E1,West Ham,E1-Preston-WestHam,8
+E1,West Ham,E1-Wrexham-WestHam,8
+E1,West Ham,E1-WestHam-Lincoln,8
+E1,West Ham,E1-WestHam-Millwall,9
+E1,West Ham,E1-QPR-WestHam,9
+E1,West Ham,E1-Charlton-WestHam,9
+E1,West Ham,E1-WestHam-Burnley,9
+E1,West Ham,E1-Stoke-WestHam,10
+E1,West Ham,E1-WestHam-Sheffiel,10
+E1,West Ham,E1-Norwich-WestHam,10
+E1,West Ham,E1-WestHam-Birmingh,10
+E1,West Ham,E1-WestHam-Bolton,11
+E1,West Ham,E1-Derby-WestHam,11
+E1,West Ham,E1-WestHam-Watford,11
+E1,West Ham,E1-Wolves-WestHam,11
+E1,West Ham,E1-Middlesb-WestHam,12
+E1,West Ham,E1-WestHam-Portsmou,12
+E1,Wolves,E1-Wolves-Blackbur,1
+E1,Wolves,E1-Preston-Wolves,1
+E1,Wolves,E1-Wolves-Stoke,1
+E1,Wolves,E1-WestHam-Wolves,1
+E1,Wolves,E1-Birmingh-Wolves,2
+E1,Wolves,E1-Sheffiel-Wolves,2
+E1,Wolves,E1-Wolves-WestBrom,2
+E1,Wolves,E1-Middlesb-Wolves,2
+E1,Wolves,E1-Wolves-Bolton,3
+E1,Wolves,E1-Burnley-Wolves,3
+E1,Wolves,E1-Wolves-Portsmou,3
+E1,Wolves,E1-Wolves-Watford,3
+E1,Wolves,E1-Wolves-Cardiff,4
+E1,Wolves,E1-BristolC-Wolves,4
+E1,Wolves,E1-Wrexham-Wolves,4
+E1,Wolves,E1-Wolves-Charlton,4
+E1,Wolves,E1-Wolves-Derby,5
+E1,Wolves,E1-Lincoln-Wolves,5
+E1,Wolves,E1-Wolves-Southamp,5
+E1,Wolves,E1-QPR-Wolves,5
+E1,Wolves,E1-Wolves-Millwall,6
+E1,Wolves,E1-Norwich-Wolves,6
+E1,Wolves,E1-Wolves-Swansea,6
+E1,Wolves,E1-Watford-Wolves,6
+E1,Wolves,E1-Millwall-Wolves,7
+E1,Wolves,E1-Wolves-Burnley,7
+E1,Wolves,E1-Cardiff-Wolves,7
+E1,Wolves,E1-Wolves-BristolC,7
+E1,Wolves,E1-Wolves-Wrexham,8
+E1,Wolves,E1-Charlton-Wolves,8
+E1,Wolves,E1-Wolves-Sheffiel,8
+E1,Wolves,E1-Bolton-Wolves,8
+E1,Wolves,E1-WestBrom-Wolves,9
+E1,Wolves,E1-Wolves-Middlesb,9
+E1,Wolves,E1-Wolves-Preston,9
+E1,Wolves,E1-Blackbur-Wolves,9
+E1,Wolves,E1-Wolves-Lincoln,10
+E1,Wolves,E1-Southamp-Wolves,10
+E1,Wolves,E1-Swansea-Wolves,10
+E1,Wolves,E1-Wolves-Norwich,10
+E1,Wolves,E1-Portsmou-Wolves,11
+E1,Wolves,E1-Wolves-Birmingh,11
+E1,Wolves,E1-Stoke-Wolves,11
+E1,Wolves,E1-Wolves-WestHam,11
+E1,Wolves,E1-Wolves-QPR,12
+E1,Wolves,E1-Derby-Wolves,12
+E1,Wrexham,E1-Cardiff-Wrexham,1
+E1,Wrexham,E1-Wrexham-Watford,1
+E1,Wrexham,E1-Wrexham-Birmingh,1
+E1,Wrexham,E1-Millwall-Wrexham,1
+E1,Wrexham,E1-Swansea-Wrexham,2
+E1,Wrexham,E1-Wrexham-Burnley,2
+E1,Wrexham,E1-WestHam-Wrexham,2
+E1,Wrexham,E1-Wrexham-Southamp,2
+E1,Wrexham,E1-Derby-Wrexham,3
+E1,Wrexham,E1-Wrexham-WestBrom,3
+E1,Wrexham,E1-Wrexham-Preston,3
+E1,Wrexham,E1-Blackbur-Wrexham,3
+E1,Wrexham,E1-Sheffiel-Wrexham,4
+E1,Wrexham,E1-Wrexham-Middlesb,4
+E1,Wrexham,E1-Wrexham-Wolves,4
+E1,Wrexham,E1-Lincoln-Wrexham,4
+E1,Wrexham,E1-BristolC-Wrexham,5
+E1,Wrexham,E1-Wrexham-Portsmou,5
+E1,Wrexham,E1-Norwich-Wrexham,5
+E1,Wrexham,E1-Wrexham-Charlton,5
+E1,Wrexham,E1-Bolton-Wrexham,6
+E1,Wrexham,E1-Wrexham-QPR,6
+E1,Wrexham,E1-Stoke-Wrexham,6
+E1,Wrexham,E1-Wrexham-Blackbur,6
+E1,Wrexham,E1-Wrexham-Bolton,7
+E1,Wrexham,E1-Preston-Wrexham,7
+E1,Wrexham,E1-Wrexham-Sheffiel,7
+E1,Wrexham,E1-Middlesb-Wrexham,7
+E1,Wrexham,E1-Wolves-Wrexham,8
+E1,Wrexham,E1-Wrexham-Lincoln,8
+E1,Wrexham,E1-Wrexham-WestHam,8
+E1,Wrexham,E1-WestBrom-Wrexham,8
+E1,Wrexham,E1-Southamp-Wrexham,9
+E1,Wrexham,E1-Wrexham-Derby,9
+E1,Wrexham,E1-Watford-Wrexham,9
+E1,Wrexham,E1-Wrexham-Cardiff,9
+E1,Wrexham,E1-Portsmou-Wrexham,10
+E1,Wrexham,E1-Wrexham-Norwich,10
+E1,Wrexham,E1-Wrexham-Stoke,10
+E1,Wrexham,E1-QPR-Wrexham,10
+E1,Wrexham,E1-Burnley-Wrexham,11
+E1,Wrexham,E1-Wrexham-Swansea,11
+E1,Wrexham,E1-Birmingh-Wrexham,11
+E1,Wrexham,E1-Wrexham-Millwall,11
+E1,Wrexham,E1-Charlton-Wrexham,12
+E1,Wrexham,E1-Wrexham-BristolC,12
+E2,AFC Wimbledon,E2-Huddersf-AFCWimbl,1
+E2,AFC Wimbledon,E2-AFCWimbl-Reading,1
+E2,AFC Wimbledon,E2-AFCWimbl-Wigan,1
+E2,AFC Wimbledon,E2-Burton-AFCWimbl,1
+E2,AFC Wimbledon,E2-Bromley-AFCWimbl,2
+E2,AFC Wimbledon,E2-AFCWimbl-Doncaste,2
+E2,AFC Wimbledon,E2-AFCWimbl-MKDons,2
+E2,AFC Wimbledon,E2-Cambridg-AFCWimbl,2
+E2,AFC Wimbledon,E2-AFCWimbl-Stevenag,3
+E2,AFC Wimbledon,E2-Plymouth-AFCWimbl,3
+E2,AFC Wimbledon,E2-Sheffiel-AFCWimbl,3
+E2,AFC Wimbledon,E2-AFCWimbl-Mansfiel,3
+E2,AFC Wimbledon,E2-AFCWimbl-Wycombe,4
+E2,AFC Wimbledon,E2-Stockpor-AFCWimbl,4
+E2,AFC Wimbledon,E2-AFCWimbl-Blackpoo,4
+E2,AFC Wimbledon,E2-LeytonOr-AFCWimbl,4
+E2,AFC Wimbledon,E2-AFCWimbl-Barnsley,5
+E2,AFC Wimbledon,E2-NottsCou-AFCWimbl,5
+E2,AFC Wimbledon,E2-Bradford-AFCWimbl,5
+E2,AFC Wimbledon,E2-AFCWimbl-Oxford,5
+E2,AFC Wimbledon,E2-Leiceste-AFCWimbl,6
+E2,AFC Wimbledon,E2-AFCWimbl-Luton,6
+E2,AFC Wimbledon,E2-AFCWimbl-Peterbor,6
+E2,AFC Wimbledon,E2-Oxford-AFCWimbl,6
+E2,AFC Wimbledon,E2-AFCWimbl-Sheffiel,7
+E2,AFC Wimbledon,E2-Mansfiel-AFCWimbl,7
+E2,AFC Wimbledon,E2-Wycombe-AFCWimbl,7
+E2,AFC Wimbledon,E2-AFCWimbl-Stockpor,7
+E2,AFC Wimbledon,E2-Wigan-AFCWimbl,8
+E2,AFC Wimbledon,E2-AFCWimbl-Burton,8
+E2,AFC Wimbledon,E2-AFCWimbl-Bromley,8
+E2,AFC Wimbledon,E2-Doncaste-AFCWimbl,8
+E2,AFC Wimbledon,E2-Blackpoo-AFCWimbl,9
+E2,AFC Wimbledon,E2-AFCWimbl-Huddersf,9
+E2,AFC Wimbledon,E2-Reading-AFCWimbl,9
+E2,AFC Wimbledon,E2-AFCWimbl-LeytonOr,9
+E2,AFC Wimbledon,E2-Peterbor-AFCWimbl,10
+E2,AFC Wimbledon,E2-AFCWimbl-Leiceste,10
+E2,AFC Wimbledon,E2-Luton-AFCWimbl,10
+E2,AFC Wimbledon,E2-AFCWimbl-Bradford,10
+E2,AFC Wimbledon,E2-AFCWimbl-Cambridg,11
+E2,AFC Wimbledon,E2-MKDons-AFCWimbl,11
+E2,AFC Wimbledon,E2-AFCWimbl-Plymouth,11
+E2,AFC Wimbledon,E2-Stevenag-AFCWimbl,11
+E2,AFC Wimbledon,E2-Barnsley-AFCWimbl,12
+E2,AFC Wimbledon,E2-AFCWimbl-NottsCou,12
+E2,Barnsley,E2-Barnsley-Bromley,1
+E2,Barnsley,E2-Doncaste-Barnsley,1
+E2,Barnsley,E2-LeytonOr-Barnsley,1
+E2,Barnsley,E2-Barnsley-Blackpoo,1
+E2,Barnsley,E2-Barnsley-Stevenag,2
+E2,Barnsley,E2-Plymouth-Barnsley,2
+E2,Barnsley,E2-Barnsley-Leiceste,2
+E2,Barnsley,E2-Bradford-Barnsley,2
+E2,Barnsley,E2-Barnsley-MKDons,3
+E2,Barnsley,E2-Stockpor-Barnsley,3
+E2,Barnsley,E2-Barnsley-Cambridg,3
+E2,Barnsley,E2-Luton-Barnsley,3
+E2,Barnsley,E2-Reading-Barnsley,4
+E2,Barnsley,E2-Barnsley-Oxford,4
+E2,Barnsley,E2-Wigan-Barnsley,4
+E2,Barnsley,E2-Barnsley-Sheffiel,4
+E2,Barnsley,E2-AFCWimbl-Barnsley,5
+E2,Barnsley,E2-Barnsley-Wycombe,5
+E2,Barnsley,E2-Peterbor-Barnsley,5
+E2,Barnsley,E2-Barnsley-Huddersf,5
+E2,Barnsley,E2-Mansfiel-Barnsley,6
+E2,Barnsley,E2-Barnsley-Burton,6
+E2,Barnsley,E2-Barnsley-NottsCou,6
+E2,Barnsley,E2-Huddersf-Barnsley,6
+E2,Barnsley,E2-Cambridg-Barnsley,7
+E2,Barnsley,E2-Barnsley-Luton,7
+E2,Barnsley,E2-Barnsley-Reading,7
+E2,Barnsley,E2-Oxford-Barnsley,7
+E2,Barnsley,E2-Barnsley-LeytonOr,8
+E2,Barnsley,E2-Blackpoo-Barnsley,8
+E2,Barnsley,E2-Stevenag-Barnsley,8
+E2,Barnsley,E2-Barnsley-Plymouth,8
+E2,Barnsley,E2-Barnsley-Wigan,9
+E2,Barnsley,E2-Bromley-Barnsley,9
+E2,Barnsley,E2-Barnsley-Doncaste,9
+E2,Barnsley,E2-Sheffiel-Barnsley,9
+E2,Barnsley,E2-NottsCou-Barnsley,10
+E2,Barnsley,E2-Barnsley-Mansfiel,10
+E2,Barnsley,E2-Burton-Barnsley,10
+E2,Barnsley,E2-Barnsley-Peterbor,10
+E2,Barnsley,E2-Barnsley-Bradford,11
+E2,Barnsley,E2-Leiceste-Barnsley,11
+E2,Barnsley,E2-Barnsley-Stockpor,11
+E2,Barnsley,E2-MKDons-Barnsley,11
+E2,Barnsley,E2-Barnsley-AFCWimbl,12
+E2,Barnsley,E2-Wycombe-Barnsley,12
+E2,Blackpool,E2-Blackpoo-Wycombe,1
+E2,Blackpool,E2-Stockpor-Blackpoo,1
+E2,Blackpool,E2-Blackpoo-Peterbor,1
+E2,Blackpool,E2-Barnsley-Blackpoo,1
+E2,Blackpool,E2-Reading-Blackpoo,2
+E2,Blackpool,E2-Blackpoo-Bromley,2
+E2,Blackpool,E2-Blackpoo-Plymouth,2
+E2,Blackpool,E2-NottsCou-Blackpoo,2
+E2,Blackpool,E2-Blackpoo-Leiceste,3
+E2,Blackpool,E2-Cambridg-Blackpoo,3
+E2,Blackpool,E2-LeytonOr-Blackpoo,3
+E2,Blackpool,E2-Blackpoo-MKDons,3
+E2,Blackpool,E2-Blackpoo-Mansfiel,4
+E2,Blackpool,E2-Sheffiel-Blackpoo,4
+E2,Blackpool,E2-AFCWimbl-Blackpoo,4
+E2,Blackpool,E2-Blackpoo-Wigan,4
+E2,Blackpool,E2-Stevenag-Blackpoo,5
+E2,Blackpool,E2-Blackpoo-Luton,5
+E2,Blackpool,E2-Oxford-Blackpoo,5
+E2,Blackpool,E2-Blackpoo-Burton,5
+E2,Blackpool,E2-Huddersf-Blackpoo,6
+E2,Blackpool,E2-Blackpoo-Bradford,6
+E2,Blackpool,E2-Blackpoo-Doncaste,6
+E2,Blackpool,E2-Burton-Blackpoo,6
+E2,Blackpool,E2-Blackpoo-LeytonOr,7
+E2,Blackpool,E2-MKDons-Blackpoo,7
+E2,Blackpool,E2-Mansfiel-Blackpoo,7
+E2,Blackpool,E2-Blackpoo-Sheffiel,7
+E2,Blackpool,E2-Peterbor-Blackpoo,8
+E2,Blackpool,E2-Blackpoo-Barnsley,8
+E2,Blackpool,E2-Blackpoo-Reading,8
+E2,Blackpool,E2-Bromley-Blackpoo,8
+E2,Blackpool,E2-Blackpoo-AFCWimbl,9
+E2,Blackpool,E2-Wycombe-Blackpoo,9
+E2,Blackpool,E2-Blackpoo-Stockpor,9
+E2,Blackpool,E2-Wigan-Blackpoo,9
+E2,Blackpool,E2-Doncaste-Blackpoo,10
+E2,Blackpool,E2-Blackpoo-Oxford,10
+E2,Blackpool,E2-Bradford-Blackpoo,10
+E2,Blackpool,E2-Blackpoo-Huddersf,10
+E2,Blackpool,E2-Blackpoo-NottsCou,11
+E2,Blackpool,E2-Plymouth-Blackpoo,11
+E2,Blackpool,E2-Blackpoo-Cambridg,11
+E2,Blackpool,E2-Leiceste-Blackpoo,11
+E2,Blackpool,E2-Blackpoo-Stevenag,12
+E2,Blackpool,E2-Luton-Blackpoo,12
+E2,Bradford,E2-Bradford-Peterbor,1
+E2,Bradford,E2-Sheffiel-Bradford,1
+E2,Bradford,E2-Plymouth-Bradford,1
+E2,Bradford,E2-Bradford-Cambridg,1
+E2,Bradford,E2-Bradford-Mansfiel,2
+E2,Bradford,E2-NottsCou-Bradford,2
+E2,Bradford,E2-Luton-Bradford,2
+E2,Bradford,E2-Bradford-Barnsley,2
+E2,Bradford,E2-Reading-Bradford,3
+E2,Bradford,E2-Bradford-LeytonOr,3
+E2,Bradford,E2-Bradford-Stevenag,3
+E2,Bradford,E2-Burton-Bradford,3
+E2,Bradford,E2-Oxford-Bradford,4
+E2,Bradford,E2-Bradford-Huddersf,4
+E2,Bradford,E2-Leiceste-Bradford,4
+E2,Bradford,E2-Bradford-Doncaste,4
+E2,Bradford,E2-Wycombe-Bradford,5
+E2,Bradford,E2-Bradford-MKDons,5
+E2,Bradford,E2-Bradford-AFCWimbl,5
+E2,Bradford,E2-Bromley-Bradford,5
+E2,Bradford,E2-Bradford-Stockpor,6
+E2,Bradford,E2-Blackpoo-Bradford,6
+E2,Bradford,E2-Wigan-Bradford,6
+E2,Bradford,E2-Bradford-Bromley,6
+E2,Bradford,E2-Stevenag-Bradford,7
+E2,Bradford,E2-Bradford-Burton,7
+E2,Bradford,E2-Bradford-Oxford,7
+E2,Bradford,E2-Huddersf-Bradford,7
+E2,Bradford,E2-Bradford-Plymouth,8
+E2,Bradford,E2-Cambridg-Bradford,8
+E2,Bradford,E2-Mansfiel-Bradford,8
+E2,Bradford,E2-Bradford-NottsCou,8
+E2,Bradford,E2-Bradford-Leiceste,9
+E2,Bradford,E2-Peterbor-Bradford,9
+E2,Bradford,E2-Bradford-Sheffiel,9
+E2,Bradford,E2-Doncaste-Bradford,9
+E2,Bradford,E2-Bradford-Wigan,10
+E2,Bradford,E2-Stockpor-Bradford,10
+E2,Bradford,E2-Bradford-Blackpoo,10
+E2,Bradford,E2-AFCWimbl-Bradford,10
+E2,Bradford,E2-Barnsley-Bradford,11
+E2,Bradford,E2-Bradford-Luton,11
+E2,Bradford,E2-LeytonOr-Bradford,11
+E2,Bradford,E2-Bradford-Reading,11
+E2,Bradford,E2-Bradford-Wycombe,12
+E2,Bradford,E2-MKDons-Bradford,12
+E2,Bromley,E2-Barnsley-Bromley,1
+E2,Bromley,E2-Bromley-Cambridg,1
+E2,Bromley,E2-Sheffiel-Bromley,1
+E2,Bromley,E2-Bromley-LeytonOr,1
+E2,Bromley,E2-Bromley-AFCWimbl,2
+E2,Bromley,E2-Blackpoo-Bromley,2
+E2,Bromley,E2-Bromley-Huddersf,2
+E2,Bromley,E2-MKDons-Bromley,2
+E2,Bromley,E2-Bromley-Wycombe,3
+E2,Bromley,E2-Mansfiel-Bromley,3
+E2,Bromley,E2-Stockpor-Bromley,3
+E2,Bromley,E2-Bromley-Leiceste,3
+E2,Bromley,E2-Bromley-Peterbor,4
+E2,Bromley,E2-Wigan-Bromley,4
+E2,Bromley,E2-Bromley-NottsCou,4
+E2,Bromley,E2-Reading-Bromley,4
+E2,Bromley,E2-Bromley-Burton,5
+E2,Bromley,E2-Plymouth-Bromley,5
+E2,Bromley,E2-Doncaste-Bromley,5
+E2,Bromley,E2-Bromley-Bradford,5
+E2,Bromley,E2-Luton-Bromley,6
+E2,Bromley,E2-Bromley-Oxford,6
+E2,Bromley,E2-Bromley-Stevenag,6
+E2,Bromley,E2-Bradford-Bromley,6
+E2,Bromley,E2-Bromley-Stockpor,7
+E2,Bromley,E2-Leiceste-Bromley,7
+E2,Bromley,E2-Peterbor-Bromley,7
+E2,Bromley,E2-Bromley-Wigan,7
+E2,Bromley,E2-Bromley-Sheffiel,8
+E2,Bromley,E2-LeytonOr-Bromley,8
+E2,Bromley,E2-AFCWimbl-Bromley,8
+E2,Bromley,E2-Bromley-Blackpoo,8
+E2,Bromley,E2-NottsCou-Bromley,9
+E2,Bromley,E2-Bromley-Barnsley,9
+E2,Bromley,E2-Cambridg-Bromley,9
+E2,Bromley,E2-Bromley-Reading,9
+E2,Bromley,E2-Stevenag-Bromley,10
+E2,Bromley,E2-Bromley-Doncaste,10
+E2,Bromley,E2-Oxford-Bromley,10
+E2,Bromley,E2-Bromley-Luton,10
+E2,Bromley,E2-Bromley-MKDons,11
+E2,Bromley,E2-Huddersf-Bromley,11
+E2,Bromley,E2-Bromley-Mansfiel,11
+E2,Bromley,E2-Wycombe-Bromley,11
+E2,Bromley,E2-Burton-Bromley,12
+E2,Bromley,E2-Bromley-Plymouth,12
+E2,Burton,E2-Burton-Stevenag,1
+E2,Burton,E2-Leiceste-Burton,1
+E2,Burton,E2-NottsCou-Burton,1
+E2,Burton,E2-Burton-AFCWimbl,1
+E2,Burton,E2-Burton-Cambridg,2
+E2,Burton,E2-Oxford-Burton,2
+E2,Burton,E2-Burton-Mansfiel,2
+E2,Burton,E2-Plymouth-Burton,2
+E2,Burton,E2-Burton-Huddersf,3
+E2,Burton,E2-Doncaste-Burton,3
+E2,Burton,E2-Peterbor-Burton,3
+E2,Burton,E2-Burton-Bradford,3
+E2,Burton,E2-Burton-LeytonOr,4
+E2,Burton,E2-Wycombe-Burton,4
+E2,Burton,E2-MKDons-Burton,4
+E2,Burton,E2-Burton-Luton,4
+E2,Burton,E2-Bromley-Burton,5
+E2,Burton,E2-Burton-Wigan,5
+E2,Burton,E2-Burton-Reading,5
+E2,Burton,E2-Blackpoo-Burton,5
+E2,Burton,E2-Burton-Sheffiel,6
+E2,Burton,E2-Barnsley-Burton,6
+E2,Burton,E2-Stockpor-Burton,6
+E2,Burton,E2-Burton-Blackpoo,6
+E2,Burton,E2-Burton-Peterbor,7
+E2,Burton,E2-Bradford-Burton,7
+E2,Burton,E2-LeytonOr-Burton,7
+E2,Burton,E2-Burton-Wycombe,7
+E2,Burton,E2-Burton-NottsCou,8
+E2,Burton,E2-AFCWimbl-Burton,8
+E2,Burton,E2-Cambridg-Burton,8
+E2,Burton,E2-Burton-Oxford,8
+E2,Burton,E2-Burton-MKDons,9
+E2,Burton,E2-Stevenag-Burton,9
+E2,Burton,E2-Burton-Leiceste,9
+E2,Burton,E2-Luton-Burton,9
+E2,Burton,E2-Burton-Stockpor,10
+E2,Burton,E2-Sheffiel-Burton,10
+E2,Burton,E2-Burton-Barnsley,10
+E2,Burton,E2-Reading-Burton,10
+E2,Burton,E2-Burton-Plymouth,11
+E2,Burton,E2-Mansfiel-Burton,11
+E2,Burton,E2-Burton-Doncaste,11
+E2,Burton,E2-Huddersf-Burton,11
+E2,Burton,E2-Burton-Bromley,12
+E2,Burton,E2-Wigan-Burton,12
+E2,Cambridge,E2-Cambridg-Wigan,1
+E2,Cambridge,E2-Bromley-Cambridg,1
+E2,Cambridge,E2-Cambridg-Huddersf,1
+E2,Cambridge,E2-Bradford-Cambridg,1
+E2,Cambridge,E2-Burton-Cambridg,2
+E2,Cambridge,E2-Cambridg-Reading,2
+E2,Cambridge,E2-Oxford-Cambridg,2
+E2,Cambridge,E2-Cambridg-AFCWimbl,2
+E2,Cambridge,E2-Sheffiel-Cambridg,3
+E2,Cambridge,E2-Cambridg-Blackpoo,3
+E2,Cambridge,E2-Barnsley-Cambridg,3
+E2,Cambridge,E2-Cambridg-Wycombe,3
+E2,Cambridge,E2-Cambridg-Plymouth,4
+E2,Cambridge,E2-LeytonOr-Cambridg,4
+E2,Cambridge,E2-Luton-Cambridg,4
+E2,Cambridge,E2-Cambridg-Stockpor,4
+E2,Cambridge,E2-Peterbor-Cambridg,5
+E2,Cambridge,E2-Cambridg-Leiceste,5
+E2,Cambridge,E2-MKDons-Cambridg,5
+E2,Cambridge,E2-Cambridg-Stevenag,5
+E2,Cambridge,E2-NottsCou-Cambridg,6
+E2,Cambridge,E2-Cambridg-Doncaste,6
+E2,Cambridge,E2-Cambridg-Mansfiel,6
+E2,Cambridge,E2-Stevenag-Cambridg,6
+E2,Cambridge,E2-Cambridg-Barnsley,7
+E2,Cambridge,E2-Wycombe-Cambridg,7
+E2,Cambridge,E2-Plymouth-Cambridg,7
+E2,Cambridge,E2-Cambridg-LeytonOr,7
+E2,Cambridge,E2-Huddersf-Cambridg,8
+E2,Cambridge,E2-Cambridg-Bradford,8
+E2,Cambridge,E2-Cambridg-Burton,8
+E2,Cambridge,E2-Reading-Cambridg,8
+E2,Cambridge,E2-Cambridg-Peterbor,9
+E2,Cambridge,E2-Wigan-Cambridg,9
+E2,Cambridge,E2-Cambridg-Bromley,9
+E2,Cambridge,E2-Stockpor-Cambridg,9
+E2,Cambridge,E2-Mansfiel-Cambridg,10
+E2,Cambridge,E2-Cambridg-MKDons,10
+E2,Cambridge,E2-Doncaste-Cambridg,10
+E2,Cambridge,E2-Cambridg-NottsCou,10
+E2,Cambridge,E2-AFCWimbl-Cambridg,11
+E2,Cambridge,E2-Cambridg-Oxford,11
+E2,Cambridge,E2-Blackpoo-Cambridg,11
+E2,Cambridge,E2-Cambridg-Sheffiel,11
+E2,Cambridge,E2-Cambridg-Luton,12
+E2,Cambridge,E2-Leiceste-Cambridg,12
+E2,Doncaster,E2-Mansfiel-Doncaste,1
+E2,Doncaster,E2-Doncaste-Barnsley,1
+E2,Doncaster,E2-Stevenag-Doncaste,1
+E2,Doncaster,E2-Doncaste-NottsCou,1
+E2,Doncaster,E2-Doncaste-Plymouth,2
+E2,Doncaster,E2-AFCWimbl-Doncaste,2
+E2,Doncaster,E2-Peterbor-Doncaste,2
+E2,Doncaster,E2-Doncaste-Oxford,2
+E2,Doncaster,E2-Luton-Doncaste,3
+E2,Doncaster,E2-Doncaste-Burton,3
+E2,Doncaster,E2-Leiceste-Doncaste,3
+E2,Doncaster,E2-Doncaste-Stockpor,3
+E2,Doncaster,E2-Doncaste-Sheffiel,4
+E2,Doncaster,E2-MKDons-Doncaste,4
+E2,Doncaster,E2-Doncaste-LeytonOr,4
+E2,Doncaster,E2-Bradford-Doncaste,4
+E2,Doncaster,E2-Doncaste-Huddersf,5
+E2,Doncaster,E2-Reading-Doncaste,5
+E2,Doncaster,E2-Doncaste-Bromley,5
+E2,Doncaster,E2-Wycombe-Doncaste,5
+E2,Doncaster,E2-Doncaste-Wigan,6
+E2,Doncaster,E2-Cambridg-Doncaste,6
+E2,Doncaster,E2-Blackpoo-Doncaste,6
+E2,Doncaster,E2-Doncaste-Wycombe,6
+E2,Doncaster,E2-Doncaste-Leiceste,7
+E2,Doncaster,E2-Stockpor-Doncaste,7
+E2,Doncaster,E2-Sheffiel-Doncaste,7
+E2,Doncaster,E2-Doncaste-MKDons,7
+E2,Doncaster,E2-Doncaste-Stevenag,8
+E2,Doncaster,E2-NottsCou-Doncaste,8
+E2,Doncaster,E2-Plymouth-Doncaste,8
+E2,Doncaster,E2-Doncaste-AFCWimbl,8
+E2,Doncaster,E2-LeytonOr-Doncaste,9
+E2,Doncaster,E2-Doncaste-Mansfiel,9
+E2,Doncaster,E2-Barnsley-Doncaste,9
+E2,Doncaster,E2-Doncaste-Bradford,9
+E2,Doncaster,E2-Doncaste-Blackpoo,10
+E2,Doncaster,E2-Bromley-Doncaste,10
+E2,Doncaster,E2-Doncaste-Cambridg,10
+E2,Doncaster,E2-Wigan-Doncaste,10
+E2,Doncaster,E2-Oxford-Doncaste,11
+E2,Doncaster,E2-Doncaste-Peterbor,11
+E2,Doncaster,E2-Burton-Doncaste,11
+E2,Doncaster,E2-Doncaste-Luton,11
+E2,Doncaster,E2-Huddersf-Doncaste,12
+E2,Doncaster,E2-Doncaste-Reading,12
+E2,Huddersfield,E2-Huddersf-AFCWimbl,1
+E2,Huddersfield,E2-MKDons-Huddersf,1
+E2,Huddersfield,E2-Cambridg-Huddersf,1
+E2,Huddersfield,E2-Huddersf-Oxford,1
+E2,Huddersfield,E2-Huddersf-NottsCou,2
+E2,Huddersfield,E2-Mansfiel-Huddersf,2
+E2,Huddersfield,E2-Bromley-Huddersf,2
+E2,Huddersfield,E2-Huddersf-Luton,2
+E2,Huddersfield,E2-Burton-Huddersf,3
+E2,Huddersfield,E2-Huddersf-Sheffiel,3
+E2,Huddersfield,E2-Plymouth-Huddersf,3
+E2,Huddersfield,E2-Huddersf-Peterbor,3
+E2,Huddersfield,E2-Huddersf-Wigan,4
+E2,Huddersfield,E2-Bradford-Huddersf,4
+E2,Huddersfield,E2-Wycombe-Huddersf,4
+E2,Huddersfield,E2-Huddersf-Leiceste,4
+E2,Huddersfield,E2-Doncaste-Huddersf,5
+E2,Huddersfield,E2-Huddersf-Stevenag,5
+E2,Huddersfield,E2-Huddersf-LeytonOr,5
+E2,Huddersfield,E2-Barnsley-Huddersf,5
+E2,Huddersfield,E2-Huddersf-Blackpoo,6
+E2,Huddersfield,E2-Stockpor-Huddersf,6
+E2,Huddersfield,E2-Sheffiel-Huddersf,6
+E2,Huddersfield,E2-Huddersf-Barnsley,6
+E2,Huddersfield,E2-Huddersf-Plymouth,7
+E2,Huddersfield,E2-Peterbor-Huddersf,7
+E2,Huddersfield,E2-Wigan-Huddersf,7
+E2,Huddersfield,E2-Huddersf-Bradford,7
+E2,Huddersfield,E2-Huddersf-Cambridg,8
+E2,Huddersfield,E2-Oxford-Huddersf,8
+E2,Huddersfield,E2-NottsCou-Huddersf,8
+E2,Huddersfield,E2-Huddersf-Mansfiel,8
+E2,Huddersfield,E2-Huddersf-Wycombe,9
+E2,Huddersfield,E2-AFCWimbl-Huddersf,9
+E2,Huddersfield,E2-Huddersf-MKDons,9
+E2,Huddersfield,E2-Leiceste-Huddersf,9
+E2,Huddersfield,E2-Huddersf-Reading,10
+E2,Huddersfield,E2-LeytonOr-Huddersf,10
+E2,Huddersfield,E2-Huddersf-Stockpor,10
+E2,Huddersfield,E2-Blackpoo-Huddersf,10
+E2,Huddersfield,E2-Luton-Huddersf,11
+E2,Huddersfield,E2-Huddersf-Bromley,11
+E2,Huddersfield,E2-Reading-Huddersf,11
+E2,Huddersfield,E2-Huddersf-Burton,11
+E2,Huddersfield,E2-Huddersf-Doncaste,12
+E2,Huddersfield,E2-Stevenag-Huddersf,12
+E2,Leicester,E2-NottsCou-Leiceste,1
+E2,Leicester,E2-Leiceste-Burton,1
+E2,Leicester,E2-MKDons-Leiceste,1
+E2,Leicester,E2-Leiceste-Plymouth,1
+E2,Leicester,E2-Leiceste-Oxford,2
+E2,Leicester,E2-Stockpor-Leiceste,2
+E2,Leicester,E2-Barnsley-Leiceste,2
+E2,Leicester,E2-Leiceste-Wigan,2
+E2,Leicester,E2-Blackpoo-Leiceste,3
+E2,Leicester,E2-Leiceste-Peterbor,3
+E2,Leicester,E2-Leiceste-Doncaste,3
+E2,Leicester,E2-Bromley-Leiceste,3
+E2,Leicester,E2-Luton-Leiceste,4
+E2,Leicester,E2-Leiceste-Stevenag,4
+E2,Leicester,E2-Leiceste-Bradford,4
+E2,Leicester,E2-Huddersf-Leiceste,4
+E2,Leicester,E2-Leiceste-Mansfiel,5
+E2,Leicester,E2-Cambridg-Leiceste,5
+E2,Leicester,E2-Leiceste-Sheffiel,5
+E2,Leicester,E2-Reading-Leiceste,5
+E2,Leicester,E2-Leiceste-AFCWimbl,6
+E2,Leicester,E2-LeytonOr-Leiceste,6
+E2,Leicester,E2-Wycombe-Leiceste,6
+E2,Leicester,E2-Leiceste-Reading,6
+E2,Leicester,E2-Doncaste-Leiceste,7
+E2,Leicester,E2-Leiceste-Bromley,7
+E2,Leicester,E2-Leiceste-Luton,7
+E2,Leicester,E2-Stevenag-Leiceste,7
+E2,Leicester,E2-Leiceste-MKDons,8
+E2,Leicester,E2-Plymouth-Leiceste,8
+E2,Leicester,E2-Oxford-Leiceste,8
+E2,Leicester,E2-Leiceste-Stockpor,8
+E2,Leicester,E2-Bradford-Leiceste,9
+E2,Leicester,E2-Leiceste-NottsCou,9
+E2,Leicester,E2-Burton-Leiceste,9
+E2,Leicester,E2-Leiceste-Huddersf,9
+E2,Leicester,E2-Leiceste-Wycombe,10
+E2,Leicester,E2-AFCWimbl-Leiceste,10
+E2,Leicester,E2-Leiceste-LeytonOr,10
+E2,Leicester,E2-Sheffiel-Leiceste,10
+E2,Leicester,E2-Wigan-Leiceste,11
+E2,Leicester,E2-Leiceste-Barnsley,11
+E2,Leicester,E2-Peterbor-Leiceste,11
+E2,Leicester,E2-Leiceste-Blackpoo,11
+E2,Leicester,E2-Mansfiel-Leiceste,12
+E2,Leicester,E2-Leiceste-Cambridg,12
+E2,Leyton Orient,E2-LeytonOr-Sheffiel,1
+E2,Leyton Orient,E2-Wigan-LeytonOr,1
+E2,Leyton Orient,E2-LeytonOr-Barnsley,1
+E2,Leyton Orient,E2-Bromley-LeytonOr,1
+E2,Leyton Orient,E2-Luton-LeytonOr,2
+E2,Leyton Orient,E2-LeytonOr-Wycombe,2
+E2,Leyton Orient,E2-LeytonOr-Stevenag,2
+E2,Leyton Orient,E2-Mansfiel-LeytonOr,2
+E2,Leyton Orient,E2-LeytonOr-Plymouth,3
+E2,Leyton Orient,E2-Bradford-LeytonOr,3
+E2,Leyton Orient,E2-LeytonOr-Blackpoo,3
+E2,Leyton Orient,E2-Reading-LeytonOr,3
+E2,Leyton Orient,E2-Burton-LeytonOr,4
+E2,Leyton Orient,E2-LeytonOr-Cambridg,4
+E2,Leyton Orient,E2-Doncaste-LeytonOr,4
+E2,Leyton Orient,E2-LeytonOr-AFCWimbl,4
+E2,Leyton Orient,E2-Stockpor-LeytonOr,5
+E2,Leyton Orient,E2-LeytonOr-Peterbor,5
+E2,Leyton Orient,E2-Huddersf-LeytonOr,5
+E2,Leyton Orient,E2-LeytonOr-NottsCou,5
+E2,Leyton Orient,E2-MKDons-LeytonOr,6
+E2,Leyton Orient,E2-LeytonOr-Leiceste,6
+E2,Leyton Orient,E2-LeytonOr-Oxford,6
+E2,Leyton Orient,E2-NottsCou-LeytonOr,6
+E2,Leyton Orient,E2-Blackpoo-LeytonOr,7
+E2,Leyton Orient,E2-LeytonOr-Reading,7
+E2,Leyton Orient,E2-LeytonOr-Burton,7
+E2,Leyton Orient,E2-Cambridg-LeytonOr,7
+E2,Leyton Orient,E2-Barnsley-LeytonOr,8
+E2,Leyton Orient,E2-LeytonOr-Bromley,8
+E2,Leyton Orient,E2-LeytonOr-Luton,8
+E2,Leyton Orient,E2-Wycombe-LeytonOr,8
+E2,Leyton Orient,E2-LeytonOr-Doncaste,9
+E2,Leyton Orient,E2-Sheffiel-LeytonOr,9
+E2,Leyton Orient,E2-LeytonOr-Wigan,9
+E2,Leyton Orient,E2-AFCWimbl-LeytonOr,9
+E2,Leyton Orient,E2-Oxford-LeytonOr,10
+E2,Leyton Orient,E2-LeytonOr-Huddersf,10
+E2,Leyton Orient,E2-Leiceste-LeytonOr,10
+E2,Leyton Orient,E2-LeytonOr-MKDons,10
+E2,Leyton Orient,E2-LeytonOr-Mansfiel,11
+E2,Leyton Orient,E2-Stevenag-LeytonOr,11
+E2,Leyton Orient,E2-LeytonOr-Bradford,11
+E2,Leyton Orient,E2-Plymouth-LeytonOr,11
+E2,Leyton Orient,E2-LeytonOr-Stockpor,12
+E2,Leyton Orient,E2-Peterbor-LeytonOr,12
+E2,Luton,E2-Reading-Luton,1
+E2,Luton,E2-Luton-NottsCou,1
+E2,Luton,E2-Mansfiel-Luton,1
+E2,Luton,E2-Luton-Stockpor,1
+E2,Luton,E2-Luton-LeytonOr,2
+E2,Luton,E2-Stevenag-Luton,2
+E2,Luton,E2-Luton-Bradford,2
+E2,Luton,E2-Huddersf-Luton,2
+E2,Luton,E2-Luton-Doncaste,3
+E2,Luton,E2-Wycombe-Luton,3
+E2,Luton,E2-MKDons-Luton,3
+E2,Luton,E2-Luton-Barnsley,3
+E2,Luton,E2-Luton-Leiceste,4
+E2,Luton,E2-Peterbor-Luton,4
+E2,Luton,E2-Luton-Cambridg,4
+E2,Luton,E2-Burton-Luton,4
+E2,Luton,E2-Luton-Oxford,5
+E2,Luton,E2-Blackpoo-Luton,5
+E2,Luton,E2-Luton-Wigan,5
+E2,Luton,E2-Sheffiel-Luton,5
+E2,Luton,E2-Luton-Bromley,6
+E2,Luton,E2-AFCWimbl-Luton,6
+E2,Luton,E2-Plymouth-Luton,6
+E2,Luton,E2-Luton-Sheffiel,6
+E2,Luton,E2-Luton-MKDons,7
+E2,Luton,E2-Barnsley-Luton,7
+E2,Luton,E2-Leiceste-Luton,7
+E2,Luton,E2-Luton-Peterbor,7
+E2,Luton,E2-Luton-Mansfiel,8
+E2,Luton,E2-Stockpor-Luton,8
+E2,Luton,E2-LeytonOr-Luton,8
+E2,Luton,E2-Luton-Stevenag,8
+E2,Luton,E2-Oxford-Luton,9
+E2,Luton,E2-Luton-Reading,9
+E2,Luton,E2-NottsCou-Luton,9
+E2,Luton,E2-Luton-Burton,9
+E2,Luton,E2-Luton-Plymouth,10
+E2,Luton,E2-Wigan-Luton,10
+E2,Luton,E2-Luton-AFCWimbl,10
+E2,Luton,E2-Bromley-Luton,10
+E2,Luton,E2-Luton-Huddersf,11
+E2,Luton,E2-Bradford-Luton,11
+E2,Luton,E2-Luton-Wycombe,11
+E2,Luton,E2-Doncaste-Luton,11
+E2,Luton,E2-Cambridg-Luton,12
+E2,Luton,E2-Luton-Blackpoo,12
+E2,MK Dons,E2-Oxford-MKDons,1
+E2,MK Dons,E2-MKDons-Huddersf,1
+E2,MK Dons,E2-MKDons-Leiceste,1
+E2,MK Dons,E2-Wigan-MKDons,1
+E2,MK Dons,E2-Wycombe-MKDons,2
+E2,MK Dons,E2-MKDons-Peterbor,2
+E2,MK Dons,E2-AFCWimbl-MKDons,2
+E2,MK Dons,E2-MKDons-Bromley,2
+E2,MK Dons,E2-Barnsley-MKDons,3
+E2,MK Dons,E2-MKDons-Reading,3
+E2,MK Dons,E2-MKDons-Luton,3
+E2,MK Dons,E2-Blackpoo-MKDons,3
+E2,MK Dons,E2-Stevenag-MKDons,4
+E2,MK Dons,E2-MKDons-Doncaste,4
+E2,MK Dons,E2-MKDons-Burton,4
+E2,MK Dons,E2-Mansfiel-MKDons,4
+E2,MK Dons,E2-MKDons-NottsCou,5
+E2,MK Dons,E2-Bradford-MKDons,5
+E2,MK Dons,E2-MKDons-Cambridg,5
+E2,MK Dons,E2-Stockpor-MKDons,5
+E2,MK Dons,E2-MKDons-LeytonOr,6
+E2,MK Dons,E2-Plymouth-MKDons,6
+E2,MK Dons,E2-Reading-MKDons,6
+E2,MK Dons,E2-MKDons-Stockpor,6
+E2,MK Dons,E2-Luton-MKDons,7
+E2,MK Dons,E2-MKDons-Blackpoo,7
+E2,MK Dons,E2-MKDons-Stevenag,7
+E2,MK Dons,E2-Doncaste-MKDons,7
+E2,MK Dons,E2-Leiceste-MKDons,8
+E2,MK Dons,E2-MKDons-Wigan,8
+E2,MK Dons,E2-MKDons-Wycombe,8
+E2,MK Dons,E2-Peterbor-MKDons,8
+E2,MK Dons,E2-Burton-MKDons,9
+E2,MK Dons,E2-MKDons-Oxford,9
+E2,MK Dons,E2-Huddersf-MKDons,9
+E2,MK Dons,E2-MKDons-Mansfiel,9
+E2,MK Dons,E2-MKDons-Sheffiel,10
+E2,MK Dons,E2-Cambridg-MKDons,10
+E2,MK Dons,E2-MKDons-Plymouth,10
+E2,MK Dons,E2-LeytonOr-MKDons,10
+E2,MK Dons,E2-Bromley-MKDons,11
+E2,MK Dons,E2-MKDons-AFCWimbl,11
+E2,MK Dons,E2-Sheffiel-MKDons,11
+E2,MK Dons,E2-MKDons-Barnsley,11
+E2,MK Dons,E2-NottsCou-MKDons,12
+E2,MK Dons,E2-MKDons-Bradford,12
+E2,Mansfield,E2-Mansfiel-Doncaste,1
+E2,Mansfield,E2-Peterbor-Mansfiel,1
+E2,Mansfield,E2-Mansfiel-Luton,1
+E2,Mansfield,E2-Reading-Mansfiel,1
+E2,Mansfield,E2-Bradford-Mansfiel,2
+E2,Mansfield,E2-Mansfiel-Huddersf,2
+E2,Mansfield,E2-Burton-Mansfiel,2
+E2,Mansfield,E2-Mansfiel-LeytonOr,2
+E2,Mansfield,E2-Wigan-Mansfiel,3
+E2,Mansfield,E2-Mansfiel-Bromley,3
+E2,Mansfield,E2-Mansfiel-Oxford,3
+E2,Mansfield,E2-AFCWimbl-Mansfiel,3
+E2,Mansfield,E2-Blackpoo-Mansfiel,4
+E2,Mansfield,E2-Mansfiel-NottsCou,4
+E2,Mansfield,E2-Stevenag-Mansfiel,4
+E2,Mansfield,E2-Mansfiel-MKDons,4
+E2,Mansfield,E2-Leiceste-Mansfiel,5
+E2,Mansfield,E2-Mansfiel-Stockpor,5
+E2,Mansfield,E2-Mansfiel-Wycombe,5
+E2,Mansfield,E2-Plymouth-Mansfiel,5
+E2,Mansfield,E2-Mansfiel-Barnsley,6
+E2,Mansfield,E2-Sheffiel-Mansfiel,6
+E2,Mansfield,E2-Cambridg-Mansfiel,6
+E2,Mansfield,E2-Mansfiel-Plymouth,6
+E2,Mansfield,E2-Oxford-Mansfiel,7
+E2,Mansfield,E2-Mansfiel-AFCWimbl,7
+E2,Mansfield,E2-Mansfiel-Blackpoo,7
+E2,Mansfield,E2-NottsCou-Mansfiel,7
+E2,Mansfield,E2-Luton-Mansfiel,8
+E2,Mansfield,E2-Mansfiel-Reading,8
+E2,Mansfield,E2-Mansfiel-Bradford,8
+E2,Mansfield,E2-Huddersf-Mansfiel,8
+E2,Mansfield,E2-Mansfiel-Stevenag,9
+E2,Mansfield,E2-Doncaste-Mansfiel,9
+E2,Mansfield,E2-Mansfiel-Peterbor,9
+E2,Mansfield,E2-MKDons-Mansfiel,9
+E2,Mansfield,E2-Mansfiel-Cambridg,10
+E2,Mansfield,E2-Barnsley-Mansfiel,10
+E2,Mansfield,E2-Mansfiel-Sheffiel,10
+E2,Mansfield,E2-Wycombe-Mansfiel,10
+E2,Mansfield,E2-LeytonOr-Mansfiel,11
+E2,Mansfield,E2-Mansfiel-Burton,11
+E2,Mansfield,E2-Bromley-Mansfiel,11
+E2,Mansfield,E2-Mansfiel-Wigan,11
+E2,Mansfield,E2-Mansfiel-Leiceste,12
+E2,Mansfield,E2-Stockpor-Mansfiel,12
+E2,Notts County,E2-NottsCou-Leiceste,1
+E2,Notts County,E2-Luton-NottsCou,1
+E2,Notts County,E2-NottsCou-Burton,1
+E2,Notts County,E2-Doncaste-NottsCou,1
+E2,Notts County,E2-Huddersf-NottsCou,2
+E2,Notts County,E2-NottsCou-Bradford,2
+E2,Notts County,E2-Reading-NottsCou,2
+E2,Notts County,E2-NottsCou-Blackpoo,2
+E2,Notts County,E2-Peterbor-NottsCou,3
+E2,Notts County,E2-NottsCou-Oxford,3
+E2,Notts County,E2-Wycombe-NottsCou,3
+E2,Notts County,E2-NottsCou-Sheffiel,3
+E2,Notts County,E2-NottsCou-Stockpor,4
+E2,Notts County,E2-Mansfiel-NottsCou,4
+E2,Notts County,E2-Bromley-NottsCou,4
+E2,Notts County,E2-NottsCou-Stevenag,4
+E2,Notts County,E2-MKDons-NottsCou,5
+E2,Notts County,E2-NottsCou-AFCWimbl,5
+E2,Notts County,E2-NottsCou-Plymouth,5
+E2,Notts County,E2-LeytonOr-NottsCou,5
+E2,Notts County,E2-NottsCou-Cambridg,6
+E2,Notts County,E2-Wigan-NottsCou,6
+E2,Notts County,E2-Barnsley-NottsCou,6
+E2,Notts County,E2-NottsCou-LeytonOr,6
+E2,Notts County,E2-NottsCou-Wycombe,7
+E2,Notts County,E2-Sheffiel-NottsCou,7
+E2,Notts County,E2-Stockpor-NottsCou,7
+E2,Notts County,E2-NottsCou-Mansfiel,7
+E2,Notts County,E2-Burton-NottsCou,8
+E2,Notts County,E2-NottsCou-Doncaste,8
+E2,Notts County,E2-NottsCou-Huddersf,8
+E2,Notts County,E2-Bradford-NottsCou,8
+E2,Notts County,E2-NottsCou-Bromley,9
+E2,Notts County,E2-Leiceste-NottsCou,9
+E2,Notts County,E2-NottsCou-Luton,9
+E2,Notts County,E2-Stevenag-NottsCou,9
+E2,Notts County,E2-NottsCou-Barnsley,10
+E2,Notts County,E2-Plymouth-NottsCou,10
+E2,Notts County,E2-NottsCou-Wigan,10
+E2,Notts County,E2-Cambridg-NottsCou,10
+E2,Notts County,E2-Blackpoo-NottsCou,11
+E2,Notts County,E2-NottsCou-Reading,11
+E2,Notts County,E2-Oxford-NottsCou,11
+E2,Notts County,E2-NottsCou-Peterbor,11
+E2,Notts County,E2-NottsCou-MKDons,12
+E2,Notts County,E2-AFCWimbl-NottsCou,12
+E2,Oxford,E2-Oxford-MKDons,1
+E2,Oxford,E2-Stevenag-Oxford,1
+E2,Oxford,E2-Huddersf-Oxford,1
+E2,Oxford,E2-Leiceste-Oxford,1
+E2,Oxford,E2-Oxford-Reading,2
+E2,Oxford,E2-Oxford-Burton,2
+E2,Oxford,E2-Oxford-Cambridg,2
+E2,Oxford,E2-Doncaste-Oxford,2
+E2,Oxford,E2-Oxford-Stockpor,3
+E2,Oxford,E2-NottsCou-Oxford,3
+E2,Oxford,E2-Mansfiel-Oxford,3
+E2,Oxford,E2-Oxford-Wigan,3
+E2,Oxford,E2-Oxford-Bradford,4
+E2,Oxford,E2-Barnsley-Oxford,4
+E2,Oxford,E2-Peterbor-Oxford,4
+E2,Oxford,E2-Oxford-Wycombe,4
+E2,Oxford,E2-Luton-Oxford,5
+E2,Oxford,E2-Oxford-Sheffiel,5
+E2,Oxford,E2-Oxford-Blackpoo,5
+E2,Oxford,E2-AFCWimbl-Oxford,5
+E2,Oxford,E2-Oxford-Plymouth,6
+E2,Oxford,E2-Bromley-Oxford,6
+E2,Oxford,E2-LeytonOr-Oxford,6
+E2,Oxford,E2-Oxford-AFCWimbl,6
+E2,Oxford,E2-Oxford-Mansfiel,7
+E2,Oxford,E2-Wigan-Oxford,7
+E2,Oxford,E2-Bradford-Oxford,7
+E2,Oxford,E2-Oxford-Barnsley,7
+E2,Oxford,E2-Reading-Oxford,8
+E2,Oxford,E2-Oxford-Huddersf,8
+E2,Oxford,E2-Oxford-Leiceste,8
+E2,Oxford,E2-Burton-Oxford,8
+E2,Oxford,E2-Oxford-Luton,9
+E2,Oxford,E2-MKDons-Oxford,9
+E2,Oxford,E2-Oxford-Stevenag,9
+E2,Oxford,E2-Wycombe-Oxford,9
+E2,Oxford,E2-Oxford-LeytonOr,10
+E2,Oxford,E2-Blackpoo-Oxford,10
+E2,Oxford,E2-Oxford-Bromley,10
+E2,Oxford,E2-Plymouth-Oxford,10
+E2,Oxford,E2-Oxford-Doncaste,11
+E2,Oxford,E2-Cambridg-Oxford,11
+E2,Oxford,E2-Oxford-NottsCou,11
+E2,Oxford,E2-Stockpor-Oxford,11
+E2,Oxford,E2-Oxford-Peterbor,12
+E2,Oxford,E2-Sheffiel-Oxford,12
+E2,Peterborough,E2-Bradford-Peterbor,1
+E2,Peterborough,E2-Peterbor-Mansfiel,1
+E2,Peterborough,E2-Blackpoo-Peterbor,1
+E2,Peterborough,E2-Peterbor-Stevenag,1
+E2,Peterborough,E2-Peterbor-Sheffiel,2
+E2,Peterborough,E2-MKDons-Peterbor,2
+E2,Peterborough,E2-Peterbor-Doncaste,2
+E2,Peterborough,E2-Stockpor-Peterbor,2
+E2,Peterborough,E2-Peterbor-NottsCou,3
+E2,Peterborough,E2-Leiceste-Peterbor,3
+E2,Peterborough,E2-Peterbor-Burton,3
+E2,Peterborough,E2-Huddersf-Peterbor,3
+E2,Peterborough,E2-Bromley-Peterbor,4
+E2,Peterborough,E2-Peterbor-Luton,4
+E2,Peterborough,E2-Peterbor-Oxford,4
+E2,Peterborough,E2-Plymouth-Peterbor,4
+E2,Peterborough,E2-Peterbor-Cambridg,5
+E2,Peterborough,E2-LeytonOr-Peterbor,5
+E2,Peterborough,E2-Peterbor-Barnsley,5
+E2,Peterborough,E2-Wigan-Peterbor,5
+E2,Peterborough,E2-Peterbor-Wycombe,6
+E2,Peterborough,E2-Reading-Peterbor,6
+E2,Peterborough,E2-AFCWimbl-Peterbor,6
+E2,Peterborough,E2-Peterbor-Wigan,6
+E2,Peterborough,E2-Burton-Peterbor,7
+E2,Peterborough,E2-Peterbor-Huddersf,7
+E2,Peterborough,E2-Peterbor-Bromley,7
+E2,Peterborough,E2-Luton-Peterbor,7
+E2,Peterborough,E2-Peterbor-Blackpoo,8
+E2,Peterborough,E2-Stevenag-Peterbor,8
+E2,Peterborough,E2-Sheffiel-Peterbor,8
+E2,Peterborough,E2-Peterbor-MKDons,8
+E2,Peterborough,E2-Cambridg-Peterbor,9
+E2,Peterborough,E2-Peterbor-Bradford,9
+E2,Peterborough,E2-Mansfiel-Peterbor,9
+E2,Peterborough,E2-Peterbor-Plymouth,9
+E2,Peterborough,E2-Peterbor-AFCWimbl,10
+E2,Peterborough,E2-Wycombe-Peterbor,10
+E2,Peterborough,E2-Peterbor-Reading,10
+E2,Peterborough,E2-Barnsley-Peterbor,10
+E2,Peterborough,E2-Peterbor-Stockpor,11
+E2,Peterborough,E2-Doncaste-Peterbor,11
+E2,Peterborough,E2-Peterbor-Leiceste,11
+E2,Peterborough,E2-NottsCou-Peterbor,11
+E2,Peterborough,E2-Oxford-Peterbor,12
+E2,Peterborough,E2-Peterbor-LeytonOr,12
+E2,Plymouth,E2-Plymouth-Stockpor,1
+E2,Plymouth,E2-Wycombe-Plymouth,1
+E2,Plymouth,E2-Plymouth-Bradford,1
+E2,Plymouth,E2-Leiceste-Plymouth,1
+E2,Plymouth,E2-Doncaste-Plymouth,2
+E2,Plymouth,E2-Plymouth-Barnsley,2
+E2,Plymouth,E2-Blackpoo-Plymouth,2
+E2,Plymouth,E2-Plymouth-Burton,2
+E2,Plymouth,E2-LeytonOr-Plymouth,3
+E2,Plymouth,E2-Plymouth-AFCWimbl,3
+E2,Plymouth,E2-Plymouth-Huddersf,3
+E2,Plymouth,E2-Stevenag-Plymouth,3
+E2,Plymouth,E2-Cambridg-Plymouth,4
+E2,Plymouth,E2-Plymouth-Reading,4
+E2,Plymouth,E2-Sheffiel-Plymouth,4
+E2,Plymouth,E2-Plymouth-Peterbor,4
+E2,Plymouth,E2-Wigan-Plymouth,5
+E2,Plymouth,E2-Plymouth-Bromley,5
+E2,Plymouth,E2-NottsCou-Plymouth,5
+E2,Plymouth,E2-Plymouth-Mansfiel,5
+E2,Plymouth,E2-Oxford-Plymouth,6
+E2,Plymouth,E2-Plymouth-MKDons,6
+E2,Plymouth,E2-Plymouth-Luton,6
+E2,Plymouth,E2-Mansfiel-Plymouth,6
+E2,Plymouth,E2-Huddersf-Plymouth,7
+E2,Plymouth,E2-Plymouth-Stevenag,7
+E2,Plymouth,E2-Plymouth-Cambridg,7
+E2,Plymouth,E2-Reading-Plymouth,7
+E2,Plymouth,E2-Bradford-Plymouth,8
+E2,Plymouth,E2-Plymouth-Leiceste,8
+E2,Plymouth,E2-Plymouth-Doncaste,8
+E2,Plymouth,E2-Barnsley-Plymouth,8
+E2,Plymouth,E2-Plymouth-Sheffiel,9
+E2,Plymouth,E2-Stockpor-Plymouth,9
+E2,Plymouth,E2-Plymouth-Wycombe,9
+E2,Plymouth,E2-Peterbor-Plymouth,9
+E2,Plymouth,E2-Luton-Plymouth,10
+E2,Plymouth,E2-Plymouth-NottsCou,10
+E2,Plymouth,E2-MKDons-Plymouth,10
+E2,Plymouth,E2-Plymouth-Oxford,10
+E2,Plymouth,E2-Burton-Plymouth,11
+E2,Plymouth,E2-Plymouth-Blackpoo,11
+E2,Plymouth,E2-AFCWimbl-Plymouth,11
+E2,Plymouth,E2-Plymouth-LeytonOr,11
+E2,Plymouth,E2-Plymouth-Wigan,12
+E2,Plymouth,E2-Bromley-Plymouth,12
+E2,Reading,E2-Reading-Luton,1
+E2,Reading,E2-AFCWimbl-Reading,1
+E2,Reading,E2-Reading-Mansfiel,1
+E2,Reading,E2-Reading-Blackpoo,1
+E2,Reading,E2-Oxford-Reading,2
+E2,Reading,E2-Cambridg-Reading,2
+E2,Reading,E2-Reading-NottsCou,2
+E2,Reading,E2-Wycombe-Reading,2
+E2,Reading,E2-Reading-Bradford,3
+E2,Reading,E2-MKDons-Reading,3
+E2,Reading,E2-Wigan-Reading,3
+E2,Reading,E2-Reading-LeytonOr,3
+E2,Reading,E2-Reading-Barnsley,4
+E2,Reading,E2-Plymouth-Reading,4
+E2,Reading,E2-Stockpor-Reading,4
+E2,Reading,E2-Reading-Bromley,4
+E2,Reading,E2-Sheffiel-Reading,5
+E2,Reading,E2-Reading-Doncaste,5
+E2,Reading,E2-Burton-Reading,5
+E2,Reading,E2-Reading-Leiceste,5
+E2,Reading,E2-Stevenag-Reading,6
+E2,Reading,E2-Reading-Peterbor,6
+E2,Reading,E2-Reading-MKDons,6
+E2,Reading,E2-Leiceste-Reading,6
+E2,Reading,E2-Reading-Wigan,7
+E2,Reading,E2-LeytonOr-Reading,7
+E2,Reading,E2-Barnsley-Reading,7
+E2,Reading,E2-Reading-Plymouth,7
+E2,Reading,E2-Reading-Oxford,8
+E2,Reading,E2-Mansfiel-Reading,8
+E2,Reading,E2-Blackpoo-Reading,8
+E2,Reading,E2-Reading-Cambridg,8
+E2,Reading,E2-Reading-Stockpor,9
+E2,Reading,E2-Luton-Reading,9
+E2,Reading,E2-Reading-AFCWimbl,9
+E2,Reading,E2-Bromley-Reading,9
+E2,Reading,E2-Huddersf-Reading,10
+E2,Reading,E2-Reading-Stevenag,10
+E2,Reading,E2-Peterbor-Reading,10
+E2,Reading,E2-Reading-Burton,10
+E2,Reading,E2-Reading-Wycombe,11
+E2,Reading,E2-NottsCou-Reading,11
+E2,Reading,E2-Reading-Huddersf,11
+E2,Reading,E2-Bradford-Reading,11
+E2,Reading,E2-Reading-Sheffiel,12
+E2,Reading,E2-Doncaste-Reading,12
+E2,Sheffield Wed,E2-LeytonOr-Sheffiel,1
+E2,Sheffield Wed,E2-Sheffiel-Bradford,1
+E2,Sheffield Wed,E2-Sheffiel-Bromley,1
+E2,Sheffield Wed,E2-Wycombe-Sheffiel,1
+E2,Sheffield Wed,E2-Peterbor-Sheffiel,2
+E2,Sheffield Wed,E2-Sheffiel-Wigan,2
+E2,Sheffield Wed,E2-Sheffiel-Stockpor,2
+E2,Sheffield Wed,E2-Stevenag-Sheffiel,2
+E2,Sheffield Wed,E2-Sheffiel-Cambridg,3
+E2,Sheffield Wed,E2-Huddersf-Sheffiel,3
+E2,Sheffield Wed,E2-Sheffiel-AFCWimbl,3
+E2,Sheffield Wed,E2-NottsCou-Sheffiel,3
+E2,Sheffield Wed,E2-Doncaste-Sheffiel,4
+E2,Sheffield Wed,E2-Sheffiel-Blackpoo,4
+E2,Sheffield Wed,E2-Sheffiel-Plymouth,4
+E2,Sheffield Wed,E2-Barnsley-Sheffiel,4
+E2,Sheffield Wed,E2-Sheffiel-Reading,5
+E2,Sheffield Wed,E2-Oxford-Sheffiel,5
+E2,Sheffield Wed,E2-Leiceste-Sheffiel,5
+E2,Sheffield Wed,E2-Sheffiel-Luton,5
+E2,Sheffield Wed,E2-Burton-Sheffiel,6
+E2,Sheffield Wed,E2-Sheffiel-Mansfiel,6
+E2,Sheffield Wed,E2-Sheffiel-Huddersf,6
+E2,Sheffield Wed,E2-Luton-Sheffiel,6
+E2,Sheffield Wed,E2-AFCWimbl-Sheffiel,7
+E2,Sheffield Wed,E2-Sheffiel-NottsCou,7
+E2,Sheffield Wed,E2-Sheffiel-Doncaste,7
+E2,Sheffield Wed,E2-Blackpoo-Sheffiel,7
+E2,Sheffield Wed,E2-Bromley-Sheffiel,8
+E2,Sheffield Wed,E2-Sheffiel-Wycombe,8
+E2,Sheffield Wed,E2-Sheffiel-Peterbor,8
+E2,Sheffield Wed,E2-Wigan-Sheffiel,8
+E2,Sheffield Wed,E2-Plymouth-Sheffiel,9
+E2,Sheffield Wed,E2-Sheffiel-LeytonOr,9
+E2,Sheffield Wed,E2-Bradford-Sheffiel,9
+E2,Sheffield Wed,E2-Sheffiel-Barnsley,9
+E2,Sheffield Wed,E2-MKDons-Sheffiel,10
+E2,Sheffield Wed,E2-Sheffiel-Burton,10
+E2,Sheffield Wed,E2-Mansfiel-Sheffiel,10
+E2,Sheffield Wed,E2-Sheffiel-Leiceste,10
+E2,Sheffield Wed,E2-Sheffiel-Stevenag,11
+E2,Sheffield Wed,E2-Stockpor-Sheffiel,11
+E2,Sheffield Wed,E2-Sheffiel-MKDons,11
+E2,Sheffield Wed,E2-Cambridg-Sheffiel,11
+E2,Sheffield Wed,E2-Reading-Sheffiel,12
+E2,Sheffield Wed,E2-Sheffiel-Oxford,12
+E2,Stevenage,E2-Burton-Stevenag,1
+E2,Stevenage,E2-Stevenag-Oxford,1
+E2,Stevenage,E2-Stevenag-Doncaste,1
+E2,Stevenage,E2-Peterbor-Stevenag,1
+E2,Stevenage,E2-Barnsley-Stevenag,2
+E2,Stevenage,E2-Stevenag-Luton,2
+E2,Stevenage,E2-LeytonOr-Stevenag,2
+E2,Stevenage,E2-Stevenag-Sheffiel,2
+E2,Stevenage,E2-AFCWimbl-Stevenag,3
+E2,Stevenage,E2-Stevenag-Wigan,3
+E2,Stevenage,E2-Bradford-Stevenag,3
+E2,Stevenage,E2-Stevenag-Plymouth,3
+E2,Stevenage,E2-Stevenag-MKDons,4
+E2,Stevenage,E2-Leiceste-Stevenag,4
+E2,Stevenage,E2-Stevenag-Mansfiel,4
+E2,Stevenage,E2-NottsCou-Stevenag,4
+E2,Stevenage,E2-Stevenag-Blackpoo,5
+E2,Stevenage,E2-Huddersf-Stevenag,5
+E2,Stevenage,E2-Stevenag-Stockpor,5
+E2,Stevenage,E2-Cambridg-Stevenag,5
+E2,Stevenage,E2-Stevenag-Reading,6
+E2,Stevenage,E2-Wycombe-Stevenag,6
+E2,Stevenage,E2-Bromley-Stevenag,6
+E2,Stevenage,E2-Stevenag-Cambridg,6
+E2,Stevenage,E2-Stevenag-Bradford,7
+E2,Stevenage,E2-Plymouth-Stevenag,7
+E2,Stevenage,E2-MKDons-Stevenag,7
+E2,Stevenage,E2-Stevenag-Leiceste,7
+E2,Stevenage,E2-Doncaste-Stevenag,8
+E2,Stevenage,E2-Stevenag-Peterbor,8
+E2,Stevenage,E2-Stevenag-Barnsley,8
+E2,Stevenage,E2-Luton-Stevenag,8
+E2,Stevenage,E2-Mansfiel-Stevenag,9
+E2,Stevenage,E2-Stevenag-Burton,9
+E2,Stevenage,E2-Oxford-Stevenag,9
+E2,Stevenage,E2-Stevenag-NottsCou,9
+E2,Stevenage,E2-Stevenag-Bromley,10
+E2,Stevenage,E2-Reading-Stevenag,10
+E2,Stevenage,E2-Stevenag-Wycombe,10
+E2,Stevenage,E2-Stockpor-Stevenag,10
+E2,Stevenage,E2-Sheffiel-Stevenag,11
+E2,Stevenage,E2-Stevenag-LeytonOr,11
+E2,Stevenage,E2-Wigan-Stevenag,11
+E2,Stevenage,E2-Stevenag-AFCWimbl,11
+E2,Stevenage,E2-Blackpoo-Stevenag,12
+E2,Stevenage,E2-Stevenag-Huddersf,12
+E2,Stockport,E2-Plymouth-Stockpor,1
+E2,Stockport,E2-Stockpor-Blackpoo,1
+E2,Stockport,E2-Stockpor-Wycombe,1
+E2,Stockport,E2-Luton-Stockpor,1
+E2,Stockport,E2-Wigan-Stockpor,2
+E2,Stockport,E2-Stockpor-Leiceste,2
+E2,Stockport,E2-Sheffiel-Stockpor,2
+E2,Stockport,E2-Stockpor-Peterbor,2
+E2,Stockport,E2-Oxford-Stockpor,3
+E2,Stockport,E2-Stockpor-Barnsley,3
+E2,Stockport,E2-Stockpor-Bromley,3
+E2,Stockport,E2-Doncaste-Stockpor,3
+E2,Stockport,E2-NottsCou-Stockpor,4
+E2,Stockport,E2-Stockpor-AFCWimbl,4
+E2,Stockport,E2-Stockpor-Reading,4
+E2,Stockport,E2-Cambridg-Stockpor,4
+E2,Stockport,E2-Stockpor-LeytonOr,5
+E2,Stockport,E2-Mansfiel-Stockpor,5
+E2,Stockport,E2-Stevenag-Stockpor,5
+E2,Stockport,E2-Stockpor-MKDons,5
+E2,Stockport,E2-Bradford-Stockpor,6
+E2,Stockport,E2-Stockpor-Huddersf,6
+E2,Stockport,E2-Stockpor-Burton,6
+E2,Stockport,E2-MKDons-Stockpor,6
+E2,Stockport,E2-Bromley-Stockpor,7
+E2,Stockport,E2-Stockpor-Doncaste,7
+E2,Stockport,E2-Stockpor-NottsCou,7
+E2,Stockport,E2-AFCWimbl-Stockpor,7
+E2,Stockport,E2-Wycombe-Stockpor,8
+E2,Stockport,E2-Stockpor-Luton,8
+E2,Stockport,E2-Stockpor-Wigan,8
+E2,Stockport,E2-Leiceste-Stockpor,8
+E2,Stockport,E2-Reading-Stockpor,9
+E2,Stockport,E2-Stockpor-Plymouth,9
+E2,Stockport,E2-Blackpoo-Stockpor,9
+E2,Stockport,E2-Stockpor-Cambridg,9
+E2,Stockport,E2-Burton-Stockpor,10
+E2,Stockport,E2-Stockpor-Bradford,10
+E2,Stockport,E2-Huddersf-Stockpor,10
+E2,Stockport,E2-Stockpor-Stevenag,10
+E2,Stockport,E2-Peterbor-Stockpor,11
+E2,Stockport,E2-Stockpor-Sheffiel,11
+E2,Stockport,E2-Barnsley-Stockpor,11
+E2,Stockport,E2-Stockpor-Oxford,11
+E2,Stockport,E2-LeytonOr-Stockpor,12
+E2,Stockport,E2-Stockpor-Mansfiel,12
+E2,Wigan,E2-Cambridg-Wigan,1
+E2,Wigan,E2-Wigan-LeytonOr,1
+E2,Wigan,E2-AFCWimbl-Wigan,1
+E2,Wigan,E2-Wigan-MKDons,1
+E2,Wigan,E2-Wigan-Stockpor,2
+E2,Wigan,E2-Sheffiel-Wigan,2
+E2,Wigan,E2-Wigan-Wycombe,2
+E2,Wigan,E2-Leiceste-Wigan,2
+E2,Wigan,E2-Wigan-Mansfiel,3
+E2,Wigan,E2-Stevenag-Wigan,3
+E2,Wigan,E2-Wigan-Reading,3
+E2,Wigan,E2-Oxford-Wigan,3
+E2,Wigan,E2-Huddersf-Wigan,4
+E2,Wigan,E2-Wigan-Bromley,4
+E2,Wigan,E2-Wigan-Barnsley,4
+E2,Wigan,E2-Blackpoo-Wigan,4
+E2,Wigan,E2-Wigan-Plymouth,5
+E2,Wigan,E2-Burton-Wigan,5
+E2,Wigan,E2-Luton-Wigan,5
+E2,Wigan,E2-Wigan-Peterbor,5
+E2,Wigan,E2-Doncaste-Wigan,6
+E2,Wigan,E2-Wigan-NottsCou,6
+E2,Wigan,E2-Wigan-Bradford,6
+E2,Wigan,E2-Peterbor-Wigan,6
+E2,Wigan,E2-Reading-Wigan,7
+E2,Wigan,E2-Wigan-Oxford,7
+E2,Wigan,E2-Wigan-Huddersf,7
+E2,Wigan,E2-Bromley-Wigan,7
+E2,Wigan,E2-Wigan-AFCWimbl,8
+E2,Wigan,E2-MKDons-Wigan,8
+E2,Wigan,E2-Stockpor-Wigan,8
+E2,Wigan,E2-Wigan-Sheffiel,8
+E2,Wigan,E2-Barnsley-Wigan,9
+E2,Wigan,E2-Wigan-Cambridg,9
+E2,Wigan,E2-LeytonOr-Wigan,9
+E2,Wigan,E2-Wigan-Blackpoo,9
+E2,Wigan,E2-Bradford-Wigan,10
+E2,Wigan,E2-Wigan-Luton,10
+E2,Wigan,E2-NottsCou-Wigan,10
+E2,Wigan,E2-Wigan-Doncaste,10
+E2,Wigan,E2-Wigan-Leiceste,11
+E2,Wigan,E2-Wycombe-Wigan,11
+E2,Wigan,E2-Wigan-Stevenag,11
+E2,Wigan,E2-Mansfiel-Wigan,11
+E2,Wigan,E2-Plymouth-Wigan,12
+E2,Wigan,E2-Wigan-Burton,12
+E2,Wycombe,E2-Blackpoo-Wycombe,1
+E2,Wycombe,E2-Wycombe-Plymouth,1
+E2,Wycombe,E2-Stockpor-Wycombe,1
+E2,Wycombe,E2-Wycombe-Sheffiel,1
+E2,Wycombe,E2-Wycombe-MKDons,2
+E2,Wycombe,E2-LeytonOr-Wycombe,2
+E2,Wycombe,E2-Wigan-Wycombe,2
+E2,Wycombe,E2-Wycombe-Reading,2
+E2,Wycombe,E2-Bromley-Wycombe,3
+E2,Wycombe,E2-Wycombe-Luton,3
+E2,Wycombe,E2-Wycombe-NottsCou,3
+E2,Wycombe,E2-Cambridg-Wycombe,3
+E2,Wycombe,E2-AFCWimbl-Wycombe,4
+E2,Wycombe,E2-Wycombe-Burton,4
+E2,Wycombe,E2-Wycombe-Huddersf,4
+E2,Wycombe,E2-Oxford-Wycombe,4
+E2,Wycombe,E2-Wycombe-Bradford,5
+E2,Wycombe,E2-Barnsley-Wycombe,5
+E2,Wycombe,E2-Mansfiel-Wycombe,5
+E2,Wycombe,E2-Wycombe-Doncaste,5
+E2,Wycombe,E2-Peterbor-Wycombe,6
+E2,Wycombe,E2-Wycombe-Stevenag,6
+E2,Wycombe,E2-Wycombe-Leiceste,6
+E2,Wycombe,E2-Doncaste-Wycombe,6
+E2,Wycombe,E2-NottsCou-Wycombe,7
+E2,Wycombe,E2-Wycombe-Cambridg,7
+E2,Wycombe,E2-Wycombe-AFCWimbl,7
+E2,Wycombe,E2-Burton-Wycombe,7
+E2,Wycombe,E2-Wycombe-Stockpor,8
+E2,Wycombe,E2-Sheffiel-Wycombe,8
+E2,Wycombe,E2-MKDons-Wycombe,8
+E2,Wycombe,E2-Wycombe-LeytonOr,8
+E2,Wycombe,E2-Huddersf-Wycombe,9
+E2,Wycombe,E2-Wycombe-Blackpoo,9
+E2,Wycombe,E2-Plymouth-Wycombe,9
+E2,Wycombe,E2-Wycombe-Oxford,9
+E2,Wycombe,E2-Leiceste-Wycombe,10
+E2,Wycombe,E2-Wycombe-Peterbor,10
+E2,Wycombe,E2-Stevenag-Wycombe,10
+E2,Wycombe,E2-Wycombe-Mansfiel,10
+E2,Wycombe,E2-Reading-Wycombe,11
+E2,Wycombe,E2-Wycombe-Wigan,11
+E2,Wycombe,E2-Luton-Wycombe,11
+E2,Wycombe,E2-Wycombe-Bromley,11
+E2,Wycombe,E2-Bradford-Wycombe,12
+E2,Wycombe,E2-Wycombe-Barnsley,12
+E3,Accrington,E3-Accringt-Colchest,1
+E3,Accrington,E3-Exeter-Accringt,1
+E3,Accrington,E3-Walsall-Accringt,1
+E3,Accrington,E3-Accringt-Grimsby,1
+E3,Accrington,E3-Accringt-Crawley,2
+E3,Accrington,E3-Barnet-Accringt,2
+E3,Accrington,E3-Accringt-Newport,2
+E3,Accrington,E3-Swindon-Accringt,2
+E3,Accrington,E3-Accringt-Cheltenh,3
+E3,Accrington,E3-Oldham-Accringt,3
+E3,Accrington,E3-Accringt-Gillingh,3
+E3,Accrington,E3-York-Accringt,3
+E3,Accrington,E3-Rochdale-Accringt,4
+E3,Accrington,E3-Accringt-Northamp,4
+E3,Accrington,E3-PortVale-Accringt,4
+E3,Accrington,E3-Accringt-Salford,4
+E3,Accrington,E3-Fleetwoo-Accringt,5
+E3,Accrington,E3-Accringt-Crewe,5
+E3,Accrington,E3-BristolR-Accringt,5
+E3,Accrington,E3-Accringt-Chesterf,5
+E3,Accrington,E3-Tranmere-Accringt,6
+E3,Accrington,E3-Accringt-Rotherha,6
+E3,Accrington,E3-Accringt-Shrewsbu,6
+E3,Accrington,E3-Chesterf-Accringt,6
+E3,Accrington,E3-Gillingh-Accringt,7
+E3,Accrington,E3-Accringt-York,7
+E3,Accrington,E3-Accringt-Rochdale,7
+E3,Accrington,E3-Northamp-Accringt,7
+E3,Accrington,E3-Accringt-Walsall,8
+E3,Accrington,E3-Grimsby-Accringt,8
+E3,Accrington,E3-Crawley-Accringt,8
+E3,Accrington,E3-Accringt-Barnet,8
+E3,Accrington,E3-Accringt-PortVale,9
+E3,Accrington,E3-Colchest-Accringt,9
+E3,Accrington,E3-Accringt-Exeter,9
+E3,Accrington,E3-Salford-Accringt,9
+E3,Accrington,E3-Shrewsbu-Accringt,10
+E3,Accrington,E3-Accringt-Tranmere,10
+E3,Accrington,E3-Rotherha-Accringt,10
+E3,Accrington,E3-Accringt-BristolR,10
+E3,Accrington,E3-Accringt-Oldham,11
+E3,Accrington,E3-Newport-Accringt,11
+E3,Accrington,E3-Accringt-Swindon,11
+E3,Accrington,E3-Cheltenh-Accringt,11
+E3,Accrington,E3-Accringt-Fleetwoo,12
+E3,Accrington,E3-Crewe-Accringt,12
+E3,Barnet,E3-Barnet-Salford,1
+E3,Barnet,E3-Shrewsbu-Barnet,1
+E3,Barnet,E3-Barnet-Cheltenh,1
+E3,Barnet,E3-Exeter-Barnet,1
+E3,Barnet,E3-Chesterf-Barnet,2
+E3,Barnet,E3-Barnet-Accringt,2
+E3,Barnet,E3-Barnet-Fleetwoo,2
+E3,Barnet,E3-Crawley-Barnet,2
+E3,Barnet,E3-Barnet-York,3
+E3,Barnet,E3-BristolR-Barnet,3
+E3,Barnet,E3-Tranmere-Barnet,3
+E3,Barnet,E3-Barnet-Swindon,3
+E3,Barnet,E3-Barnet-Oldham,4
+E3,Barnet,E3-Crewe-Barnet,4
+E3,Barnet,E3-Walsall-Barnet,4
+E3,Barnet,E3-Barnet-PortVale,4
+E3,Barnet,E3-Rochdale-Barnet,5
+E3,Barnet,E3-Barnet-Rotherha,5
+E3,Barnet,E3-Barnet-Northamp,5
+E3,Barnet,E3-Grimsby-Barnet,5
+E3,Barnet,E3-Barnet-Colchest,6
+E3,Barnet,E3-Gillingh-Barnet,6
+E3,Barnet,E3-Newport-Barnet,6
+E3,Barnet,E3-Barnet-Grimsby,6
+E3,Barnet,E3-Barnet-Tranmere,7
+E3,Barnet,E3-Swindon-Barnet,7
+E3,Barnet,E3-Oldham-Barnet,7
+E3,Barnet,E3-Barnet-Crewe,7
+E3,Barnet,E3-Cheltenh-Barnet,8
+E3,Barnet,E3-Barnet-Exeter,8
+E3,Barnet,E3-Barnet-Chesterf,8
+E3,Barnet,E3-Accringt-Barnet,8
+E3,Barnet,E3-Barnet-Walsall,9
+E3,Barnet,E3-Salford-Barnet,9
+E3,Barnet,E3-Barnet-Shrewsbu,9
+E3,Barnet,E3-PortVale-Barnet,9
+E3,Barnet,E3-Barnet-Newport,10
+E3,Barnet,E3-Colchest-Barnet,10
+E3,Barnet,E3-Barnet-Gillingh,10
+E3,Barnet,E3-Northamp-Barnet,10
+E3,Barnet,E3-Barnet-BristolR,11
+E3,Barnet,E3-Fleetwoo-Barnet,11
+E3,Barnet,E3-Barnet-Crawley,11
+E3,Barnet,E3-York-Barnet,11
+E3,Barnet,E3-Barnet-Rochdale,12
+E3,Barnet,E3-Rotherha-Barnet,12
+E3,Bristol Rovers,E3-York-BristolR,1
+E3,Bristol Rovers,E3-BristolR-Newport,1
+E3,Bristol Rovers,E3-Crawley-BristolR,1
+E3,Bristol Rovers,E3-BristolR-Colchest,1
+E3,Bristol Rovers,E3-BristolR-Rotherha,2
+E3,Bristol Rovers,E3-Grimsby-BristolR,2
+E3,Bristol Rovers,E3-Gillingh-BristolR,2
+E3,Bristol Rovers,E3-BristolR-Exeter,2
+E3,Bristol Rovers,E3-Crewe-BristolR,3
+E3,Bristol Rovers,E3-BristolR-Barnet,3
+E3,Bristol Rovers,E3-Shrewsbu-BristolR,3
+E3,Bristol Rovers,E3-BristolR-Salford,3
+E3,Bristol Rovers,E3-BristolR-Swindon,4
+E3,Bristol Rovers,E3-Fleetwoo-BristolR,4
+E3,Bristol Rovers,E3-BristolR-Chesterf,4
+E3,Bristol Rovers,E3-Cheltenh-BristolR,4
+E3,Bristol Rovers,E3-BristolR-Tranmere,5
+E3,Bristol Rovers,E3-Oldham-BristolR,5
+E3,Bristol Rovers,E3-BristolR-Accringt,5
+E3,Bristol Rovers,E3-Rochdale-BristolR,5
+E3,Bristol Rovers,E3-BristolR-Walsall,6
+E3,Bristol Rovers,E3-PortVale-BristolR,6
+E3,Bristol Rovers,E3-Northamp-BristolR,6
+E3,Bristol Rovers,E3-BristolR-Rochdale,6
+E3,Bristol Rovers,E3-BristolR-Shrewsbu,7
+E3,Bristol Rovers,E3-Salford-BristolR,7
+E3,Bristol Rovers,E3-Swindon-BristolR,7
+E3,Bristol Rovers,E3-BristolR-Fleetwoo,7
+E3,Bristol Rovers,E3-BristolR-Crawley,8
+E3,Bristol Rovers,E3-Colchest-BristolR,8
+E3,Bristol Rovers,E3-Rotherha-BristolR,8
+E3,Bristol Rovers,E3-BristolR-Grimsby,8
+E3,Bristol Rovers,E3-Chesterf-BristolR,9
+E3,Bristol Rovers,E3-BristolR-York,9
+E3,Bristol Rovers,E3-Newport-BristolR,9
+E3,Bristol Rovers,E3-BristolR-Cheltenh,9
+E3,Bristol Rovers,E3-BristolR-Northamp,10
+E3,Bristol Rovers,E3-Walsall-BristolR,10
+E3,Bristol Rovers,E3-BristolR-PortVale,10
+E3,Bristol Rovers,E3-Accringt-BristolR,10
+E3,Bristol Rovers,E3-Barnet-BristolR,11
+E3,Bristol Rovers,E3-BristolR-Gillingh,11
+E3,Bristol Rovers,E3-Exeter-BristolR,11
+E3,Bristol Rovers,E3-BristolR-Crewe,11
+E3,Bristol Rovers,E3-Tranmere-BristolR,12
+E3,Bristol Rovers,E3-BristolR-Oldham,12
+E3,Cheltenham,E3-Cheltenh-Rotherha,1
+E3,Cheltenham,E3-Swindon-Cheltenh,1
+E3,Cheltenham,E3-Barnet-Cheltenh,1
+E3,Cheltenham,E3-Cheltenh-York,1
+E3,Cheltenham,E3-Cheltenh-Grimsby,2
+E3,Cheltenham,E3-Crawley-Cheltenh,2
+E3,Cheltenham,E3-Colchest-Cheltenh,2
+E3,Cheltenham,E3-Cheltenh-Chesterf,2
+E3,Cheltenham,E3-Accringt-Cheltenh,3
+E3,Cheltenham,E3-Cheltenh-Salford,3
+E3,Cheltenham,E3-Oldham-Cheltenh,3
+E3,Cheltenham,E3-Cheltenh-Fleetwoo,3
+E3,Cheltenham,E3-Cheltenh-Newport,4
+E3,Cheltenham,E3-Tranmere-Cheltenh,4
+E3,Cheltenham,E3-Exeter-Cheltenh,4
+E3,Cheltenham,E3-Cheltenh-BristolR,4
+E3,Cheltenham,E3-Shrewsbu-Cheltenh,5
+E3,Cheltenham,E3-Cheltenh-Rochdale,5
+E3,Cheltenham,E3-Cheltenh-Crewe,5
+E3,Cheltenham,E3-Gillingh-Cheltenh,5
+E3,Cheltenham,E3-Cheltenh-PortVale,6
+E3,Cheltenham,E3-Northamp-Cheltenh,6
+E3,Cheltenham,E3-Walsall-Cheltenh,6
+E3,Cheltenham,E3-Cheltenh-Gillingh,6
+E3,Cheltenham,E3-Cheltenh-Oldham,7
+E3,Cheltenham,E3-Fleetwoo-Cheltenh,7
+E3,Cheltenham,E3-Newport-Cheltenh,7
+E3,Cheltenham,E3-Cheltenh-Tranmere,7
+E3,Cheltenham,E3-Cheltenh-Barnet,8
+E3,Cheltenham,E3-York-Cheltenh,8
+E3,Cheltenham,E3-Grimsby-Cheltenh,8
+E3,Cheltenham,E3-Cheltenh-Crawley,8
+E3,Cheltenham,E3-Cheltenh-Exeter,9
+E3,Cheltenham,E3-Rotherha-Cheltenh,9
+E3,Cheltenham,E3-Cheltenh-Swindon,9
+E3,Cheltenham,E3-BristolR-Cheltenh,9
+E3,Cheltenham,E3-Cheltenh-Walsall,10
+E3,Cheltenham,E3-PortVale-Cheltenh,10
+E3,Cheltenham,E3-Cheltenh-Northamp,10
+E3,Cheltenham,E3-Crewe-Cheltenh,10
+E3,Cheltenham,E3-Salford-Cheltenh,11
+E3,Cheltenham,E3-Cheltenh-Colchest,11
+E3,Cheltenham,E3-Chesterf-Cheltenh,11
+E3,Cheltenham,E3-Cheltenh-Accringt,11
+E3,Cheltenham,E3-Cheltenh-Shrewsbu,12
+E3,Cheltenham,E3-Rochdale-Cheltenh,12
+E3,Chesterfield,E3-Chesterf-Fleetwoo,1
+E3,Chesterfield,E3-Salford-Chesterf,1
+E3,Chesterfield,E3-Rotherha-Chesterf,1
+E3,Chesterfield,E3-Chesterf-Gillingh,1
+E3,Chesterfield,E3-Chesterf-Barnet,2
+E3,Chesterfield,E3-Oldham-Chesterf,2
+E3,Chesterfield,E3-Chesterf-York,2
+E3,Chesterfield,E3-Cheltenh-Chesterf,2
+E3,Chesterfield,E3-Chesterf-Tranmere,3
+E3,Chesterfield,E3-Crawley-Chesterf,3
+E3,Chesterfield,E3-PortVale-Chesterf,3
+E3,Chesterfield,E3-Chesterf-Colchest,3
+E3,Chesterfield,E3-Chesterf-Crewe,4
+E3,Chesterfield,E3-Newport-Chesterf,4
+E3,Chesterfield,E3-BristolR-Chesterf,4
+E3,Chesterfield,E3-Chesterf-Shrewsbu,4
+E3,Chesterfield,E3-Swindon-Chesterf,5
+E3,Chesterfield,E3-Chesterf-Exeter,5
+E3,Chesterfield,E3-Chesterf-Grimsby,5
+E3,Chesterfield,E3-Accringt-Chesterf,5
+E3,Chesterfield,E3-Chesterf-Northamp,6
+E3,Chesterfield,E3-Walsall-Chesterf,6
+E3,Chesterfield,E3-Rochdale-Chesterf,6
+E3,Chesterfield,E3-Chesterf-Accringt,6
+E3,Chesterfield,E3-Chesterf-PortVale,7
+E3,Chesterfield,E3-Colchest-Chesterf,7
+E3,Chesterfield,E3-Crewe-Chesterf,7
+E3,Chesterfield,E3-Chesterf-Newport,7
+E3,Chesterfield,E3-Chesterf-Rotherha,8
+E3,Chesterfield,E3-Gillingh-Chesterf,8
+E3,Chesterfield,E3-Barnet-Chesterf,8
+E3,Chesterfield,E3-Chesterf-Oldham,8
+E3,Chesterfield,E3-Chesterf-BristolR,9
+E3,Chesterfield,E3-Fleetwoo-Chesterf,9
+E3,Chesterfield,E3-Chesterf-Salford,9
+E3,Chesterfield,E3-Shrewsbu-Chesterf,9
+E3,Chesterfield,E3-Chesterf-Rochdale,10
+E3,Chesterfield,E3-Northamp-Chesterf,10
+E3,Chesterfield,E3-Chesterf-Walsall,10
+E3,Chesterfield,E3-Grimsby-Chesterf,10
+E3,Chesterfield,E3-Chesterf-Crawley,11
+E3,Chesterfield,E3-York-Chesterf,11
+E3,Chesterfield,E3-Chesterf-Cheltenh,11
+E3,Chesterfield,E3-Tranmere-Chesterf,11
+E3,Chesterfield,E3-Chesterf-Swindon,12
+E3,Chesterfield,E3-Exeter-Chesterf,12
+E3,Colchester,E3-Accringt-Colchest,1
+E3,Colchester,E3-Colchest-Oldham,1
+E3,Colchester,E3-Colchest-Rochdale,1
+E3,Colchester,E3-BristolR-Colchest,1
+E3,Colchester,E3-Swindon-Colchest,2
+E3,Colchester,E3-Colchest-Crewe,2
+E3,Colchester,E3-Colchest-Cheltenh,2
+E3,Colchester,E3-Shrewsbu-Colchest,2
+E3,Colchester,E3-Colchest-PortVale,3
+E3,Colchester,E3-Newport-Colchest,3
+E3,Colchester,E3-Colchest-Exeter,3
+E3,Colchester,E3-Chesterf-Colchest,3
+E3,Colchester,E3-Northamp-Colchest,4
+E3,Colchester,E3-Colchest-Walsall,4
+E3,Colchester,E3-Colchest-Gillingh,4
+E3,Colchester,E3-Tranmere-Colchest,4
+E3,Colchester,E3-Colchest-York,5
+E3,Colchester,E3-Grimsby-Colchest,5
+E3,Colchester,E3-Salford-Colchest,5
+E3,Colchester,E3-Colchest-Fleetwoo,5
+E3,Colchester,E3-Barnet-Colchest,6
+E3,Colchester,E3-Colchest-Crawley,6
+E3,Colchester,E3-Colchest-Rotherha,6
+E3,Colchester,E3-Fleetwoo-Colchest,6
+E3,Colchester,E3-Exeter-Colchest,7
+E3,Colchester,E3-Colchest-Chesterf,7
+E3,Colchester,E3-Colchest-Northamp,7
+E3,Colchester,E3-Walsall-Colchest,7
+E3,Colchester,E3-Rochdale-Colchest,8
+E3,Colchester,E3-Colchest-BristolR,8
+E3,Colchester,E3-Colchest-Swindon,8
+E3,Colchester,E3-Crewe-Colchest,8
+E3,Colchester,E3-Gillingh-Colchest,9
+E3,Colchester,E3-Colchest-Accringt,9
+E3,Colchester,E3-Oldham-Colchest,9
+E3,Colchester,E3-Colchest-Tranmere,9
+E3,Colchester,E3-Rotherha-Colchest,10
+E3,Colchester,E3-Colchest-Barnet,10
+E3,Colchester,E3-Crawley-Colchest,10
+E3,Colchester,E3-Colchest-Salford,10
+E3,Colchester,E3-Colchest-Newport,11
+E3,Colchester,E3-Cheltenh-Colchest,11
+E3,Colchester,E3-Colchest-Shrewsbu,11
+E3,Colchester,E3-PortVale-Colchest,11
+E3,Colchester,E3-York-Colchest,12
+E3,Colchester,E3-Colchest-Grimsby,12
+E3,Crawley,E3-Crawley-Crewe,1
+E3,Crawley,E3-Rochdale-Crawley,1
+E3,Crawley,E3-Crawley-BristolR,1
+E3,Crawley,E3-Northamp-Crawley,1
+E3,Crawley,E3-Accringt-Crawley,2
+E3,Crawley,E3-Crawley-Cheltenh,2
+E3,Crawley,E3-Grimsby-Crawley,2
+E3,Crawley,E3-Crawley-Barnet,2
+E3,Crawley,E3-Walsall-Crawley,3
+E3,Crawley,E3-Crawley-Chesterf,3
+E3,Crawley,E3-Salford-Crawley,3
+E3,Crawley,E3-Crawley-Shrewsbu,3
+E3,Crawley,E3-Crawley-Tranmere,4
+E3,Crawley,E3-Oldham-Crawley,4
+E3,Crawley,E3-Rotherha-Crawley,4
+E3,Crawley,E3-Crawley-Fleetwoo,4
+E3,Crawley,E3-Exeter-Crawley,5
+E3,Crawley,E3-Crawley-PortVale,5
+E3,Crawley,E3-Crawley-Newport,5
+E3,Crawley,E3-York-Crawley,5
+E3,Crawley,E3-Crawley-Gillingh,6
+E3,Crawley,E3-Colchest-Crawley,6
+E3,Crawley,E3-Swindon-Crawley,6
+E3,Crawley,E3-Crawley-York,6
+E3,Crawley,E3-Crawley-Salford,7
+E3,Crawley,E3-Shrewsbu-Crawley,7
+E3,Crawley,E3-Tranmere-Crawley,7
+E3,Crawley,E3-Crawley-Oldham,7
+E3,Crawley,E3-BristolR-Crawley,8
+E3,Crawley,E3-Crawley-Northamp,8
+E3,Crawley,E3-Crawley-Accringt,8
+E3,Crawley,E3-Cheltenh-Crawley,8
+E3,Crawley,E3-Crawley-Rotherha,9
+E3,Crawley,E3-Crewe-Crawley,9
+E3,Crawley,E3-Crawley-Rochdale,9
+E3,Crawley,E3-Fleetwoo-Crawley,9
+E3,Crawley,E3-Crawley-Swindon,10
+E3,Crawley,E3-Gillingh-Crawley,10
+E3,Crawley,E3-Crawley-Colchest,10
+E3,Crawley,E3-Newport-Crawley,10
+E3,Crawley,E3-Chesterf-Crawley,11
+E3,Crawley,E3-Crawley-Grimsby,11
+E3,Crawley,E3-Barnet-Crawley,11
+E3,Crawley,E3-Crawley-Walsall,11
+E3,Crawley,E3-Crawley-Exeter,12
+E3,Crawley,E3-PortVale-Crawley,12
+E3,Crewe,E3-Crawley-Crewe,1
+E3,Crewe,E3-Crewe-Northamp,1
+E3,Crewe,E3-PortVale-Crewe,1
+E3,Crewe,E3-Crewe-Walsall,1
+E3,Crewe,E3-Crewe-York,2
+E3,Crewe,E3-Colchest-Crewe,2
+E3,Crewe,E3-Crewe-Shrewsbu,2
+E3,Crewe,E3-Rotherha-Crewe,2
+E3,Crewe,E3-Crewe-BristolR,3
+E3,Crewe,E3-Swindon-Crewe,3
+E3,Crewe,E3-Crewe-Rochdale,3
+E3,Crewe,E3-Exeter-Crewe,3
+E3,Crewe,E3-Chesterf-Crewe,4
+E3,Crewe,E3-Crewe-Barnet,4
+E3,Crewe,E3-Crewe-Newport,4
+E3,Crewe,E3-Gillingh-Crewe,4
+E3,Crewe,E3-Crewe-Grimsby,5
+E3,Crewe,E3-Accringt-Crewe,5
+E3,Crewe,E3-Cheltenh-Crewe,5
+E3,Crewe,E3-Crewe-Salford,5
+E3,Crewe,E3-Fleetwoo-Crewe,6
+E3,Crewe,E3-Crewe-Tranmere,6
+E3,Crewe,E3-Crewe-Oldham,6
+E3,Crewe,E3-Salford-Crewe,6
+E3,Crewe,E3-Rochdale-Crewe,7
+E3,Crewe,E3-Crewe-Exeter,7
+E3,Crewe,E3-Crewe-Chesterf,7
+E3,Crewe,E3-Barnet-Crewe,7
+E3,Crewe,E3-Crewe-PortVale,8
+E3,Crewe,E3-Walsall-Crewe,8
+E3,Crewe,E3-York-Crewe,8
+E3,Crewe,E3-Crewe-Colchest,8
+E3,Crewe,E3-Newport-Crewe,9
+E3,Crewe,E3-Crewe-Crawley,9
+E3,Crewe,E3-Northamp-Crewe,9
+E3,Crewe,E3-Crewe-Gillingh,9
+E3,Crewe,E3-Oldham-Crewe,10
+E3,Crewe,E3-Crewe-Fleetwoo,10
+E3,Crewe,E3-Tranmere-Crewe,10
+E3,Crewe,E3-Crewe-Cheltenh,10
+E3,Crewe,E3-Crewe-Swindon,11
+E3,Crewe,E3-Shrewsbu-Crewe,11
+E3,Crewe,E3-Crewe-Rotherha,11
+E3,Crewe,E3-BristolR-Crewe,11
+E3,Crewe,E3-Grimsby-Crewe,12
+E3,Crewe,E3-Crewe-Accringt,12
+E3,Exeter,E3-Grimsby-Exeter,1
+E3,Exeter,E3-Exeter-Accringt,1
+E3,Exeter,E3-York-Exeter,1
+E3,Exeter,E3-Exeter-Barnet,1
+E3,Exeter,E3-Exeter-Walsall,2
+E3,Exeter,E3-PortVale-Exeter,2
+E3,Exeter,E3-Exeter-Tranmere,2
+E3,Exeter,E3-BristolR-Exeter,2
+E3,Exeter,E3-Exeter-Rotherha,3
+E3,Exeter,E3-Shrewsbu-Exeter,3
+E3,Exeter,E3-Colchest-Exeter,3
+E3,Exeter,E3-Exeter-Crewe,3
+E3,Exeter,E3-Exeter-Fleetwoo,4
+E3,Exeter,E3-Salford-Exeter,4
+E3,Exeter,E3-Exeter-Cheltenh,4
+E3,Exeter,E3-Oldham-Exeter,4
+E3,Exeter,E3-Exeter-Crawley,5
+E3,Exeter,E3-Chesterf-Exeter,5
+E3,Exeter,E3-Exeter-Rochdale,5
+E3,Exeter,E3-Northamp-Exeter,5
+E3,Exeter,E3-Exeter-Newport,6
+E3,Exeter,E3-Swindon-Exeter,6
+E3,Exeter,E3-Gillingh-Exeter,6
+E3,Exeter,E3-Exeter-Northamp,6
+E3,Exeter,E3-Exeter-Colchest,7
+E3,Exeter,E3-Crewe-Exeter,7
+E3,Exeter,E3-Fleetwoo-Exeter,7
+E3,Exeter,E3-Exeter-Salford,7
+E3,Exeter,E3-Exeter-York,8
+E3,Exeter,E3-Barnet-Exeter,8
+E3,Exeter,E3-Walsall-Exeter,8
+E3,Exeter,E3-Exeter-PortVale,8
+E3,Exeter,E3-Cheltenh-Exeter,9
+E3,Exeter,E3-Exeter-Grimsby,9
+E3,Exeter,E3-Accringt-Exeter,9
+E3,Exeter,E3-Exeter-Oldham,9
+E3,Exeter,E3-Exeter-Gillingh,10
+E3,Exeter,E3-Newport-Exeter,10
+E3,Exeter,E3-Exeter-Swindon,10
+E3,Exeter,E3-Rochdale-Exeter,10
+E3,Exeter,E3-Exeter-Shrewsbu,11
+E3,Exeter,E3-Tranmere-Exeter,11
+E3,Exeter,E3-Exeter-BristolR,11
+E3,Exeter,E3-Rotherha-Exeter,11
+E3,Exeter,E3-Crawley-Exeter,12
+E3,Exeter,E3-Exeter-Chesterf,12
+E3,Fleetwood,E3-Chesterf-Fleetwoo,1
+E3,Fleetwood,E3-Fleetwoo-Gillingh,1
+E3,Fleetwood,E3-Grimsby-Fleetwoo,1
+E3,Fleetwood,E3-Fleetwoo-Oldham,1
+E3,Fleetwood,E3-Fleetwoo-Shrewsbu,2
+E3,Fleetwood,E3-Newport-Fleetwoo,2
+E3,Fleetwood,E3-Barnet-Fleetwoo,2
+E3,Fleetwood,E3-Fleetwoo-Rochdale,2
+E3,Fleetwood,E3-Salford-Fleetwoo,3
+E3,Fleetwood,E3-Fleetwoo-Walsall,3
+E3,Fleetwood,E3-Fleetwoo-Rotherha,3
+E3,Fleetwood,E3-Cheltenh-Fleetwoo,3
+E3,Fleetwood,E3-Exeter-Fleetwoo,4
+E3,Fleetwood,E3-Fleetwoo-BristolR,4
+E3,Fleetwood,E3-Fleetwoo-Tranmere,4
+E3,Fleetwood,E3-Crawley-Fleetwoo,4
+E3,Fleetwood,E3-Fleetwoo-Accringt,5
+E3,Fleetwood,E3-Northamp-Fleetwoo,5
+E3,Fleetwood,E3-Fleetwoo-Swindon,5
+E3,Fleetwood,E3-Colchest-Fleetwoo,5
+E3,Fleetwood,E3-Fleetwoo-Crewe,6
+E3,Fleetwood,E3-York-Fleetwoo,6
+E3,Fleetwood,E3-PortVale-Fleetwoo,6
+E3,Fleetwood,E3-Fleetwoo-Colchest,6
+E3,Fleetwood,E3-Rotherha-Fleetwoo,7
+E3,Fleetwood,E3-Fleetwoo-Cheltenh,7
+E3,Fleetwood,E3-Fleetwoo-Exeter,7
+E3,Fleetwood,E3-BristolR-Fleetwoo,7
+E3,Fleetwood,E3-Fleetwoo-Grimsby,8
+E3,Fleetwood,E3-Oldham-Fleetwoo,8
+E3,Fleetwood,E3-Shrewsbu-Fleetwoo,8
+E3,Fleetwood,E3-Fleetwoo-Newport,8
+E3,Fleetwood,E3-Tranmere-Fleetwoo,9
+E3,Fleetwood,E3-Fleetwoo-Chesterf,9
+E3,Fleetwood,E3-Gillingh-Fleetwoo,9
+E3,Fleetwood,E3-Fleetwoo-Crawley,9
+E3,Fleetwood,E3-Fleetwoo-PortVale,10
+E3,Fleetwood,E3-Crewe-Fleetwoo,10
+E3,Fleetwood,E3-Fleetwoo-York,10
+E3,Fleetwood,E3-Swindon-Fleetwoo,10
+E3,Fleetwood,E3-Walsall-Fleetwoo,11
+E3,Fleetwood,E3-Fleetwoo-Barnet,11
+E3,Fleetwood,E3-Rochdale-Fleetwoo,11
+E3,Fleetwood,E3-Fleetwoo-Salford,11
+E3,Fleetwood,E3-Accringt-Fleetwoo,12
+E3,Fleetwood,E3-Fleetwoo-Northamp,12
+E3,Gillingham,E3-Gillingh-Walsall,1
+E3,Gillingham,E3-Fleetwoo-Gillingh,1
+E3,Gillingham,E3-Gillingh-Northamp,1
+E3,Gillingham,E3-Chesterf-Gillingh,1
+E3,Gillingham,E3-Rochdale-Gillingh,2
+E3,Gillingham,E3-Gillingh-Tranmere,2
+E3,Gillingham,E3-Gillingh-BristolR,2
+E3,Gillingham,E3-York-Gillingh,2
+E3,Gillingham,E3-Gillingh-Newport,3
+E3,Gillingham,E3-Rotherha-Gillingh,3
+E3,Gillingham,E3-Accringt-Gillingh,3
+E3,Gillingham,E3-Gillingh-PortVale,3
+E3,Gillingham,E3-Gillingh-Grimsby,4
+E3,Gillingham,E3-Shrewsbu-Gillingh,4
+E3,Gillingham,E3-Colchest-Gillingh,4
+E3,Gillingham,E3-Gillingh-Crewe,4
+E3,Gillingham,E3-Salford-Gillingh,5
+E3,Gillingham,E3-Gillingh-Swindon,5
+E3,Gillingham,E3-Oldham-Gillingh,5
+E3,Gillingham,E3-Gillingh-Cheltenh,5
+E3,Gillingham,E3-Crawley-Gillingh,6
+E3,Gillingham,E3-Gillingh-Barnet,6
+E3,Gillingham,E3-Gillingh-Exeter,6
+E3,Gillingham,E3-Cheltenh-Gillingh,6
+E3,Gillingham,E3-Gillingh-Accringt,7
+E3,Gillingham,E3-PortVale-Gillingh,7
+E3,Gillingham,E3-Grimsby-Gillingh,7
+E3,Gillingham,E3-Gillingh-Shrewsbu,7
+E3,Gillingham,E3-Northamp-Gillingh,8
+E3,Gillingham,E3-Gillingh-Chesterf,8
+E3,Gillingham,E3-Gillingh-Rochdale,8
+E3,Gillingham,E3-Tranmere-Gillingh,8
+E3,Gillingham,E3-Gillingh-Colchest,9
+E3,Gillingham,E3-Walsall-Gillingh,9
+E3,Gillingham,E3-Gillingh-Fleetwoo,9
+E3,Gillingham,E3-Crewe-Gillingh,9
+E3,Gillingham,E3-Exeter-Gillingh,10
+E3,Gillingham,E3-Gillingh-Crawley,10
+E3,Gillingham,E3-Barnet-Gillingh,10
+E3,Gillingham,E3-Gillingh-Oldham,10
+E3,Gillingham,E3-Gillingh-Rotherha,11
+E3,Gillingham,E3-BristolR-Gillingh,11
+E3,Gillingham,E3-Gillingh-York,11
+E3,Gillingham,E3-Newport-Gillingh,11
+E3,Gillingham,E3-Gillingh-Salford,12
+E3,Gillingham,E3-Swindon-Gillingh,12
+E3,Grimsby,E3-Grimsby-Exeter,1
+E3,Grimsby,E3-Walsall-Grimsby,1
+E3,Grimsby,E3-Grimsby-Fleetwoo,1
+E3,Grimsby,E3-Accringt-Grimsby,1
+E3,Grimsby,E3-Cheltenh-Grimsby,2
+E3,Grimsby,E3-Grimsby-BristolR,2
+E3,Grimsby,E3-Grimsby-Crawley,2
+E3,Grimsby,E3-Newport-Grimsby,2
+E3,Grimsby,E3-Grimsby-Shrewsbu,3
+E3,Grimsby,E3-PortVale-Grimsby,3
+E3,Grimsby,E3-Grimsby-Northamp,3
+E3,Grimsby,E3-Rochdale-Grimsby,3
+E3,Grimsby,E3-Gillingh-Grimsby,4
+E3,Grimsby,E3-Grimsby-York,4
+E3,Grimsby,E3-Swindon-Grimsby,4
+E3,Grimsby,E3-Grimsby-Rotherha,4
+E3,Grimsby,E3-Crewe-Grimsby,5
+E3,Grimsby,E3-Grimsby-Colchest,5
+E3,Grimsby,E3-Chesterf-Grimsby,5
+E3,Grimsby,E3-Grimsby-Barnet,5
+E3,Grimsby,E3-Salford-Grimsby,6
+E3,Grimsby,E3-Grimsby-Oldham,6
+E3,Grimsby,E3-Grimsby-Tranmere,6
+E3,Grimsby,E3-Barnet-Grimsby,6
+E3,Grimsby,E3-Northamp-Grimsby,7
+E3,Grimsby,E3-Grimsby-Rochdale,7
+E3,Grimsby,E3-Grimsby-Gillingh,7
+E3,Grimsby,E3-York-Grimsby,7
+E3,Grimsby,E3-Fleetwoo-Grimsby,8
+E3,Grimsby,E3-Grimsby-Accringt,8
+E3,Grimsby,E3-Grimsby-Cheltenh,8
+E3,Grimsby,E3-BristolR-Grimsby,8
+E3,Grimsby,E3-Grimsby-Swindon,9
+E3,Grimsby,E3-Exeter-Grimsby,9
+E3,Grimsby,E3-Grimsby-Walsall,9
+E3,Grimsby,E3-Rotherha-Grimsby,9
+E3,Grimsby,E3-Tranmere-Grimsby,10
+E3,Grimsby,E3-Grimsby-Salford,10
+E3,Grimsby,E3-Oldham-Grimsby,10
+E3,Grimsby,E3-Grimsby-Chesterf,10
+E3,Grimsby,E3-Grimsby-PortVale,11
+E3,Grimsby,E3-Crawley-Grimsby,11
+E3,Grimsby,E3-Grimsby-Newport,11
+E3,Grimsby,E3-Shrewsbu-Grimsby,11
+E3,Grimsby,E3-Grimsby-Crewe,12
+E3,Grimsby,E3-Colchest-Grimsby,12
+E3,Newport,E3-Newport-Rochdale,1
+E3,Newport,E3-BristolR-Newport,1
+E3,Newport,E3-Newport-Tranmere,1
+E3,Newport,E3-Salford-Newport,1
+E3,Newport,E3-Northamp-Newport,2
+E3,Newport,E3-Newport-Fleetwoo,2
+E3,Newport,E3-Accringt-Newport,2
+E3,Newport,E3-Newport-Grimsby,2
+E3,Newport,E3-Gillingh-Newport,3
+E3,Newport,E3-Newport-Colchest,3
+E3,Newport,E3-Newport-York,3
+E3,Newport,E3-Rotherha-Newport,3
+E3,Newport,E3-Cheltenh-Newport,4
+E3,Newport,E3-Newport-Chesterf,4
+E3,Newport,E3-Crewe-Newport,4
+E3,Newport,E3-Newport-Swindon,4
+E3,Newport,E3-PortVale-Newport,5
+E3,Newport,E3-Newport-Walsall,5
+E3,Newport,E3-Crawley-Newport,5
+E3,Newport,E3-Newport-Oldham,5
+E3,Newport,E3-Exeter-Newport,6
+E3,Newport,E3-Newport-Shrewsbu,6
+E3,Newport,E3-Newport-Barnet,6
+E3,Newport,E3-Oldham-Newport,6
+E3,Newport,E3-York-Newport,7
+E3,Newport,E3-Newport-Rotherha,7
+E3,Newport,E3-Newport-Cheltenh,7
+E3,Newport,E3-Chesterf-Newport,7
+E3,Newport,E3-Tranmere-Newport,8
+E3,Newport,E3-Newport-Salford,8
+E3,Newport,E3-Newport-Northamp,8
+E3,Newport,E3-Fleetwoo-Newport,8
+E3,Newport,E3-Newport-Crewe,9
+E3,Newport,E3-Rochdale-Newport,9
+E3,Newport,E3-Newport-BristolR,9
+E3,Newport,E3-Swindon-Newport,9
+E3,Newport,E3-Barnet-Newport,10
+E3,Newport,E3-Newport-Exeter,10
+E3,Newport,E3-Shrewsbu-Newport,10
+E3,Newport,E3-Newport-Crawley,10
+E3,Newport,E3-Colchest-Newport,11
+E3,Newport,E3-Newport-Accringt,11
+E3,Newport,E3-Grimsby-Newport,11
+E3,Newport,E3-Newport-Gillingh,11
+E3,Newport,E3-Newport-PortVale,12
+E3,Newport,E3-Walsall-Newport,12
+E3,Northampton,E3-Northamp-Swindon,1
+E3,Northampton,E3-Crewe-Northamp,1
+E3,Northampton,E3-Gillingh-Northamp,1
+E3,Northampton,E3-Northamp-Crawley,1
+E3,Northampton,E3-Northamp-Newport,2
+E3,Northampton,E3-Shrewsbu-Northamp,2
+E3,Northampton,E3-Northamp-Rotherha,2
+E3,Northampton,E3-PortVale-Northamp,2
+E3,Northampton,E3-Northamp-Oldham,3
+E3,Northampton,E3-York-Northamp,3
+E3,Northampton,E3-Grimsby-Northamp,3
+E3,Northampton,E3-Northamp-Tranmere,3
+E3,Northampton,E3-Northamp-Colchest,4
+E3,Northampton,E3-Accringt-Northamp,4
+E3,Northampton,E3-Salford-Northamp,4
+E3,Northampton,E3-Northamp-Rochdale,4
+E3,Northampton,E3-Walsall-Northamp,5
+E3,Northampton,E3-Northamp-Fleetwoo,5
+E3,Northampton,E3-Barnet-Northamp,5
+E3,Northampton,E3-Northamp-Exeter,5
+E3,Northampton,E3-Chesterf-Northamp,6
+E3,Northampton,E3-Northamp-Cheltenh,6
+E3,Northampton,E3-Northamp-BristolR,6
+E3,Northampton,E3-Exeter-Northamp,6
+E3,Northampton,E3-Northamp-Grimsby,7
+E3,Northampton,E3-Tranmere-Northamp,7
+E3,Northampton,E3-Colchest-Northamp,7
+E3,Northampton,E3-Northamp-Accringt,7
+E3,Northampton,E3-Northamp-Gillingh,8
+E3,Northampton,E3-Crawley-Northamp,8
+E3,Northampton,E3-Newport-Northamp,8
+E3,Northampton,E3-Northamp-Shrewsbu,8
+E3,Northampton,E3-Northamp-Salford,9
+E3,Northampton,E3-Swindon-Northamp,9
+E3,Northampton,E3-Northamp-Crewe,9
+E3,Northampton,E3-Rochdale-Northamp,9
+E3,Northampton,E3-BristolR-Northamp,10
+E3,Northampton,E3-Northamp-Chesterf,10
+E3,Northampton,E3-Cheltenh-Northamp,10
+E3,Northampton,E3-Northamp-Barnet,10
+E3,Northampton,E3-Northamp-York,11
+E3,Northampton,E3-Rotherha-Northamp,11
+E3,Northampton,E3-Northamp-PortVale,11
+E3,Northampton,E3-Oldham-Northamp,11
+E3,Northampton,E3-Northamp-Walsall,12
+E3,Northampton,E3-Fleetwoo-Northamp,12
+E3,Oldham,E3-Oldham-PortVale,1
+E3,Oldham,E3-Colchest-Oldham,1
+E3,Oldham,E3-Oldham-Swindon,1
+E3,Oldham,E3-Fleetwoo-Oldham,1
+E3,Oldham,E3-Tranmere-Oldham,2
+E3,Oldham,E3-Oldham-Chesterf,2
+E3,Oldham,E3-Rochdale-Oldham,2
+E3,Oldham,E3-Oldham-Salford,2
+E3,Oldham,E3-Northamp-Oldham,3
+E3,Oldham,E3-Oldham-Accringt,3
+E3,Oldham,E3-Oldham-Cheltenh,3
+E3,Oldham,E3-Walsall-Oldham,3
+E3,Oldham,E3-Barnet-Oldham,4
+E3,Oldham,E3-Oldham-Crawley,4
+E3,Oldham,E3-Shrewsbu-Oldham,4
+E3,Oldham,E3-Oldham-Exeter,4
+E3,Oldham,E3-Rotherha-Oldham,5
+E3,Oldham,E3-Oldham-BristolR,5
+E3,Oldham,E3-Oldham-Gillingh,5
+E3,Oldham,E3-Newport-Oldham,5
+E3,Oldham,E3-Oldham-York,6
+E3,Oldham,E3-Grimsby-Oldham,6
+E3,Oldham,E3-Crewe-Oldham,6
+E3,Oldham,E3-Oldham-Newport,6
+E3,Oldham,E3-Cheltenh-Oldham,7
+E3,Oldham,E3-Oldham-Walsall,7
+E3,Oldham,E3-Oldham-Barnet,7
+E3,Oldham,E3-Crawley-Oldham,7
+E3,Oldham,E3-Swindon-Oldham,8
+E3,Oldham,E3-Oldham-Fleetwoo,8
+E3,Oldham,E3-Oldham-Tranmere,8
+E3,Oldham,E3-Chesterf-Oldham,8
+E3,Oldham,E3-Oldham-Shrewsbu,9
+E3,Oldham,E3-PortVale-Oldham,9
+E3,Oldham,E3-Oldham-Colchest,9
+E3,Oldham,E3-Exeter-Oldham,9
+E3,Oldham,E3-Oldham-Crewe,10
+E3,Oldham,E3-York-Oldham,10
+E3,Oldham,E3-Oldham-Grimsby,10
+E3,Oldham,E3-Gillingh-Oldham,10
+E3,Oldham,E3-Accringt-Oldham,11
+E3,Oldham,E3-Oldham-Rochdale,11
+E3,Oldham,E3-Salford-Oldham,11
+E3,Oldham,E3-Oldham-Northamp,11
+E3,Oldham,E3-Oldham-Rotherha,12
+E3,Oldham,E3-BristolR-Oldham,12
+E3,Port Vale,E3-Oldham-PortVale,1
+E3,Port Vale,E3-PortVale-Tranmere,1
+E3,Port Vale,E3-PortVale-Crewe,1
+E3,Port Vale,E3-Swindon-PortVale,1
+E3,Port Vale,E3-Salford-PortVale,2
+E3,Port Vale,E3-PortVale-Exeter,2
+E3,Port Vale,E3-Walsall-PortVale,2
+E3,Port Vale,E3-PortVale-Northamp,2
+E3,Port Vale,E3-Colchest-PortVale,3
+E3,Port Vale,E3-PortVale-Grimsby,3
+E3,Port Vale,E3-PortVale-Chesterf,3
+E3,Port Vale,E3-Gillingh-PortVale,3
+E3,Port Vale,E3-York-PortVale,4
+E3,Port Vale,E3-PortVale-Rochdale,4
+E3,Port Vale,E3-PortVale-Accringt,4
+E3,Port Vale,E3-Barnet-PortVale,4
+E3,Port Vale,E3-PortVale-Newport,5
+E3,Port Vale,E3-Crawley-PortVale,5
+E3,Port Vale,E3-Shrewsbu-PortVale,5
+E3,Port Vale,E3-PortVale-Rotherha,5
+E3,Port Vale,E3-Cheltenh-PortVale,6
+E3,Port Vale,E3-PortVale-BristolR,6
+E3,Port Vale,E3-PortVale-Fleetwoo,6
+E3,Port Vale,E3-Rotherha-PortVale,6
+E3,Port Vale,E3-Chesterf-PortVale,7
+E3,Port Vale,E3-PortVale-Gillingh,7
+E3,Port Vale,E3-PortVale-York,7
+E3,Port Vale,E3-Rochdale-PortVale,7
+E3,Port Vale,E3-Crewe-PortVale,8
+E3,Port Vale,E3-PortVale-Swindon,8
+E3,Port Vale,E3-PortVale-Salford,8
+E3,Port Vale,E3-Exeter-PortVale,8
+E3,Port Vale,E3-Accringt-PortVale,9
+E3,Port Vale,E3-PortVale-Oldham,9
+E3,Port Vale,E3-Tranmere-PortVale,9
+E3,Port Vale,E3-PortVale-Barnet,9
+E3,Port Vale,E3-Fleetwoo-PortVale,10
+E3,Port Vale,E3-PortVale-Cheltenh,10
+E3,Port Vale,E3-BristolR-PortVale,10
+E3,Port Vale,E3-PortVale-Shrewsbu,10
+E3,Port Vale,E3-Grimsby-PortVale,11
+E3,Port Vale,E3-PortVale-Walsall,11
+E3,Port Vale,E3-Northamp-PortVale,11
+E3,Port Vale,E3-PortVale-Colchest,11
+E3,Port Vale,E3-Newport-PortVale,12
+E3,Port Vale,E3-PortVale-Crawley,12
+E3,Rochdale,E3-Newport-Rochdale,1
+E3,Rochdale,E3-Rochdale-Crawley,1
+E3,Rochdale,E3-Colchest-Rochdale,1
+E3,Rochdale,E3-Rochdale-Shrewsbu,1
+E3,Rochdale,E3-Rochdale-Gillingh,2
+E3,Rochdale,E3-Walsall-Rochdale,2
+E3,Rochdale,E3-Rochdale-Oldham,2
+E3,Rochdale,E3-Fleetwoo-Rochdale,2
+E3,Rochdale,E3-Rochdale-Swindon,3
+E3,Rochdale,E3-Tranmere-Rochdale,3
+E3,Rochdale,E3-Crewe-Rochdale,3
+E3,Rochdale,E3-Rochdale-Grimsby,3
+E3,Rochdale,E3-Rochdale-Accringt,4
+E3,Rochdale,E3-PortVale-Rochdale,4
+E3,Rochdale,E3-Rochdale-York,4
+E3,Rochdale,E3-Northamp-Rochdale,4
+E3,Rochdale,E3-Rochdale-Barnet,5
+E3,Rochdale,E3-Cheltenh-Rochdale,5
+E3,Rochdale,E3-Exeter-Rochdale,5
+E3,Rochdale,E3-Rochdale-BristolR,5
+E3,Rochdale,E3-Rotherha-Rochdale,6
+E3,Rochdale,E3-Rochdale-Salford,6
+E3,Rochdale,E3-Rochdale-Chesterf,6
+E3,Rochdale,E3-BristolR-Rochdale,6
+E3,Rochdale,E3-Rochdale-Crewe,7
+E3,Rochdale,E3-Grimsby-Rochdale,7
+E3,Rochdale,E3-Accringt-Rochdale,7
+E3,Rochdale,E3-Rochdale-PortVale,7
+E3,Rochdale,E3-Rochdale-Colchest,8
+E3,Rochdale,E3-Shrewsbu-Rochdale,8
+E3,Rochdale,E3-Gillingh-Rochdale,8
+E3,Rochdale,E3-Rochdale-Walsall,8
+E3,Rochdale,E3-York-Rochdale,9
+E3,Rochdale,E3-Rochdale-Newport,9
+E3,Rochdale,E3-Crawley-Rochdale,9
+E3,Rochdale,E3-Rochdale-Northamp,9
+E3,Rochdale,E3-Chesterf-Rochdale,10
+E3,Rochdale,E3-Rochdale-Rotherha,10
+E3,Rochdale,E3-Salford-Rochdale,10
+E3,Rochdale,E3-Rochdale-Exeter,10
+E3,Rochdale,E3-Rochdale-Tranmere,11
+E3,Rochdale,E3-Oldham-Rochdale,11
+E3,Rochdale,E3-Rochdale-Fleetwoo,11
+E3,Rochdale,E3-Swindon-Rochdale,11
+E3,Rochdale,E3-Barnet-Rochdale,12
+E3,Rochdale,E3-Rochdale-Cheltenh,12
+E3,Rotherham,E3-Cheltenh-Rotherha,1
+E3,Rotherham,E3-Rotherha-York,1
+E3,Rotherham,E3-Rotherha-Chesterf,1
+E3,Rotherham,E3-Tranmere-Rotherha,1
+E3,Rotherham,E3-BristolR-Rotherha,2
+E3,Rotherham,E3-Rotherha-Salford,2
+E3,Rotherham,E3-Northamp-Rotherha,2
+E3,Rotherham,E3-Rotherha-Crewe,2
+E3,Rotherham,E3-Exeter-Rotherha,3
+E3,Rotherham,E3-Rotherha-Gillingh,3
+E3,Rotherham,E3-Fleetwoo-Rotherha,3
+E3,Rotherham,E3-Rotherha-Newport,3
+E3,Rotherham,E3-Rotherha-Shrewsbu,4
+E3,Rotherham,E3-Swindon-Rotherha,4
+E3,Rotherham,E3-Rotherha-Crawley,4
+E3,Rotherham,E3-Grimsby-Rotherha,4
+E3,Rotherham,E3-Rotherha-Oldham,5
+E3,Rotherham,E3-Barnet-Rotherha,5
+E3,Rotherham,E3-Rotherha-Walsall,5
+E3,Rotherham,E3-PortVale-Rotherha,5
+E3,Rotherham,E3-Rotherha-Rochdale,6
+E3,Rotherham,E3-Accringt-Rotherha,6
+E3,Rotherham,E3-Colchest-Rotherha,6
+E3,Rotherham,E3-Rotherha-PortVale,6
+E3,Rotherham,E3-Rotherha-Fleetwoo,7
+E3,Rotherham,E3-Newport-Rotherha,7
+E3,Rotherham,E3-Shrewsbu-Rotherha,7
+E3,Rotherham,E3-Rotherha-Swindon,7
+E3,Rotherham,E3-Chesterf-Rotherha,8
+E3,Rotherham,E3-Rotherha-Tranmere,8
+E3,Rotherham,E3-Rotherha-BristolR,8
+E3,Rotherham,E3-Salford-Rotherha,8
+E3,Rotherham,E3-Crawley-Rotherha,9
+E3,Rotherham,E3-Rotherha-Cheltenh,9
+E3,Rotherham,E3-York-Rotherha,9
+E3,Rotherham,E3-Rotherha-Grimsby,9
+E3,Rotherham,E3-Rotherha-Colchest,10
+E3,Rotherham,E3-Rochdale-Rotherha,10
+E3,Rotherham,E3-Rotherha-Accringt,10
+E3,Rotherham,E3-Walsall-Rotherha,10
+E3,Rotherham,E3-Gillingh-Rotherha,11
+E3,Rotherham,E3-Rotherha-Northamp,11
+E3,Rotherham,E3-Crewe-Rotherha,11
+E3,Rotherham,E3-Rotherha-Exeter,11
+E3,Rotherham,E3-Oldham-Rotherha,12
+E3,Rotherham,E3-Rotherha-Barnet,12
+E3,Salford,E3-Barnet-Salford,1
+E3,Salford,E3-Salford-Chesterf,1
+E3,Salford,E3-Shrewsbu-Salford,1
+E3,Salford,E3-Salford-Newport,1
+E3,Salford,E3-Salford-PortVale,2
+E3,Salford,E3-Rotherha-Salford,2
+E3,Salford,E3-Salford-Swindon,2
+E3,Salford,E3-Oldham-Salford,2
+E3,Salford,E3-Salford-Fleetwoo,3
+E3,Salford,E3-Cheltenh-Salford,3
+E3,Salford,E3-Salford-Crawley,3
+E3,Salford,E3-BristolR-Salford,3
+E3,Salford,E3-Walsall-Salford,4
+E3,Salford,E3-Salford-Exeter,4
+E3,Salford,E3-Salford-Northamp,4
+E3,Salford,E3-Accringt-Salford,4
+E3,Salford,E3-Salford-Gillingh,5
+E3,Salford,E3-Tranmere-Salford,5
+E3,Salford,E3-Salford-Colchest,5
+E3,Salford,E3-Crewe-Salford,5
+E3,Salford,E3-Salford-Grimsby,6
+E3,Salford,E3-Rochdale-Salford,6
+E3,Salford,E3-York-Salford,6
+E3,Salford,E3-Salford-Crewe,6
+E3,Salford,E3-Crawley-Salford,7
+E3,Salford,E3-Salford-BristolR,7
+E3,Salford,E3-Salford-Walsall,7
+E3,Salford,E3-Exeter-Salford,7
+E3,Salford,E3-Salford-Shrewsbu,8
+E3,Salford,E3-Newport-Salford,8
+E3,Salford,E3-PortVale-Salford,8
+E3,Salford,E3-Salford-Rotherha,8
+E3,Salford,E3-Northamp-Salford,9
+E3,Salford,E3-Salford-Barnet,9
+E3,Salford,E3-Chesterf-Salford,9
+E3,Salford,E3-Salford-Accringt,9
+E3,Salford,E3-Salford-York,10
+E3,Salford,E3-Grimsby-Salford,10
+E3,Salford,E3-Salford-Rochdale,10
+E3,Salford,E3-Colchest-Salford,10
+E3,Salford,E3-Salford-Cheltenh,11
+E3,Salford,E3-Swindon-Salford,11
+E3,Salford,E3-Salford-Oldham,11
+E3,Salford,E3-Fleetwoo-Salford,11
+E3,Salford,E3-Gillingh-Salford,12
+E3,Salford,E3-Salford-Tranmere,12
+E3,Shrewsbury,E3-Tranmere-Shrewsbu,1
+E3,Shrewsbury,E3-Shrewsbu-Barnet,1
+E3,Shrewsbury,E3-Shrewsbu-Salford,1
+E3,Shrewsbury,E3-Rochdale-Shrewsbu,1
+E3,Shrewsbury,E3-Fleetwoo-Shrewsbu,2
+E3,Shrewsbury,E3-Shrewsbu-Northamp,2
+E3,Shrewsbury,E3-Crewe-Shrewsbu,2
+E3,Shrewsbury,E3-Shrewsbu-Colchest,2
+E3,Shrewsbury,E3-Grimsby-Shrewsbu,3
+E3,Shrewsbury,E3-Shrewsbu-Exeter,3
+E3,Shrewsbury,E3-Shrewsbu-BristolR,3
+E3,Shrewsbury,E3-Crawley-Shrewsbu,3
+E3,Shrewsbury,E3-Rotherha-Shrewsbu,4
+E3,Shrewsbury,E3-Shrewsbu-Gillingh,4
+E3,Shrewsbury,E3-Shrewsbu-Oldham,4
+E3,Shrewsbury,E3-Chesterf-Shrewsbu,4
+E3,Shrewsbury,E3-Shrewsbu-Cheltenh,5
+E3,Shrewsbury,E3-York-Shrewsbu,5
+E3,Shrewsbury,E3-Shrewsbu-PortVale,5
+E3,Shrewsbury,E3-Walsall-Shrewsbu,5
+E3,Shrewsbury,E3-Shrewsbu-Swindon,6
+E3,Shrewsbury,E3-Newport-Shrewsbu,6
+E3,Shrewsbury,E3-Accringt-Shrewsbu,6
+E3,Shrewsbury,E3-Shrewsbu-Walsall,6
+E3,Shrewsbury,E3-BristolR-Shrewsbu,7
+E3,Shrewsbury,E3-Shrewsbu-Crawley,7
+E3,Shrewsbury,E3-Shrewsbu-Rotherha,7
+E3,Shrewsbury,E3-Gillingh-Shrewsbu,7
+E3,Shrewsbury,E3-Salford-Shrewsbu,8
+E3,Shrewsbury,E3-Shrewsbu-Rochdale,8
+E3,Shrewsbury,E3-Shrewsbu-Fleetwoo,8
+E3,Shrewsbury,E3-Northamp-Shrewsbu,8
+E3,Shrewsbury,E3-Oldham-Shrewsbu,9
+E3,Shrewsbury,E3-Shrewsbu-Tranmere,9
+E3,Shrewsbury,E3-Barnet-Shrewsbu,9
+E3,Shrewsbury,E3-Shrewsbu-Chesterf,9
+E3,Shrewsbury,E3-Shrewsbu-Accringt,10
+E3,Shrewsbury,E3-Swindon-Shrewsbu,10
+E3,Shrewsbury,E3-Shrewsbu-Newport,10
+E3,Shrewsbury,E3-PortVale-Shrewsbu,10
+E3,Shrewsbury,E3-Exeter-Shrewsbu,11
+E3,Shrewsbury,E3-Shrewsbu-Crewe,11
+E3,Shrewsbury,E3-Colchest-Shrewsbu,11
+E3,Shrewsbury,E3-Shrewsbu-Grimsby,11
+E3,Shrewsbury,E3-Cheltenh-Shrewsbu,12
+E3,Shrewsbury,E3-Shrewsbu-York,12
+E3,Swindon,E3-Northamp-Swindon,1
+E3,Swindon,E3-Swindon-Cheltenh,1
+E3,Swindon,E3-Oldham-Swindon,1
+E3,Swindon,E3-Swindon-PortVale,1
+E3,Swindon,E3-Swindon-Colchest,2
+E3,Swindon,E3-York-Swindon,2
+E3,Swindon,E3-Salford-Swindon,2
+E3,Swindon,E3-Swindon-Accringt,2
+E3,Swindon,E3-Rochdale-Swindon,3
+E3,Swindon,E3-Swindon-Crewe,3
+E3,Swindon,E3-Swindon-Walsall,3
+E3,Swindon,E3-Barnet-Swindon,3
+E3,Swindon,E3-BristolR-Swindon,4
+E3,Swindon,E3-Swindon-Rotherha,4
+E3,Swindon,E3-Swindon-Grimsby,4
+E3,Swindon,E3-Newport-Swindon,4
+E3,Swindon,E3-Swindon-Chesterf,5
+E3,Swindon,E3-Gillingh-Swindon,5
+E3,Swindon,E3-Fleetwoo-Swindon,5
+E3,Swindon,E3-Swindon-Tranmere,5
+E3,Swindon,E3-Shrewsbu-Swindon,6
+E3,Swindon,E3-Swindon-Exeter,6
+E3,Swindon,E3-Swindon-Crawley,6
+E3,Swindon,E3-Tranmere-Swindon,6
+E3,Swindon,E3-Walsall-Swindon,7
+E3,Swindon,E3-Swindon-Barnet,7
+E3,Swindon,E3-Swindon-BristolR,7
+E3,Swindon,E3-Rotherha-Swindon,7
+E3,Swindon,E3-Swindon-Oldham,8
+E3,Swindon,E3-PortVale-Swindon,8
+E3,Swindon,E3-Colchest-Swindon,8
+E3,Swindon,E3-Swindon-York,8
+E3,Swindon,E3-Grimsby-Swindon,9
+E3,Swindon,E3-Swindon-Northamp,9
+E3,Swindon,E3-Cheltenh-Swindon,9
+E3,Swindon,E3-Swindon-Newport,9
+E3,Swindon,E3-Crawley-Swindon,10
+E3,Swindon,E3-Swindon-Shrewsbu,10
+E3,Swindon,E3-Exeter-Swindon,10
+E3,Swindon,E3-Swindon-Fleetwoo,10
+E3,Swindon,E3-Crewe-Swindon,11
+E3,Swindon,E3-Swindon-Salford,11
+E3,Swindon,E3-Accringt-Swindon,11
+E3,Swindon,E3-Swindon-Rochdale,11
+E3,Swindon,E3-Chesterf-Swindon,12
+E3,Swindon,E3-Swindon-Gillingh,12
+E3,Tranmere,E3-Tranmere-Shrewsbu,1
+E3,Tranmere,E3-PortVale-Tranmere,1
+E3,Tranmere,E3-Newport-Tranmere,1
+E3,Tranmere,E3-Tranmere-Rotherha,1
+E3,Tranmere,E3-Tranmere-Oldham,2
+E3,Tranmere,E3-Gillingh-Tranmere,2
+E3,Tranmere,E3-Exeter-Tranmere,2
+E3,Tranmere,E3-Tranmere-Walsall,2
+E3,Tranmere,E3-Chesterf-Tranmere,3
+E3,Tranmere,E3-Tranmere-Rochdale,3
+E3,Tranmere,E3-Tranmere-Barnet,3
+E3,Tranmere,E3-Northamp-Tranmere,3
+E3,Tranmere,E3-Crawley-Tranmere,4
+E3,Tranmere,E3-Tranmere-Cheltenh,4
+E3,Tranmere,E3-Fleetwoo-Tranmere,4
+E3,Tranmere,E3-Tranmere-Colchest,4
+E3,Tranmere,E3-BristolR-Tranmere,5
+E3,Tranmere,E3-Tranmere-Salford,5
+E3,Tranmere,E3-Tranmere-York,5
+E3,Tranmere,E3-Swindon-Tranmere,5
+E3,Tranmere,E3-Tranmere-Accringt,6
+E3,Tranmere,E3-Crewe-Tranmere,6
+E3,Tranmere,E3-Grimsby-Tranmere,6
+E3,Tranmere,E3-Tranmere-Swindon,6
+E3,Tranmere,E3-Barnet-Tranmere,7
+E3,Tranmere,E3-Tranmere-Northamp,7
+E3,Tranmere,E3-Tranmere-Crawley,7
+E3,Tranmere,E3-Cheltenh-Tranmere,7
+E3,Tranmere,E3-Tranmere-Newport,8
+E3,Tranmere,E3-Rotherha-Tranmere,8
+E3,Tranmere,E3-Oldham-Tranmere,8
+E3,Tranmere,E3-Tranmere-Gillingh,8
+E3,Tranmere,E3-Tranmere-Fleetwoo,9
+E3,Tranmere,E3-Shrewsbu-Tranmere,9
+E3,Tranmere,E3-Tranmere-PortVale,9
+E3,Tranmere,E3-Colchest-Tranmere,9
+E3,Tranmere,E3-Tranmere-Grimsby,10
+E3,Tranmere,E3-Accringt-Tranmere,10
+E3,Tranmere,E3-Tranmere-Crewe,10
+E3,Tranmere,E3-York-Tranmere,10
+E3,Tranmere,E3-Rochdale-Tranmere,11
+E3,Tranmere,E3-Tranmere-Exeter,11
+E3,Tranmere,E3-Walsall-Tranmere,11
+E3,Tranmere,E3-Tranmere-Chesterf,11
+E3,Tranmere,E3-Tranmere-BristolR,12
+E3,Tranmere,E3-Salford-Tranmere,12
+E3,Walsall,E3-Gillingh-Walsall,1
+E3,Walsall,E3-Walsall-Grimsby,1
+E3,Walsall,E3-Walsall-Accringt,1
+E3,Walsall,E3-Crewe-Walsall,1
+E3,Walsall,E3-Exeter-Walsall,2
+E3,Walsall,E3-Walsall-Rochdale,2
+E3,Walsall,E3-Walsall-PortVale,2
+E3,Walsall,E3-Tranmere-Walsall,2
+E3,Walsall,E3-Walsall-Crawley,3
+E3,Walsall,E3-Fleetwoo-Walsall,3
+E3,Walsall,E3-Swindon-Walsall,3
+E3,Walsall,E3-Walsall-Oldham,3
+E3,Walsall,E3-Walsall-Salford,4
+E3,Walsall,E3-Colchest-Walsall,4
+E3,Walsall,E3-Walsall-Barnet,4
+E3,Walsall,E3-York-Walsall,4
+E3,Walsall,E3-Walsall-Northamp,5
+E3,Walsall,E3-Newport-Walsall,5
+E3,Walsall,E3-Rotherha-Walsall,5
+E3,Walsall,E3-Walsall-Shrewsbu,5
+E3,Walsall,E3-BristolR-Walsall,6
+E3,Walsall,E3-Walsall-Chesterf,6
+E3,Walsall,E3-Walsall-Cheltenh,6
+E3,Walsall,E3-Shrewsbu-Walsall,6
+E3,Walsall,E3-Walsall-Swindon,7
+E3,Walsall,E3-Oldham-Walsall,7
+E3,Walsall,E3-Salford-Walsall,7
+E3,Walsall,E3-Walsall-Colchest,7
+E3,Walsall,E3-Accringt-Walsall,8
+E3,Walsall,E3-Walsall-Crewe,8
+E3,Walsall,E3-Walsall-Exeter,8
+E3,Walsall,E3-Rochdale-Walsall,8
+E3,Walsall,E3-Barnet-Walsall,9
+E3,Walsall,E3-Walsall-Gillingh,9
+E3,Walsall,E3-Grimsby-Walsall,9
+E3,Walsall,E3-Walsall-York,9
+E3,Walsall,E3-Cheltenh-Walsall,10
+E3,Walsall,E3-Walsall-BristolR,10
+E3,Walsall,E3-Chesterf-Walsall,10
+E3,Walsall,E3-Walsall-Rotherha,10
+E3,Walsall,E3-Walsall-Fleetwoo,11
+E3,Walsall,E3-PortVale-Walsall,11
+E3,Walsall,E3-Walsall-Tranmere,11
+E3,Walsall,E3-Crawley-Walsall,11
+E3,Walsall,E3-Northamp-Walsall,12
+E3,Walsall,E3-Walsall-Newport,12
+E3,York,E3-York-BristolR,1
+E3,York,E3-Rotherha-York,1
+E3,York,E3-York-Exeter,1
+E3,York,E3-Cheltenh-York,1
+E3,York,E3-Crewe-York,2
+E3,York,E3-York-Swindon,2
+E3,York,E3-Chesterf-York,2
+E3,York,E3-York-Gillingh,2
+E3,York,E3-Barnet-York,3
+E3,York,E3-York-Northamp,3
+E3,York,E3-Newport-York,3
+E3,York,E3-York-Accringt,3
+E3,York,E3-York-PortVale,4
+E3,York,E3-Grimsby-York,4
+E3,York,E3-Rochdale-York,4
+E3,York,E3-York-Walsall,4
+E3,York,E3-Colchest-York,5
+E3,York,E3-York-Shrewsbu,5
+E3,York,E3-Tranmere-York,5
+E3,York,E3-York-Crawley,5
+E3,York,E3-Oldham-York,6
+E3,York,E3-York-Fleetwoo,6
+E3,York,E3-York-Salford,6
+E3,York,E3-Crawley-York,6
+E3,York,E3-York-Newport,7
+E3,York,E3-Accringt-York,7
+E3,York,E3-PortVale-York,7
+E3,York,E3-York-Grimsby,7
+E3,York,E3-Exeter-York,8
+E3,York,E3-York-Cheltenh,8
+E3,York,E3-York-Crewe,8
+E3,York,E3-Swindon-York,8
+E3,York,E3-York-Rochdale,9
+E3,York,E3-BristolR-York,9
+E3,York,E3-York-Rotherha,9
+E3,York,E3-Walsall-York,9
+E3,York,E3-Salford-York,10
+E3,York,E3-York-Oldham,10
+E3,York,E3-Fleetwoo-York,10
+E3,York,E3-York-Tranmere,10
+E3,York,E3-Northamp-York,11
+E3,York,E3-York-Chesterf,11
+E3,York,E3-Gillingh-York,11
+E3,York,E3-York-Barnet,11
+E3,York,E3-York-Colchest,12
+E3,York,E3-Shrewsbu-York,12

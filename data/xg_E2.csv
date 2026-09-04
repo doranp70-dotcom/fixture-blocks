@@ -1,0 +1,48 @@
+date,home,away,home_goals,away_goals,home_xg,away_xg,source
+15/08/2026,Plymouth,Stockport,1,3,1.7,1.34,oddalerts.com
+15/08/2026,Huddersfield,AFC Wimbledon,3,0,0.99,0.4,oddalerts.com
+15/08/2026,Bradford,Peterborough,2,0,1.39,1.46,oddalerts.com
+15/08/2026,Burton,Stevenage,1,1,0.96,0.44,oddalerts.com
+15/08/2026,Blackpool,Wycombe,1,1,2.55,1.34,oddalerts.com
+15/08/2026,Mansfield,Doncaster,2,1,1.17,0.98,oddalerts.com
+15/08/2026,Barnsley,Bromley,0,1,1.34,0.94,oddalerts.com
+15/08/2026,Leyton Orient,Sheffield Wed,1,2,0.88,2.8,oddalerts.com
+15/08/2026,Cambridge,Wigan,3,2,2.27,2.36,oddalerts.com
+15/08/2026,Oxford,MK Dons,2,2,1.22,2.31,oddalerts.com
+15/08/2026,Reading,Luton,3,4,1.62,1.7,oddalerts.com
+15/08/2026,Notts County,Leicester,1,1,2.08,1.18,oddalerts.com
+20/08/2026,Sheffield Wed,Bradford,0,1,1.66,0.6,oddalerts.com
+22/08/2026,Wycombe,Plymouth,1,1,2.26,0.93,oddalerts.com
+22/08/2026,Stockport,Blackpool,1,2,3.01,1.85,oddalerts.com
+22/08/2026,Leicester,Burton,1,2,1.1,0.96,oddalerts.com
+22/08/2026,MK Dons,Huddersfield,1,1,1.46,2.06,oddalerts.com
+22/08/2026,Stevenage,Oxford,1,2,0.88,1.32,oddalerts.com
+22/08/2026,AFC Wimbledon,Reading,0,0,0.45,1.07,oddalerts.com
+22/08/2026,Wigan,Leyton Orient,0,2,1.61,0.73,oddalerts.com
+22/08/2026,Peterborough,Mansfield,2,1,1.72,0.87,oddalerts.com
+22/08/2026,Bromley,Cambridge,1,1,0.66,1.05,oddalerts.com
+22/08/2026,Luton,Notts County,2,2,2.19,0.55,oddalerts.com
+22/08/2026,Doncaster,Barnsley,0,0,1.49,0.67,oddalerts.com
+29/08/2026,Plymouth,Bradford,2,0,1.38,0.59,oddalerts.com
+29/08/2026,Stockport,Wycombe,5,1,1.46,1.38,oddalerts.com
+29/08/2026,Sheffield Wed,Bromley,7,2,4.38,1.3,oddalerts.com
+29/08/2026,Stevenage,Doncaster,2,2,0.59,0.59,oddalerts.com
+29/08/2026,Leyton Orient,Barnsley,1,3,0.5,1.99,oddalerts.com
+29/08/2026,Notts County,Burton,2,1,2.62,0.17,oddalerts.com
+29/08/2026,Cambridge,Huddersfield,1,2,1.14,1.15,oddalerts.com
+29/08/2026,Blackpool,Peterborough,4,0,4.09,1.55,oddalerts.com
+29/08/2026,MK Dons,Leicester,0,0,0.7,1.51,oddalerts.com
+30/08/2026,Mansfield,Luton,5,2,1.96,1.79,oddalerts.com
+30/08/2026,AFC Wimbledon,Wigan,1,0,0.87,2.49,oddalerts.com
+01/09/2026,Wycombe,Sheffield Wed,1,2,0.76,2.65,oddalerts.com
+01/09/2026,Leicester,Plymouth,2,0,1.9,0.91,oddalerts.com
+01/09/2026,Huddersfield,Oxford,3,1,3.53,1.06,oddalerts.com
+01/09/2026,Bradford,Cambridge,1,2,2.79,0.58,oddalerts.com
+01/09/2026,Doncaster,Notts County,1,1,1.15,1.24,oddalerts.com
+01/09/2026,Peterborough,Stevenage,0,0,0.96,0.55,oddalerts.com
+01/09/2026,Bromley,Leyton Orient,0,5,0.63,1.8,oddalerts.com
+02/09/2026,Reading,Mansfield,5,0,2.86,1.11,oddalerts.com
+02/09/2026,Luton,Stockport,2,0,1.21,0.95,oddalerts.com
+02/09/2026,Burton,AFC Wimbledon,4,1,0.96,1.39,oddalerts.com
+02/09/2026,Barnsley,Blackpool,2,1,1.87,2.76,oddalerts.com
+02/09/2026,Wigan,MK Dons,3,1,2.37,3.11,oddalerts.com

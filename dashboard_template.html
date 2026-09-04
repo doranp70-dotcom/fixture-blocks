@@ -1,0 +1,719 @@
+<title>Fixture Blocks 26/27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f2f4f6; --surface:#ffffff; --surface-2:#f7f8fa; --line:#d8dee5; --line-2:#e9edf1;
+  --ink:#16212d; --ink-2:#4b5865; --ink-3:#7b8794;
+  --accent:#1f6b3a; --accent-ink:#ffffff; --accent-soft:#e2f0e7;
+  --pos:#2a78d6; --pos-soft:#cde2fb; --neg:#e34948; --neg-soft:#f9d3d0; --mid:#f0efec;
+  --seq-1:#fff1dc; --seq-2:#fcd9a8; --seq-3:#f4b56a; --seq-4:#d9862c; --seq-5:#a85e12;
+  --pts:#16212d; --mkt:#2a78d6; --xg:#eb6834; --star:#c98500;
+  --shadow:0 1px 2px rgba(22,33,45,.06),0 6px 20px rgba(22,33,45,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111820; --surface:#19232d; --surface-2:#1f2a35; --line:#2d3945; --line-2:#26313c;
+    --ink:#f1f4f7; --ink-2:#b6c0ca; --ink-3:#7f8c99;
+    --accent:#5cc487; --accent-ink:#0d1a12; --accent-soft:#1d3327;
+    --pos:#3987e5; --pos-soft:#1c3a5f; --neg:#e66767; --neg-soft:#5a2626; --mid:#2a333d;
+    --seq-1:#2b2419; --seq-2:#4a3618; --seq-3:#7a5218; --seq-4:#b8781f; --seq-5:#e9a14a;
+    --pts:#f1f4f7; --mkt:#3987e5; --xg:#d95926; --star:#eda100;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111820; --surface:#19232d; --surface-2:#1f2a35; --line:#2d3945; --line-2:#26313c;
+  --ink:#f1f4f7; --ink-2:#b6c0ca; --ink-3:#7f8c99;
+  --accent:#5cc487; --accent-ink:#0d1a12; --accent-soft:#1d3327;
+  --pos:#3987e5; --pos-soft:#1c3a5f; --neg:#e66767; --neg-soft:#5a2626; --mid:#2a333d;
+  --seq-1:#2b2419; --seq-2:#4a3618; --seq-3:#7a5218; --seq-4:#b8781f; --seq-5:#e9a14a;
+  --pts:#f1f4f7; --mkt:#3987e5; --xg:#d95926; --star:#eda100;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Barlow","Helvetica Neue",Arial,sans-serif;font-size:14px;line-height:1.45;font-variant-numeric:tabular-nums}
+h1,h2,h3,.disp{font-family:"Barlow Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:600;letter-spacing:.01em;text-wrap:balance;margin:0}
+.wrap{max-width:1560px;margin:0 auto;padding:16px 20px 60px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-bottom:12px;border-bottom:2px solid var(--ink)}
+header h1{font-size:32px;line-height:1;font-weight:700}
+header h1 span{color:var(--ink-3);font-weight:500}
+.sub{color:var(--ink-2);font-size:13px;margin-top:6px;max-width:72ch}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-3);font-weight:600}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{font-family:"Barlow Condensed",Arial,sans-serif;font-size:16px;font-weight:600;padding:7px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);cursor:pointer;border-radius:3px}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab:focus-visible,.seg button:focus-visible,button:focus-visible,tr[tabindex]:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.views{display:flex;gap:2px;margin-top:12px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.views button{background:none;border:0;border-bottom:3px solid transparent;padding:8px 14px;font:inherit;font-family:"Barlow Condensed",Arial,sans-serif;font-size:17px;font-weight:600;color:var(--ink-3);cursor:pointer;margin-bottom:-1px}
+.views button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.views button .n{display:inline-block;min-width:18px;padding:0 5px;margin-left:6px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font-size:11px;font-family:"Barlow",Arial,sans-serif;font-weight:600;vertical-align:1px}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;margin:14px 0 10px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:3px;overflow:hidden;flex-wrap:wrap}
+.seg button{background:var(--surface);color:var(--ink-2);border:0;padding:6px 11px;font:inherit;font-weight:500;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;color:var(--ink-2);font-size:12px}
+.sw{display:inline-block;width:14px;height:14px;border-radius:2px;vertical-align:-3px;margin-right:5px;border:1px solid var(--line)}
+section{margin-top:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:4px;box-shadow:var(--shadow)}
+.scroll{overflow-x:auto}
+table{border-collapse:separate;border-spacing:0;width:100%}
+.gridtbl{font-size:12.5px}
+.gridtbl th{font-family:"Barlow Condensed",Arial,sans-serif;font-weight:600;font-size:14px;color:var(--ink-2);text-align:center;padding:8px 4px;border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface);position:sticky;top:0;z-index:2;cursor:pointer;user-select:none}
+.gridtbl th.sorted{color:var(--ink)}
+.gridtbl th.sorted::after{content:" ▾";font-size:10px}
+.gridtbl th.sorted.asc::after{content:" ▴"}
+.gridtbl th.tm,.gridtbl td.tm{text-align:left;position:sticky;left:0;background:var(--surface);z-index:3;min-width:210px;padding-left:10px;box-shadow:1px 0 0 var(--line)}
+.gridtbl th.tm{z-index:4}
+.gridtbl td{padding:0;border-bottom:1px solid var(--line-2);text-align:center;vertical-align:middle}
+.gridtbl td.tm{padding:5px 8px 5px 10px}
+.gridtbl tbody tr{cursor:pointer}
+.gridtbl tbody tr:hover td.tm{background:var(--surface-2)}
+.gridtbl tbody tr.sel td.tm{background:var(--accent-soft);box-shadow:inset 4px 0 0 var(--accent),1px 0 0 var(--line)}
+.rk{display:inline-block;width:22px;color:var(--ink-3);font-size:11px;font-weight:600}
+.tn{font-family:"Barlow Condensed",Arial,sans-serif;font-size:16px;font-weight:600}
+.tsub{color:var(--ink-3);font-size:11px}
+.star{background:none;border:0;cursor:pointer;color:var(--line);font-size:15px;padding:0 4px;line-height:1;vertical-align:-1px}
+.star.on{color:var(--star)}
+.cell{display:block;margin:2px;padding:4px 3px 3px;min-width:56px;border-radius:3px;line-height:1.15;background:var(--mid)}
+.cell .m{font-weight:600;font-size:13px}
+.cell .s{font-size:11px;color:var(--ink-2)}
+.cell.up{background:var(--surface-2);color:var(--ink-2)}
+.cell.up .m{color:var(--ink-2);font-weight:500}
+.cell .eu{color:var(--xg);font-weight:700}
+.tot{font-weight:600;padding:0 7px !important}
+.pos{color:var(--pos)} .neg{color:var(--neg)}
+.gridtbl td.sep{border-left:1px solid var(--line)}
+.chip{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;font-weight:600;background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2);white-space:nowrap}
+.chip.flag{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.chip.eu{color:var(--xg);border-color:var(--xg)}
+.chip.warn{color:var(--neg);border-color:var(--neg)}
+/* team panel */
+.team-head{display:flex;flex-wrap:wrap;gap:8px 26px;align-items:flex-end;padding:14px 18px 12px;border-bottom:1px solid var(--line)}
+.team-head h2{font-size:32px;line-height:1;font-weight:700}
+.kv{display:flex;flex-direction:column;gap:2px}
+.kv .v{font-family:"Barlow Condensed",Arial,sans-serif;font-size:22px;font-weight:600;line-height:1}
+.kv .v small{font-size:13px;color:var(--ink-3);font-family:"Barlow",Arial,sans-serif;font-weight:500}
+.ctx{padding:8px 18px 0;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ctx .note{font-size:12px;color:var(--ink-2);max-width:120ch}
+.notes{padding:10px 18px 0;display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.notes textarea{flex:1;min-width:260px;min-height:44px;font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:3px;background:var(--surface);color:var(--ink);resize:vertical}
+.btn{font:inherit;font-weight:600;padding:6px 12px;border:1px solid var(--line);border-radius:3px;background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn:disabled{opacity:.5;cursor:default}
+.blocks{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:12px;padding:14px 18px}
+.bk{border:1px solid var(--line);border-radius:4px;background:var(--surface);display:flex;flex-direction:column}
+.bk .bh{display:flex;justify-content:space-between;align-items:baseline;padding:8px 10px 6px;border-bottom:1px solid var(--line-2);gap:6px}
+.bk .bh b{font-family:"Barlow Condensed",Arial,sans-serif;font-size:17px;font-weight:600}
+.bk .bh span{font-size:11px;color:var(--ink-3);text-align:right}
+.bk .fx{list-style:none;margin:0;padding:6px 10px;display:flex;flex-direction:column;gap:3px;flex:1}
+.bk .fx li{display:grid;grid-template-columns:16px 1fr auto auto;gap:6px;align-items:baseline;font-size:12.5px}
+.bk .fx .va{color:var(--ink-3);font-size:11px;font-weight:600}
+.bk .fx .pw{color:var(--ink-3);font-size:11px;min-width:30px;text-align:right}
+.bk .fx .sc{font-weight:600;min-width:34px;text-align:right}
+.bk .fx .sc.w{color:var(--pos)} .bk .fx .sc.l{color:var(--neg)}
+.bk .bf{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-2);background:var(--surface-2)}
+.bk .bf div{padding:6px 4px;text-align:center}
+.bk .bf .l{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)}
+.bk .bf .n{font-family:"Barlow Condensed",Arial,sans-serif;font-size:18px;font-weight:600;line-height:1.1}
+.bk .bf .n.dim{color:var(--ink-3);font-weight:500}
+.bk .z{font-size:11px;color:var(--ink-3);padding:4px 10px 6px;border-top:1px solid var(--line-2)}
+.two{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px;padding:4px 18px 18px}
+.three{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;padding:4px 18px 18px}
+.chart h3,.gt h3,.mini h3{font-size:18px;padding:6px 0 8px}
+.chart svg,.mini svg{width:100%;height:auto;display:block}
+.chart .lg,.mini .lg{display:flex;gap:16px;font-size:12px;color:var(--ink-2);margin-top:6px;flex-wrap:wrap}
+.chart .lg i,.mini .lg i{display:inline-block;width:18px;height:0;border-top:2.5px solid;vertical-align:middle;margin-right:6px}
+.gt table,.dt table{font-size:12.5px}
+.gt th,.dt th{font-family:"Barlow Condensed",Arial,sans-serif;font-size:13px;font-weight:600;color:var(--ink-2);text-align:right;padding:5px 6px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--surface);cursor:pointer}
+.gt th:nth-child(-n+3),.gt td:nth-child(-n+3){text-align:left}
+.gt td,.dt td{padding:4px 6px;border-bottom:1px solid var(--line-2);text-align:right;white-space:nowrap}
+.gt tr.bs td{border-top:2px solid var(--line)}
+.gt tr.fut td{color:var(--ink-3)}
+.dt th.l,.dt td.l{text-align:left}
+.dt th.sorted{color:var(--ink)}
+.dt tbody tr:hover td{background:var(--surface-2)}
+.dt tr.clk{cursor:pointer}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;padding:6px 9px;border-radius:3px;z-index:20;display:none;line-height:1.4;box-shadow:var(--shadow);max-width:320px}
+.tip b{font-family:"Barlow Condensed",Arial,sans-serif;font-size:14px}
+.note{font-size:12px;color:var(--ink-3);padding:10px 18px 14px;max-width:120ch}
+.foot{margin-top:28px;color:var(--ink-3);font-size:12px;max-width:110ch}
+.foot p{margin:4px 0}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:14px}
+.strip .card{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:10px 12px;box-shadow:var(--shadow)}
+.strip .card h3{font-size:15px;color:var(--ink-2);padding-bottom:6px}
+.strip .card ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px}
+.strip .card li{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;cursor:pointer}
+.strip .card li:hover{color:var(--accent)}
+.strip .card li b{font-family:"Barlow Condensed",Arial,sans-serif;font-size:14px;font-weight:600}
+.filters{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line)}
+.filters label{font-size:12px;color:var(--ink-2);display:flex;gap:6px;align-items:center}
+.filters input[type=number],.filters select,.filters input[type=text]{font:inherit;font-size:13px;padding:4px 6px;border:1px solid var(--line);border-radius:3px;background:var(--surface);color:var(--ink);width:80px}
+.filters select{width:auto}
+.entry{padding:14px 18px}
+.entry table{font-size:13px}
+.entry input{font:inherit;width:52px;padding:3px 4px;border:1px solid var(--line);border-radius:3px;background:var(--surface);color:var(--ink);text-align:center}
+.entry td,.entry th{padding:4px 6px;border-bottom:1px solid var(--line-2);text-align:center}
+.entry th{font-family:"Barlow Condensed",Arial,sans-serif;font-weight:600;color:var(--ink-2)}
+.entry td.l,.entry th.l{text-align:left}
+.status{font-size:12px;color:var(--ink-3);padding:6px 18px 12px}
+.pending{color:var(--xg);font-weight:600}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:14px 18px}
+.cmp select{font:inherit;font-size:14px;padding:5px 8px;border:1px solid var(--line);border-radius:3px;background:var(--surface);color:var(--ink);width:100%}
+.cmp .kvs{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-top:8px;font-size:13px}
+.cmp .kvs span:nth-child(odd){color:var(--ink-3)}
+.cmp .kvs span:nth-child(even){text-align:right;font-weight:600}
+.hidden{display:none !important}
+@media (prefers-reduced-motion:no-preference){.cell,.tab,.seg button{transition:background .15s,color .15s}}
+@media (max-width:900px){
+  .wrap{padding:12px 10px 40px}
+  header h1{font-size:26px}
+  .two,.cmp{grid-template-columns:1fr}
+  .blocks{grid-template-columns:1fr;padding:10px}
+  .team-head{padding:12px}
+  .gridtbl th.tm,.gridtbl td.tm{min-width:130px}
+  .tn{font-size:14px}
+  .views button{padding:8px 9px;font-size:15px}
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">England · 2026/27 · blocks of four</div>
+      <h1>Fixture Blocks <span>26/27</span></h1>
+      <div class="sub">Every team's season cut into four-game blocks and scored against what the pre-season outright market expected — then re-rated on xG, re-simulated, and priced against the live market.</div>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:6px">Division</div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+    </div>
+  </header>
+
+  <div class="strip" id="strip"></div>
+
+  <div class="views" role="tablist" id="views">
+    <button role="tab" data-view="blocks" aria-selected="true">Blocks</button>
+    <button role="tab" data-view="week" aria-selected="false">This week</button>
+    <button role="tab" data-view="table" aria-selected="false">Season table</button>
+    <button role="tab" data-view="scanner" aria-selected="false">Value scanner<span class="n" id="nflag"></span></button>
+    <button role="tab" data-view="movers" aria-selected="false">Movers</button>
+    <button role="tab" data-view="compare" aria-selected="false">Compare</button>
+    <button role="tab" data-view="entry" aria-selected="false">Enter results<span class="n hidden" id="npend"></span></button>
+    <button role="tab" data-view="watch" aria-selected="false">Watchlist<span class="n hidden" id="nwatch"></span></button>
+  </div>
+
+  <!-- BLOCKS -->
+  <div id="v-blocks">
+    <div class="toolbar">
+      <div>
+        <span class="eyebrow" style="margin-right:8px">Colour cells by</span>
+        <div class="seg" id="colorBy">
+          <button aria-pressed="true" data-mode="vs">Points vs market</button>
+          <button aria-pressed="false" data-mode="perf">Performance (xG vs market)</button>
+          <button aria-pressed="false" data-mode="luck">Luck (pts vs xG)</button>
+          <button aria-pressed="false" data-mode="diff">Block difficulty</button>
+        </div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="legend" id="updated"></div>
+    </div>
+    <section class="panel">
+      <div class="scroll"><table class="gridtbl" id="grid"></table></div>
+      <div class="note" id="gridnote"></div>
+    </section>
+  </div>
+
+  <!-- THIS WEEK -->
+  <div id="v-week" class="hidden">
+    <div class="strip" id="wstrip"></div>
+    <section class="panel" style="margin-top:14px">
+      <div class="filters"><span class="tsub" id="wnote"></span></div>
+      <div class="scroll dt"><table id="wktable"></table></div>
+      <div class="note"><b>How to read it.</b> Luck = points minus xG-implied points (per game, shrunk toward zero while samples are small); a team on negative luck is <i>playing better than the points say</i>. Perf = xG-implied points minus the August market's expectation, per game. The <b>tilt</b> (−5 to +5, positive = home) adds the luck gap, the performance gap and the current model's disagreement with the match price. Market P uses the published pre-match price when football-data has it (from the Friday before), otherwise the August model. Treat it as a list of games where the underlying numbers and the market disagree, not as a prediction.</div>
+    </section>
+  </div>
+
+  <!-- SEASON TABLE -->
+  <div id="v-table" class="hidden">
+    <section class="panel">
+      <div class="filters">
+        <label>Pts vs market ≥ <input type="number" id="fVs" step="0.5" placeholder="any"></label>
+        <label>xG xP vs market ≥ <input type="number" id="fPerf" step="0.5" placeholder="any"></label>
+        <label>Luck ≤ <input type="number" id="fLuck" step="0.5" placeholder="any"></label>
+        <label>Next-4 difficulty <select id="fNext"><option value="">any</option><option value="easy">easy (mkt ≥ 1.7/gm)</option><option value="hard">hard (mkt ≤ 1.2/gm)</option></select></label>
+        <label><input type="checkbox" id="fWatch"> watchlist only</label>
+        <span class="tsub" id="tcount"></span>
+      </div>
+      <div class="scroll dt"><table id="ttable"></table></div>
+      <div class="note">Click a column to sort; click a row for the team's breakdown. "All divisions" in the division tabs shows all 92 teams. Luck = points minus xG-implied points (positive = getting more than the shots deserved). z = how many standard deviations points are from market expectation.</div>
+    </section>
+  </div>
+
+  <!-- SCANNER -->
+  <div id="v-scanner" class="hidden">
+    <section class="panel">
+      <div class="filters">
+        <label>Market <select id="sMarket"><option value="">all</option><option value="title">title</option><option value="promotion">promotion</option><option value="top4">top 4</option><option value="top6">top 6 / play-offs</option><option value="relegation">relegation</option></select></label>
+        <label><input type="checkbox" id="sFlag" checked> flagged only</label>
+        <label>Max price <input type="number" id="sMax" value="50"></label>
+        <span class="tsub" id="scount"></span>
+      </div>
+      <div class="scroll dt"><table id="stable"></table></div>
+      <div class="note"><b>How to read it.</b> p(market) is the live bet365 price with the overround removed; p(Aug) the same market at the start of the season; p(model) the rest-of-season simulation with current xG-rerated strengths; Blend is 50/50 of model and market. Edge = model − market. A flag means edge ≥ 3 points, model ≥ 3% and price ≤ 50/1. This is a shortlist of prices where the model disagrees with the book — the model can't see injuries, transfers or a manager on the brink, so the Blend column is the more honest number. Not advice.</div>
+    </section>
+  </div>
+
+  <!-- MOVERS -->
+  <div id="v-movers" class="hidden">
+    <section class="panel">
+      <div class="scroll dt"><table id="mtable"></table></div>
+      <div class="note" id="mnote"></div>
+    </section>
+  </div>
+
+  <!-- COMPARE -->
+  <div id="v-compare" class="hidden">
+    <section class="panel">
+      <div class="cmp">
+        <div><select id="cA"></select><div class="kvs" id="cAk"></div></div>
+        <div><select id="cB"></select><div class="kvs" id="cBk"></div></div>
+      </div>
+      <div class="two"><div class="chart"><h3 id="cTitle">Cumulative points vs market</h3><div id="cchart"></div><div class="lg" id="clg"></div></div><div class="mini"><h3>Block +/- vs market</h3><div id="cbars"></div></div></div>
+    </section>
+  </div>
+
+  <!-- ENTRY -->
+  <div id="v-entry" class="hidden">
+    <section class="panel">
+      <div class="filters">
+        <label>Show <select id="eRound"></select></label>
+        <span class="tsub">Type full-time scores (and xG if you have them) for games the data doesn't have yet. Saved entries apply to this page immediately and are merged into the data at the next weekly rebuild.</span>
+      </div>
+      <div class="entry scroll"><table id="etable"></table></div>
+      <div class="status" id="estatus"></div>
+    </section>
+  </div>
+
+  <!-- WATCHLIST -->
+  <div id="v-watch" class="hidden">
+    <section class="panel">
+      <div class="scroll dt"><table id="wtable"></table></div>
+      <div class="note">Star a team anywhere (grid, table, scanner) to add it here. Notes save automatically and are shared with anyone you share the page with.</div>
+    </section>
+  </div>
+
+  <!-- TEAM PANEL -->
+  <section class="panel" id="teamPanel">
+    <div class="team-head" id="teamHead"></div>
+    <div class="ctx" id="teamCtx"></div>
+    <div class="notes"><textarea id="teamNote" placeholder="Your notes on this team (saved to the page)"></textarea><button class="btn" id="saveNote">Save note</button></div>
+    <div class="blocks" id="blocks"></div>
+    <div class="two">
+      <div class="chart">
+        <h3>Cumulative points — actual vs market vs xG</h3>
+        <div id="chart"></div>
+        <div class="lg"><span><i style="border-color:var(--pts)"></i>Points</span><span><i style="border-color:var(--mkt)"></i>Market xP (Aug)</span><span><i style="border-color:var(--xg)"></i>xG xP</span></div>
+      </div>
+      <div class="mini">
+        <h3>Where the market has moved</h3>
+        <div id="pchart"></div>
+        <div class="lg" id="plg"></div>
+      </div>
+    </div>
+    <div class="gt" style="padding:0 18px 18px">
+      <h3>Game by game</h3>
+      <div class="scroll" style="max-height:560px;overflow-y:auto"><table id="games"></table></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p><b>Method.</b> Sky Bet outright odds (title, relegation, top-4 / promotion, 10–14 Aug 2026) and, for the Premier League, Spreadex season points lines (28 Jul) are turned into a strength rating per team in a Dixon-Coles Poisson goals model, fitted so that a 20,000-run simulation of the real fixture list reproduces the market. Each fixture's market expected points = 3 × P(win) + P(draw); that number is frozen for the season. In-season, attack and defence are re-rated on match xG (OddAlerts / Sportmonks, all four divisions) around the August prior, and the rest of the season is simulated 10,000 times from the live table to price every outright market against bet365. Southampton's −4 is applied to the table. Man City's 8/1 relegation price is treated as a points-deduction price and ignored in the fit.</p>
+    <p><b>Blocks</b> follow each team's own kick-off order; a game that moves block is flagged. A block's +/- compares points won with market xP for the games played so far in that block. z is that difference in standard deviations given the variance of those fixtures.</p>
+  </div>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const S = { div: 'E0', view: 'blocks', team: null, colorBy: 'vs', sort: {key: null, dir: -1}, tsort: {key: 'ptsVsMkt', dir: -1}, ssort: {key: 'edge', dir: -1} };
+const WATCH = {};    // slug -> {team, div, star, note}
+const MANUAL = {};   // matchId -> {hg, ag, hxg, axg}
+let db = null;
+const $ = (s, el=document) => el.querySelector(s);
+const $$ = (s, el=document) => Array.from(el.querySelectorAll(s));
+const fmt = (x, d=2) => (x==null||isNaN(x)) ? '' : Number(x).toFixed(d);
+const pm = (x, d=2) => (x==null||isNaN(x)) ? '' : (x>0?'+':x<0?'−':'') + Math.abs(x).toFixed(d);
+const pct = (x, d=0) => (x==null||isNaN(x)) ? '' : (x*100).toFixed(d)+'%';
+const ppt = x => (x==null||isNaN(x)) ? '' : (x>0?'+':x<0?'−':'')+Math.abs(x*100).toFixed(1)+' pts';
+const dfmt = s => { const d=new Date(s); return d.toLocaleDateString('en-GB',{day:'numeric',month:'short'}); };
+const dfull = s => { const d=new Date(s); return d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'})+' '+d.toTimeString().slice(0,5); };
+const esc = s => String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const cls = x => x>0.005?'pos':x<-0.005?'neg':'';
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+const ALLDIVS = Object.keys(DATA.divs);
+const MK_LABEL = {title:'Title', promotion:'Promotion', relegation:'Relegation', top4:'Top 4', top6:'Top 6 / play-offs'};
+
+function mix(hex, t, base){ const h=c=>[parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16)]; const a=h(hex),b=h(base); const m=a.map((v,i)=>Math.round(v*t+b[i]*(1-t))); return `rgb(${m[0]},${m[1]},${m[2]})`; }
+function cssVar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function divFill(diff, played, cap=1.6){ const t=Math.min(1, Math.abs(diff)/Math.max(cap*played,0.01)); return mix(diff>=0?cssVar('--pos'):cssVar('--neg'), 0.12+0.55*t, cssVar('--surface')); }
+function diffFill(ppg){ const steps=['--seq-1','--seq-2','--seq-3','--seq-4','--seq-5']; const t=Math.max(0,Math.min(1,(1.75-ppg)/0.95)); return cssVar(steps[Math.min(4,Math.floor(t*5))]); }
+
+// ---------- Poisson (Dixon-Coles) for in-page xG -> xP, mirrors model.py
+function poisPmf(k, l){ let p=Math.exp(-l); for(let i=1;i<=k;i++) p*=l/i; return p; }
+function xgProbs(lh, la, rho=-0.10){ const G=10; let ph=[],pa=[]; for(let i=0;i<=G;i++){ph.push(poisPmf(i,lh));pa.push(poisPmf(i,la));}
+  let H=0,D=0,T=0; for(let i=0;i<=G;i++)for(let j=0;j<=G;j++){ let p=ph[i]*pa[j]; if(i===0&&j===0)p*=1-lh*la*rho; else if(i===1&&j===0)p*=1+la*rho; else if(i===0&&j===1)p*=1+lh*rho; else if(i===1&&j===1)p*=1-rho; p=Math.max(p,0); T+=p; if(i>j)H+=p; else if(i===j)D+=p; }
+  return [H/T, D/T, 1-H/T-D/T]; }
+
+// ---------- manual result overlay (from db)
+function applyManual(){
+  for(const d of ALLDIVS){ const D=DATA.divs[d];
+    for(const f of D.fixtures){ const m=MANUAL[f.id]; if(!m) continue; if(f.hg!=null && f.hg===m.hg && f.ag===m.ag && (m.hxg==null || f.hxg===m.hxg)) continue;
+      f.hg=m.hg; f.ag=m.ag; f.hxg=m.hxg??null; f.axg=m.axg??null; f.manual=true;
+      const upd=(team, gf, ga, xg, xga)=>{ const g=D.gamesByTeam[team].find(x=>x.id===f.id); if(!g) return; g.gf=gf; g.ga=ga; g.pts=gf>ga?3:gf===ga?1:0; g.manual=true;
+        if(xg!=null&&xga!=null){ g.xg=xg; g.xga=xga; const [H,Dr,A]=xgProbs(xg,xga); g.xgxp=3*H+Dr; } else { g.xg=null; g.xga=null; g.xgxp=null; } };
+      upd(f.home,f.hg,f.ag,f.hxg,f.axg); upd(f.away,f.ag,f.hg,f.axg,f.hxg);
+    }
+    // recompute block + season aggregates from games
+    for(const t of D.teams){ const gs=D.gamesByTeam[t.team]; const pl=gs.filter(g=>g.pts!=null);
+      t.played=pl.length; t.ptsWon=pl.reduce((a,g)=>a+g.pts,0); t.pts=t.ptsWon+t.deduction; t.mktXpPlayed=pl.reduce((a,g)=>a+g.mxp,0);
+      t.xg=pl.reduce((a,g)=>a+(g.xg||0),0); t.xga=pl.reduce((a,g)=>a+(g.xga||0),0); t.xgXp=pl.reduce((a,g)=>a+(g.xgxp||0),0); t.luck=t.ptsWon-t.xgXp;
+      t.gf=pl.reduce((a,g)=>a+g.gf,0); t.ga=pl.reduce((a,g)=>a+g.ga,0);
+      for(const b of D.blocks[t.team]){ const bg=gs.filter(g=>g.b===b.b), bp=bg.filter(g=>g.pts!=null); b.played=bp.length; b.pts=bp.reduce((a,g)=>a+g.pts,0); b.mktXpPlayed=bp.reduce((a,g)=>a+g.mxp,0);
+        b.xg=bp.reduce((a,g)=>a+(g.xg||0),0); b.xga=bp.reduce((a,g)=>a+(g.xga||0),0); b.xgXp=bp.reduce((a,g)=>a+(g.xgxp||0),0); b.luck=b.pts-b.xgXp; b.status=b.played===0?'upcoming':b.played===b.games?'complete':'in progress'; }
+      const un=gs.filter(g=>g.pts==null); t.remGames=un.length; t.next4Fix=un.slice(0,4).map(g=>`${g.opp} (${g.v})`).join(' · '); t.next4Mkt=un.slice(0,4).reduce((a,g)=>a+g.mxp,0);
+    }
+    // positions
+    const sorted=[...D.teams].sort((a,b)=>b.pts-a.pts||((b.gf-b.ga)-(a.gf-a.ga))||b.gf-a.gf); sorted.forEach((t,i)=>t.pos=i+1);
+  }
+  const n=Object.keys(MANUAL).length; const el=$('#npend'); el.textContent=n; el.classList.toggle('hidden', n===0);
+}
+
+// ---------- header / nav
+function renderTabs(){
+  const t=$('#tabs'); t.innerHTML='';
+  const items=[...ALLDIVS.map(k=>[k,DATA.divs[k].name]), ['ALL','All divisions']];
+  for(const [k,name] of items){ const b=document.createElement('button'); b.className='tab'; b.setAttribute('role','tab'); b.textContent=name; b.setAttribute('aria-selected', k===S.div);
+    b.onclick=()=>{ S.div=k; if(k!=='ALL') S.team=null; if(k==='ALL' && S.view==='blocks') S.view='table'; renderAll(); }; t.appendChild(b); }
+  $('#updated').innerHTML=`Data to <b style="margin-left:4px;color:var(--ink)">${DATA.updated}</b>`;
+  $$('#views button').forEach(b=>{ b.setAttribute('aria-selected', b.dataset.view===S.view); b.onclick=()=>{ S.view=b.dataset.view; if(S.view==='blocks' && S.div==='ALL') S.div='E0'; renderAll(); }; });
+  for(const v of ['blocks','week','table','scanner','movers','compare','entry','watch']) $('#v-'+v).classList.toggle('hidden', v!==S.view);
+  $('#teamPanel').classList.toggle('hidden', !(S.view==='blocks'||S.view==='table'||S.view==='watch'||S.view==='scanner'||S.view==='movers'||S.view==='week'));
+  const nf=ALLDIVS.reduce((a,d)=>a+DATA.divs[d].scanner.filter(x=>x.flag).length,0); $('#nflag').textContent=nf;
+}
+function curDivs(){ return S.div==='ALL' ? ALLDIVS : [S.div]; }
+function teamOf(name){ for(const d of ALLDIVS){ const t=DATA.divs[d].teams.find(x=>x.team===name); if(t) return [d,t]; } return [null,null]; }
+function selectTeam(name){ const [d,t]=teamOf(name); if(!t) return; S.team=name; if(S.div!=='ALL') S.div=d; renderTeam(); $$('#grid tr.sel').forEach(x=>x.classList.remove('sel')); const tr=$(`#grid tr[data-team="${CSS.escape(name)}"]`); if(tr) tr.classList.add('sel'); $('#teamPanel').classList.remove('hidden'); $('#teamPanel').scrollIntoView({behavior:'smooth',block:'start'}); }
+
+// ---------- strip (this week at a glance, all divisions)
+function renderStrip(){
+  const all=[]; for(const d of ALLDIVS) for(const t of DATA.divs[d].teams) all.push({...t, div:d, ptsVsMkt:t.ptsWon-t.mktXpPlayed, perf:t.xgXp-t.mktXpPlayed});
+  const played=all.filter(t=>t.played>0);
+  const card=(title, rows, fmtv)=>`<div class="card"><h3>${title}</h3><ol>${rows.map(t=>`<li data-team="${esc(t.team)}"><span>${esc(t.team)} <span class="tsub">${DATA.divs[t.div].short}</span></span><b class="${cls(t.v)}">${fmtv(t.v)}</b></li>`).join('')}</ol></div>`;
+  const top=(key,n,asc)=>[...played].map(t=>({...t,v:t[key]})).sort((a,b)=>asc?a.v-b.v:b.v-a.v).slice(0,n);
+  const flags=[]; for(const d of ALLDIVS) for(const s of DATA.divs[d].scanner) if(s.flag) flags.push({team:s.team,div:d,v:s.edge,market:s.market,frac:s.frac});
+  flags.sort((a,b)=>b.v-a.v);
+  let h=card('Ahead of the market', top('ptsVsMkt',5), v=>pm(v,1)) + card('Behind the market', top('ptsVsMkt',5,true), v=>pm(v,1))
+    + card('Playing better than the points say', [...played].map(t=>({...t,v:-t.luck})).sort((a,b)=>b.v-a.v).slice(0,5), v=>pm(-v,1)+' luck')
+    + card('Easiest next four (market xP)', all.filter(t=>t.remGames>=4).map(t=>({...t,v:t.next4Mkt})).sort((a,b)=>b.v-a.v).slice(0,5), v=>fmt(v,1))
+    + `<div class="card"><h3>Scanner flags</h3><ol>${flags.slice(0,5).map(f=>`<li data-team="${esc(f.team)}"><span>${esc(f.team)} <span class="tsub">${DATA.divs[f.div].short} · ${MK_LABEL[f.market]} ${f.frac}</span></span><b class="pos">${ppt(f.v)}</b></li>`).join('')||'<li><span class="tsub">none</span></li>'}</ol></div>`;
+  $('#strip').innerHTML=h;
+  $$('#strip li[data-team]').forEach(li=>li.onclick=()=>selectTeam(li.dataset.team));
+}
+
+// ---------- blocks grid
+function renderLegend(){
+  const l=$('#legend');
+  const div=(a,b)=>`<span><i class="sw" style="background:${divFill(-4,4)}"></i>${a}</span><span><i class="sw" style="background:var(--mid)"></i>Level</span><span><i class="sw" style="background:${divFill(4,4)}"></i>${b}</span>`;
+  if(S.colorBy==='vs') l.innerHTML=div('Behind market','Ahead of market')+`<span><i class="sw" style="background:var(--surface-2)"></i>Not started (shows Mkt xP)</span>`;
+  else if(S.colorBy==='perf') l.innerHTML=div('Playing worse than market','Playing better than market')+'<span class="tsub">xG xP − Mkt xP</span>';
+  else if(S.colorBy==='luck') l.innerHTML=div('Unlucky (pts < xG xP)','Lucky (pts > xG xP)');
+  else l.innerHTML=`<span><i class="sw" style="background:${diffFill(1.7)}"></i>Easy block</span><span><i class="sw" style="background:${diffFill(1.3)}"></i></span><span><i class="sw" style="background:${diffFill(0.9)}"></i>Hard block</span><span style="color:var(--ink-3)">by market xP per game</span>`;
+}
+function starBtn(team){ const w=WATCH[slug(team)]; return `<button class="star ${w&&w.star?'on':''}" data-star="${esc(team)}" title="watchlist" aria-label="toggle watchlist">★</button>`; }
+function bindStars(root){ $$('button[data-star]', root).forEach(b=>b.onclick=e=>{ e.stopPropagation(); toggleStar(b.dataset.star); }); }
+function renderGrid(){
+  const d=DATA.divs[S.div==='ALL'?'E0':S.div]; const nb=Math.max(...Object.values(d.blocks).map(b=>b.length));
+  const rows=d.teams.map(t=>({t, blocks:d.blocks[t.team], vs:t.ptsWon-t.mktXpPlayed, perf:t.xgXp-t.mktXpPlayed}));
+  if(S.sort.key){ const k=S.sort.key; rows.sort((a,b)=>{ const va=k==='rank'?a.t.rank:k==='pts'?a.t.pts:k==='vs'?a.vs:k==='perf'?a.perf:k==='luck'?a.t.luck:k==='xg'?a.t.xg:k==='xga'?a.t.xga:k==='mkt'?a.t.mktXp:k==='pos'?a.t.pos:k.startsWith('b')?(a.blocks[+k.slice(1)]?a.blocks[+k.slice(1)].mktXp:0):0;
+    const vb=k==='rank'?b.t.rank:k==='pts'?b.t.pts:k==='vs'?b.vs:k==='perf'?b.perf:k==='luck'?b.t.luck:k==='xg'?b.t.xg:k==='xga'?b.t.xga:k==='mkt'?b.t.mktXp:k==='pos'?b.t.pos:k.startsWith('b')?(b.blocks[+k.slice(1)]?b.blocks[+k.slice(1)].mktXp:0):0; return (va-vb)*S.sort.dir; }); }
+  const th=(label,key,extra='')=>`<th data-key="${key}" class="${S.sort.key===key?'sorted':''}${S.sort.key===key&&S.sort.dir>0?' asc':''} ${extra}">${label}</th>`;
+  let h='<thead><tr>'+th('Team <span class="tsub">(market order)</span>','rank','tm');
+  for(let b=1;b<=nb;b++) h+=th(`Block ${b}`,'b'+(b-1));
+  h+=th('Pos','pos','sep')+th('P','p')+th('Pts','pts')+th('Mkt xP','mktp')+th('+/-','vs')+th('xG xP','xgxp')+th('Perf','perf')+th('Luck','luck')+th('xG','xg')+th('xGA','xga')+th('Season Mkt','mkt')+'</tr></thead><tbody>';
+  for(const {t,blocks,vs,perf} of rows){
+    h+=`<tr data-team="${esc(t.team)}" tabindex="0" class="${t.team===S.team?'sel':''}"><td class="tm">${starBtn(t.team)}<span class="rk">${t.rank}</span><span class="tn">${esc(t.team)}</span> <span class="tsub">${t.title} · ${t.releg}</span>${t.europe?` <span class="chip eu" title="${esc(t.europe)}">EU</span>`:''}${t.deduction?` <span class="chip warn">${t.deduction}</span>`:''}</td>`;
+    for(let b=0;b<nb;b++){ const k=blocks[b]; if(!k){h+='<td></td>';continue;}
+      let style='', inner='';
+      const euTag=k.eu?`<span class="eu" title="${k.eu} European week${k.eu>1?'s':''}">·EU</span>`:'';
+      if(k.played===0){ style = S.colorBy==='diff' ? `background:${diffFill(k.ppg)}` : '';
+        inner=`<span class="cell up" style="${style}"><span class="m">${fmt(k.mktXp,1)}</span><br><span class="s">${k.games} gms · ${k.home}H ${euTag}</span></span>`;
+      } else {
+        const diff=k.pts-k.mktXpPlayed, perfb=k.xgXp-k.mktXpPlayed, luck=k.pts-k.xgXp;
+        if(S.colorBy==='diff') style=`background:${diffFill(k.ppg)}`; else if(S.colorBy==='perf') style=`background:${divFill(perfb,k.played,1.2)}`; else if(S.colorBy==='luck') style=`background:${divFill(luck,k.played,1.2)}`; else style=`background:${divFill(diff,k.played)}`;
+        const shown = S.colorBy==='perf'?perfb:S.colorBy==='luck'?luck:diff;
+        inner=`<span class="cell" style="${style}"><span class="m">${k.pts} <span class="s">/ ${fmt(k.mktXpPlayed,1)}</span></span><br><span class="s"><b class="${cls(shown)}">${pm(shown,1)}</b> · ${k.played}/${k.games} ${euTag}</span></span>`;
+      }
+      h+=`<td data-b="${b}">${inner}</td>`;
+    }
+    h+=`<td class="sep tot">${t.pos}</td><td class="tot">${t.played}</td><td class="tot">${t.pts}${t.deduction?'<span class="tsub">*</span>':''}</td><td class="tot">${fmt(t.mktXpPlayed,1)}</td><td class="tot ${cls(vs)}">${pm(vs,1)}</td><td class="tot">${fmt(t.xgXp,1)}</td><td class="tot ${cls(perf)}">${pm(perf,1)}</td><td class="tot ${cls(t.luck)}">${pm(t.luck,1)}</td><td class="tot">${fmt(t.xg,1)}</td><td class="tot">${fmt(t.xga,1)}</td><td class="tot" style="color:var(--ink-3)">${fmt(t.mktXp,1)}</td></tr>`;
+  }
+  const tbl=$('#grid'); tbl.innerHTML=h+'</tbody>';
+  $$('th[data-key]',tbl).forEach(th=>th.onclick=()=>{ const k=th.dataset.key; if(S.sort.key===k) S.sort.dir*=-1; else {S.sort.key=k; S.sort.dir=-1;} renderGrid(); });
+  bindStars(tbl);
+  $$('tbody tr',tbl).forEach(tr=>{
+    const go=()=>selectTeam(tr.dataset.team);
+    tr.onclick=go; tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};
+    $$('td[data-b]',tr).forEach(td=>{
+      td.onmousemove=e=>{ const k=d.blocks[tr.dataset.team][+td.dataset.b]; const g=d.gamesByTeam[tr.dataset.team].filter(x=>x.b===k.b);
+        showTip(e, `<b>${esc(tr.dataset.team)} · Block ${k.b}</b><br>${g.map(x=>`${x.v==='H'?'v':'@'} ${esc(x.opp)} ${x.pts!=null?x.gf+'-'+x.ga:''}${x.eu?' <span style="opacity:.7">EU wk</span>':''}`).join('<br>')}<br><span style="opacity:.8">Mkt xP ${fmt(k.mktXp)} · ${k.played?`Pts ${k.pts} (${pm(k.pts-k.mktXpPlayed)}) · xG xP ${fmt(k.xgXp)} · z ${pm(k.z,1)}`:dfmt(k.start)+' – '+dfmt(k.end)+(k.nowXp?` · now-model xP ${fmt(k.nowXp,1)}`:'')}</span>`); };
+      td.onmouseleave=hideTip;
+    });
+  });
+  $('#gridnote').innerHTML=`Each cell: <b>points won / market xP</b> for the games played in that block and the difference (or the chosen colour-by measure); unplayed blocks show the block's total market xP, length and home games. ·EU = a European fixture within three days of a game in the block. * = points deduction applied. Click a row for the team's full breakdown; click a column header to sort. ${d.name}: ${d.n} teams, ${d.games} games each, ${d.relegated} relegated, ${d.topLabel.toLowerCase()} shown in the market.`;
+}
+function showTip(e, html){ const t=$('#tip'); t.innerHTML=html; t.style.display='block'; const w=t.offsetWidth, x=e.clientX+14, y=e.clientY+14; t.style.left=Math.min(x, innerWidth-w-8)+'px'; t.style.top=(y+t.offsetHeight>innerHeight? e.clientY-t.offsetHeight-8 : y)+'px'; }
+function hideTip(){ $('#tip').style.display='none'; }
+
+// ---------- this week
+function renderWeek(){
+  let rows=[]; for(const d of ALLDIVS) for(const w of DATA.divs[d].week) rows.push({...w, div:d});
+  // cards: unlucky (playing better than points) / lucky (worse than points) with next fixture
+  const all=[]; for(const d of ALLDIVS) for(const t of DATA.divs[d].teams) if(t.played>0){ const sh=t.played/(t.played+4); const nxt=DATA.divs[d].gamesByTeam[t.team].find(g=>g.pts==null); all.push({...t, div:d, luckPg:t.luck/t.played*sh, perfPg:(t.xgXp-t.mktXpPlayed)/t.played*sh, nxt}); }
+  const card=(title, list, good)=>`<div class="card"><h3>${title}</h3><ol>${list.map(t=>`<li data-team="${esc(t.team)}"><span>${esc(t.team)} <span class="tsub">${DATA.divs[t.div].short} · luck ${pm(t.luck,1)} · perf ${pm(t.xgXp-t.mktXpPlayed,1)}</span><br><span class="tsub">next: ${t.nxt?(t.nxt.v==='H'?'v ':'@ ')+esc(t.nxt.opp)+' '+dfmt(t.nxt.date):'—'}</span></span><b class="${good?'pos':'neg'}">${pm(t.luckPg,2)}<span class="tsub">/gm</span></b></li>`).join('')}</ol></div>`;
+  const unlucky=[...all].sort((a,b)=>a.luckPg-b.luckPg).slice(0,6), lucky=[...all].sort((a,b)=>b.luckPg-a.luckPg).slice(0,6);
+  $('#wstrip').innerHTML=card('Playing better than the points say (unlucky — due a bounce)', unlucky, true)+card('Playing worse than the points say (lucky — due a fall)', lucky, false);
+  $$('#wstrip li[data-team]').forEach(li=>li.onclick=()=>selectTeam(li.dataset.team));
+  rows.sort((a,b)=>Math.abs(b.tilt)-Math.abs(a.tilt));
+  const bar=v=>{ const w=Math.abs(v)/5*40; return `<span style="display:inline-block;width:84px;height:10px;position:relative;background:var(--line-2);border-radius:2px;vertical-align:middle"><span style="position:absolute;top:0;height:10px;${v>=0?'left:42px':'right:42px'};width:${w}px;background:${v>=0?'var(--pos)':'var(--neg)'};border-radius:2px"></span></span>`; };
+  let h='<thead><tr><th class="l">Kick-off</th><th class="l">Fixture</th><th>Home luck</th><th>Home perf</th><th>Away luck</th><th>Away perf</th><th>P(H) Aug</th><th>P(H) market</th><th>P(H) model</th><th>Lean</th><th>Tilt</th></tr></thead><tbody>';
+  for(const w of rows){ h+=`<tr><td class="l">${dfull(w.kickoff)} <span class="tsub">${DATA.divs[w.div].short}</span></td><td class="l"><b class="clk" data-team="${esc(w.home)}">${esc(w.home)}</b> <span class="tsub">(${w.home_pos})</span> v <b class="clk" data-team="${esc(w.away)}">${esc(w.away)}</b> <span class="tsub">(${w.away_pos})</span>${w.home_eu?' <span class="chip eu">EU</span>':''}</td>
+    <td class="${cls(-w.home_luck)}">${pm(w.home_luck,1)}</td><td class="${cls(w.home_perf)}">${pm(w.home_perf,1)}</td><td class="${cls(-w.away_luck)}">${pm(w.away_luck,1)}</td><td class="${cls(w.away_perf)}">${pm(w.away_perf,1)}</td>
+    <td>${pct(w.aug_pH)}</td><td title="${esc(w.mkt_source)}">${pct(w.mkt_pH)}<span class="tsub"> ${w.mkt_source==='Aug model'?'':'★'}</span></td><td>${pct(w.now_pH)}</td><td><b class="${w.lean==='Home'?'pos':w.lean==='Away'?'neg':''}">${w.lean}</b></td><td>${bar(w.tilt)} <span class="tsub">${pm(w.tilt,1)}</span></td></tr>`; }
+  $('#wktable').innerHTML=h+'</tbody>'; $('#wnote').textContent=`${rows.length} fixtures in the next 8 days across all four divisions, biggest tilt first · ★ = published pre-match price`;
+  $$('#wktable .clk[data-team]').forEach(b=>b.onclick=()=>selectTeam(b.dataset.team));
+}
+
+// ---------- season table (all divisions capable)
+const TCOLS=[
+  {k:'team',l:'Team',left:true,f:(t)=>`${starBtn(t.team)}<span class="tn">${esc(t.team)}</span> <span class="tsub">${DATA.divs[t.div].short}</span>${t.europe?' <span class="chip eu">EU</span>':''}`},
+  {k:'rank',l:'Mkt rk'},{k:'pos',l:'Pos'},{k:'played',l:'P'},{k:'pts',l:'Pts'},{k:'mktXpPlayed',l:'Mkt xP',f:t=>fmt(t.mktXpPlayed,1)},
+  {k:'ptsVsMkt',l:'+/-',f:t=>`<span class="${cls(t.ptsVsMkt)}">${pm(t.ptsVsMkt,1)}</span>`},{k:'z',l:'z',f:t=>pm(t.z,1)},
+  {k:'perf',l:'Perf',f:t=>`<span class="${cls(t.perf)}">${pm(t.perf,1)}</span>`},{k:'luck',l:'Luck',f:t=>`<span class="${cls(t.luck)}">${pm(t.luck,1)}</span>`},
+  {k:'finishing',l:'Finish',f:t=>pm(t.finishing,1),tip:'goals minus xGoT: finishing above/below what the shots on target deserved'},
+  {k:'xg',l:'xG',f:t=>fmt(t.xg,1)},{k:'xga',l:'xGA',f:t=>fmt(t.xga,1)},{k:'ratingD',l:'Δ rating',f:t=>pm(t.ratingD,2),tip:'current xG-rerated strength minus August strength'},
+  {k:'clRerate',l:'Match-mkt rerate',f:t=>pm(t.clRerate,2),tip:'sum over games with match odds of (closing-odds xP − August-model xP): how far the match market has re-rated the team'},
+  {k:'last4D',l:'Last 4 +/-',f:t=>pm(t.last4D,1)},{k:'next4Mkt',l:'Next 4 Mkt',f:t=>fmt(t.next4Mkt,1)},{k:'remPpg',l:'Run-in /gm',f:t=>fmt(t.remPpg,2),tip:'average market xP per remaining game (higher = easier run-in)'},
+  {k:'simPts',l:'Sim pts',f:t=>fmt(t.simPts,1)},{k:'mktXp',l:'Aug xP',f:t=>fmt(t.mktXp,1)},
+  {k:'liveTitle',l:'Title',f:t=>t.liveTitleF||'',tip:'live bet365'},{k:'livePromo',l:'Promo',f:t=>t.livePromoF||''},{k:'liveReleg',l:'Releg',f:t=>t.liveRelegF||''},
+];
+function tableRows(){ const rows=[]; for(const d of curDivs()) for(const t of DATA.divs[d].teams) rows.push({...t, div:d, ptsVsMkt:t.ptsWon-t.mktXpPlayed, perf:t.xgXp-t.mktXpPlayed, ratingD:(t.ratingNow!=null&&t.rating!=null)?t.ratingNow-t.rating:null, last4D:(t.last4Pts!=null&&t.last4Mkt!=null)?t.last4Pts-t.last4Mkt:null}); return rows; }
+function renderTable(){
+  let rows=tableRows();
+  const fv=parseFloat($('#fVs').value), fp=parseFloat($('#fPerf').value), fl=parseFloat($('#fLuck').value), fn=$('#fNext').value, fw=$('#fWatch').checked;
+  rows=rows.filter(t=>(isNaN(fv)||t.ptsVsMkt>=fv)&&(isNaN(fp)||t.perf>=fp)&&(isNaN(fl)||t.luck<=fl)&&(!fn||(fn==='easy'?t.next4Mkt/4>=1.7:t.next4Mkt/4<=1.2))&&(!fw||(WATCH[slug(t.team)]&&WATCH[slug(t.team)].star)));
+  const k=S.tsort.key; rows.sort((a,b)=>{ const va=a[k],vb=b[k]; if(typeof va==='string') return va.localeCompare(vb)*S.tsort.dir; return ((va??-1e9)-(vb??-1e9))*S.tsort.dir; });
+  let h='<thead><tr>'+TCOLS.map(c=>`<th data-key="${c.k}" class="${c.left?'l':''} ${S.tsort.key===c.k?'sorted':''}" title="${esc(c.tip||'')}">${c.l}</th>`).join('')+'</tr></thead><tbody>';
+  for(const t of rows) h+=`<tr class="clk" data-team="${esc(t.team)}">`+TCOLS.map(c=>`<td class="${c.left?'l':''}">${c.f?c.f(t):(t[c.k]??'')}</td>`).join('')+'</tr>';
+  const tbl=$('#ttable'); tbl.innerHTML=h+'</tbody>'; $('#tcount').textContent=`${rows.length} teams`;
+  $$('th[data-key]',tbl).forEach(th=>th.onclick=()=>{ const k=th.dataset.key; if(S.tsort.key===k) S.tsort.dir*=-1; else {S.tsort.key=k; S.tsort.dir=k==='team'?1:-1;} renderTable(); });
+  $$('tbody tr',tbl).forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team)); bindStars(tbl);
+}
+['fVs','fPerf','fLuck','fNext','fWatch'].forEach(id=>$('#'+id).addEventListener('input',renderTable));
+
+// ---------- scanner
+function renderScanner(){
+  const mk=$('#sMarket').value, fo=$('#sFlag').checked, mx=parseFloat($('#sMax').value)||1e9;
+  let rows=[]; for(const d of curDivs()) for(const s of DATA.divs[d].scanner) rows.push({...s, div:d});
+  rows=rows.filter(s=>(!mk||s.market===mk)&&(!fo||s.flag)&&s.odds<=mx+1e-9);
+  const k=S.ssort.key; rows.sort((a,b)=>((a[k]??-1e9)-(b[k]??-1e9))*S.ssort.dir);
+  const cols=[['team','Team',1],['market','Market',1],['frac','Price'],['pMkt','p (market)'],['pThen','p (Aug)'],['move','Price move'],['pModel','p (model)'],['pBlend','Blend'],['edge','Edge'],['ev','EV model'],['evBlend','EV blend'],['fair','Fair odds'],['kelly','Kelly']];
+  let h='<thead><tr>'+cols.map(([key,l,left])=>`<th data-key="${key}" class="${left?'l':''} ${S.ssort.key===key?'sorted':''}">${l}</th>`).join('')+'</tr></thead><tbody>';
+  for(const s of rows){ h+=`<tr class="clk" data-team="${esc(s.team)}"><td class="l">${starBtn(s.team)}<span class="tn">${esc(s.team)}</span> <span class="tsub">${DATA.divs[s.div].short}</span> ${s.flag?'<span class="chip flag">flag</span>':''}</td><td class="l">${MK_LABEL[s.market]}</td><td><b>${s.frac}</b></td><td>${pct(s.pMkt,1)}</td><td>${pct(s.pThen,1)}</td><td class="${cls(s.move)}">${ppt(s.move)}</td><td><b>${pct(s.pModel,1)}</b></td><td>${pct(s.pBlend,1)}</td><td class="${cls(s.edge)}">${ppt(s.edge)}</td><td class="${cls(s.ev)}">${pct(s.ev,0)}</td><td class="${cls(s.evBlend)}">${pct(s.evBlend,0)}</td><td>${s.fair?fmt(s.fair,1):''}</td><td>${pct(Math.max(0,(s.pBlend*s.odds-1)/(s.odds-1)),1)}</td></tr>`; }
+  const tbl=$('#stable'); tbl.innerHTML=h+'</tbody>'; $('#scount').textContent=`${rows.length} prices · bet365 as of ${rows[0]?rows[0].asOf:''}`;
+  $$('th[data-key]',tbl).forEach(th=>th.onclick=()=>{ const k=th.dataset.key; if(S.ssort.key===k) S.ssort.dir*=-1; else {S.ssort.key=k; S.ssort.dir=-1;} renderScanner(); });
+  $$('tbody tr',tbl).forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team)); bindStars(tbl);
+}
+['sMarket','sFlag','sMax'].forEach(id=>$('#'+id).addEventListener('input',renderScanner));
+
+// ---------- movers
+function renderMovers(){
+  let rows=[]; for(const d of curDivs()) for(const m of DATA.divs[d].movers) rows.push({...m, div:d});
+  const tbl=$('#mtable');
+  if(!rows.length){ tbl.innerHTML=''; $('#mnote').innerHTML=`First snapshot (${DATA.snapshot||DATA.updated}). Week-on-week movers appear from the second weekly build; every build is kept in the history folder.`; return; }
+  rows.sort((a,b)=>Math.abs(b.d_pts_vs_mkt||0)-Math.abs(a.d_pts_vs_mkt||0));
+  const cols=[['team','Team',1],['played','P'],['d_pts','Δ Pts'],['pts_vs_mkt','+/- now'],['d_pts_vs_mkt','Δ +/-'],['d_xgxp_vs_mkt','Δ Perf'],['d_luck','Δ Luck'],['d_rating_now','Δ Rating'],['d_sim_title','Δ Title %'],['d_sim_promo','Δ Promo %'],['d_sim_releg','Δ Releg %'],['d_live_title','Δ Title price'],['d_live_promo','Δ Promo price'],['d_live_releg','Δ Releg price'],['d_pos','Δ Pos']];
+  let h='<thead><tr>'+cols.map(([k,l,left])=>`<th class="${left?'l':''}">${l}</th>`).join('')+'</tr></thead><tbody>';
+  for(const m of rows) h+=`<tr class="clk" data-team="${esc(m.team)}"><td class="l"><span class="tn">${esc(m.team)}</span> <span class="tsub">${DATA.divs[m.div].short}</span></td><td>${m.played}</td><td>${pm(m.d_pts,0)}</td><td class="${cls(m.pts_vs_mkt)}">${pm(m.pts_vs_mkt,1)}</td><td class="${cls(m.d_pts_vs_mkt)}">${pm(m.d_pts_vs_mkt,1)}</td><td class="${cls(m.d_xgxp_vs_mkt)}">${pm(m.d_xgxp_vs_mkt,1)}</td><td class="${cls(m.d_luck)}">${pm(m.d_luck,1)}</td><td class="${cls(m.d_rating_now)}">${pm(m.d_rating_now,3)}</td><td class="${cls(m.d_sim_title)}">${ppt(m.d_sim_title)}</td><td class="${cls(m.d_sim_promo)}">${ppt(m.d_sim_promo)}</td><td class="${cls(-m.d_sim_releg)}">${ppt(m.d_sim_releg)}</td><td>${pm(m.d_live_title,1)}</td><td>${pm(m.d_live_promo,1)}</td><td>${pm(m.d_live_releg,1)}</td><td class="${cls(-m.d_pos)}">${pm(-m.d_pos,0)}</td></tr>`;
+  tbl.innerHTML=h+'</tbody>'; $('#mnote').textContent=`Change since the ${rows[0].since} snapshot. Prices are decimal odds (negative Δ = shortened).`;
+  $$('tbody tr',tbl).forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team));
+}
+
+// ---------- team panel
+function renderTeam(){
+  const d0=S.div==='ALL'?'E0':S.div; let d=DATA.divs[d0];
+  if(!S.team || !d.gamesByTeam[S.team]){ const [dd,t]=S.team?teamOf(S.team):[null,null]; if(t){ d=DATA.divs[dd]; } else { S.team=d.teams[0].team; } }
+  const [dk,t]=teamOf(S.team); d=DATA.divs[dk];
+  const games=d.gamesByTeam[t.team]; const blocks=d.blocks[t.team];
+  const diff=t.ptsWon-t.mktXpPlayed, perf=t.xgXp-t.mktXpPlayed;
+  const topLabel=d.topLabel;
+  $('#teamHead').innerHTML=`<div><div class="eyebrow">${d.name} · market rank ${t.rank} of ${d.n}</div><h2>${starBtn(t.team)} ${esc(t.team)}</h2></div>
+    <div class="kv"><span class="eyebrow">Position</span><span class="v">${t.pos}<small> · ${t.pts} pts from ${t.played}${t.deduction?` (${t.deduction} deducted)`:''}</small></span></div>
+    <div class="kv"><span class="eyebrow">Pts vs market</span><span class="v ${cls(diff)}">${pm(diff,1)}<small> z ${pm(t.z,1)}</small></span></div>
+    <div class="kv"><span class="eyebrow">Performance (xG xP − mkt)</span><span class="v ${cls(perf)}">${pm(perf,1)}</span></div>
+    <div class="kv"><span class="eyebrow">Luck (pts − xG xP)</span><span class="v ${cls(t.luck)}">${pm(t.luck,1)}<small>${t.finishing!=null?` · finishing ${pm(t.finishing,1)}`:''}</small></span></div>
+    <div class="kv"><span class="eyebrow">Season market xP</span><span class="v">${fmt(t.mktXp,1)}<small> Aug · sim now ${fmt(t.simPts,1)}</small></span></div>
+    <div class="kv"><span class="eyebrow">Strength Aug → now</span><span class="v">${fmt(t.rating,2)}<small> → </small>${fmt(t.ratingNow,2)}<small> (att ${pm(t.att,2)} / def ${pm(t.def,2)})</small></span></div>
+    <div class="kv"><span class="eyebrow">Title · Aug → now</span><span class="v">${t.title}<small> → </small>${t.liveTitleF||'–'}<small> · model ${pct(t.simTitle,1)}</small></span></div>
+    ${d.promo?`<div class="kv"><span class="eyebrow">Promotion · now</span><span class="v">${t.livePromoF||'–'}<small> · model ${pct(t.simPromo,1)}</small></span></div>`:`<div class="kv"><span class="eyebrow">Top 4 · now</span><span class="v">${t.liveTop4F||'–'}<small> · model ${pct(t.simTop,1)}</small></span></div>`}
+    <div class="kv"><span class="eyebrow">Relegation · Aug → now</span><span class="v">${t.releg}<small> → </small>${t.liveRelegF||'–'}<small> · model ${pct(t.simReleg,1)}</small></span></div>`;
+  bindStars($('#teamHead'));
+  const ctx=[]; if(t.europe) ctx.push(`<span class="chip eu">${esc(t.europe)}</span>`); if(t.deduction) ctx.push(`<span class="chip warn">${t.deduction} pts deducted</span>`);
+  if(t.context) ctx.push(`<span class="note">${esc(t.context)}</span>`);
+  ctx.push(`<span class="note">Next four: ${esc(t.next4Fix)} — market xP ${fmt(t.next4Mkt,1)}${t.next4Now?`, current model ${fmt(t.next4Now,1)}`:''}. Run-in ${fmt(t.remPpg,2)} mkt xP/game over ${t.remGames} games.</span>`);
+  $('#teamCtx').innerHTML=ctx.join(' ');
+  const w=WATCH[slug(t.team)]; $('#teamNote').value=w&&w.note?w.note:''; $('#saveNote').disabled=false;
+  let h='';
+  for(const k of blocks){
+    const g=games.filter(x=>x.b===k.b);
+    const fx=g.map(x=>{const res=x.pts==null?'':`<span class="sc ${x.pts===3?'w':x.pts===0?'l':''}">${x.gf}–${x.ga}${x.manual?'<span class="tsub">†</span>':''}</span>`; return `<li><span class="va">${x.v}</span><span>${esc(x.opp)} <span class="tsub">(${x.oppRank})</span>${x.eu?' <span class="chip eu" style="font-size:9px;padding:0 4px">EU</span>':''}${x.b!==x.bo?' <span class="tsub" title="moved from block '+x.bo+'">↔</span>':''}</span><span class="pw" title="market win % (Aug)${x.nowW?' · now '+pct(x.nowW):''}">${pct(x.pW)}${x.nowW&&Math.abs(x.nowW-x.pW)>0.03?`<span class="${cls(x.nowW-x.pW)}">→${pct(x.nowW)}</span>`:''}</span>${res||'<span class="sc" style="color:var(--ink-3)">'+dfmt(x.date)+'</span>'}</li>`;}).join('');
+    const bd=k.pts-k.mktXpPlayed;
+    h+=`<div class="bk"><div class="bh"><b>Block ${k.b}</b><span>${dfmt(k.start)} – ${dfmt(k.end)} · ${k.status}</span></div><ul class="fx">${fx}</ul>
+      <div class="bf"><div><div class="l">Mkt xP</div><div class="n">${fmt(k.mktXp,1)}</div></div><div><div class="l">Pts</div><div class="n ${k.played?'':'dim'}">${k.played?k.pts:'–'}</div></div><div><div class="l">xG xP</div><div class="n ${k.played?'':'dim'}">${k.played?fmt(k.xgXp,1):'–'}</div></div><div><div class="l">+/-</div><div class="n ${k.played?cls(bd):'dim'}">${k.played?pm(bd,1):'–'}</div></div></div>
+      <div class="z">${k.played?`z ${pm(k.z,1)} · chance ${pct(k.pChance,0)} · luck ${pm(k.luck,1)} · opp avg rank ${fmt(k.oppRank,1)}`:`${k.home}H/${k.games-k.home}A · opp avg rank ${fmt(k.oppRank,1)}${k.nowXp?` · now-model xP ${fmt(k.nowXp,1)}`:''}`}</div></div>`;
+  }
+  $('#blocks').innerHTML=h;
+  renderChart($('#chart'), [{team:t.team, games, color:'var(--pts)'}], d, true);
+  renderPriceChart(t, d);
+  let gh='<thead><tr><th>#</th><th>Date</th><th>Opponent</th><th>Blk</th><th>Score</th><th>Pts</th><th>P(W) Aug</th><th>P(W) close</th><th>P(W) now</th><th>Mkt xP</th><th>xG</th><th>xGA</th><th>xG xP</th><th>Pts−Mkt</th><th>xGxP−Mkt</th><th>Close−Mkt</th></tr></thead><tbody>';
+  for(const x of games){ const fut=x.pts==null;
+    gh+=`<tr class="${(x.g-1)%4===0&&x.g>1?'bs ':''}${fut?'fut':''}"><td>${x.g}</td><td>${dfull(x.date)}${x.eu?' <span class="chip eu" style="font-size:9px;padding:0 4px">EU</span>':''}</td><td>${x.v==='H'?'v':'@'} ${esc(x.opp)} <span class="tsub">(${x.oppRank})</span></td><td>${x.b}${x.b!==x.bo?`<span class="tsub">←${x.bo}</span>`:''}</td><td>${fut?'':x.gf+'–'+x.ga}${x.manual?'<span class="tsub">†</span>':''}</td><td>${fut?'':x.pts}</td><td>${pct(x.pW)}</td><td>${x.clW!=null?pct(x.clW):''}</td><td>${x.nowW!=null?pct(x.nowW):''}</td><td>${fmt(x.mxp)}</td><td>${fmt(x.xg)}</td><td>${fmt(x.xga)}</td><td>${fmt(x.xgxp)}</td><td class="${fut?'':cls(x.pts-x.mxp)}">${fut?'':pm(x.pts-x.mxp)}</td><td class="${fut?'':cls(x.xgxp-x.mxp)}">${fut||x.xgxp==null?'':pm(x.xgxp-x.mxp)}</td><td class="${x.clxp!=null?cls(x.clxp-x.mxp):''}" title="${esc(x.clsrc)}">${x.clxp!=null?pm(x.clxp-x.mxp):''}</td></tr>`; }
+  $('#games').innerHTML=gh+'</tbody>';
+}
+
+function renderChart(el, series, d, withMkt){
+  const W=640,H=300,L=36,R=14,T=14,B=30;
+  const n=series[0].games.length;
+  const lines=[]; let ymaxv=10;
+  for(const s of series){ const games=s.games; let a=0,b=0,c=0; const pts=[0],mkt=[0],xg=[0]; for(const g of games){ b+=g.mxp; mkt.push(b); if(g.pts!=null){a+=g.pts; c+=(g.xgxp||0); pts.push(a); xg.push(c);} }
+    lines.push({s,pts,mkt,xg,np:pts.length-1}); ymaxv=Math.max(ymaxv, mkt[n]); }
+  const ymax=Math.ceil((ymaxv*1.05)/10)*10;
+  const x=i=>L+(W-L-R)*i/n, y=v=>T+(H-T-B)*(1-v/ymax);
+  const path=arr=>arr.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative points chart">`;
+  for(let v=0;v<=ymax;v+=ymax/5) s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line-2)"/><text x="${L-6}" y="${y(v)+4}" font-size="10" text-anchor="end" fill="var(--ink-3)">${Math.round(v)}</text>`;
+  for(let i=4;i<=n;i+=4){ s+=`<line x1="${x(i)}" x2="${x(i)}" y1="${T}" y2="${H-B}" stroke="var(--line-2)"/>`; if(i%8===0||i===n) s+=`<text x="${x(i)}" y="${H-B+14}" font-size="10" text-anchor="middle" fill="var(--ink-3)">${i}</text>`; }
+  s+=`<text x="${(L+W-R)/2}" y="${H-4}" font-size="10" text-anchor="middle" fill="var(--ink-3)">games (blocks of four marked)</text>`;
+  const np0=lines[0].np; if(np0) s+=`<rect x="${x(0)}" y="${T}" width="${x(np0)-x(0)}" height="${H-T-B}" fill="var(--surface-2)"/>`;
+  lines.forEach((ln,i)=>{ const col=ln.s.color;
+    s+=`<path d="${path(ln.mkt)}" fill="none" stroke="${withMkt?'var(--mkt)':col}" stroke-width="${withMkt?2:1.5}" ${withMkt?'':'stroke-dasharray="4 3" opacity=".7"'}/>`;
+    if(ln.np){ if(withMkt) s+=`<path d="${path(ln.xg)}" fill="none" stroke="var(--xg)" stroke-width="2"/>`; s+=`<path d="${path(ln.pts)}" fill="none" stroke="${col}" stroke-width="2.5"/>`;
+      s+=`<circle cx="${x(ln.np)}" cy="${y(ln.pts[ln.np])}" r="4" fill="${col}" stroke="var(--surface)" stroke-width="2"/><text x="${x(ln.np)+7}" y="${y(ln.pts[ln.np])+4+(i?12:0)}" font-size="11" font-weight="600" fill="var(--ink)">${ln.pts[ln.np]} pts</text>`; }
+    s+=`<text x="${x(n)-4}" y="${y(ln.mkt[n])-6-(i?12:0)}" font-size="10" text-anchor="end" fill="var(--ink-2)">${withMkt?'season mkt':esc(ln.s.team)+' mkt'} ${fmt(ln.mkt[n],1)}</text>`; });
+  s+=`<line id="xh" x1="0" x2="0" y1="${T}" y2="${H-B}" stroke="var(--ink-3)" style="display:none"/><rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent" class="hit"/></svg>`;
+  el.innerHTML=s;
+  const svg=el.querySelector('svg'), hit=el.querySelector('.hit'), xh=el.querySelector('#xh');
+  hit.onmousemove=e=>{ const r=svg.getBoundingClientRect(); const px=(e.clientX-r.left)*W/r.width; const i=Math.max(1,Math.min(n,Math.round((px-L)/(W-L-R)*n))); xh.setAttribute('x1',x(i)); xh.setAttribute('x2',x(i)); xh.style.display='block';
+    showTip(e, lines.map(ln=>{ const g=ln.s.games[i-1]; return `<b>${esc(ln.s.team)} · game ${i}</b> ${g.v==='H'?'v':'@'} ${esc(g.opp)}<br>Market xP ${fmt(ln.mkt[i],1)}${i<=ln.np?` · Pts ${ln.pts[i]} (${pm(ln.pts[i]-ln.mkt[i],1)}) · xG xP ${fmt(ln.xg[i],1)}`:''}`; }).join('<br>')); };
+  hit.onmouseleave=()=>{xh.style.display='none';hideTip();};
+}
+
+function renderPriceChart(t, d){
+  // implied-probability trajectory: Aug market -> each snapshot's live price and model
+  const mk = d.promo ? 'promo' : 'title';
+  const series=[]; const aug = d.promo ? t.promoP : t.titleP;
+  const pts=[{label:'Aug', mkt:aug, model:null}];
+  for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; const lv = d.promo ? r.live_promo : r.live_title; const sm = d.promo ? r.sim_promo : r.sim_title;
+    pts.push({label:h.date.slice(5), mkt: lv? (1/lv) : null, model: sm}); }
+  const relPts=[{label:'Aug', mkt:t.relegP, model:null}]; for(const h of DATA.history){ const r=h.teams[t.team]; if(!r) continue; relPts.push({label:h.date.slice(5), mkt:r.live_releg?1/r.live_releg:null, model:r.sim_releg}); }
+  const W=640,H=300,L=40,R=60,T=14,B=30; const n=Math.max(pts.length,2);
+  const vals=[...pts,...relPts].flatMap(p=>[p.mkt,p.model]).filter(v=>v!=null); const ymax=Math.max(0.1, Math.min(1, Math.ceil(Math.max(...vals)*1.15*20)/20));
+  const x=i=>L+(W-L-R)*i/(n-1), y=v=>T+(H-T-B)*(1-v/ymax);
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="market and model probability trajectory">`;
+  for(let k=0;k<=5;k++){ const v=ymax*k/5; s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line-2)"/><text x="${L-6}" y="${y(v)+4}" font-size="10" text-anchor="end" fill="var(--ink-3)">${Math.round(v*100)}%</text>`; }
+  pts.forEach((p,i)=>s+=`<text x="${x(i)}" y="${H-B+14}" font-size="10" text-anchor="middle" fill="var(--ink-3)">${p.label}</text>`);
+  const draw=(arr,key,col,dash)=>{ const ps=arr.map((p,i)=>p[key]!=null?[x(i),y(p[key])]:null).filter(Boolean); if(ps.length>1) s+=`<path d="${ps.map((q,i)=>(i?'L':'M')+q[0].toFixed(1)+' '+q[1].toFixed(1)).join(' ')}" fill="none" stroke="${col}" stroke-width="2" ${dash?'stroke-dasharray="4 3"':''}/>`; for(const q of ps) s+=`<circle cx="${q[0]}" cy="${q[1]}" r="4" fill="${col}" stroke="var(--surface)" stroke-width="2"/>`; if(ps.length){ const q=ps[ps.length-1]; const v=arr.filter(p=>p[key]!=null).pop()[key]; s+=`<text x="${q[0]+7}" y="${q[1]+4}" font-size="10" fill="var(--ink-2)">${pct(v,1)}</text>`; } };
+  draw(pts,'mkt','var(--mkt)'); draw(pts,'model','var(--mkt)',true); draw(relPts,'mkt','var(--neg)'); draw(relPts,'model','var(--neg)',true);
+  s+='</svg>'; $('#pchart').innerHTML=s;
+  $('#plg').innerHTML=`<span><i style="border-color:var(--mkt)"></i>${d.promo?'Promotion':'Title'} — market (implied %)</span><span><i style="border-color:var(--mkt);border-top-style:dashed"></i>model</span><span><i style="border-color:var(--neg)"></i>Relegation — market</span><span><i style="border-color:var(--neg);border-top-style:dashed"></i>model</span><span class="tsub">Aug = Sky Bet pre-season; later points = bet365 at each weekly snapshot</span>`;
+}
+
+// ---------- compare
+function renderCompare(){
+  const opts=[]; for(const d of ALLDIVS) for(const t of DATA.divs[d].teams) opts.push(`<option value="${esc(t.team)}">${esc(t.team)} (${DATA.divs[d].short})</option>`);
+  const a=$('#cA'), b=$('#cB'); if(!a.options.length){ a.innerHTML=opts.join(''); b.innerHTML=opts.join(''); a.value=S.team||DATA.divs.E0.teams[0].team; b.value=DATA.divs.E0.teams[1].team; a.onchange=b.onchange=renderCompare; }
+  const [da,ta]=teamOf(a.value), [db_,tb]=teamOf(b.value); if(!ta||!tb) return;
+  const kv=t=>{ const vs=t.ptsWon-t.mktXpPlayed, perf=t.xgXp-t.mktXpPlayed; return `<span>Position</span><span>${t.pos} · ${t.pts} pts / ${t.played}</span><span>Pts vs market</span><span class="${cls(vs)}">${pm(vs,1)}</span><span>Performance</span><span class="${cls(perf)}">${pm(perf,1)}</span><span>Luck</span><span class="${cls(t.luck)}">${pm(t.luck,1)}</span><span>xG · xGA</span><span>${fmt(t.xg,1)} · ${fmt(t.xga,1)}</span><span>Strength Aug → now</span><span>${fmt(t.rating,2)} → ${fmt(t.ratingNow,2)}</span><span>Season xP Aug · sim</span><span>${fmt(t.mktXp,1)} · ${fmt(t.simPts,1)}</span><span>Next 4 (mkt xP)</span><span>${fmt(t.next4Mkt,1)}</span><span>Run-in /gm</span><span>${fmt(t.remPpg,2)}</span><span>Title / promo / releg</span><span>${t.liveTitleF||'–'} / ${t.livePromoF||t.liveTop4F||'–'} / ${t.liveRelegF||'–'}</span>`; };
+  $('#cAk').innerHTML=kv(ta); $('#cBk').innerHTML=kv(tb);
+  renderChart($('#cchart'), [{team:ta.team, games:DATA.divs[da].gamesByTeam[ta.team], color:'var(--mkt)'},{team:tb.team, games:DATA.divs[db_].gamesByTeam[tb.team], color:'var(--xg)'}], DATA.divs[da], false);
+  $('#clg').innerHTML=`<span><i style="border-color:var(--mkt)"></i>${esc(ta.team)} points (dashed = its market xP)</span><span><i style="border-color:var(--xg)"></i>${esc(tb.team)}</span>`;
+  // block bars
+  const ba=DATA.divs[da].blocks[ta.team], bb=DATA.divs[db_].blocks[tb.team]; const nb=Math.max(ba.length,bb.length);
+  const W=640,H=260,L=36,R=10,T=14,B=30; const vals=[...ba,...bb].filter(k=>k.played).map(k=>k.pts-k.mktXpPlayed); const m=Math.max(2,...vals.map(Math.abs)); const yy=v=>T+(H-T-B)*(1-(v+m)/(2*m)); const bw=(W-L-R)/nb;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="block differences">`;
+  s+=`<line x1="${L}" x2="${W-R}" y1="${yy(0)}" y2="${yy(0)}" stroke="var(--line)"/>`;
+  for(let i=0;i<nb;i++){ const x0=L+i*bw; s+=`<text x="${x0+bw/2}" y="${H-B+14}" font-size="10" text-anchor="middle" fill="var(--ink-3)">B${i+1}</text>`;
+    [[ba[i],'var(--mkt)',0],[bb[i],'var(--xg)',1]].forEach(([k,col,j])=>{ if(!k||!k.played) return; const v=k.pts-k.mktXpPlayed; const y0=yy(Math.max(v,0)), y1=yy(Math.min(v,0)); s+=`<rect x="${x0+4+j*(bw/2-4)}" y="${y0}" width="${bw/2-6}" height="${Math.max(1,y1-y0)}" fill="${col}" rx="2"/>`; }); }
+  [-m,0,m].forEach(v=>s+=`<text x="${L-6}" y="${yy(v)+4}" font-size="10" text-anchor="end" fill="var(--ink-3)">${pm(v,0)}</text>`);
+  $('#cbars').innerHTML=s+'</svg>';
+}
+
+// ---------- entry (manual results -> db)
+function renderEntry(){
+  const d=DATA.divs[S.div==='ALL'?'E0':S.div]; const sel=$('#eRound');
+  const rounds=[...new Set(d.fixtures.map(f=>f.round))].sort((a,b)=>a-b); const lastPlayed=Math.max(0,...d.fixtures.filter(f=>f.hg!=null).map(f=>f.round));
+  if(!sel.options.length || sel.dataset.div!==d.name){ sel.innerHTML=rounds.map(r=>`<option value="${r}">Round ${r}</option>`).join(''); sel.value=String(Math.min(lastPlayed+1, rounds[rounds.length-1])); sel.dataset.div=d.name; sel.onchange=renderEntry; }
+  const rd=+sel.value; const fx=d.fixtures.filter(f=>f.round===rd);
+  let h='<thead><tr><th class="l">Date</th><th class="l">Home</th><th class="l">Away</th><th>HG</th><th>AG</th><th>Home xG</th><th>Away xG</th><th></th></tr></thead><tbody>';
+  for(const f of fx){ const m=MANUAL[f.id]; const has=f.hg!=null && !f.manual;
+    h+=`<tr data-id="${f.id}"><td class="l">${dfull(f.date)}</td><td class="l">${esc(f.home)}</td><td class="l">${esc(f.away)}</td>
+      <td><input type="number" min="0" max="20" data-k="hg" value="${m?m.hg:(f.hg??'')}" ${has?'disabled':''}></td><td><input type="number" min="0" max="20" data-k="ag" value="${m?m.ag:(f.ag??'')}" ${has?'disabled':''}></td>
+      <td><input type="number" step="0.01" min="0" data-k="hxg" value="${m?(m.hxg??''):(f.hxg??'')}" ${has?'disabled':''}></td><td><input type="number" step="0.01" min="0" data-k="axg" value="${m?(m.axg??''):(f.axg??'')}" ${has?'disabled':''}></td>
+      <td>${has?'<span class="tsub">in data</span>':`<button class="btn" data-save="${f.id}">Save</button>${m?` <button class="btn" data-clear="${f.id}">Clear</button>`:''}`}</td></tr>`; }
+  $('#etable').innerHTML=h+'</tbody>';
+  $('#estatus').innerHTML = db ? `Entries save to the page's shared store and show with a † until the next rebuild folds them into the data. ${Object.keys(MANUAL).length?`<span class="pending">${Object.keys(MANUAL).length} pending</span>`:''}` : 'Saving is unavailable in this view (storage not granted); entries would be lost on reload.';
+  $$('button[data-save]').forEach(b=>b.onclick=async()=>{ const tr=b.closest('tr'); const v=k=>{ const el=tr.querySelector(`input[data-k=${k}]`); return el.value===''?null:+el.value; };
+    const hg=v('hg'), ag=v('ag'); if(hg==null||ag==null){ $('#estatus').textContent='Enter both scores first.'; return; }
+    const rec={hg,ag,hxg:v('hxg'),axg:v('axg'),at:new Date().toISOString(),div:S.div}; MANUAL[b.dataset.save]=rec;
+    if(db){ try{ await db.doc('manual/'+b.dataset.save).set(rec); }catch(e){ $('#estatus').textContent='Could not save: '+(e.message||e.code); } }
+    applyManual(); renderStrip(); renderGrid(); renderTeam(); renderEntry(); });
+  $$('button[data-clear]').forEach(b=>b.onclick=async()=>{ delete MANUAL[b.dataset.clear]; if(db){ try{ await db.doc('manual/'+b.dataset.clear).delete(); }catch(e){} } location.reload(); });
+}
+
+// ---------- watchlist
+async function toggleStar(team){ const k=slug(team); const [d]=teamOf(team); const w=WATCH[k]||{team,div:d,star:false,note:''}; w.star=!w.star; w.updated=new Date().toISOString(); WATCH[k]=w; persistWatch(k,w); refreshStars(); }
+async function persistWatch(k,w){ if(db){ try{ await db.doc('watchlist/'+k).set(w); }catch(e){ console.warn(e); } } else { try{ localStorage.setItem('fb-watch', JSON.stringify(WATCH)); }catch(e){} } }
+function refreshStars(){ $$('button[data-star]').forEach(b=>{ const w=WATCH[slug(b.dataset.star)]; b.classList.toggle('on', !!(w&&w.star)); }); const n=Object.values(WATCH).filter(w=>w.star).length; $('#nwatch').textContent=n; $('#nwatch').classList.toggle('hidden',n===0); if(S.view==='watch') renderWatch(); }
+$('#saveNote').onclick=async()=>{ const k=slug(S.team); const [d]=teamOf(S.team); const w=WATCH[k]||{team:S.team,div:d,star:false,note:''}; w.note=$('#teamNote').value; w.updated=new Date().toISOString(); WATCH[k]=w; await persistWatch(k,w); $('#saveNote').textContent='Saved'; setTimeout(()=>$('#saveNote').textContent='Save note',1500); refreshStars(); };
+function renderWatch(){
+  const rows=Object.values(WATCH).filter(w=>w.star||w.note).map(w=>{ const [d,t]=teamOf(w.team); return t?{...t,div:d,note:w.note||'',star:w.star,ptsVsMkt:t.ptsWon-t.mktXpPlayed,perf:t.xgXp-t.mktXpPlayed}:null; }).filter(Boolean);
+  let h='<thead><tr><th class="l">Team</th><th>Pos</th><th>P</th><th>Pts</th><th>+/-</th><th>Perf</th><th>Luck</th><th>Next 4 Mkt</th><th>Title</th><th>Promo/Top4</th><th>Releg</th><th class="l">Note</th></tr></thead><tbody>';
+  for(const t of rows) h+=`<tr class="clk" data-team="${esc(t.team)}"><td class="l">${starBtn(t.team)}<span class="tn">${esc(t.team)}</span> <span class="tsub">${DATA.divs[t.div].short}</span></td><td>${t.pos}</td><td>${t.played}</td><td>${t.pts}</td><td class="${cls(t.ptsVsMkt)}">${pm(t.ptsVsMkt,1)}</td><td class="${cls(t.perf)}">${pm(t.perf,1)}</td><td class="${cls(t.luck)}">${pm(t.luck,1)}</td><td>${fmt(t.next4Mkt,1)}</td><td>${t.liveTitleF||''}</td><td>${t.livePromoF||t.liveTop4F||''}</td><td>${t.liveRelegF||''}</td><td class="l" style="white-space:normal;max-width:360px">${esc(t.note)}</td></tr>`;
+  $('#wtable').innerHTML=h+(rows.length?'':'<tr><td colspan="12" class="l tsub">Nothing starred yet.</td></tr>')+'</tbody>';
+  $$('#wtable tbody tr[data-team]').forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team)); bindStars($('#wtable'));
+}
+
+function renderAll(){ renderTabs(); if(S.view==='blocks'){ renderLegend(); renderGrid(); } if(S.view==='week') renderWeek(); if(S.view==='table') renderTable(); if(S.view==='scanner') renderScanner(); if(S.view==='movers') renderMovers(); if(S.view==='compare') renderCompare(); if(S.view==='entry') renderEntry(); if(S.view==='watch') renderWatch(); if(!$('#teamPanel').classList.contains('hidden')) renderTeam(); refreshStars(); }
+$$('#colorBy button').forEach(b=>b.onclick=()=>{ S.colorBy=b.dataset.mode; $$('#colorBy button').forEach(x=>x.setAttribute('aria-pressed',x===b)); renderLegend(); renderGrid(); });
+
+// restore light state
+try{ const saved=JSON.parse(localStorage.getItem('fb2627')||'{}'); if(saved.div&&(DATA.divs[saved.div]||saved.div==='ALL')) S.div=saved.div; if(saved.team) S.team=saved.team; if(saved.colorBy) S.colorBy=saved.colorBy; if(saved.view) S.view=saved.view; }catch(e){}
+try{ const lw=JSON.parse(localStorage.getItem('fb-watch')||'{}'); Object.assign(WATCH, lw); }catch(e){}
+$$('#colorBy button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.mode===S.colorBy));
+renderStrip(); renderAll();
+window.addEventListener('beforeunload',()=>{try{localStorage.setItem('fb2627',JSON.stringify({div:S.div,team:S.team,colorBy:S.colorBy,view:S.view}));}catch(e){}});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{ if(S.view==='blocks'){renderLegend();renderGrid();} });
+
+// light up shared storage when the viewer grants it
+(async()=>{ try{ if(!window.claude||!window.claude.use) return; db=await window.claude.use('db'); if(!db) return;
+  const ws=await db.collection('watchlist').get(); ws.docs.forEach(doc=>{ const w=doc.data(); if(w&&w.team) WATCH[slug(w.team)]=w; });
+  const ms=await db.collection('manual').get(); ms.docs.forEach(doc=>{ const m=doc.data(); if(m&&m.hg!=null) MANUAL[doc.id]=m; });
+  applyManual(); renderStrip(); renderAll();
+  db.collection('watchlist').onSnapshot(snap=>{ snap.docChanges().forEach(ch=>{ const w=ch.doc.data(); if(ch.type==='removed'){ delete WATCH[ch.doc.id]; } else if(w&&w.team) WATCH[slug(w.team)]=w; }); refreshStars(); if(S.team){ const w=WATCH[slug(S.team)]; if(w && document.activeElement!==$('#teamNote')) $('#teamNote').value=w.note||''; } }, e=>console.warn(e));
+}catch(e){ console.warn('db unavailable', e); } })();
+</script>

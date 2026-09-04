@@ -1,0 +1,4 @@
+__pycache__/
+inbox/*.txt
+inbox/*.json
+out/fixture_blocks.html
