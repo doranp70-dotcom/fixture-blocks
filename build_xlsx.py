@@ -64,6 +64,7 @@ def style_range(ws, min_row, max_row, min_col, max_col, font=F_BASE, fmt=None, a
 def build(results: dict, path: Path):
     wb = Workbook()
     snap_info = results.get("_snapshot", {})
+    mkt_info = results.get("_markets", {})
     results = {k: v for k, v in results.items() if not k.startswith("_")}
     matches = pd.concat([r["fixtures"] for r in results.values()]).reset_index(drop=True)
     tg = pd.concat([r["team_games"] for r in results.values()]).reset_index(drop=True)
@@ -563,6 +564,75 @@ def build(results: dict, path: Path):
     wwk.freeze_panes = "C5"
     wwk.sheet_properties.tabColor = "C00000"
 
+    # ------------------------------------------------------------------ Match markets (data-only)
+    wmk = wb.create_sheet("Match markets")
+    mkdf = mkt_info.get("markets", pd.DataFrame()) if mkt_info else pd.DataFrame()
+    wmk["A1"] = "Match markets — model probabilities from the data only (no odds involved)"; wmk["A1"].font = F_TITLE
+    wmk["A2"] = "Goals markets from the Dixon-Coles scoreline grid with current (xG re-rated) strengths. Half-time markets split expected goals by the season's first-half share (blended with the long-run 44%). Corners from a team corner-rate model (for / against, shrunk to the league average) with a negative-binomial total. Fixtures in the next 10 days; rebuilt every refresh. Percentages are the model's chance of the outcome."
+    wmk["A2"].font = F_NOTE
+    labels = [("kickoff","Kick-off"),("league","League"),("home","Home"),("away","Away"),("exp_home_goals","xG home"),("exp_away_goals","xG away"),("exp_goals","Total xG"),
+        ("home_win","Home win"),("draw","Draw"),("away_win","Away win"),("over_1.5","Over 1.5"),("over_2.5","Over 2.5"),("over_3.5","Over 3.5"),("btts","BTTS"),
+        ("home_2plus","Home 2+"),("away_2plus","Away 2+"),("home_3plus","Home 3+"),("away_3plus","Away 3+"),("home_cs","Home clean sheet"),("away_cs","Away clean sheet"),("home_wtn","Home win to nil"),("away_wtn","Away win to nil"),
+        ("home_m1_win","Home -1 (win)"),("home_m1_push","Home -1 (push)"),("home_m15","Home -1.5"),("away_m1_win","Away -1 (win)"),("away_m1_push","Away -1 (push)"),("away_m15","Away -1.5"),("home_p15","Home +1.5"),("away_p15","Away +1.5"),("draw_no_bet_home","DNB home"),("draw_no_bet_away","DNB away"),
+        ("ht_home","HT home"),("ht_draw","HT draw"),("ht_away","HT away"),("fh_over_0.5","1st half over 0.5"),("fh_over_1.5","1st half over 1.5"),("sh_over_0.5","2nd half over 0.5"),("sh_over_1.5","2nd half over 1.5"),("goal_both_halves","Goal in both halves"),("home_scores_both_halves","Home scores both halves"),("away_scores_both_halves","Away scores both halves"),("second_half_more_goals","More goals 2nd half"),
+        ("htft_HH","HT/FT H/H"),("htft_HD","H/D"),("htft_HA","H/A"),("htft_DH","D/H"),("htft_DD","D/D"),("htft_DA","D/A"),("htft_AH","A/H"),("htft_AD","A/D"),("htft_AA","A/A"),
+        ("exp_corners_home","Exp corners home"),("exp_corners_away","Exp corners away"),("exp_corners","Exp corners"),("corners_over_7.5","Corners over 7.5"),("corners_over_8.5","Over 8.5"),("corners_over_9.5","Over 9.5"),("corners_over_10.5","Over 10.5"),("corners_over_11.5","Over 11.5"),("home_corners_over_4.5","Home corners over 4.5"),("home_corners_over_5.5","Home over 5.5"),("away_corners_over_3.5","Away corners over 3.5"),("away_corners_over_4.5","Away over 4.5"),("home_most_corners","Home most corners"),("away_most_corners","Away most corners"),
+        ("cs_1","Most likely score"),("cs_1_p","p"),("cs_2","2nd"),("cs_2_p","p"),("cs_3","3rd"),("cs_3_p","p"),
+        ("home_over25_pct","Home O2.5 % (season)"),("away_over25_pct","Away O2.5 %"),("home_btts_pct","Home BTTS %"),("away_btts_pct","Away BTTS %"),("home_gbh_pct","Home GBH %"),("away_gbh_pct","Away GBH %"),("home_corners_avg","Home corners avg"),("away_corners_avg","Away corners avg")]
+    for i, (k, l) in enumerate(labels, 1):
+        c = wmk.cell(row=4, column=i, value=l); c.font, c.fill, c.alignment = F_HDR, FILL_HDR, CENTER
+    r = 5
+    if not mkdf.empty:
+        for _, x in mkdf.iterrows():
+            for i, (k, l) in enumerate(labels, 1):
+                v = x.get(k)
+                if isinstance(v, float) and pd.isna(v):
+                    v = None
+                if k == "kickoff":
+                    v = x.kickoff.to_pydatetime()
+                c = wmk.cell(row=r, column=i, value=v); c.font = F_BASE
+                if k == "kickoff":
+                    c.number_format = DATET
+                elif k.startswith("exp_") or k.endswith("_avg"):
+                    c.number_format = NUM2
+                elif isinstance(v, float):
+                    c.number_format = "0%"
+            r += 1
+    wmk.freeze_panes = "E5"
+    wmk.auto_filter.ref = f"A4:{get_column_letter(len(labels))}{max(r-1,5)}"
+    for i in range(1, len(labels) + 1):
+        wmk.column_dimensions[get_column_letter(i)].width = 9
+    wmk.column_dimensions["A"].width = 17; wmk.column_dimensions["C"].width = 15; wmk.column_dimensions["D"].width = 15
+    wmk.sheet_properties.tabColor = "C00000"
+
+    # ------------------------------------------------------------------ Tendencies
+    wtd = wb.create_sheet("Tendencies")
+    tdf = mkt_info.get("tendencies", pd.DataFrame()) if mkt_info else pd.DataFrame()
+    wtd["A1"] = "Team tendencies — season-to-date frequencies from the match data"; wtd["A1"].font = F_TITLE
+    tl = [("div","Div"),("team","Team"),("played","P"),("gf_pg","Goals for /gm"),("ga_pg","Goals ag /gm"),("over15","Over 1.5 %"),("over25","Over 2.5 %"),("over35","Over 3.5 %"),("btts","BTTS %"),("scored2plus","Scored 2+ %"),("conceded2plus","Conceded 2+ %"),("clean_sheet","Clean sheet %"),("failed_to_score","Failed to score %"),
+          ("ht_lead","HT lead %"),("ht_level","HT level %"),("ht_behind","HT behind %"),("goal_both_halves","Goal both halves %"),("fh_over05","1st half goal %"),("sh_over05","2nd half goal %"),("fh_share","1st-half share of goals"),
+          ("corners_for","Corners for /gm"),("corners_against","Corners ag /gm"),("corners_total","Corners total /gm"),("corners_over85","Corners O8.5 %"),("corners_over105","Corners O10.5 %"),("shots_for","Shots for"),("shots_against","Shots ag"),("sot_for","SoT for"),("sot_against","SoT ag"),("cards","Cards /gm")]
+    for i, (k, l) in enumerate(tl, 1):
+        c = wtd.cell(row=3, column=i, value=l); c.font, c.fill, c.alignment = F_HDR, FILL_HDR, CENTER
+    r = 4
+    if not tdf.empty:
+        for _, x in tdf.sort_values(["div", "team"]).iterrows():
+            for i, (k, l) in enumerate(tl, 1):
+                v = x.get(k)
+                if isinstance(v, float) and pd.isna(v):
+                    v = None
+                c = wtd.cell(row=r, column=i, value=v); c.font = F_BASE
+                if l.endswith("%") or k == "fh_share":
+                    c.number_format = "0%"
+                elif isinstance(v, float):
+                    c.number_format = NUM2
+            r += 1
+    wtd.freeze_panes = "C4"; wtd.auto_filter.ref = f"A3:{get_column_letter(len(tl))}{max(r-1,4)}"
+    for i in range(1, len(tl) + 1):
+        wtd.column_dimensions[get_column_letter(i)].width = 9
+    wtd.column_dimensions["B"].width = 16
+    wtd.sheet_properties.tabColor = "C00000"
+
     # ------------------------------------------------------------------ Movers
     wm = wb.create_sheet("Movers")
     snap = snap_info
@@ -747,6 +817,7 @@ def build(results: dict, path: Path):
         ("Matches — the 2,036 fixtures. THE ONLY INPUT SHEET: blue cells on yellow (HG, AG, Home xG, Away xG). Type or paste a result and its xG here and every other sheet recalculates.", F_BASE),
         ("Ratings — the start-of-season strength model: Sky Bet outright odds (Aug 2026), implied probabilities, fitted rating, and the season expected-points benchmark for each team.", F_BASE),
         ("This week — the coming week's fixtures rated on luck (points vs xG) and underlying performance (xG vs the August market): who is playing better than the points say, who worse, and which games those collide in. Rebuilt weekly.", F_BASE),
+        ("Match markets — data-only probabilities for every fixture in the next 10 days: over/under goals, BTTS, team 2+/3+, clean sheets, handicaps, half-time result, goal in both halves, HT/FT, corners. No odds involved. Tendencies — each team's season-to-date frequencies for the same things.", F_BASE),
         ("Scanner — every live bet365 outright price vs the model's rest-of-season simulation: de-vigged market %, model %, a 50/50 blend, edge, EV, Kelly. Flagged prices first, then by model edge. A shortlist to investigate, not a tip sheet.", F_BASE),
         ("Movers — week-on-week changes in each team's picture (points vs market, luck, rating, model % and live prices). Fills from the second weekly build.", F_BASE),
         ("What-if — pick a team, type scores for its next four games, see the block and season numbers move.", F_BASE),
@@ -780,7 +851,7 @@ def build(results: dict, path: Path):
     wd.sheet_properties.tabColor = "1F3864"
 
     # order sheets
-    order = ["README", "Glossary"] + [DIVS[d]["name"] for d in DIVS] + ["Team", "This week", "Scanner", "Movers", "What-if", "Charts", "Blocks", "TeamGames", "Matches", "Ratings", "Context", "Helper", "NextGames"]
+    order = ["README", "Glossary"] + [DIVS[d]["name"] for d in DIVS] + ["Team", "This week", "Match markets", "Tendencies", "Scanner", "Movers", "What-if", "Charts", "Blocks", "TeamGames", "Matches", "Ratings", "Context", "Helper", "NextGames"]
     wb._sheets = [wb[n] for n in order]
     wb.active = 1
     wb.calculation.fullCalcOnLoad = True

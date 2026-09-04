@@ -244,6 +244,7 @@ table{border-collapse:separate;border-spacing:0;width:100%}
     <button role="tab" data-view="start" aria-selected="true">Start here</button>
     <button role="tab" data-view="blocks" aria-selected="false">Blocks</button>
     <button role="tab" data-view="week" aria-selected="false">This week</button>
+    <button role="tab" data-view="markets" aria-selected="false">Match markets</button>
     <button role="tab" data-view="table" aria-selected="false">Season table</button>
     <button role="tab" data-view="scanner" aria-selected="false">Value scanner<span class="n" id="nflag"></span></button>
     <button role="tab" data-view="movers" aria-selected="false">Movers</button>
@@ -290,6 +291,20 @@ table{border-collapse:separate;border-spacing:0;width:100%}
       <div class="filters"><span class="tsub" id="wnote"></span></div>
       <div class="scroll dt"><table id="wktable"></table></div>
       <div class="note"><b>How to read it.</b> Luck = points minus xG-implied points (per game, shrunk toward zero while samples are small); a team on negative luck is <i>playing better than the points say</i>. Perf = xG-implied points minus the August market's expectation, per game. The <b>tilt</b> (−5 to +5, positive = home) adds the luck gap, the performance gap and the current model's disagreement with the match price. Market P uses the published pre-match price when football-data has it (from the Friday before), otherwise the August model. Treat it as a list of games where the underlying numbers and the market disagree, not as a prediction.</div>
+    </section>
+  </div>
+
+  <!-- MATCH MARKETS -->
+  <div id="v-markets" class="hidden">
+    <section class="panel">
+      <div class="filters">
+        <span class="eyebrow">Market group</span>
+        <div class="seg" id="mkGroup"><button data-g="goals" aria-pressed="true">Goals</button><button data-g="team" aria-pressed="false">Team goals</button><button data-g="halves" aria-pressed="false">Halves</button><button data-g="htft" aria-pressed="false">HT / FT</button><button data-g="corners" aria-pressed="false">Corners</button><button data-g="handicap" aria-pressed="false">Handicaps</button><button data-g="score" aria-pressed="false">Scorelines</button></div>
+        <label>Highlight ≥ <input type="number" id="mkMin" value="65" min="0" max="100" style="width:64px">%</label>
+        <span class="tsub" id="mkcount"></span>
+      </div>
+      <div class="scroll dt"><table id="mktable"></table></div>
+      <div class="note" id="mknote"><b>Data only — no odds involved.</b> Every number is the model's chance of that outcome, built from the current xG-rerated strengths (goals and handicaps come straight from the scoreline grid), the season's split of goals between halves (half-time markets), and each team's corner rates for and against, shrunk toward the league average while samples are small (corners). Click a column to sort — the strongest edges are usually the extremes of a column. Click a fixture for both teams' season tendencies. Season-to-date columns (marked <i>ssn</i>) are raw frequencies, not model numbers, and mean little before 8–10 games.</div>
     </section>
   </div>
 
@@ -583,7 +598,7 @@ function startRows(){ const all=[]; for(const d of ALLDIVS){ const D=DATA.divs[d
 function renderStart(){
   const n=Object.values(DATA.divs).reduce((a,d)=>a+d.teams.reduce((x,t)=>x+t.played,0),0)/2;
   $('#intro').innerHTML=`<p><b>What this is.</b> Every team in the Premier League, Championship, League One and League Two, with its season cut into blocks of four games. For each block you see the points the team <b>won</b>, the points the betting market <b>expected</b> before the season, and the points the team <b>deserved</b> on the chances it created. Blue means ahead of expectations, red behind.</p>
-    <p><b>How to use it.</b> Pick a division at the top. <b>Blocks</b> is the main grid — click any team for its full story. <b>This week</b> rates the coming fixtures. <b>Value scanner</b> shows where the model and the bookmaker disagree. Use the <b>?</b> next to any word for a plain explanation, and switch <b>Simple / Everything</b> to hide or show the technical columns.</p>
+    <p><b>How to use it.</b> Pick a division at the top. <b>Blocks</b> is the main grid — click any team for its full story. <b>This week</b> rates the coming fixtures. <b>Match markets</b> gives the model's chance of over 2.5, BTTS, team 2+, half-time result, goals in both halves, corners and handicaps for every game in the next 10 days — from the data only, no odds. <b>Value scanner</b> shows where the model and the bookmaker disagree. Use the <b>?</b> next to any word for a plain explanation, and switch <b>Simple / Everything</b> to hide or show the technical columns.</p>
     <p><b>Prices.</b> Every price is shown as <b>August → now</b> (Sky Bet pre-season, then bet365 at each weekly refresh). Click a team for its full price history with a date picker.</p>
     <p class="tsub">Data to ${DATA.updated} · ${n} games played across the four divisions · updates itself automatically every Monday and Thursday at 7am UK (after the weekend and midweek games) — no need to ask.</p>`;
   const all=startRows();
@@ -615,7 +630,7 @@ $$('#modeSeg button').forEach(b=>b.onclick=()=>{ S.mode=b.dataset.mode; applyMod
 // ---------- guided tour
 const TOUR=[
   {sel:'#tabs',t:'Pick a division',x:'Premier League, Championship, League One, League Two — or all four together for the tables.'},
-  {sel:'#views',t:'The views',x:'Start here gives you the stories and quick finders. Blocks is the main grid. This week rates the coming fixtures. Value scanner compares the model with bet365. Enter results lets you type in a score before the Monday refresh.'},
+  {sel:'#views',t:'The views',x:'Start here gives you the stories and quick finders. Blocks is the main grid. This week rates the coming fixtures. Match markets gives data-only chances for goals, halves, corners and handicaps. Value scanner compares the model with bet365. Enter results lets you type in a score before the next refresh.'},
   {sel:'#modeSeg',t:'Simple or Everything',x:'Simple hides the technical columns. Switch to Everything when you want z-scores, blends, Kelly stakes and the rest. Every ? explains a term.'},
   {sel:'#chips',t:'Quick finders',x:'One tap lists the teams ahead of or behind the market, the unlucky and the lucky, the easy and hard run-ins, and where prices have moved.'},
   {sel:'#teamPanel',t:'The team page',x:'Click any team anywhere and this fills in: a plain-English summary, the blocks, a play-out-the-next-games tool, notes you can save, the cumulative chart and every game.'},
@@ -641,8 +656,8 @@ function renderTabs(){
     b.onclick=()=>{ S.div=k; if(k!=='ALL') S.team=null; if(k==='ALL' && S.view==='blocks') S.view='table'; renderAll(); }; t.appendChild(b); }
   $('#updated').innerHTML=`Data to <b style="margin-left:4px;color:var(--ink)">${DATA.updated}</b>`;
   $$('#views button').forEach(b=>{ b.setAttribute('aria-selected', b.dataset.view===S.view); b.onclick=()=>{ S.view=b.dataset.view; if(S.view==='blocks' && S.div==='ALL') S.div='E0'; renderAll(); }; });
-  for(const v of ['start','blocks','week','table','scanner','movers','compare','entry','watch']) $('#v-'+v).classList.toggle('hidden', v!==S.view);
-  $('#teamPanel').classList.toggle('hidden', !(S.view==='blocks'||S.view==='table'||S.view==='watch'||S.view==='scanner'||S.view==='movers'||S.view==='week'||S.view==='start'));
+  for(const v of ['start','blocks','week','markets','table','scanner','movers','compare','entry','watch']) $('#v-'+v).classList.toggle('hidden', v!==S.view);
+  $('#teamPanel').classList.toggle('hidden', !(S.view==='blocks'||S.view==='table'||S.view==='watch'||S.view==='scanner'||S.view==='movers'||S.view==='week'||S.view==='start'||S.view==='markets'));
   const nf=ALLDIVS.reduce((a,d)=>a+DATA.divs[d].scanner.filter(x=>x.flag).length,0); $('#nflag').textContent=nf;
 }
 function curDivs(){ return S.div==='ALL' ? ALLDIVS : [S.div]; }
@@ -739,6 +754,38 @@ function renderWeek(){
   $$('#wktable .clk[data-team]').forEach(b=>b.onclick=()=>selectTeam(b.dataset.team));
 }
 
+// ---------- match markets (data-only)
+const MKGROUPS={
+  goals:[['over_1.5','Over 1.5'],['over_2.5','Over 2.5'],['over_3.5','Over 3.5'],['btts','BTTS'],['home_cs','Home clean sheet'],['away_cs','Away clean sheet'],['home_over25_pct','Home O2.5 ssn',3],['away_over25_pct','Away O2.5 ssn',3],['home_btts_pct','Home BTTS ssn',3],['away_btts_pct','Away BTTS ssn',3]],
+  team:[['home_2plus','Home 2+'],['home_3plus','Home 3+'],['away_2plus','Away 2+'],['away_3plus','Away 3+'],['home_wtn','Home win to nil'],['away_wtn','Away win to nil'],['home_scores_both_halves','Home scores both halves'],['away_scores_both_halves','Away scores both halves']],
+  halves:[['ht_home','HT home'],['ht_draw','HT draw'],['ht_away','HT away'],['fh_over_0.5','1st half goal'],['fh_over_1.5','1st half over 1.5'],['sh_over_0.5','2nd half goal'],['sh_over_1.5','2nd half over 1.5'],['goal_both_halves','Goal in both halves'],['second_half_more_goals','More goals 2nd half'],['home_gbh_pct','Home GBH ssn',3],['away_gbh_pct','Away GBH ssn',3]],
+  htft:[['htft_HH','H / H'],['htft_HD','H / D'],['htft_HA','H / A'],['htft_DH','D / H'],['htft_DD','D / D'],['htft_DA','D / A'],['htft_AH','A / H'],['htft_AD','A / D'],['htft_AA','A / A']],
+  corners:[['exp_corners','Exp. corners',1],['corners_over_7.5','Over 7.5'],['corners_over_8.5','Over 8.5'],['corners_over_9.5','Over 9.5'],['corners_over_10.5','Over 10.5'],['corners_over_11.5','Over 11.5'],['home_corners_over_4.5','Home over 4.5'],['away_corners_over_3.5','Away over 3.5'],['home_most_corners','Home most corners'],['home_corners_avg','Home total ssn',1],['away_corners_avg','Away total ssn',1]],
+  handicap:[['home_win','Home win'],['draw','Draw'],['away_win','Away win'],['draw_no_bet_home','DNB home'],['draw_no_bet_away','DNB away'],['home_m1_win','Home −1 wins'],['home_m1_push','Home −1 push'],['home_m15','Home −1.5'],['away_m1_win','Away −1 wins'],['away_m1_push','Away −1 push'],['away_m15','Away −1.5'],['home_p15','Home +1.5'],['away_p15','Away +1.5']],
+  score:[['cs_1','Most likely',2],['cs_1_p','p'],['cs_2','2nd',2],['cs_2_p','p'],['cs_3','3rd',2],['cs_3_p','p'],['exp_home_goals','xG home',1],['exp_away_goals','xG away',1]],
+};
+S.mkGroup='goals'; S.mksort={key:null,dir:-1}; S.mkOpen=null;
+function renderMarkets(){
+  const grp=MKGROUPS[S.mkGroup]; const minv=(parseFloat($('#mkMin').value)||0)/100;
+  let rows=[]; for(const d of curDivs()) for(const m of DATA.divs[d].markets) rows.push({...m, div:d});
+  if(S.mksort.key) rows.sort((a,b)=>((a[S.mksort.key]??-1)-(b[S.mksort.key]??-1))*S.mksort.dir);
+  let h='<thead><tr><th class="l">Kick-off</th><th class="l">Fixture</th><th>xG</th>'+grp.map(([k,l,t])=>`<th data-key="${k}" class="${S.mksort.key===k?'sorted':''}">${l}</th>`).join('')+'</tr></thead><tbody>';
+  for(const m of rows){
+    h+=`<tr class="clk" data-id="${m.match_id}"><td class="l">${dfull(m.kickoff)} <span class="tsub">${DATA.divs[m.div].short}</span></td><td class="l"><b>${esc(m.home)}</b> v <b>${esc(m.away)}</b></td><td>${fmt(m.exp_home_goals,1)}–${fmt(m.exp_away_goals,1)}</td>`;
+    for(const [k,l,t] of grp){ const v=m[k]; if(t===2){ h+=`<td>${v??''}</td>`; continue; } if(t===1){ h+=`<td>${fmt(v,1)}</td>`; continue; } if(t===3){ h+=`<td class="tsub">${pct(v,0)}</td>`; continue; }
+      const hi=v!=null&&v>=minv; h+=`<td style="${hi?'background:var(--pos-soft);font-weight:600':''}">${pct(v,0)}</td>`; }
+    h+='</tr>';
+    if(S.mkOpen===m.match_id){ const th=DATA.divs[m.div].tend[m.home]||{}, ta=DATA.divs[m.div].tend[m.away]||{};
+      const tr=(t)=>`P ${t.played??0} · O2.5 ${pct(t.over25,0)} · BTTS ${pct(t.btts,0)} · scored 2+ ${pct(t.scored2plus,0)} · clean sheets ${pct(t.clean_sheet,0)} · HT lead ${pct(t.ht_lead,0)} / level ${pct(t.ht_level,0)} · goal both halves ${pct(t.goal_both_halves,0)} · corners for ${fmt(t.corners_for,1)} / ag ${fmt(t.corners_against,1)} (total O8.5 ${pct(t.corners_over85,0)}) · shots ${fmt(t.shots_for,1)} / SoT ${fmt(t.sot_for,1)} · cards ${fmt(t.cards,1)}`;
+      h+=`<tr><td colspan="${3+grp.length}" class="l" style="white-space:normal;background:var(--surface-2);font-size:12.5px"><b>${esc(m.home)}</b> this season: ${tr(th)}<br><b>${esc(m.away)}</b> this season: ${tr(ta)}<br><span class="tsub">Most likely scores: ${m.cs_1} (${pct(m.cs_1_p,0)}), ${m.cs_2} (${pct(m.cs_2_p,0)}), ${m.cs_3} (${pct(m.cs_3_p,0)}). Expected corners ${fmt(m.exp_corners_home,1)} + ${fmt(m.exp_corners_away,1)}. First-half share of goals used: ${pct(m.ht_share,0)}.</span></td></tr>`; }
+  }
+  const tbl=$('#mktable'); tbl.innerHTML=h+'</tbody>'; $('#mkcount').textContent=`${rows.length} fixtures in the next 10 days`;
+  $$('th[data-key]',tbl).forEach(th=>th.onclick=()=>{ const k=th.dataset.key; if(S.mksort.key===k) S.mksort.dir*=-1; else {S.mksort.key=k; S.mksort.dir=-1;} renderMarkets(); });
+  $$('tr.clk',tbl).forEach(tr=>tr.onclick=()=>{ S.mkOpen = S.mkOpen===tr.dataset.id ? null : tr.dataset.id; renderMarkets(); });
+}
+$$('#mkGroup button').forEach(b=>b.onclick=()=>{ S.mkGroup=b.dataset.g; S.mksort={key:null,dir:-1}; $$('#mkGroup button').forEach(x=>x.setAttribute('aria-pressed',x===b)); renderMarkets(); });
+$('#mkMin').addEventListener('input',renderMarkets);
+
 // ---------- season table (all divisions capable)
 const TCOLS=[
   {k:'team',l:'Team',left:true,f:(t)=>`${starBtn(t.team)}<span class="tn">${esc(t.team)}</span> <span class="tsub">${DATA.divs[t.div].short}</span>${t.europe?' <span class="chip eu">EU</span>':''}`},
@@ -818,6 +865,7 @@ function renderTeam(){
   renderPrices(t, d);
   const ctx=[]; if(t.europe) ctx.push(`<span class="chip eu">${esc(t.europe)}</span>`); if(t.deduction) ctx.push(`<span class="chip warn">${Math.abs(t.deduction)} pts deducted</span>`);
   if(t.context) ctx.push(`<span class="note">${esc(t.context)}</span>`);
+  { const dk2=Object.keys(DATA.divs).find(k=>DATA.divs[k].name===d.name); const tt=DATA.divs[dk2].tend[t.team]; if(tt&&tt.played) ctx.push(`<span class="note"><b>This season's data:</b> over 2.5 in ${pct(tt.over25,0)} of games · BTTS ${pct(tt.btts,0)} · scored 2+ ${pct(tt.scored2plus,0)} · clean sheets ${pct(tt.clean_sheet,0)} · led at HT ${pct(tt.ht_lead,0)} · goal in both halves ${pct(tt.goal_both_halves,0)} · corners ${fmt(tt.corners_for,1)} for / ${fmt(tt.corners_against,1)} against · shots on target ${fmt(tt.sot_for,1)} / ${fmt(tt.sot_against,1)}.</span>`); }
   ctx.push(`<span class="note">Next four: ${esc(t.next4Fix)} — market xP ${fmt(t.next4Mkt,1)}${t.next4Now?`, current model ${fmt(t.next4Now,1)}`:''}. Run-in ${fmt(t.remPpg,2)} mkt xP/game over ${t.remGames} games.</span>`);
   $('#teamCtx').innerHTML=ctx.join(' ');
   const w=WATCH[slug(t.team)]; $('#teamNote').value=w&&w.note?w.note:''; $('#saveNote').disabled=false;
@@ -942,7 +990,7 @@ function renderWatch(){
   $$('#wtable tbody tr[data-team]').forEach(tr=>tr.onclick=()=>selectTeam(tr.dataset.team)); bindStars($('#wtable'));
 }
 
-function renderAll(){ renderTabs(); applyMode(); if(S.view==='start') renderStart(); if(S.view==='blocks'){ renderLegend(); renderGrid(); } if(S.view==='week') renderWeek(); if(S.view==='table') renderTable(); if(S.view==='scanner') renderScanner(); if(S.view==='movers') renderMovers(); if(S.view==='compare') renderCompare(); if(S.view==='entry') renderEntry(); if(S.view==='watch') renderWatch(); if(!$('#teamPanel').classList.contains('hidden')) renderTeam(); refreshStars(); }
+function renderAll(){ renderTabs(); applyMode(); if(S.view==='start') renderStart(); if(S.view==='blocks'){ renderLegend(); renderGrid(); } if(S.view==='week') renderWeek(); if(S.view==='markets') renderMarkets(); if(S.view==='table') renderTable(); if(S.view==='scanner') renderScanner(); if(S.view==='movers') renderMovers(); if(S.view==='compare') renderCompare(); if(S.view==='entry') renderEntry(); if(S.view==='watch') renderWatch(); if(!$('#teamPanel').classList.contains('hidden')) renderTeam(); refreshStars(); }
 $$('#colorBy button').forEach(b=>b.onclick=()=>{ S.colorBy=b.dataset.mode; $$('#colorBy button').forEach(x=>x.setAttribute('aria-pressed',x===b)); renderLegend(); renderGrid(); });
 
 // restore light state

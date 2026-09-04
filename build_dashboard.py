@@ -73,6 +73,7 @@ def load_history():
 
 def build(results: dict, path: Path):
     snap = results.get("_snapshot", {})
+    mkt = results.get("_markets", {})
     results = {k: v for k, v in results.items() if not k.startswith("_")}
     data = {"updated": datetime.now().strftime("%-d %b %Y"), "snapshot": snap.get("when"), "divs": {}, "history": load_history()}
     mv = snap.get("movers") if snap else None
@@ -137,7 +138,17 @@ def build(results: dict, path: Path):
         aug_date = pd.read_csv(odds_file)["as_of_date"].iloc[0] if odds_file.exists() else ""
         live_file = ROOT / "data" / f"odds_live_{d}.csv"
         live_date = pd.read_csv(live_file)["as_of_date"].iloc[0] if live_file.exists() else ""
-        data["divs"][d] = {"week": week, "augDate": aug_date, "augBook": "Sky Bet", "liveDate": live_date, "liveBook": "bet365", "name": cfg["name"], "short": cfg["short"], "n": cfg["n"], "relegated": cfg["relegated"],
+        mrows = []
+        mkdf = mkt.get("markets", pd.DataFrame()) if mkt else pd.DataFrame()
+        if not mkdf.empty:
+            for _, x in mkdf[mkdf["div"] == d].iterrows():
+                mrows.append({k: clean(x[k]) for k in mkdf.columns if k not in ("div", "league")})
+        tend = {}
+        tdf = mkt.get("tendencies", pd.DataFrame()) if mkt else pd.DataFrame()
+        if not tdf.empty:
+            for _, x in tdf[tdf["div"] == d].iterrows():
+                tend[x.team] = {k: clean(x[k]) for k in tdf.columns if k not in ("div", "team")}
+        data["divs"][d] = {"markets": mrows, "tend": tend, "week": week, "augDate": aug_date, "augBook": "Sky Bet", "liveDate": live_date, "liveBook": "bet365", "name": cfg["name"], "short": cfg["short"], "n": cfg["n"], "relegated": cfg["relegated"],
                            "top": cfg["top"], "topLabel": cfg["top_label"], "games": 2 * (cfg["n"] - 1), "promo": cfg["promo"],
                            "teams": teams, "blocks": blocks, "gamesByTeam": games, "scanner": scanner, "fixtures": fixtures, "movers": movers}
     tpl = (ROOT / "dashboard_template.html").read_text()
@@ -148,6 +159,9 @@ def build(results: dict, path: Path):
 
 if __name__ == "__main__":
     from model import build_all
-    res = build_all()
+    import markets
+    res = build_all(do_snapshot=False)
+    mk, tend = markets.build_markets(res)
+    res["_markets"] = dict(markets=mk, tendencies=tend)
     p = build(res, OUT / "fixture_blocks.html")
     print("wrote", p, p.stat().st_size // 1024, "KB")

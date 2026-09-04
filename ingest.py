@@ -177,7 +177,8 @@ def _parse_fd(text):
 
 
 def ingest_matchodds():
-    keep = ["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "B365H", "B365D", "B365A", "PSH", "PSD", "PSA", "AvgH", "AvgD", "AvgA", "B365CH", "B365CD", "B365CA", "PSCH", "PSCD", "PSCA", "AvgCH", "AvgCD", "AvgCA"]
+    keep = ["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "HTHG", "HTAG", "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR",
+            "B365H", "B365D", "B365A", "PSH", "PSD", "PSA", "AvgH", "AvgD", "AvgA", "B365CH", "B365CD", "B365CA", "PSCH", "PSCD", "PSCA", "AvgCH", "AvgCD", "AvgCA", "B365>2.5", "B365<2.5", "AHh", "B365AHH", "B365AHA"]
     for div in DIVS:
         p = INBOX / f"matchodds_{div}.txt"
         if not p.exists():

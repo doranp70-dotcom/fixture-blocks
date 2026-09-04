@@ -14,6 +14,7 @@ from pathlib import Path
 from model import build_all, OUT
 import build_xlsx
 import build_dashboard
+import markets
 
 ROOT = Path(__file__).resolve().parent
 
@@ -25,6 +26,11 @@ if __name__ == "__main__":
             continue
         t = r["teams"]
         print(f"{r['cfg']['name']:15s} games played {int(t.played.sum()) // 2:3d}  xG rows {int(r['fixtures'].home_xg.notna().sum()):3d}")
+    mk, tend = markets.build_markets(res)
+    mk.to_csv(OUT / "match_markets.csv", index=False)
+    tend.to_csv(OUT / "tendencies.csv", index=False)
+    res["_markets"] = dict(markets=mk, tendencies=tend)
+    print(f"match markets for {len(mk)} fixtures in the next 10 days")
     xlsx = build_xlsx.build(res, OUT / "fixture_blocks_2026-27.xlsx")
     html = build_dashboard.build(res, OUT / "fixture_blocks.html")
     print("wrote", xlsx)
