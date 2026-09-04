@@ -84,7 +84,8 @@ def build(results: dict, path: Path):
             teams.append({
                 "team": t.team, "rank": int(t.mkt_rank), "rating": clean(t.rating), "ratingNow": clean(t.rating_now), "att": clean(t.att_now), "def": clean(t.def_now),
                 "mktXp": clean(t.mkt_xP_season), "line": clean(t.points_line),
-                "title": frac(t.title_odds), "releg": frac(t.releg_odds), "titleP": clean(t.title_mkt), "relegP": clean(t.releg_mkt), "topP": clean(t.top_mkt), "promoP": clean(t.promo_mkt),
+                "title": frac(t.title_odds), "releg": frac(t.releg_odds), "augTitle": clean(t.title_odds), "augReleg": clean(t.releg_odds), "augPromo": clean(t.promo_odds), "augTop": clean(t.top_odds),
+                "promoF": frac(t.promo_odds), "topF": frac(t.top_odds), "titleP": clean(t.title_mkt), "relegP": clean(t.releg_mkt), "topP": clean(t.top_mkt), "promoP": clean(t.promo_mkt),
                 "played": int(t.played), "pts": clean(t.pts), "ptsWon": clean(t.pts_won), "deduction": int(t.deduction), "pos": int(t.pos), "gf": clean(t.gf), "ga": clean(t.ga),
                 "mktXpPlayed": clean(t.mkt_xP_played), "xg": clean(t.xg), "xga": clean(t.xga), "xgXp": clean(t.xg_xP),
                 "luck": clean(t.luck), "z": clean(t.z), "clRerate": clean(t.cl_rerate), "clN": int(t.cl_n),
@@ -118,7 +119,7 @@ def build(results: dict, path: Path):
         scanner = []
         if not r["scanner"].empty:
             for _, x in r["scanner"].iterrows():
-                scanner.append({"team": x.team, "market": x.market, "odds": clean(x.odds), "frac": x.odds_frac, "book": x.bookmaker, "asOf": x.as_of,
+                scanner.append({"team": x.team, "market": x.market, "odds": clean(x.odds), "frac": x.odds_frac, "augFrac": frac(1 / x.p_then_raw) if "p_then_raw" in x and x.p_then_raw and not pd.isna(x.p_then_raw) else None, "book": x.bookmaker, "asOf": x.as_of,
                                 "pMkt": clean(x.p_market), "pThen": clean(x.p_then), "move": clean(x.price_move), "pModel": clean(x.p_model), "pBlend": clean(x.p_blend),
                                 "edge": clean(x.edge), "ev": clean(x.ev), "evBlend": clean(x.ev_blend), "fair": clean(x.fair_odds) if x.fair_odds != float("inf") else None,
                                 "kelly": clean(x.kelly), "flag": bool(x.flag)})
@@ -132,7 +133,11 @@ def build(results: dict, path: Path):
         if not r["week"].empty:
             for _, x in r["week"].iterrows():
                 week.append({k: clean(x[k]) for k in r["week"].columns if k != "div"})
-        data["divs"][d] = {"week": week, "name": cfg["name"], "short": cfg["short"], "n": cfg["n"], "relegated": cfg["relegated"],
+        odds_file = ROOT / "data" / f"odds_{d}.csv"
+        aug_date = pd.read_csv(odds_file)["as_of_date"].iloc[0] if odds_file.exists() else ""
+        live_file = ROOT / "data" / f"odds_live_{d}.csv"
+        live_date = pd.read_csv(live_file)["as_of_date"].iloc[0] if live_file.exists() else ""
+        data["divs"][d] = {"week": week, "augDate": aug_date, "augBook": "Sky Bet", "liveDate": live_date, "liveBook": "bet365", "name": cfg["name"], "short": cfg["short"], "n": cfg["n"], "relegated": cfg["relegated"],
                            "top": cfg["top"], "topLabel": cfg["top_label"], "games": 2 * (cfg["n"] - 1), "promo": cfg["promo"],
                            "teams": teams, "blocks": blocks, "gamesByTeam": games, "scanner": scanner, "fixtures": fixtures, "movers": movers}
     tpl = (ROOT / "dashboard_template.html").read_text()

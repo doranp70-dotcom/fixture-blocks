@@ -705,7 +705,9 @@ def build_division(div, refit=False):
                 pm = float(tsi.loc[t, market_to_sim[mkt]])
                 live_map[(t, mkt)] = float(row["odds_decimal"])
                 then = {"title": "title_mkt", "relegation": "releg_mkt", "promotion": "promo_mkt", "top4": "top_mkt", "top6": "top_mkt"}[mkt]
+                then_odds = {"title": "title_odds", "relegation": "releg_odds", "promotion": "promo_odds", "top4": "top_odds", "top6": "top_odds"}[mkt]
                 p_then = float(tsi.loc[t, then]) if then in ts.columns else np.nan
+                aug_price = float(tsi.loc[t, then_odds]) if then_odds in ts.columns else np.nan
                 if mkt == "top6" and div != "E3" and cfg["top"] != 6:
                     p_then = np.nan
                 if mkt == "top4" and cfg["top"] != 4:
@@ -714,6 +716,7 @@ def build_division(div, refit=False):
                     "div": div, "team": t, "market": mkt, "odds": float(row["odds_decimal"]), "odds_frac": row["odds_frac"],
                     "bookmaker": row["bookmaker"], "as_of": row["as_of_date"],
                     "p_market": pf, "p_market_raw": 1 / float(row["odds_decimal"]), "overround": overround,
+                    "aug_price": aug_price, "p_then_raw": (1 / aug_price) if not np.isnan(aug_price) and aug_price > 0 else np.nan,
                     "p_model": pm, "p_then": p_then,
                     "edge": pm - pf, "ev": pm * float(row["odds_decimal"]) - 1,
                     "fair_odds": (1 / pm) if pm > 0 else np.inf,
