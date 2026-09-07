@@ -19,16 +19,16 @@ round,date,home,away,result
 2,30/08/2026 14:00,Sunderland,Fulham,1 - 0
 2,30/08/2026 16:30,Man Utd,Ipswich,5 - 2
 2,31/08/2026 20:00,Aston Villa,Arsenal,0 - 1
-3,04/09/2026 20:00,Ipswich,Liverpool,-
-3,05/09/2026 12:30,Newcastle,Bournemouth,-
-3,05/09/2026 15:00,Brentford,Sunderland,-
-3,05/09/2026 15:00,Brighton,Leeds,-
-3,05/09/2026 15:00,Fulham,Crystal Palace,-
-3,05/09/2026 15:00,Man City,Coventry,-
-3,05/09/2026 15:00,Nott'm Forest,Spurs,-
-3,05/09/2026 17:30,Hull,Aston Villa,-
-3,06/09/2026 14:00,Everton,Man Utd,-
-3,06/09/2026 16:30,Arsenal,Chelsea,-
+3,04/09/2026 20:00,Ipswich,Liverpool,0 - 2
+3,05/09/2026 12:30,Newcastle,Bournemouth,2 - 2
+3,05/09/2026 15:00,Brentford,Sunderland,1 - 1
+3,05/09/2026 15:00,Brighton,Leeds,1 - 1
+3,05/09/2026 15:00,Fulham,Crystal Palace,2 - 3
+3,05/09/2026 15:00,Man City,Coventry,1 - 0
+3,05/09/2026 15:00,Nott'm Forest,Spurs,0 - 0
+3,05/09/2026 17:30,Hull,Aston Villa,0 - 0
+3,06/09/2026 14:00,Everton,Man Utd,2 - 2
+3,06/09/2026 16:30,Arsenal,Chelsea,2 - 1
 4,12/09/2026 15:00,Bournemouth,Brentford,-
 4,12/09/2026 15:00,Aston Villa,Nott'm Forest,-
 4,12/09/2026 15:00,Chelsea,Hull,-
@@ -73,7 +73,7 @@ round,date,home,away,result
 8,24/10/2026 12:30,Aston Villa,Man City,-
 8,24/10/2026 15:00,Arsenal,Everton,-
 8,24/10/2026 15:00,Coventry,Fulham,-
-8,24/10/2026 15:00,Liverpool,Brighton,-
+8,25/10/2026 14:00,Liverpool,Brighton,-
 8,24/10/2026 17:30,Chelsea,Spurs,-
 8,25/10/2026 14:00,Crystal Palace,Newcastle,-
 8,25/10/2026 14:00,Hull,Brentford,-
