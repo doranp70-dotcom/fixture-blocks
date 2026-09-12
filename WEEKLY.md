@@ -30,6 +30,20 @@ Fallbacks if a source is down: Squawka (`/en/features/premier-league-xg-table/`,
 `xg_E0.csv`, never mixed into the OddAlerts file); statz.ai `/competitions/<league>/xg` for aggregate cross-checks;
 Oddspedia Insights / justbookies for outright prices (see `data/odds_live_notes.md`).
 
+Known quirks (Sep 2026):
+- The bet365 hub pages are intermittent for the EFL divisions — some fetches return no outright markets. If a
+  page comes back without them, fetch it again with a slightly different prompt (WebFetch caches 15 min per
+  URL and prompt), and if still empty use Oddspedia
+  (`https://www.oddspedia.com/football/england/<championship|league-one|league-two>/outrights` — Winner and
+  Promotion; put each market under a heading line `To Win Outright` / `To Be Promoted` in the same
+  "Team odds, Team odds" format). If neither loads, leave `data/odds_live_<div>.csv` alone — the dashboard
+  keeps the previous date and says so — and report that division's prices as stale.
+- OddAlerts xG pages show the last 50 results and include last season's May fixtures; `ingest.py` drops rows
+  whose date doesn't match a played 2026/27 fixture, so those "skipped (old season)" log lines are normal.
+- A Friday-night game may be missing from fixturedownload on Monday morning if the page lags; the ingest log
+  says "fixture is not marked played yet" for its xG row. Check the score elsewhere (efl.com / skysports) and
+  fill the result column in `data/fixtures_<div>.csv` by hand, then re-run ingest.
+
 ## 2. Ingest, build, check
 ```
 python ingest.py        # merges inbox/ into data/, prints what changed (also inbox/last_ingest.log)
@@ -43,7 +57,12 @@ number of games that weekend; no "unknown team" lines in the ingest log (add ali
 - Republish the dashboard: Artifact tool, `file_path: out/fixture_blocks.html`, `url:` the artifact URL above
   (omit `capabilities` so the stored `db` grant carries forward). Label it with the date.
 - Send `out/fixture_blocks_2026-27.xlsx` to the user (SendUserFile).
-- `git add -A && git commit -m "Weekly refresh <date>" && git push`.
+- `git add -A && git commit -m "Weekly refresh <date>" && git push`, then confirm with
+  `git fetch && git log --oneline -1 origin/main` that the new commit is on GitHub. If the push fails, retry
+  twice (`git pull --rebase` first if it was rejected); if it still fails, say so in the summary — the data
+  in that run is then only in the published dashboard, and the next run must not assume the repo is current.
+- If the Artifact publish is refused because a newer version exists, read the artifact (action `read`) and
+  publish again from `out/fixture_blocks.html` — the page is fully regenerated each run, nothing to merge.
 
 ## 4. Summary message
 One short paragraph: rounds ingested per division, the top movers (from build.py's output), any new scanner
