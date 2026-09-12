@@ -1,0 +1,325 @@
+team,div,market,p_market
+Arsenal,E0,relegation,0.0006
+Arsenal,E0,title,0.5244
+Arsenal,E0,top4,0.8947
+Man City,E0,relegation,0.0589
+Man City,E0,title,0.2416
+Man City,E0,top4,0.786
+Liverpool,E0,relegation,0.0035
+Liverpool,E0,title,0.0604
+Liverpool,E0,top4,0.5309
+Man Utd,E0,relegation,0.0088
+Man Utd,E0,title,0.0348
+Man Utd,E0,top4,0.3668
+Chelsea,E0,relegation,0.0044
+Chelsea,E0,title,0.1007
+Chelsea,E0,top4,0.6349
+Tottenham,E0,relegation,0.068
+Tottenham,E0,title,0.006
+Tottenham,E0,top4,0.1019
+Aston Villa,E0,relegation,0.0421
+Aston Villa,E0,title,0.0045
+Aston Villa,E0,top4,0.0917
+Brighton,E0,relegation,0.026
+Brighton,E0,title,0.006
+Brighton,E0,top4,0.131
+Newcastle,E0,relegation,0.052
+Newcastle,E0,title,0.0036
+Newcastle,E0,top4,0.0917
+Everton,E0,relegation,0.0804
+Everton,E0,title,0.0023
+Everton,E0,top4,0.0437
+Bournemouth,E0,relegation,0.0589
+Bournemouth,E0,title,0.0023
+Bournemouth,E0,top4,0.0539
+Brentford,E0,relegation,0.026
+Brentford,E0,title,0.006
+Brentford,E0,top4,0.1411
+Nott'm Forest,E0,relegation,0.1105
+Nott'm Forest,E0,title,0.0018
+Nott'm Forest,E0,top4,0.0353
+Leeds,E0,relegation,0.068
+Leeds,E0,title,0.0026
+Leeds,E0,top4,0.0437
+Crystal Palace,E0,relegation,0.204
+Crystal Palace,E0,title,0.0006
+Crystal Palace,E0,top4,0.018
+Fulham,E0,relegation,0.3215
+Fulham,E0,title,0.0006
+Fulham,E0,top4,0.0091
+Sunderland,E0,relegation,0.2357
+Sunderland,E0,title,0.0006
+Sunderland,E0,top4,0.0137
+Coventry,E0,relegation,0.6121
+Coventry,E0,title,0.0004
+Coventry,E0,top4,0.0037
+Ipswich,E0,relegation,0.442
+Ipswich,E0,title,0.0005
+Ipswich,E0,top4,0.0046
+Hull,E0,relegation,0.5766
+Hull,E0,title,0.0005
+Hull,E0,top4,0.0037
+West Ham,E1,promotion,0.6818
+West Ham,E1,relegation,0.0017
+West Ham,E1,title,0.3165
+Wolves,E1,promotion,0.404
+Wolves,E1,relegation,0.0034
+Wolves,E1,title,0.1385
+Middlesbrough,E1,promotion,0.3828
+Middlesbrough,E1,relegation,0.0034
+Middlesbrough,E1,title,0.1385
+Burnley,E1,promotion,0.101
+Burnley,E1,relegation,0.0502
+Burnley,E1,title,0.0203
+Southampton,E1,promotion,0.202
+Southampton,E1,relegation,0.0057
+Southampton,E1,title,0.0489
+Birmingham,E1,promotion,0.1653
+Birmingham,E1,relegation,0.0057
+Birmingham,E1,title,0.0396
+Norwich,E1,promotion,0.1515
+Norwich,E1,relegation,0.0328
+Norwich,E1,title,0.0396
+Sheffield United,E1,promotion,0.0535
+Sheffield United,E1,relegation,0.2439
+Sheffield United,E1,title,0.0163
+Wrexham,E1,promotion,0.1136
+Wrexham,E1,relegation,0.0328
+Wrexham,E1,title,0.0203
+Millwall,E1,promotion,0.202
+Millwall,E1,relegation,0.0127
+Millwall,E1,title,0.0554
+Stoke,E1,promotion,0.0433
+Stoke,E1,relegation,0.0449
+Stoke,E1,title,0.0124
+Derby,E1,promotion,0.0267
+Derby,E1,relegation,0.122
+Derby,E1,title,0.0082
+West Brom,E1,promotion,0.101
+West Brom,E1,relegation,0.0407
+West Brom,E1,title,0.0396
+Bristol City,E1,promotion,0.0758
+Bristol City,E1,relegation,0.0407
+Bristol City,E1,title,0.0163
+Swansea,E1,promotion,0.1136
+Swansea,E1,relegation,0.0328
+Swansea,E1,title,0.0396
+Watford,E1,promotion,0.0222
+Watford,E1,relegation,0.1314
+Watford,E1,title,0.0055
+QPR,E1,promotion,0.0433
+QPR,E1,relegation,0.0657
+QPR,E1,title,0.0163
+Portsmouth,E1,promotion,0.0267
+Portsmouth,E1,relegation,0.1897
+Portsmouth,E1,title,0.0055
+Blackburn,E1,promotion,0.0136
+Blackburn,E1,relegation,0.2627
+Blackburn,E1,title,0.0041
+Preston,E1,promotion,0.0136
+Preston,E1,relegation,0.3253
+Preston,E1,title,0.0033
+Cardiff,E1,promotion,0.0178
+Cardiff,E1,relegation,0.2134
+Cardiff,E1,title,0.0041
+Bolton,E1,promotion,0.009
+Bolton,E1,relegation,0.4743
+Bolton,E1,title,0.0017
+Charlton,E1,promotion,0.0222
+Charlton,E1,relegation,0.1897
+Charlton,E1,title,0.0055
+Lincoln,E1,promotion,0.0136
+Lincoln,E1,relegation,0.4743
+Lincoln,E1,title,0.0041
+Leicester,E2,promotion,0.3961
+Leicester,E2,relegation,0.0256
+Leicester,E2,title,0.159
+Leicester,E2,top6,0.619
+Sheffield Wed,E2,promotion,0.2682
+Sheffield Wed,E2,relegation,0.03
+Sheffield Wed,E2,title,0.0935
+Sheffield Wed,E2,top6,0.4877
+Luton,E2,promotion,0.332
+Luton,E2,relegation,0.03
+Luton,E2,title,0.1136
+Luton,E2,top6,0.5535
+Huddersfield,E2,promotion,0.3169
+Huddersfield,E2,relegation,0.0256
+Huddersfield,E2,title,0.1136
+Huddersfield,E2,top6,0.5364
+Plymouth,E2,promotion,0.1743
+Plymouth,E2,relegation,0.067
+Plymouth,E2,title,0.053
+Plymouth,E2,top6,0.3576
+MK Dons,E2,promotion,0.1585
+MK Dons,E2,relegation,0.067
+MK Dons,E2,title,0.0468
+MK Dons,E2,top6,0.3251
+Stockport,E2,promotion,0.2324
+Stockport,E2,relegation,0.0415
+Stockport,E2,title,0.0795
+Stockport,E2,top6,0.447
+Bradford,E2,promotion,0.249
+Bradford,E2,relegation,0.0415
+Bradford,E2,title,0.0795
+Bradford,E2,top6,0.4683
+Wycombe,E2,promotion,0.0872
+Wycombe,E2,relegation,0.1161
+Wycombe,E2,title,0.0274
+Wycombe,E2,top6,0.1987
+Blackpool,E2,promotion,0.0968
+Blackpool,E2,relegation,0.1088
+Blackpool,E2,title,0.0306
+Blackpool,E2,top6,0.2063
+Oxford,E2,promotion,0.1089
+Oxford,E2,relegation,0.1244
+Oxford,E2,title,0.0379
+Oxford,E2,top6,0.2554
+Reading,E2,promotion,0.0792
+Reading,E2,relegation,0.1451
+Reading,E2,title,0.0234
+Reading,E2,top6,0.1788
+Barnsley,E2,promotion,0.0415
+Barnsley,E2,relegation,0.2321
+Barnsley,E2,title,0.0119
+Barnsley,E2,top6,0.1277
+Wigan,E2,promotion,0.0335
+Wigan,E2,relegation,0.2902
+Wigan,E2,title,0.0079
+Wigan,E2,top6,0.0993
+Doncaster,E2,promotion,0.0581
+Doncaster,E2,relegation,0.2009
+Doncaster,E2,title,0.0156
+Doncaster,E2,top6,0.1375
+Mansfield,E2,promotion,0.0792
+Mansfield,E2,relegation,0.1244
+Mansfield,E2,title,0.0306
+Mansfield,E2,top6,0.1987
+Stevenage,E2,promotion,0.0415
+Stevenage,E2,relegation,0.2487
+Stevenage,E2,title,0.0119
+Stevenage,E2,top6,0.1192
+Notts County,E2,promotion,0.0415
+Notts County,E2,relegation,0.2487
+Notts County,E2,title,0.0098
+Notts County,E2,top6,0.1192
+Peterborough,E2,promotion,0.0301
+Peterborough,E2,relegation,0.3166
+Peterborough,E2,title,0.0079
+Peterborough,E2,top6,0.0813
+Leyton Orient,E2,promotion,0.0513
+Leyton Orient,E2,relegation,0.2009
+Leyton Orient,E2,title,0.0156
+Leyton Orient,E2,top6,0.1375
+Cambridge,E2,promotion,0.0513
+Cambridge,E2,relegation,0.2009
+Cambridge,E2,title,0.0156
+Cambridge,E2,top6,0.1277
+Burton,E2,promotion,0.0256
+Burton,E2,relegation,0.3869
+Burton,E2,title,0.0053
+Burton,E2,top6,0.0745
+AFC Wimbledon,E2,promotion,0.0213
+AFC Wimbledon,E2,relegation,0.3957
+AFC Wimbledon,E2,title,0.0053
+AFC Wimbledon,E2,top6,0.0688
+Bromley,E2,promotion,0.0256
+Bromley,E2,relegation,0.3316
+Bromley,E2,title,0.0053
+Bromley,E2,top6,0.0745
+Salford,E3,promotion,0.4129
+Salford,E3,relegation,0.0102
+Salford,E3,title,0.1034
+Salford,E3,top6,0.5553
+Bristol Rovers,E3,promotion,0.4542
+Bristol Rovers,E3,relegation,0.0102
+Bristol Rovers,E3,title,0.1379
+Bristol Rovers,E3,top6,0.6578
+Barnet,E3,promotion,0.4129
+Barnet,E3,relegation,0.0102
+Barnet,E3,title,0.1182
+Barnet,E3,top6,0.621
+Grimsby,E3,promotion,0.2596
+Grimsby,E3,relegation,0.0202
+Grimsby,E3,title,0.0637
+Grimsby,E3,top6,0.4699
+Port Vale,E3,promotion,0.1652
+Port Vale,E3,relegation,0.0638
+Port Vale,E3,title,0.0394
+Port Vale,E3,top6,0.299
+Chesterfield,E3,promotion,0.2096
+Chesterfield,E3,relegation,0.0319
+Chesterfield,E3,title,0.0487
+Chesterfield,E3,top6,0.4485
+York,E3,promotion,0.3634
+York,E3,relegation,0.0124
+York,E3,title,0.0828
+York,E3,top6,0.5193
+Oldham,E3,promotion,0.2596
+Oldham,E3,relegation,0.0202
+Oldham,E3,title,0.0637
+Oldham,E3,top6,0.4893
+Rotherham,E3,promotion,0.1136
+Rotherham,E3,relegation,0.0755
+Rotherham,E3,title,0.0243
+Rotherham,E3,top6,0.276
+Swindon,E3,promotion,0.1817
+Swindon,E3,relegation,0.0488
+Swindon,E3,title,0.0487
+Swindon,E3,top6,0.276
+Walsall,E3,promotion,0.1817
+Walsall,E3,relegation,0.0395
+Walsall,E3,title,0.0394
+Walsall,E3,top6,0.3262
+Gillingham,E3,promotion,0.0606
+Gillingham,E3,relegation,0.1383
+Gillingham,E3,title,0.0162
+Gillingham,E3,top6,0.1121
+Colchester,E3,promotion,0.1652
+Colchester,E3,relegation,0.0395
+Colchester,E3,title,0.0318
+Colchester,E3,top6,0.312
+Northampton,E3,promotion,0.1009
+Northampton,E3,relegation,0.0553
+Northampton,E3,title,0.0243
+Northampton,E3,top6,0.1993
+Crewe,E3,promotion,0.1817
+Crewe,E3,relegation,0.0319
+Crewe,E3,title,0.0318
+Crewe,E3,top6,0.3588
+Rochdale,E3,promotion,0.0699
+Rochdale,E3,relegation,0.0922
+Rochdale,E3,title,0.0202
+Rochdale,E3,top6,0.1121
+Exeter,E3,promotion,0.0534
+Exeter,E3,relegation,0.1383
+Exeter,E3,title,0.0202
+Exeter,E3,top6,0.1281
+Fleetwood,E3,promotion,0.0826
+Fleetwood,E3,relegation,0.0922
+Fleetwood,E3,title,0.0202
+Fleetwood,E3,top6,0.2563
+Tranmere,E3,promotion,0.0699
+Tranmere,E3,relegation,0.0922
+Tranmere,E3,title,0.0162
+Tranmere,E3,top6,0.1631
+Shrewsbury,E3,promotion,0.0433
+Shrewsbury,E3,relegation,0.1844
+Shrewsbury,E3,title,0.0082
+Shrewsbury,E3,top6,0.0815
+Crawley,E3,promotion,0.0349
+Crawley,E3,relegation,0.2075
+Crawley,E3,title,0.0082
+Crawley,E3,top6,0.069
+Cheltenham,E3,promotion,0.0699
+Cheltenham,E3,relegation,0.0922
+Cheltenham,E3,title,0.0202
+Cheltenham,E3,top6,0.1495
+Accrington,E3,promotion,0.0267
+Accrington,E3,relegation,0.2371
+Accrington,E3,title,0.0082
+Accrington,E3,top6,0.0598
+Newport,E3,promotion,0.0267
+Newport,E3,relegation,0.2554
+Newport,E3,title,0.0041
+Newport,E3,top6,0.0598

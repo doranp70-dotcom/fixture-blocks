@@ -145,9 +145,22 @@ def ingest_xg(div):
     fx["home"] = fx["home"].map(canon)
     fx["away"] = fx["away"].map(canon)
     res = {(h, a): r for h, a, r in zip(fx["home"], fx["away"], fx["result"])}
+    fdate = {(h, a): pd.to_datetime(d, dayfirst=True, errors="coerce") for h, a, d in zip(fx["home"], fx["away"], fx["date"])}
+    today = pd.Timestamp(datetime.now().date())
     ok = []
     for r in add:
+        if (r["home"], r["away"]) not in res:
+            say(f"{div}: xG row {r['home']} v {r['away']} is not a 2026/27 fixture in this division - skipped (old season / other competition)")
+            continue
+        rd = pd.to_datetime(r["date"], dayfirst=True)
+        fd = fdate.get((r["home"], r["away"]))
+        if rd > today or (pd.notna(fd) and abs((rd - fd).days) > 3):
+            say(f"{div}: xG row {r['home']} v {r['away']} dated {r['date']} does not match the fixture date ({fd.date() if pd.notna(fd) else '?'}) - skipped (old season)")
+            continue
         want = res.get((r["home"], r["away"]))
+        if want == "-":
+            say(f"{div}: xG row {r['home']} v {r['away']} but the fixture is not marked played yet - skipped")
+            continue
         if want and want != "-" and want != f"{r['home_goals']} - {r['away_goals']}":
             say(f"{div}: xG row score {r['home']} {r['home_goals']}-{r['away_goals']} {r['away']} disagrees with fixtures ({want}) - skipped")
             continue
