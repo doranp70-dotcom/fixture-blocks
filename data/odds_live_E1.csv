@@ -1,36 +1,73 @@
 team,market,odds_decimal,odds_frac,bookmaker,source,as_of_date
-West Ham,promotion,1.3333,1/3,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Middlesbrough,promotion,2.25,5/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Wolves,promotion,2.375,11/8,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Millwall,promotion,4.5,7/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Southampton,promotion,4.5,7/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Birmingham,promotion,5.5,9/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Norwich,promotion,6.0,5/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Wrexham,promotion,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Swansea,promotion,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Burnley,promotion,9.0,8/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-West Brom,promotion,9.0,8/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Bristol City,promotion,12.0,11/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Sheffield United,promotion,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Stoke,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-QPR,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Derby,promotion,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Portsmouth,promotion,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Watford,promotion,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Charlton,promotion,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Cardiff,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Blackburn,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Lincoln,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Preston,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Bolton,promotion,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-West Ham,title,2.625,13/8,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Middlesbrough,title,5.5,9/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Wolves,title,6.0,5/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Millwall,title,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Southampton,title,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Birmingham,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Swansea,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Norwich,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-West Brom,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Burnley,title,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
-Wrexham,title,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-12
+West Ham,promotion,1.25,1/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wolves,promotion,2.0,1/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Middlesbrough,promotion,2.375,11/8,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Southampton,promotion,3.0,2/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Birmingham,promotion,6.5,11/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Norwich,promotion,6.5,11/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Swansea,promotion,6.5,11/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+West Brom,promotion,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wrexham,promotion,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Burnley,promotion,9.0,8/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Millwall,promotion,9.0,8/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bristol City,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+QPR,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Sheffield United,promotion,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Stoke,promotion,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Watford,promotion,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Derby,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Portsmouth,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Lincoln,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Blackburn,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Charlton,promotion,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Cardiff,promotion,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bolton,promotion,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Preston,promotion,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+West Ham,title,2.0,1/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wolves,title,6.0,5/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Middlesbrough,title,7.0,6/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Southampton,title,12.0,11/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Birmingham,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Norwich,title,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Swansea,title,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+West Brom,title,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Millwall,title,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wrexham,title,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Burnley,title,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+QPR,title,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bristol City,title,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Stoke,title,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Sheffield United,title,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Watford,title,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Portsmouth,title,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Charlton,title,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Lincoln,title,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Derby,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Blackburn,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Cardiff,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bolton,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Preston,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Preston,relegation,1.8,4/5,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bolton,relegation,2.0,1/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Lincoln,relegation,2.5,6/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Derby,relegation,3.25,9/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Cardiff,relegation,3.75,11/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Blackburn,relegation,3.75,11/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Sheffield United,relegation,4.5,7/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Charlton,relegation,4.5,7/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Portsmouth,relegation,6.0,5/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Watford,relegation,6.5,11/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+QPR,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Burnley,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Bristol City,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Stoke,relegation,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wrexham,relegation,29.0,28/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Swansea,relegation,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Millwall,relegation,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+West Brom,relegation,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Norwich,relegation,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Birmingham,relegation,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Southampton,relegation,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Middlesbrough,relegation,301.0,300/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+Wolves,relegation,351.0,350/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
+West Ham,relegation,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-09-17
