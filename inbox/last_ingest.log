@@ -1,12 +1,1 @@
-E0: fixtures - 10 new results, 0 date changes (times as given)
-E1: fixtures - 13 new results, 0 date changes (UTC->UK shifted)
-E2: fixtures - 11 new results, 0 date changes (UTC->UK shifted)
-E3: fixtures - 12 new results, 0 date changes (UTC->UK shifted)
-E0: xG - 10 new matches added (40 total)
-E1: xG - 13 new matches added (83 total)
-E2: xG - 11 new matches added (71 total)
-E3: xG - 12 new matches added (72 total)
-E1: match odds - 72 rows (AvgCH)
-E0: live odds - {'relegation': 20, 'title': 20, 'top4': 20}
-E1: live odds - {'promotion': 24, 'relegation': 24, 'title': 24}
-E2: live odds - {'promotion': 24, 'relegation': 24, 'title': 24, 'top6': 24}
+E3: live odds - {'promotion': 24, 'relegation': 24, 'title': 24, 'top6': 24}

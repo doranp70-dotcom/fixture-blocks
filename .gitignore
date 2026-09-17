@@ -2,3 +2,5 @@ __pycache__/
 inbox/*.txt
 inbox/*.json
 out/fixture_blocks.html
+inbox/processed/
+inbox/processed_*

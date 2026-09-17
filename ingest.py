@@ -322,6 +322,16 @@ def main():
     for div in DIVS:
         ingest_odds_live(div, as_of)
     (ROOT / "inbox" / "last_ingest.log").write_text("\n".join(log))
+    # Park the processed inbox files so a later run can't silently re-apply stale ones
+    # (match odds and live prices are *replaced* by whatever is in the inbox, not merged).
+    done = INBOX / "processed" / as_of
+    moved = 0
+    for p in list(INBOX.glob("*.txt")) + list(INBOX.glob("*.json")):
+        done.mkdir(parents=True, exist_ok=True)
+        p.rename(done / p.name)
+        moved += 1
+    if moved:
+        say(f"moved {moved} inbox file(s) to inbox/processed/{as_of}/")
     return log
 
 

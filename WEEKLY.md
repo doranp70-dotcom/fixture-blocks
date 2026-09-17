@@ -50,8 +50,20 @@ Known quirks (Sep 2026):
   (rows after the cut are unreachable); fetch in date ranges and concatenate under one header. The host also rate-limits
   (429 / robots errors) if several CSVs are fetched within a minute — fetch one at a time with 30–60 s gaps. `ingest.py`
   replaces the whole matchodds file with the inbox rows, so only write `inbox/matchodds_<div>.txt` when it is complete.
-- The League Two bet365 hub page has returned no outright markets on several runs; Oddspedia's outrights page needs
-  provenance (see above) and bettingodds.com only yields the first 3–5 rows — E3 prices stay at the last good date.
+- League Two outrights: the bet365 hub page IS the only full source (re-tested 17 Sep 2026: Oddspedia's League Two
+  outrights page is a 404, Paddy Power's outrights tab and Oddschecker show only the top 4–6 per market, bettingodds.com
+  the first 3–5 rows, Squawka/fanbanter/thatsagoal are static pre-season lists, William Hill/BetVictor/Unibet/Ladbrokes
+  are 403/JS/timeouts). The hub page does work — it carries To Win Outright, To Be Promoted, To be Relegated, Top 3
+  Finish, Top 7 Finish and To Finish Bottom, 24 rows each — but in unattended sessions the first fetch sometimes comes
+  back without the outright sections. Procedure that has worked:
+  1. Establish provenance first: WebFetch https://www.bet365.com/hub/en-gb/football/football-competitions (the
+     competitions index links to the league-two page).
+  2. Fetch the league-two page with the standard prompt. Success = a 'To Win Outright' heading with 24 teams.
+  3. If not, fetch again with a *different* prompt (e.g. "Output the text under the headings 'League 2 Outright
+     Betting', 'To Win Outright', 'To Be Promoted', 'To be Relegated', 'Top 3 Finish', 'Top 7 Finish' verbatim").
+  4. If still not, do the other divisions and sources first and come back to League Two last — WebFetch caches a
+     URL for 15 minutes, so a retry inside that window re-reads the same HTML. Up to three rounds.
+  5. Only then leave `data/odds_live_E3.csv` alone and report the prices as stale, with their date.
 - git push: the session's git proxy strips the token from the remote URL and answers 403 ("not in this session's
   authorized repository set"). Push with a Basic header instead:
   `B=$(printf 'x-access-token:%s' "$TOKEN" | base64 -w0); git -c http.https://github.com/.extraheader="Authorization: Basic $B" push`
@@ -60,6 +72,9 @@ Known quirks (Sep 2026):
 ## 2. Ingest, build, check
 ```
 python ingest.py        # merges inbox/ into data/, prints what changed (also inbox/last_ingest.log)
+                        # then moves the inbox files to inbox/processed/<date>/ — never copy old inbox files back:
+                        # match odds and live prices are REPLACED by whatever is in the inbox, so a stale file
+                        # silently rolls those columns back
 python build.py         # model -> out/fixture_blocks_2026-27.xlsx + out/fixture_blocks.html, history/<date>/
 ```
 Sanity checks before publishing: every division's "games played" in the build output went up by the
