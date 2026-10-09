@@ -71,41 +71,41 @@ round,date,home,away,result
 6,12/09/2026 15:00,Plymouth Argyle,Barnsley,3 - 0
 6,12/09/2026 15:00,Sheffield Wednesday,Wigan Athletic,0 - 0
 6,12/09/2026 15:00,Stockport County,Leicester City,3 - 4
-7,17/09/2026 20:00,AFC Wimbledon,MK Dons,-
-7,19/09/2026 12:30,Barnsley,Leicester City,-
-7,19/09/2026 12:30,Burton Albion,Mansfield Town,-
-7,19/09/2026 15:00,Blackpool,Plymouth Argyle,-
-7,19/09/2026 15:00,Bromley,Huddersfield Town,-
-7,19/09/2026 15:00,Leyton Orient,Stevenage,-
-7,19/09/2026 15:00,Luton Town,Bradford City,-
-7,19/09/2026 15:00,Oxford United,Cambridge United,-
-7,19/09/2026 15:00,Peterborough United,Doncaster Rovers,-
-7,19/09/2026 15:00,Reading,Notts County,-
-7,19/09/2026 15:00,Sheffield Wednesday,Stockport County,-
-7,19/09/2026 15:00,Wigan Athletic,Wycombe Wanderers,-
-8,26/09/2026 15:00,Bradford City,Barnsley,-
-8,26/09/2026 15:00,Cambridge United,AFC Wimbledon,-
-8,26/09/2026 15:00,Doncaster Rovers,Oxford United,-
-8,26/09/2026 15:00,Huddersfield Town,Luton Town,-
-8,26/09/2026 15:00,Leicester City,Wigan Athletic,-
+7,17/09/2026 20:00,AFC Wimbledon,MK Dons,0 - 0
+7,19/09/2026 12:30,Barnsley,Leicester City,1 - 1
+7,19/09/2026 12:30,Burton Albion,Mansfield Town,2 - 2
+7,19/09/2026 15:00,Blackpool,Plymouth Argyle,2 - 4
+7,19/09/2026 15:00,Bromley,Huddersfield Town,2 - 1
+7,19/09/2026 15:00,Leyton Orient,Stevenage,1 - 0
+7,19/09/2026 15:00,Luton Town,Bradford City,0 - 1
+7,19/09/2026 15:00,Oxford United,Cambridge United,1 - 1
+7,19/09/2026 15:00,Peterborough United,Doncaster Rovers,0 - 2
+7,19/09/2026 15:00,Reading,Notts County,2 - 0
+7,19/09/2026 15:00,Sheffield Wednesday,Stockport County,0 - 0
+7,19/09/2026 15:00,Wigan Athletic,Wycombe Wanderers,0 - 1
+8,24/11/2026 19:45,Bradford City,Barnsley,-
+8,26/09/2026 15:00,Cambridge United,AFC Wimbledon,1 - 1
+8,15/12/2026 19:45,Doncaster Rovers,Oxford United,-
+8,03/11/2026 19:45,Huddersfield Town,Luton Town,-
+8,27/10/2026 19:45,Leicester City,Wigan Athletic,-
 8,26/09/2026 15:00,Mansfield Town,Leyton Orient,-
 8,26/09/2026 15:00,MK Dons,Bromley,-
 8,26/09/2026 15:00,Notts County,Blackpool,-
-8,26/09/2026 15:00,Plymouth Argyle,Burton Albion,-
-8,26/09/2026 15:00,Stevenage,Sheffield Wednesday,-
-8,26/09/2026 15:00,Stockport County,Peterborough United,-
-8,26/09/2026 15:00,Wycombe Wanderers,Reading,-
+8,26/09/2026 15:00,Plymouth Argyle,Burton Albion,0 - 1
+8,24/11/2026 19:45,Stevenage,Sheffield Wednesday,-
+8,26/09/2026 15:00,Stockport County,Peterborough United,1 - 0
+8,26/09/2026 15:00,Wycombe Wanderers,Reading,2 - 2
 9,03/10/2026 15:00,AFC Wimbledon,Stevenage,-
 9,03/10/2026 15:00,Barnsley,MK Dons,-
-9,03/10/2026 15:00,Blackpool,Leicester City,-
+9,24/11/2026 19:45,Blackpool,Leicester City,-
 9,03/10/2026 15:00,Bromley,Wycombe Wanderers,-
-9,03/10/2026 15:00,Burton Albion,Huddersfield Town,-
-9,03/10/2026 15:00,Leyton Orient,Plymouth Argyle,-
+9,03/10/2026 15:00,Burton Albion,Huddersfield Town,1 - 3
+9,03/10/2026 15:00,Leyton Orient,Plymouth Argyle,0 - 2
 9,03/10/2026 15:00,Luton Town,Doncaster Rovers,-
 9,27/10/2026 19:45,Oxford United,Stockport County,-
 9,03/10/2026 15:00,Peterborough United,Notts County,-
-9,03/10/2026 15:00,Reading,Bradford City,-
-9,03/10/2026 15:00,Sheffield Wednesday,Cambridge United,-
+9,03/10/2026 15:00,Reading,Bradford City,1 - 1
+9,27/10/2026 19:45,Sheffield Wednesday,Cambridge United,-
 9,03/10/2026 15:00,Wigan Athletic,Mansfield Town,-
 10,10/10/2026 12:30,Notts County,Oxford United,-
 10,10/10/2026 12:30,Plymouth Argyle,AFC Wimbledon,-

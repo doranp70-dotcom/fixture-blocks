@@ -39,16 +39,16 @@ round,date,home,away,result
 4,13/09/2026 14:00,Coventry,Brighton,0 - 5
 4,13/09/2026 16:30,Man Utd,Man City,0 - 1
 4,14/09/2026 20:00,Leeds,Newcastle,4 - 1
-5,18/09/2026 20:00,Brentford,Chelsea,-
-5,19/09/2026 12:30,Spurs,Aston Villa,-
-5,19/09/2026 15:00,Brighton,Arsenal,-
-5,19/09/2026 15:00,Everton,Ipswich,-
-5,20/09/2026 14:00,Leeds,Crystal Palace,-
-5,19/09/2026 15:00,Newcastle,Hull,-
-5,19/09/2026 17:30,Nott'm Forest,Coventry,-
-5,20/09/2026 14:00,Bournemouth,Liverpool,-
-5,20/09/2026 14:00,Man City,Sunderland,-
-5,20/09/2026 16:30,Fulham,Man Utd,-
+5,18/09/2026 20:00,Brentford,Chelsea,3 - 0
+5,19/09/2026 12:30,Spurs,Aston Villa,2 - 3
+5,19/09/2026 15:00,Brighton,Arsenal,3 - 0
+5,19/09/2026 15:00,Everton,Ipswich,1 - 0
+5,20/09/2026 14:00,Leeds,Crystal Palace,0 - 0
+5,19/09/2026 15:00,Newcastle,Hull,2 - 1
+5,19/09/2026 17:30,Nott'm Forest,Coventry,0 - 1
+5,20/09/2026 14:00,Bournemouth,Liverpool,0 - 1
+5,20/09/2026 14:00,Man City,Sunderland,5 - 3
+5,20/09/2026 16:30,Fulham,Man Utd,1 - 1
 6,10/10/2026 12:30,Arsenal,Leeds,-
 6,10/10/2026 15:00,Aston Villa,Brentford,-
 6,10/10/2026 15:00,Chelsea,Bournemouth,-
@@ -90,35 +90,35 @@ round,date,home,away,result
 9,01/11/2026 16:30,Liverpool,Arsenal,-
 9,02/11/2026 20:00,Newcastle,Everton,-
 10,07/11/2026 15:00,Arsenal,Hull,-
-10,07/11/2026 15:00,Brighton,Brentford,-
-10,07/11/2026 15:00,Crystal Palace,Liverpool,-
-10,07/11/2026 15:00,Everton,Coventry,-
+10,08/11/2026 14:00,Brighton,Brentford,-
+10,08/11/2026 14:00,Crystal Palace,Liverpool,-
+10,06/11/2026 20:00,Everton,Coventry,-
 10,07/11/2026 15:00,Fulham,Newcastle,-
-10,07/11/2026 15:00,Ipswich,Bournemouth,-
-10,07/11/2026 15:00,Leeds,Spurs,-
-10,07/11/2026 15:00,Man Utd,Aston Villa,-
-10,07/11/2026 15:00,Nott'm Forest,Man City,-
-10,07/11/2026 15:00,Sunderland,Chelsea,-
+10,08/11/2026 14:00,Ipswich,Bournemouth,-
+10,07/11/2026 12:30,Leeds,Spurs,-
+10,08/11/2026 16:30,Man Utd,Aston Villa,-
+10,07/11/2026 17:30,Nott'm Forest,Man City,-
+10,08/11/2026 14:00,Sunderland,Chelsea,-
 11,21/11/2026 15:00,Bournemouth,Nott'm Forest,-
 11,21/11/2026 15:00,Aston Villa,Sunderland,-
-11,21/11/2026 15:00,Brentford,Everton,-
+11,23/11/2026 20:00,Brentford,Everton,-
 11,21/11/2026 15:00,Chelsea,Leeds,-
 11,21/11/2026 15:00,Coventry,Crystal Palace,-
-11,21/11/2026 15:00,Hull,Brighton,-
-11,21/11/2026 15:00,Liverpool,Man Utd,-
-11,21/11/2026 15:00,Man City,Fulham,-
-11,21/11/2026 15:00,Newcastle,Arsenal,-
+11,22/11/2026 14:00,Hull,Brighton,-
+11,22/11/2026 16:30,Liverpool,Man Utd,-
+11,21/11/2026 12:30,Man City,Fulham,-
+11,21/11/2026 17:30,Newcastle,Arsenal,-
 11,21/11/2026 15:00,Spurs,Ipswich,-
-12,28/11/2026 15:00,Arsenal,Man City,-
-12,28/11/2026 15:00,Brighton,Newcastle,-
-12,28/11/2026 15:00,Crystal Palace,Hull,-
-12,28/11/2026 15:00,Everton,Liverpool,-
-12,28/11/2026 15:00,Fulham,Bournemouth,-
-12,28/11/2026 15:00,Ipswich,Aston Villa,-
+12,29/11/2026 16:30,Arsenal,Man City,-
+12,29/11/2026 14:05,Brighton,Newcastle,-
+12,29/11/2026 14:05,Crystal Palace,Hull,-
+12,29/11/2026 12:00,Everton,Liverpool,-
+12,29/11/2026 14:05,Fulham,Bournemouth,-
+12,28/11/2026 17:30,Ipswich,Aston Villa,-
 12,28/11/2026 15:00,Leeds,Coventry,-
 12,28/11/2026 15:00,Man Utd,Brentford,-
-12,28/11/2026 15:00,Nott'm Forest,Chelsea,-
-12,28/11/2026 15:00,Sunderland,Spurs,-
+12,27/11/2026 20:00,Nott'm Forest,Chelsea,-
+12,29/11/2026 14:05,Sunderland,Spurs,-
 13,02/12/2026 20:00,Bournemouth,Brighton,-
 13,02/12/2026 20:00,Aston Villa,Everton,-
 13,02/12/2026 20:00,Brentford,Arsenal,-
