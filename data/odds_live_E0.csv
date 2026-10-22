@@ -1,61 +1,61 @@
 team,market,odds_decimal,odds_frac,bookmaker,source,as_of_date
-Arsenal,title,1.5,1/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man City,title,5.0,4/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Liverpool,title,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Chelsea,title,15.0,14/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brighton,title,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man Utd,title,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brentford,title,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Tottenham,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Leeds,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Aston Villa,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Newcastle,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Everton,title,301.0,300/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Nott'm Forest,title,401.0,400/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Bournemouth,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Hull,title,751.0,750/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Fulham,title,1501.0,1500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Ipswich,title,1501.0,1500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Sunderland,title,2001.0,2000/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Crystal Palace,title,2001.0,2000/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Coventry,title,2501.0,2500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Coventry,relegation,1.4444,4/9,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Hull,relegation,1.7273,8/11,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Ipswich,relegation,2.1,11/10,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man City,relegation,2.625,13/8,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Crystal Palace,relegation,3.5,5/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Fulham,relegation,4.0,3/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Sunderland,relegation,5.0,4/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Nott'm Forest,relegation,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Tottenham,relegation,10.0,9/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Bournemouth,relegation,15.0,14/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Aston Villa,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Everton,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Newcastle,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Leeds,relegation,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brentford,relegation,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brighton,relegation,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man Utd,relegation,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Chelsea,relegation,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Liverpool,relegation,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Arsenal,relegation,1501.0,1500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Arsenal,top4,1.025,1/40,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man City,top4,1.4,2/5,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Liverpool,top4,1.5714,4/7,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Chelsea,top4,1.6667,4/6,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Man Utd,top4,2.75,7/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brighton,top4,3.5,5/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Brentford,top4,4.0,3/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Aston Villa,top4,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Leeds,top4,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Newcastle,top4,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Everton,top4,15.0,14/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Bournemouth,top4,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Nott'm Forest,top4,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Tottenham,top4,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Sunderland,top4,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Crystal Palace,top4,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Fulham,top4,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Ipswich,top4,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Hull,top4,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
-Coventry,top4,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-08
+Arsenal,title,1.5,1/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man City,title,5.0,4/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Chelsea,title,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brighton,title,15.0,14/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Liverpool,title,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man Utd,title,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brentford,title,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Leeds,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Aston Villa,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Tottenham,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Everton,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Newcastle,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Bournemouth,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Nott'm Forest,title,751.0,750/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Fulham,title,1501.0,1500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Ipswich,title,2001.0,2000/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Sunderland,title,2501.0,2500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Crystal Palace,title,2501.0,2500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Hull,title,2501.0,2500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Coventry,title,3501.0,3500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Hull,relegation,1.6667,4/6,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Coventry,relegation,1.7273,8/11,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man City,relegation,1.8,4/5,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Ipswich,relegation,3.0,2/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Sunderland,relegation,3.5,5/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Crystal Palace,relegation,3.75,11/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Fulham,relegation,4.3333,10/3,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Nott'm Forest,relegation,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Newcastle,relegation,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Bournemouth,relegation,12.0,11/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Everton,relegation,13.0,12/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Tottenham,relegation,15.0,14/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Leeds,relegation,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Aston Villa,relegation,26.0,25/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man Utd,relegation,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brentford,relegation,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brighton,relegation,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Chelsea,relegation,351.0,350/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Liverpool,relegation,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Arsenal,relegation,1501.0,1500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Arsenal,top4,1.0152,1/66,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man City,top4,1.4444,4/9,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Chelsea,top4,1.4444,4/9,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Liverpool,top4,1.6154,8/13,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brighton,top4,2.1,11/10,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Man Utd,top4,4.0,3/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Brentford,top4,5.0,4/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Aston Villa,top4,9.0,8/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Leeds,top4,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Tottenham,top4,13.0,12/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Everton,top4,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Newcastle,top4,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Bournemouth,top4,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Nott'm Forest,top4,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Crystal Palace,top4,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Fulham,top4,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Sunderland,top4,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Ipswich,top4,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Hull,top4,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22
+Coventry,top4,351.0,350/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/premier-league,2026-10-22

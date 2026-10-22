@@ -1,52 +1,52 @@
 team,market,odds_decimal,odds_frac,bookmaker,source,as_of_date
-West Ham,promotion,1.2222,2/9,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Wolves,promotion,1.9091,10/11,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Middlesbrough,promotion,2.375,11/8,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Southampton,promotion,3.25,9/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Swansea,promotion,6.0,5/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Norwich,promotion,7.5,13/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-West Brom,promotion,7.5,13/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Birmingham,promotion,7.5,13/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Wrexham,promotion,7.5,13/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Millwall,promotion,8.0,7/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Burnley,promotion,11.0,10/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Bristol City,promotion,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-QPR,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Stoke,promotion,21.0,20/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Sheffield United,promotion,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Watford,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Derby,promotion,51.0,50/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Portsmouth,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Lincoln,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Blackburn,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Cardiff,promotion,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Bolton,promotion,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Charlton,promotion,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Preston,promotion,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-West Ham,title,2.0,1/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Wolves,title,5.5,9/2,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Middlesbrough,title,7.0,6/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Southampton,title,13.0,12/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Swansea,title,17.0,16/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Norwich,title,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-West Brom,title,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Birmingham,title,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Wrexham,title,34.0,33/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Millwall,title,41.0,40/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Bristol City,title,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Stoke,title,67.0,66/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Burnley,title,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-QPR,title,81.0,80/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Sheffield United,title,101.0,100/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Cardiff,title,151.0,150/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Watford,title,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Blackburn,title,201.0,200/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Portsmouth,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Lincoln,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Derby,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Bolton,title,251.0,250/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Charlton,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
-Preston,title,501.0,500/1,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
+West Ham,title,2.375,11/8,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Middlesbrough,title,3.75,11/4,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Wolves,title,9.0,8/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Southampton,title,11.0,10/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Swansea,title,12.0,11/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Birmingham,title,17.0,16/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+West Brom,title,34.0,33/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+QPR,title,41.0,40/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Millwall,title,51.0,50/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Norwich,title,67.0,66/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Stoke,title,67.0,66/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Wrexham,title,81.0,80/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Burnley,title,101.0,100/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Bristol City,title,101.0,100/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Sheffield United,title,101.0,100/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Blackburn,title,126.0,125/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Cardiff,title,201.0,200/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Lincoln,title,251.0,250/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Derby,title,251.0,250/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Portsmouth,title,351.0,350/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Bolton,title,351.0,350/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Watford,title,501.0,500/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Charlton,title,501.0,500/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Preston,title,1001.0,1000/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+West Ham,promotion,1.3,3/10,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Middlesbrough,promotion,1.7273,8/11,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Wolves,promotion,2.375,11/8,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Southampton,promotion,3.75,11/4,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Swansea,promotion,3.75,11/4,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Birmingham,promotion,4.5,7/2,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+West Brom,promotion,8.0,7/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Millwall,promotion,10.0,9/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Wrexham,promotion,11.0,10/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Norwich,promotion,13.0,12/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+QPR,promotion,13.0,12/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Burnley,promotion,15.0,14/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Stoke,promotion,15.0,14/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Bristol City,promotion,26.0,25/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Sheffield United,promotion,34.0,33/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Blackburn,promotion,41.0,40/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Cardiff,promotion,67.0,66/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Derby,promotion,81.0,80/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Lincoln,promotion,81.0,80/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Bolton,promotion,81.0,80/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Portsmouth,promotion,81.0,80/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Charlton,promotion,101.0,100/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Watford,promotion,151.0,150/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
+Preston,promotion,201.0,200/1,bet365,https://oddspedia.com/insights/football/championship-promotion-odds (bet365 prices quoted 16 Oct 2026; bet365 hub page unreachable 22 Oct),2026-10-16
 Preston,relegation,1.6667,4/6,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
 Lincoln,relegation,2.2,6/5,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08
 Bolton,relegation,2.5,6/4,bet365,https://www.bet365.com/hub/en-gb/football/football-competitions/championship,2026-10-08

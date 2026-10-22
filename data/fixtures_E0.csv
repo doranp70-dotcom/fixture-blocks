@@ -49,26 +49,26 @@ round,date,home,away,result
 5,20/09/2026 14:00,Bournemouth,Liverpool,0 - 1
 5,20/09/2026 14:00,Man City,Sunderland,5 - 3
 5,20/09/2026 16:30,Fulham,Man Utd,1 - 1
-6,10/10/2026 12:30,Arsenal,Leeds,-
-6,10/10/2026 15:00,Aston Villa,Brentford,-
-6,10/10/2026 15:00,Chelsea,Bournemouth,-
-6,10/10/2026 15:00,Ipswich,Fulham,-
-6,10/10/2026 15:00,Sunderland,Brighton,-
-6,10/10/2026 17:30,Man Utd,Spurs,-
-6,11/10/2026 14:00,Crystal Palace,Nott'm Forest,-
-6,11/10/2026 14:00,Hull,Everton,-
-6,11/10/2026 16:30,Liverpool,Man City,-
-6,12/10/2026 20:00,Coventry,Newcastle,-
-7,17/10/2026 12:30,Everton,Chelsea,-
-7,17/10/2026 15:00,Brentford,Liverpool,-
-7,17/10/2026 15:00,Fulham,Hull,-
-7,17/10/2026 15:00,Man City,Ipswich,-
-7,17/10/2026 17:30,Newcastle,Aston Villa,-
-7,18/10/2026 14:00,Bournemouth,Sunderland,-
-7,18/10/2026 14:00,Brighton,Crystal Palace,-
-7,18/10/2026 14:00,Leeds,Man Utd,-
-7,18/10/2026 16:30,Nott'm Forest,Arsenal,-
-7,19/10/2026 20:00,Spurs,Coventry,-
+6,10/10/2026 12:30,Arsenal,Leeds,2 - 1
+6,10/10/2026 15:00,Aston Villa,Brentford,2 - 2
+6,10/10/2026 15:00,Chelsea,Bournemouth,5 - 1
+6,10/10/2026 15:00,Ipswich,Fulham,2 - 1
+6,10/10/2026 15:00,Sunderland,Brighton,0 - 2
+6,10/10/2026 17:30,Man Utd,Spurs,1 - 1
+6,11/10/2026 14:00,Crystal Palace,Nott'm Forest,3 - 1
+6,11/10/2026 14:00,Hull,Everton,2 - 2
+6,11/10/2026 16:30,Liverpool,Man City,0 - 3
+6,12/10/2026 20:00,Coventry,Newcastle,4 - 1
+7,17/10/2026 12:30,Everton,Chelsea,0 - 2
+7,17/10/2026 15:00,Brentford,Liverpool,1 - 2
+7,17/10/2026 15:00,Fulham,Hull,1 - 0
+7,17/10/2026 15:00,Man City,Ipswich,3 - 2
+7,17/10/2026 17:30,Newcastle,Aston Villa,0 - 1
+7,18/10/2026 14:00,Bournemouth,Sunderland,2 - 0
+7,18/10/2026 14:00,Brighton,Crystal Palace,5 - 0
+7,18/10/2026 14:00,Leeds,Man Utd,1 - 1
+7,18/10/2026 16:30,Nott'm Forest,Arsenal,0 - 1
+7,19/10/2026 20:00,Spurs,Coventry,3 - 1
 8,23/10/2026 20:00,Ipswich,Nott'm Forest,-
 8,24/10/2026 12:30,Aston Villa,Man City,-
 8,24/10/2026 15:00,Arsenal,Everton,-

@@ -83,12 +83,12 @@ round,date,home,away,result
 7,19/09/2026 15:00,Grimsby Town,Crawley Town,2 - 0
 7,19/09/2026 15:00,Northampton Town,Rotherham United,0 - 1
 7,19/09/2026 15:00,Salford City,Swindon Town,1 - 0
-8,26/09/2026 12:30,Crawley Town,Barnet,-
+8,24/11/2026 19:45,Crawley Town,Barnet,-
 8,26/09/2026 15:00,Bristol Rovers,Exeter City,1 - 0
 8,26/09/2026 15:00,Cheltenham Town,Chesterfield,2 - 1
 8,26/09/2026 15:00,Fleetwood Town,Rochdale,1 - 2
 8,26/09/2026 15:00,Newport County,Grimsby Town,2 - 1
-8,26/09/2026 15:00,Port Vale,Northampton Town,-
+8,24/11/2026 19:45,Port Vale,Northampton Town,-
 8,26/09/2026 15:00,Rotherham United,Crewe Alexandra,1 - 1
 8,26/09/2026 15:00,Shrewsbury Town,Colchester United,2 - 2
 8,26/09/2026 15:00,Swindon Town,Accrington Stanley,1 - 1
@@ -98,51 +98,51 @@ round,date,home,away,result
 9,03/10/2026 12:30,Chesterfield,Tranmere Rovers,4 - 2
 9,03/10/2026 15:00,Accrington Stanley,Cheltenham Town,2 - 0
 9,27/10/2026 19:45,Barnet,York City,-
-9,03/10/2026 15:00,Colchester United,Port Vale,-
+9,15/12/2026 19:45,Colchester United,Port Vale,-
 9,03/10/2026 15:00,Crewe Alexandra,Bristol Rovers,3 - 1
 9,03/10/2026 15:00,Exeter City,Rotherham United,1 - 0
 9,03/10/2026 15:00,Gillingham,Newport County,0 - 0
 9,03/10/2026 15:00,Grimsby Town,Shrewsbury Town,1 - 2
-9,03/10/2026 15:00,Northampton Town,Oldham Athletic,-
+9,03/11/2026 19:45,Northampton Town,Oldham Athletic,-
 9,03/10/2026 15:00,Rochdale,Swindon Town,1 - 0
 9,03/10/2026 15:00,Salford City,Fleetwood Town,1 - 0
 9,03/10/2026 15:00,Walsall,Crawley Town,-
-10,10/10/2026 12:30,Oldham Athletic,Accrington Stanley,-
-10,10/10/2026 12:30,Swindon Town,Crewe Alexandra,-
-10,10/10/2026 15:00,Bristol Rovers,Barnet,-
-10,10/10/2026 15:00,Cheltenham Town,Salford City,-
-10,10/10/2026 15:00,Crawley Town,Chesterfield,-
-10,10/10/2026 15:00,Fleetwood Town,Walsall,-
-10,10/10/2026 15:00,Newport County,Colchester United,-
-10,10/10/2026 15:00,Port Vale,Grimsby Town,-
-10,10/10/2026 15:00,Rotherham United,Gillingham,-
-10,10/10/2026 15:00,Shrewsbury Town,Exeter City,-
-10,10/10/2026 15:00,Tranmere Rovers,Rochdale,-
-10,10/10/2026 15:00,York City,Northampton Town,-
-11,17/10/2026 12:30,Fleetwood Town,Rotherham United,-
-11,17/10/2026 12:30,Shrewsbury Town,Bristol Rovers,-
-11,17/10/2026 15:00,Accrington Stanley,Gillingham,-
-11,17/10/2026 15:00,Colchester United,Exeter City,-
-11,17/10/2026 15:00,Crewe Alexandra,Rochdale,-
-11,17/10/2026 15:00,Grimsby Town,Northampton Town,-
-11,17/10/2026 15:00,Newport County,York City,-
-11,17/10/2026 15:00,Oldham Athletic,Cheltenham Town,-
-11,17/10/2026 15:00,Port Vale,Chesterfield,-
-11,17/10/2026 15:00,Salford City,Crawley Town,-
-11,17/10/2026 15:00,Swindon Town,Walsall,-
-11,17/10/2026 15:00,Tranmere Rovers,Barnet,-
-12,20/10/2026 19:45,Barnet,Swindon Town,-
-12,20/10/2026 19:45,Bristol Rovers,Salford City,-
-12,20/10/2026 19:45,Cheltenham Town,Fleetwood Town,-
-12,20/10/2026 19:45,Chesterfield,Colchester United,-
-12,20/10/2026 19:45,Crawley Town,Shrewsbury Town,-
-12,20/10/2026 19:45,Exeter City,Crewe Alexandra,-
-12,20/10/2026 19:45,Northampton Town,Tranmere Rovers,-
-12,20/10/2026 19:45,Rochdale,Grimsby Town,-
-12,20/10/2026 19:45,Rotherham United,Newport County,-
-12,20/10/2026 19:45,Walsall,Oldham Athletic,-
-12,20/10/2026 19:45,York City,Accrington Stanley,-
-12,20/10/2026 20:00,Gillingham,Port Vale,-
+10,10/10/2026 12:30,Oldham Athletic,Accrington Stanley,0 - 0
+10,10/10/2026 12:30,Swindon Town,Crewe Alexandra,0 - 1
+10,10/10/2026 15:00,Bristol Rovers,Barnet,1 - 3
+10,10/10/2026 15:00,Cheltenham Town,Salford City,0 - 2
+10,10/10/2026 15:00,Crawley Town,Chesterfield,2 - 2
+10,10/10/2026 15:00,Fleetwood Town,Walsall,1 - 1
+10,10/10/2026 15:00,Newport County,Colchester United,1 - 0
+10,10/10/2026 15:00,Port Vale,Grimsby Town,1 - 0
+10,10/10/2026 15:00,Rotherham United,Gillingham,1 - 4
+10,10/10/2026 15:00,Shrewsbury Town,Exeter City,0 - 1
+10,10/10/2026 15:00,Tranmere Rovers,Rochdale,1 - 1
+10,10/10/2026 15:00,York City,Northampton Town,1 - 1
+11,17/10/2026 12:30,Fleetwood Town,Rotherham United,2 - 0
+11,17/10/2026 12:30,Shrewsbury Town,Bristol Rovers,1 - 0
+11,17/10/2026 15:00,Accrington Stanley,Gillingham,3 - 1
+11,17/10/2026 15:00,Colchester United,Exeter City,0 - 0
+11,17/10/2026 15:00,Crewe Alexandra,Rochdale,3 - 2
+11,17/10/2026 15:00,Grimsby Town,Northampton Town,0 - 2
+11,17/10/2026 15:00,Newport County,York City,1 - 1
+11,17/10/2026 15:00,Oldham Athletic,Cheltenham Town,4 - 1
+11,17/10/2026 15:00,Port Vale,Chesterfield,1 - 0
+11,17/10/2026 15:00,Salford City,Crawley Town,2 - 1
+11,17/10/2026 15:00,Swindon Town,Walsall,1 - 1
+11,17/10/2026 15:00,Tranmere Rovers,Barnet,1 - 2
+12,20/10/2026 19:45,Barnet,Swindon Town,1 - 3
+12,20/10/2026 19:45,Bristol Rovers,Salford City,1 - 2
+12,20/10/2026 19:45,Cheltenham Town,Fleetwood Town,4 - 2
+12,20/10/2026 19:45,Chesterfield,Colchester United,1 - 1
+12,20/10/2026 19:45,Crawley Town,Shrewsbury Town,2 - 3
+12,20/10/2026 19:45,Exeter City,Crewe Alexandra,2 - 0
+12,20/10/2026 19:45,Northampton Town,Tranmere Rovers,0 - 1
+12,20/10/2026 19:45,Rochdale,Grimsby Town,2 - 2
+12,20/10/2026 19:45,Rotherham United,Newport County,2 - 2
+12,20/10/2026 19:45,Walsall,Oldham Athletic,3 - 0
+12,20/10/2026 19:45,York City,Accrington Stanley,1 - 1
+12,20/10/2026 20:00,Gillingham,Port Vale,1 - 1
 13,24/10/2026 12:30,Bristol Rovers,Swindon Town,-
 13,24/10/2026 12:30,Cheltenham Town,Newport County,-
 13,24/10/2026 12:30,Northampton Town,Colchester United,-

@@ -1,12 +1,15 @@
-E0: fixtures - 10 new results, 21 date changes (times as given)
-E1: fixtures - 12 new results, 0 date changes (UTC->UK shifted)
-E2: fixtures - 19 new results, 7 date changes (UTC->UK shifted)
-E3: fixtures - 30 new results, 1 date changes (UTC->UK shifted)
-E0: xG - 10 new matches added (50 total)
-E1: xG - 12 new matches added (95 total)
-E2: xG - 19 new matches added (90 total)
-E3: xG - 30 new matches added (102 total)
+E0: fixtures - 20 new results, 0 date changes (times as given)
+E1: fixtures - 37 new results, 0 date changes (UTC->UK shifted)
+E2: fixtures - 36 new results, 2 date changes (UTC->UK shifted)
+E3: fixtures - 36 new results, 4 date changes (UTC->UK shifted)
+E0: xG - 20 new matches added (70 total)
+E1: xG - 37 new matches added (132 total)
+E2: xG - 35 new matches added (125 total)
+E3: xG - 24 new matches added (126 total)
 E0: live odds - {'relegation': 20, 'title': 20, 'top4': 20}
-E1: live odds - {'promotion': 24, 'relegation': 24, 'title': 24}
 E2: live odds - {'promotion': 24, 'relegation': 24, 'title': 24, 'top6': 24}
 E3: live odds - {'promotion': 24, 'relegation': 24, 'title': 24, 'top6': 24}
+moved 12 inbox file(s) to inbox/processed/2026-10-22/
+--- second pass (Championship fallback prices: Oddspedia Insights article quoting bet365, 16 Oct 2026; bet365 hub championship page client_error x3) ---
+E1: live odds - {'promotion': 24, 'title': 24}  (relegation rows kept from 2026-10-08; as_of_date set to 2026-10-16 for title/promotion)
+moved 1 inbox file(s) to inbox/processed/2026-10-22/
