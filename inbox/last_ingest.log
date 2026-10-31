@@ -1,13 +1,9 @@
-E0: fixtures - 10 new results, 29 date changes (times as given)
-E1: fixtures - 12 new results, 0 date changes (UTC->UK shifted)
-E2: fixtures - 18 new results, 4 date changes (UTC->UK shifted)
-E3: fixtures - 13 new results, 0 date changes (UTC->UK shifted)
-E3: xG - 23 new matches added (149 total)
-E0: match odds - 73 rows (AvgCH)
-E2: match odds - 72 rows (AvgCH)
-E3: match odds - 72 rows (AvgCH)
-E3: live odds - {'promotion': 24, 'relegation': 24, 'title': 24, 'top6': 24}--- notes (run of 2026-10-29) ---
-oddalerts.com/xg pages for premier-league, championship and league-one returned client_error on every attempt (5 rounds over ~2h, plus a retry on 31 Oct) -> xG for E0 (10 games, round 8), E1 (12 games, round 12) and E2 (17 games, rounds 13 + 27 Oct midweek) NOT updated this run; league-two xG loaded (Oct 24 round) but not the 26/27 Oct games.
-bet365 hub pages for premier-league, championship and league-one returned client_error on every attempt (6 rounds); competitions index also client_error. League Two loaded in full. Oddspedia fallbacks also client_error. -> data/odds_live_E0.csv and odds_live_E2.csv left at 2026-10-22, odds_live_E1.csv at 2026-10-16 (title/promotion) / 2026-10-08 (relegation).
-football-data E0 CSV: rows through Arsenal v Everton 24/10 (page truncates at ~36 KB; 7 rows of round 8 unreachable). E2/E3: rows reachable up to 17/09 and 12/09 only (appended to existing). E1 unchanged (rate-limited; existing rows already reach 12/09). fixtures.csv had no upcoming E0-E3 rows yet.
-27 Oct League One results (Leicester 3-0 Wigan, MK Dons 4-1 Bromley, Luton 3-1 Doncaster, Oxford 1-0 Stockport, Sheff Wed 1-1 Cambridge) and League Two (Walsall 2-4 Salford 26 Oct, Barnet 3-1 York 27 Oct) were missing from fixturedownload; scores taken from skysports/ESPN/vavel and written into the fixtures inbox files.
+E0: xG - 10 new matches added (80 total)
+E1: xG - 13 new matches added (145 total)
+E2: xG - 18 new matches added (143 total)
+E3: xG - 3 new matches added (152 total)--- 2026-10-31 second pass: OddAlerts xG pasted by Paul (all four pages, fetcher still blocked); Friday 30 Oct results (Sheff Utd 1-0 Wrexham, Newport 3-0 Chesterfield) set from the pasted page. Live prices for E0/E1/E2 still stale. ---
+E0: xG - 10 new matches added (80 total)
+E1: xG - 13 new matches added (145 total)
+E2: xG - 18 new matches added (143 total)
+E3: xG - 3 new matches added (152 total)
+moved 4 inbox file(s) to inbox/processed/2026-10-31/
