@@ -94,6 +94,24 @@ def goals_markets(lh, la, rho):
     m["home_p15"] = g[diff >= -1].sum(); m["away_p15"] = g[diff <= 1].sum()
     m["draw_no_bet_home"] = m["home_win"] / (1 - m["draw"]) if m["draw"] < 1 else np.nan
     m["draw_no_bet_away"] = m["away_win"] / (1 - m["draw"]) if m["draw"] < 1 else np.nan
+    # First goal. Both sides' goals arrive as Poisson processes with constant rates, so given a final score
+    # i-j every ordering of the i+j goals is equally likely and P(home scored first | i-j) = i/(i+j). Summing
+    # over the Dixon-Coles grid keeps the rho correction on 0-0 (the only low-score cell this market leans on)
+    # and gives the joint "scores first and ..." markets for free. Equivalent to (1-P(0-0)) * lh/(lh+la) for
+    # plain Poisson. The first goal happens at 0-0 by definition, so no game-state effects enter.
+    with np.errstate(divide="ignore", invalid="ignore"):
+        w_home = np.where(tot > 0, i / np.where(tot > 0, tot, 1), 0.0)
+    m["no_goal"] = g[0, 0]
+    m["home_first"] = (g * w_home).sum()
+    m["away_first"] = (g * (1 - w_home))[tot > 0].sum()
+    m["home_first_win"] = (g * w_home)[diff > 0].sum()
+    m["home_first_draw"] = (g * w_home)[diff == 0].sum()
+    m["home_first_lose"] = (g * w_home)[diff < 0].sum()
+    m["away_first_win"] = (g * (1 - w_home))[(diff < 0) & (tot > 0)].sum()
+    m["away_first_draw"] = (g * (1 - w_home))[(diff == 0) & (tot > 0)].sum()
+    m["away_first_lose"] = (g * (1 - w_home))[(diff > 0) & (tot > 0)].sum()
+    m["home_first_no_win"] = m["home_first_draw"] + m["home_first_lose"]
+    m["away_first_no_win"] = m["away_first_draw"] + m["away_first_lose"]
     flat = [(float(g[a, b]), f"{a}-{b}") for a in range(MAXG + 1) for b in range(MAXG + 1)]
     flat.sort(reverse=True)
     m["cs_1"], m["cs_1_p"] = flat[0][1], flat[0][0]
