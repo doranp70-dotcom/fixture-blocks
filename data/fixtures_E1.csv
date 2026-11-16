@@ -144,41 +144,41 @@ round,date,home,away,result
 12,24/10/2026 15:00,West Ham United,Southampton,2 - 3
 12,24/10/2026 15:00,Wolverhampton Wanderers,Watford,1 - 0
 13,30/10/2026 20:00,Sheffield United,Wrexham,1 - 0
-13,31/10/2026 12:30,Lincoln City,Birmingham City,-
-13,31/10/2026 12:30,Norwich City,Watford,-
-13,31/10/2026 12:30,Stoke City,Preston North End,-
-13,31/10/2026 15:00,Bolton Wanderers,Bristol City,-
-13,31/10/2026 15:00,Burnley,Portsmouth,-
-13,31/10/2026 15:00,Middlesbrough,Charlton Athletic,-
-13,31/10/2026 15:00,Millwall,Derby County,-
-13,31/10/2026 15:00,Southampton,Queens Park Rangers,-
-13,31/10/2026 15:00,Swansea City,Blackburn Rovers,-
-13,31/10/2026 15:00,West Ham United,West Bromwich Albion,-
-13,31/10/2026 15:00,Wolverhampton Wanderers,Cardiff City,-
-14,03/11/2026 19:45,Blackburn Rovers,Stoke City,-
-14,03/11/2026 19:45,Derby County,Norwich City,-
-14,03/11/2026 19:45,Portsmouth,Swansea City,-
-14,03/11/2026 19:45,Preston North End,Sheffield United,-
-14,03/11/2026 19:45,Queens Park Rangers,Burnley,-
-14,03/11/2026 19:45,Watford,Lincoln City,-
-14,03/11/2026 19:45,Charlton Athletic,Bolton Wanderers,-
-14,03/11/2026 20:00,Birmingham City,Millwall,-
-14,03/11/2026 20:00,West Bromwich Albion,Southampton,-
-14,04/11/2026 19:45,Cardiff City,West Ham United,-
-14,04/11/2026 19:45,Wrexham,Middlesbrough,-
-14,04/11/2026 20:00,Bristol City,Wolverhampton Wanderers,-
-15,06/11/2026 20:00,Derby County,Bolton Wanderers,-
-15,07/11/2026 12:30,Bristol City,Norwich City,-
-15,07/11/2026 12:30,Portsmouth,Stoke City,-
-15,07/11/2026 12:30,Wrexham,Wolverhampton Wanderers,-
-15,07/11/2026 15:00,Birmingham City,Swansea City,-
-15,07/11/2026 15:00,Blackburn Rovers,West Ham United,-
-15,07/11/2026 15:00,Cardiff City,Burnley,-
-15,07/11/2026 15:00,Charlton Athletic,Sheffield United,-
-15,07/11/2026 15:00,Preston North End,Southampton,-
-15,07/11/2026 15:00,Queens Park Rangers,Lincoln City,-
-15,07/11/2026 15:00,Watford,Middlesbrough,-
-15,07/11/2026 15:00,West Bromwich Albion,Millwall,-
+13,31/10/2026 12:30,Lincoln City,Birmingham City,1 - 3
+13,31/10/2026 12:30,Norwich City,Watford,3 - 2
+13,31/10/2026 12:30,Stoke City,Preston North End,2 - 0
+13,31/10/2026 15:00,Bolton Wanderers,Bristol City,2 - 3
+13,31/10/2026 15:00,Burnley,Portsmouth,0 - 0
+13,31/10/2026 15:00,Middlesbrough,Charlton Athletic,3 - 0
+13,31/10/2026 15:00,Millwall,Derby County,4 - 1
+13,31/10/2026 15:00,Southampton,Queens Park Rangers,4 - 1
+13,31/10/2026 15:00,Swansea City,Blackburn Rovers,4 - 0
+13,31/10/2026 15:00,West Ham United,West Bromwich Albion,1 - 3
+13,31/10/2026 15:00,Wolverhampton Wanderers,Cardiff City,3 - 0
+14,03/11/2026 19:45,Blackburn Rovers,Stoke City,1 - 2
+14,03/11/2026 19:45,Derby County,Norwich City,0 - 4
+14,03/11/2026 19:45,Portsmouth,Swansea City,3 - 1
+14,03/11/2026 19:45,Preston North End,Sheffield United,2 - 3
+14,03/11/2026 19:45,Queens Park Rangers,Burnley,1 - 1
+14,03/11/2026 19:45,Watford,Lincoln City,1 - 0
+14,03/11/2026 19:45,Charlton Athletic,Bolton Wanderers,0 - 1
+14,03/11/2026 20:00,Birmingham City,Millwall,3 - 0
+14,03/11/2026 20:00,West Bromwich Albion,Southampton,1 - 1
+14,04/11/2026 19:45,Cardiff City,West Ham United,3 - 3
+14,04/11/2026 19:45,Wrexham,Middlesbrough,2 - 0
+14,04/11/2026 20:00,Bristol City,Wolverhampton Wanderers,1 - 2
+15,06/11/2026 20:00,Derby County,Bolton Wanderers,3 - 1
+15,07/11/2026 12:30,Bristol City,Norwich City,0 - 5
+15,07/11/2026 12:30,Portsmouth,Stoke City,1 - 2
+15,07/11/2026 12:30,Wrexham,Wolverhampton Wanderers,1 - 1
+15,07/11/2026 15:00,Birmingham City,Swansea City,2 - 1
+15,07/11/2026 15:00,Blackburn Rovers,West Ham United,2 - 1
+15,07/11/2026 15:00,Cardiff City,Burnley,5 - 4
+15,07/11/2026 15:00,Charlton Athletic,Sheffield United,2 - 1
+15,07/11/2026 15:00,Preston North End,Southampton,1 - 0
+15,07/11/2026 15:00,Queens Park Rangers,Lincoln City,2 - 1
+15,07/11/2026 15:00,Watford,Middlesbrough,0 - 0
+15,07/11/2026 15:00,West Bromwich Albion,Millwall,3 - 0
 16,21/11/2026 12:30,Millwall,Queens Park Rangers,-
 16,21/11/2026 12:30,Norwich City,Cardiff City,-
 16,21/11/2026 12:30,Southampton,Derby County,-
@@ -302,120 +302,120 @@ round,date,home,away,result
 26,16/01/2027 15:00,Blackburn Rovers,West Bromwich Albion,-
 26,16/01/2027 15:00,Bolton Wanderers,Southampton,-
 26,16/01/2027 15:00,Cardiff City,Middlesbrough,-
-26,16/01/2027 15:00,Charlton Athletic,Watford,-
+26,17/01/2027 12:00,Charlton Athletic,Watford,-
 26,16/01/2027 15:00,Lincoln City,Millwall,-
 26,16/01/2027 15:00,Portsmouth,Norwich City,-
 26,16/01/2027 15:00,Preston North End,Wrexham,-
-26,16/01/2027 15:00,Queens Park Rangers,Birmingham City,-
+26,16/01/2027 12:30,Queens Park Rangers,Birmingham City,-
 26,16/01/2027 15:00,Sheffield United,Bristol City,-
-26,16/01/2027 15:00,Stoke City,Derby County,-
-26,16/01/2027 15:00,West Ham United,Swansea City,-
-26,16/01/2027 15:00,Wolverhampton Wanderers,Burnley,-
-27,23/01/2027 15:00,Birmingham City,Lincoln City,-
+26,16/01/2027 12:30,Stoke City,Derby County,-
+26,15/01/2027 20:00,West Ham United,Swansea City,-
+26,16/01/2027 12:30,Wolverhampton Wanderers,Burnley,-
+27,23/01/2027 12:30,Birmingham City,Lincoln City,-
 27,23/01/2027 15:00,Blackburn Rovers,Swansea City,-
 27,23/01/2027 15:00,Bristol City,Bolton Wanderers,-
-27,23/01/2027 15:00,Cardiff City,Wolverhampton Wanderers,-
+27,24/01/2027 12:00,Cardiff City,Wolverhampton Wanderers,-
 27,23/01/2027 15:00,Charlton Athletic,Middlesbrough,-
 27,23/01/2027 15:00,Derby County,Millwall,-
 27,23/01/2027 15:00,Portsmouth,Burnley,-
-27,23/01/2027 15:00,Preston North End,Stoke City,-
-27,23/01/2027 15:00,Queens Park Rangers,Southampton,-
+27,22/01/2027 20:00,Preston North End,Stoke City,-
+27,23/01/2027 12:30,Queens Park Rangers,Southampton,-
 27,23/01/2027 15:00,Watford,Norwich City,-
-27,23/01/2027 15:00,West Bromwich Albion,West Ham United,-
+27,23/01/2027 12:30,West Bromwich Albion,West Ham United,-
 27,23/01/2027 15:00,Wrexham,Sheffield United,-
 28,26/01/2027 19:45,Bolton Wanderers,Charlton Athletic,-
 28,26/01/2027 19:45,Burnley,Queens Park Rangers,-
 28,26/01/2027 19:45,Lincoln City,Watford,-
 28,26/01/2027 19:45,Millwall,Birmingham City,-
-28,26/01/2027 19:45,Norwich City,Derby County,-
+28,26/01/2027 20:00,Norwich City,Derby County,-
 28,26/01/2027 19:45,Sheffield United,Preston North End,-
 28,26/01/2027 19:45,Southampton,West Bromwich Albion,-
 28,26/01/2027 19:45,Stoke City,Blackburn Rovers,-
 28,27/01/2027 19:45,Middlesbrough,Wrexham,-
-28,27/01/2027 19:45,Swansea City,Portsmouth,-
+28,27/01/2027 20:00,Swansea City,Portsmouth,-
 28,27/01/2027 19:45,West Ham United,Cardiff City,-
 28,27/01/2027 19:45,Wolverhampton Wanderers,Bristol City,-
-29,30/01/2027 15:00,Bolton Wanderers,Derby County,-
+29,30/01/2027 12:30,Bolton Wanderers,Derby County,-
 29,30/01/2027 15:00,Burnley,Cardiff City,-
-29,30/01/2027 15:00,Lincoln City,Queens Park Rangers,-
+29,29/01/2027 20:00,Lincoln City,Queens Park Rangers,-
 29,30/01/2027 15:00,Middlesbrough,Watford,-
 29,30/01/2027 15:00,Millwall,West Bromwich Albion,-
-29,30/01/2027 15:00,Norwich City,Bristol City,-
+29,31/01/2027 12:00,Norwich City,Bristol City,-
 29,30/01/2027 15:00,Sheffield United,Charlton Athletic,-
 29,30/01/2027 15:00,Southampton,Preston North End,-
 29,30/01/2027 15:00,Stoke City,Portsmouth,-
-29,30/01/2027 15:00,Swansea City,Birmingham City,-
+29,30/01/2027 12:30,Swansea City,Birmingham City,-
 29,30/01/2027 15:00,West Ham United,Blackburn Rovers,-
-29,30/01/2027 15:00,Wolverhampton Wanderers,Wrexham,-
+29,30/01/2027 12:30,Wolverhampton Wanderers,Wrexham,-
 30,06/02/2027 15:00,Birmingham City,Stoke City,-
-30,06/02/2027 15:00,Blackburn Rovers,Burnley,-
-30,06/02/2027 15:00,Bristol City,Middlesbrough,-
+30,07/02/2027 12:00,Blackburn Rovers,Burnley,-
+30,05/02/2027 20:00,Bristol City,Middlesbrough,-
 30,06/02/2027 15:00,Cardiff City,Norwich City,-
-30,06/02/2027 15:00,Charlton Athletic,Wolverhampton Wanderers,-
+30,06/02/2027 12:30,Charlton Athletic,Wolverhampton Wanderers,-
 30,06/02/2027 15:00,Derby County,Southampton,-
 30,06/02/2027 15:00,Portsmouth,Bolton Wanderers,-
 30,06/02/2027 15:00,Preston North End,West Ham United,-
 30,06/02/2027 15:00,Queens Park Rangers,Millwall,-
-30,06/02/2027 15:00,Watford,Sheffield United,-
+30,06/02/2027 12:30,Watford,Sheffield United,-
 30,06/02/2027 15:00,West Bromwich Albion,Swansea City,-
-30,06/02/2027 15:00,Wrexham,Lincoln City,-
-31,13/02/2027 15:00,Birmingham City,Derby County,-
-31,13/02/2027 15:00,Bristol City,Southampton,-
+30,06/02/2027 12:30,Wrexham,Lincoln City,-
+31,12/02/2027 20:00,Birmingham City,Derby County,-
+31,13/02/2027 12:30,Bristol City,Southampton,-
 31,13/02/2027 15:00,Burnley,Swansea City,-
-31,13/02/2027 15:00,Cardiff City,Bolton Wanderers,-
-31,13/02/2027 15:00,Lincoln City,Preston North End,-
-31,13/02/2027 15:00,Millwall,Blackburn Rovers,-
+31,14/02/2027 12:00,Cardiff City,Bolton Wanderers,-
+31,13/02/2027 17:30,Lincoln City,Preston North End,-
+31,13/02/2027 12:30,Millwall,Blackburn Rovers,-
 31,13/02/2027 15:00,Norwich City,Middlesbrough,-
-31,13/02/2027 15:00,Portsmouth,Charlton Athletic,-
+31,13/02/2027 12:30,Portsmouth,Charlton Athletic,-
 31,13/02/2027 15:00,Queens Park Rangers,West Bromwich Albion,-
 31,13/02/2027 15:00,Stoke City,Watford,-
 31,13/02/2027 15:00,Wolverhampton Wanderers,Sheffield United,-
 31,13/02/2027 15:00,Wrexham,West Ham United,-
-32,16/02/2027 19:45,Blackburn Rovers,Bristol City,-
+32,16/02/2027 20:00,Blackburn Rovers,Bristol City,-
 32,16/02/2027 19:45,Charlton Athletic,Burnley,-
 32,16/02/2027 19:45,Derby County,Queens Park Rangers,-
 32,16/02/2027 19:45,Preston North End,Birmingham City,-
 32,16/02/2027 19:45,Sheffield United,Portsmouth,-
-32,16/02/2027 19:45,Watford,Cardiff City,-
+32,17/02/2027 20:00,Watford,Cardiff City,-
 32,16/02/2027 19:45,West Bromwich Albion,Wrexham,-
 32,16/02/2027 19:45,West Ham United,Lincoln City,-
 32,17/02/2027 19:45,Bolton Wanderers,Wolverhampton Wanderers,-
-32,17/02/2027 19:45,Middlesbrough,Stoke City,-
+32,16/02/2027 19:45,Middlesbrough,Stoke City,-
 32,17/02/2027 19:45,Southampton,Norwich City,-
 32,17/02/2027 19:45,Swansea City,Millwall,-
 33,20/02/2027 15:00,Blackburn Rovers,Portsmouth,-
 33,20/02/2027 15:00,Bolton Wanderers,Norwich City,-
 33,20/02/2027 15:00,Charlton Athletic,Cardiff City,-
 33,20/02/2027 15:00,Derby County,Burnley,-
-33,20/02/2027 15:00,Middlesbrough,Birmingham City,-
+33,19/02/2027 20:00,Middlesbrough,Birmingham City,-
 33,20/02/2027 15:00,Preston North End,Queens Park Rangers,-
-33,20/02/2027 15:00,Sheffield United,Stoke City,-
+33,20/02/2027 12:30,Sheffield United,Stoke City,-
 33,20/02/2027 15:00,Southampton,Wrexham,-
 33,20/02/2027 15:00,Swansea City,Lincoln City,-
-33,20/02/2027 15:00,Watford,Bristol City,-
-33,20/02/2027 15:00,West Bromwich Albion,Wolverhampton Wanderers,-
+33,20/02/2027 12:30,Watford,Bristol City,-
+33,20/02/2027 12:30,West Bromwich Albion,Wolverhampton Wanderers,-
 33,21/02/2027 12:00,West Ham United,Millwall,-
-34,27/02/2027 15:00,Birmingham City,West Bromwich Albion,-
-34,27/02/2027 15:00,Bristol City,Charlton Athletic,-
+34,26/02/2027 20:00,Birmingham City,West Bromwich Albion,-
+34,27/02/2027 12:30,Bristol City,Charlton Athletic,-
 34,27/02/2027 15:00,Burnley,Watford,-
 34,27/02/2027 15:00,Cardiff City,Blackburn Rovers,-
 34,27/02/2027 15:00,Lincoln City,Sheffield United,-
 34,27/02/2027 15:00,Millwall,Preston North End,-
-34,27/02/2027 15:00,Norwich City,Swansea City,-
-34,27/02/2027 15:00,Queens Park Rangers,West Ham United,-
+34,27/02/2027 12:30,Norwich City,Swansea City,-
+34,27/02/2027 12:30,Queens Park Rangers,West Ham United,-
 34,27/02/2027 15:00,Stoke City,Bolton Wanderers,-
 34,27/02/2027 15:00,Wolverhampton Wanderers,Middlesbrough,-
 34,27/02/2027 15:00,Wrexham,Derby County,-
 34,28/02/2027 12:00,Portsmouth,Southampton,-
 35,02/03/2027 19:45,Bolton Wanderers,Queens Park Rangers,-
-35,02/03/2027 19:45,Bristol City,Birmingham City,-
+35,02/03/2027 20:00,Bristol City,Birmingham City,-
 35,02/03/2027 19:45,Burnley,West Bromwich Albion,-
 35,02/03/2027 19:45,Cardiff City,Derby County,-
 35,02/03/2027 19:45,Charlton Athletic,West Ham United,-
 35,02/03/2027 19:45,Middlesbrough,Blackburn Rovers,-
 35,02/03/2027 19:45,Norwich City,Millwall,-
 35,02/03/2027 19:45,Watford,Wrexham,-
-35,03/03/2027 19:45,Portsmouth,Lincoln City,-
+35,03/03/2027 20:00,Portsmouth,Lincoln City,-
 35,03/03/2027 19:45,Sheffield United,Swansea City,-
 35,03/03/2027 19:45,Stoke City,Southampton,-
 35,03/03/2027 19:45,Wolverhampton Wanderers,Preston North End,-

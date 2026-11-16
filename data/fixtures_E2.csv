@@ -34,7 +34,7 @@ round,date,home,away,result
 3,29/08/2026 15:00,Stockport County,Wycombe Wanderers,5 - 1
 3,30/08/2026 14:00,AFC Wimbledon,Wigan Athletic,1 - 0
 3,30/08/2026 15:00,Mansfield Town,Luton Town,5 - 2
-3,04/11/2026 19:45,Oxford United,Reading,-
+3,04/11/2026 19:45,Oxford United,Reading,2 - 0
 4,01/09/2026 19:45,Bradford City,Cambridge United,1 - 2
 4,01/09/2026 19:45,Bromley,Leyton Orient,0 - 5
 4,01/09/2026 19:45,Doncaster Rovers,Notts County,1 - 1
@@ -86,27 +86,27 @@ round,date,home,away,result
 8,24/11/2026 19:45,Bradford City,Barnsley,-
 8,26/09/2026 15:00,Cambridge United,AFC Wimbledon,1 - 1
 8,15/12/2026 19:45,Doncaster Rovers,Oxford United,-
-8,03/11/2026 19:45,Huddersfield Town,Luton Town,-
+8,03/11/2026 19:45,Huddersfield Town,Luton Town,1 - 1
 8,27/10/2026 19:45,Leicester City,Wigan Athletic,3 - 0
 8,26/09/2026 15:00,Mansfield Town,Leyton Orient,-
 8,27/10/2026 19:45,MK Dons,Bromley,4 - 1
-8,26/09/2026 15:00,Notts County,Blackpool,-
+8,12/01/2027 19:45,Notts County,Blackpool,-
 8,26/09/2026 15:00,Plymouth Argyle,Burton Albion,0 - 1
 8,24/11/2026 19:45,Stevenage,Sheffield Wednesday,-
 8,26/09/2026 15:00,Stockport County,Peterborough United,1 - 0
 8,26/09/2026 15:00,Wycombe Wanderers,Reading,2 - 2
 9,26/01/2027 19:45,AFC Wimbledon,Stevenage,-
-9,03/10/2026 15:00,Barnsley,MK Dons,-
+9,15/12/2026 19:45,Barnsley,MK Dons,-
 9,24/11/2026 19:45,Blackpool,Leicester City,-
-9,03/10/2026 15:00,Bromley,Wycombe Wanderers,-
+9,24/11/2026 19:45,Bromley,Wycombe Wanderers,-
 9,03/10/2026 15:00,Burton Albion,Huddersfield Town,1 - 3
 9,03/10/2026 15:00,Leyton Orient,Plymouth Argyle,0 - 2
 9,27/10/2026 19:45,Luton Town,Doncaster Rovers,3 - 1
 9,27/10/2026 19:45,Oxford United,Stockport County,1 - 0
-9,03/10/2026 15:00,Peterborough United,Notts County,-
+9,15/12/2026 19:45,Peterborough United,Notts County,-
 9,03/10/2026 15:00,Reading,Bradford City,1 - 1
 9,27/10/2026 19:45,Sheffield Wednesday,Cambridge United,1 - 1
-9,03/11/2026 19:45,Wigan Athletic,Mansfield Town,-
+9,03/11/2026 19:45,Wigan Athletic,Mansfield Town,0 - 0
 10,10/10/2026 12:30,Notts County,Oxford United,1 - 2
 10,10/10/2026 12:30,Plymouth Argyle,AFC Wimbledon,2 - 1
 10,10/10/2026 15:00,Bradford City,Leyton Orient,0 - 0
@@ -133,7 +133,7 @@ round,date,home,away,result
 11,17/10/2026 15:00,Wycombe Wanderers,Notts County,2 - 0
 12,20/10/2026 19:45,AFC Wimbledon,Mansfield Town,0 - 3
 12,20/10/2026 19:45,Blackpool,MK Dons,2 - 0
-12,20/10/2026 19:45,Bromley,Leicester City,2 - 0
+12,20/10/2026 19:45,Bromley,Leicester City,0 - 4
 12,20/10/2026 19:45,Burton Albion,Bradford City,0 - 0
 12,20/10/2026 19:45,Cambridge United,Wycombe Wanderers,2 - 2
 12,20/10/2026 19:45,Doncaster Rovers,Stockport County,0 - 2
@@ -155,29 +155,29 @@ round,date,home,away,result
 13,24/10/2026 15:00,Oxford United,Bradford City,0 - 0
 13,24/10/2026 15:00,Reading,Barnsley,2 - 1
 13,24/10/2026 15:00,Stevenage,MK Dons,0 - 1
-14,31/10/2026 12:30,Bradford City,Huddersfield Town,-
-14,31/10/2026 12:30,Leyton Orient,Cambridge United,-
-14,31/10/2026 12:30,Plymouth Argyle,Reading,-
-14,31/10/2026 15:00,Barnsley,Oxford United,-
-14,31/10/2026 15:00,Leicester City,Stevenage,-
-14,31/10/2026 15:00,Mansfield Town,Notts County,-
-14,31/10/2026 15:00,MK Dons,Doncaster Rovers,-
-14,31/10/2026 15:00,Peterborough United,Luton Town,-
-14,31/10/2026 15:00,Stockport County,AFC Wimbledon,-
-14,31/10/2026 15:00,Wigan Athletic,Bromley,-
-14,31/10/2026 15:00,Wycombe Wanderers,Burton Albion,-
-14,01/11/2026 14:00,Sheffield Wednesday,Blackpool,-
-15,14/11/2026 15:00,AFC Wimbledon,Blackpool,-
+14,31/10/2026 12:30,Bradford City,Huddersfield Town,0 - 3
+14,31/10/2026 12:30,Leyton Orient,Cambridge United,3 - 0
+14,31/10/2026 12:30,Plymouth Argyle,Reading,0 - 0
+14,31/10/2026 15:00,Barnsley,Oxford United,1 - 1
+14,31/10/2026 15:00,Leicester City,Stevenage,2 - 2
+14,31/10/2026 15:00,Mansfield Town,Notts County,0 - 2
+14,31/10/2026 15:00,MK Dons,Doncaster Rovers,6 - 1
+14,31/10/2026 15:00,Peterborough United,Luton Town,0 - 2
+14,31/10/2026 15:00,Stockport County,AFC Wimbledon,2 - 1
+14,31/10/2026 15:00,Wigan Athletic,Bromley,3 - 2
+14,31/10/2026 15:00,Wycombe Wanderers,Burton Albion,2 - 0
+14,01/11/2026 14:00,Sheffield Wednesday,Blackpool,1 - 1
+15,14/11/2026 15:00,AFC Wimbledon,Blackpool,1 - 0
 15,14/11/2026 15:00,Bromley,Notts County,-
 15,14/11/2026 15:00,Doncaster Rovers,Leyton Orient,-
 15,14/11/2026 15:00,Leicester City,Bradford City,-
-15,14/11/2026 15:00,Luton Town,Cambridge United,-
-15,14/11/2026 15:00,MK Dons,Burton Albion,-
-15,14/11/2026 15:00,Peterborough United,Oxford United,-
-15,14/11/2026 15:00,Sheffield Wednesday,Plymouth Argyle,-
+15,02/02/2027 19:45,Luton Town,Cambridge United,-
+15,14/11/2026 15:00,MK Dons,Burton Albion,6 - 2
+15,05/12/2026 19:45,Peterborough United,Oxford United,-
+15,14/11/2026 15:00,Sheffield Wednesday,Plymouth Argyle,3 - 0
 15,14/11/2026 15:00,Stevenage,Mansfield Town,-
-15,14/11/2026 15:00,Stockport County,Reading,-
-15,14/11/2026 15:00,Wigan Athletic,Barnsley,-
+15,14/11/2026 15:00,Stockport County,Reading,3 - 1
+15,14/11/2026 15:00,Wigan Athletic,Barnsley,2 - 1
 15,14/11/2026 15:00,Wycombe Wanderers,Huddersfield Town,-
 16,20/11/2026 20:00,Barnsley,Sheffield Wednesday,-
 16,21/11/2026 12:30,Blackpool,Wigan Athletic,-
@@ -289,12 +289,12 @@ round,date,home,away,result
 24,09/01/2027 15:00,Peterborough United,Wigan Athletic,-
 25,16/01/2027 15:00,AFC Wimbledon,Sheffield Wednesday,-
 25,16/01/2027 15:00,Blackpool,Leyton Orient,-
-25,16/01/2027 15:00,Bromley,Stockport County,-
+25,16/01/2027 12:30,Bromley,Stockport County,-
 25,16/01/2027 15:00,Burton Albion,Peterborough United,-
 25,16/01/2027 15:00,Cambridge United,Barnsley,-
 25,16/01/2027 15:00,Doncaster Rovers,Leicester City,-
 25,16/01/2027 15:00,Huddersfield Town,Plymouth Argyle,-
-25,16/01/2027 15:00,Luton Town,MK Dons,-
+25,16/01/2027 12:30,Luton Town,MK Dons,-
 25,16/01/2027 15:00,Notts County,Wycombe Wanderers,-
 25,16/01/2027 15:00,Oxford United,Mansfield Town,-
 25,16/01/2027 15:00,Reading,Wigan Athletic,-
@@ -309,7 +309,7 @@ round,date,home,away,result
 26,19/01/2027 19:45,Plymouth Argyle,Stevenage,-
 26,19/01/2027 19:45,Sheffield Wednesday,Notts County,-
 26,19/01/2027 19:45,Stockport County,Doncaster Rovers,-
-26,19/01/2027 19:45,Wigan Athletic,Oxford United,-
+26,20/01/2027 20:00,Wigan Athletic,Oxford United,-
 26,19/01/2027 19:45,Wycombe Wanderers,Cambridge United,-
 27,23/01/2027 15:00,Barnsley,Reading,-
 27,23/01/2027 15:00,Bradford City,Oxford United,-
@@ -318,10 +318,10 @@ round,date,home,away,result
 27,23/01/2027 15:00,Mansfield Town,Blackpool,-
 27,23/01/2027 15:00,MK Dons,Stevenage,-
 27,23/01/2027 15:00,Peterborough United,Bromley,-
-27,23/01/2027 15:00,Plymouth Argyle,Cambridge United,-
-27,23/01/2027 15:00,Sheffield Wednesday,Doncaster Rovers,-
+27,25/01/2027 20:00,Plymouth Argyle,Cambridge United,-
+27,23/01/2027 12:30,Sheffield Wednesday,Doncaster Rovers,-
 27,23/01/2027 15:00,Stockport County,Notts County,-
-27,23/01/2027 15:00,Wigan Athletic,Huddersfield Town,-
+27,23/01/2027 12:30,Wigan Athletic,Huddersfield Town,-
 27,23/01/2027 15:00,Wycombe Wanderers,AFC Wimbledon,-
 28,30/01/2027 12:30,Huddersfield Town,Bradford City,-
 28,30/01/2027 15:00,AFC Wimbledon,Stockport County,-
@@ -330,7 +330,7 @@ round,date,home,away,result
 28,30/01/2027 15:00,Burton Albion,Wycombe Wanderers,-
 28,30/01/2027 15:00,Cambridge United,Leyton Orient,-
 28,30/01/2027 15:00,Doncaster Rovers,MK Dons,-
-28,30/01/2027 15:00,Luton Town,Peterborough United,-
+28,30/01/2027 12:30,Luton Town,Peterborough United,-
 28,30/01/2027 15:00,Notts County,Mansfield Town,-
 28,30/01/2027 15:00,Oxford United,Barnsley,-
 28,30/01/2027 15:00,Reading,Plymouth Argyle,-
@@ -341,10 +341,10 @@ round,date,home,away,result
 29,06/02/2027 15:00,Burton Albion,Notts County,-
 29,06/02/2027 15:00,Doncaster Rovers,Stevenage,-
 29,06/02/2027 15:00,Huddersfield Town,Cambridge United,-
-29,06/02/2027 15:00,Leicester City,MK Dons,-
+29,06/02/2027 12:30,Leicester City,MK Dons,-
 29,06/02/2027 15:00,Luton Town,Mansfield Town,-
 29,06/02/2027 15:00,Peterborough United,Blackpool,-
-29,06/02/2027 15:00,Reading,Oxford United,-
+29,06/02/2027 12:30,Reading,Oxford United,-
 29,06/02/2027 15:00,Wigan Athletic,AFC Wimbledon,-
 29,06/02/2027 15:00,Wycombe Wanderers,Stockport County,-
 30,09/02/2027 19:45,AFC Wimbledon,Burton Albion,-
@@ -355,7 +355,7 @@ round,date,home,away,result
 30,09/02/2027 19:45,MK Dons,Wigan Athletic,-
 30,09/02/2027 19:45,Notts County,Doncaster Rovers,-
 30,09/02/2027 19:45,Oxford United,Huddersfield Town,-
-30,09/02/2027 19:45,Plymouth Argyle,Leicester City,-
+30,10/02/2027 20:00,Plymouth Argyle,Leicester City,-
 30,09/02/2027 19:45,Sheffield Wednesday,Wycombe Wanderers,-
 30,09/02/2027 19:45,Stevenage,Peterborough United,-
 30,09/02/2027 19:45,Stockport County,Luton Town,-
@@ -363,8 +363,8 @@ round,date,home,away,result
 31,13/02/2027 15:00,Blackpool,Reading,-
 31,13/02/2027 15:00,Cambridge United,Burton Albion,-
 31,13/02/2027 15:00,Leyton Orient,Luton Town,-
-31,13/02/2027 15:00,Mansfield Town,Bradford City,-
-31,13/02/2027 15:00,MK Dons,Wycombe Wanderers,-
+31,13/02/2027 12:30,Mansfield Town,Bradford City,-
+31,13/02/2027 12:30,MK Dons,Wycombe Wanderers,-
 31,13/02/2027 15:00,Notts County,Huddersfield Town,-
 31,13/02/2027 15:00,Oxford United,Leicester City,-
 31,13/02/2027 15:00,Plymouth Argyle,Doncaster Rovers,-
@@ -377,11 +377,11 @@ round,date,home,away,result
 32,20/02/2027 15:00,Burton Albion,Oxford United,-
 32,20/02/2027 15:00,Doncaster Rovers,AFC Wimbledon,-
 32,20/02/2027 15:00,Huddersfield Town,Mansfield Town,-
-32,20/02/2027 15:00,Leicester City,Stockport County,-
+32,20/02/2027 12:30,Leicester City,Stockport County,-
 32,20/02/2027 15:00,Luton Town,Stevenage,-
 32,20/02/2027 15:00,Peterborough United,MK Dons,-
 32,20/02/2027 15:00,Reading,Cambridge United,-
-32,20/02/2027 15:00,Wigan Athletic,Sheffield Wednesday,-
+32,20/02/2027 12:30,Wigan Athletic,Sheffield Wednesday,-
 32,20/02/2027 15:00,Wycombe Wanderers,Leyton Orient,-
 33,27/02/2027 12:30,Cambridge United,Peterborough United,-
 33,27/02/2027 15:00,Barnsley,Wigan Athletic,-
@@ -392,7 +392,7 @@ round,date,home,away,result
 33,27/02/2027 15:00,Leyton Orient,Doncaster Rovers,-
 33,27/02/2027 15:00,Mansfield Town,Stevenage,-
 33,27/02/2027 15:00,Notts County,Bromley,-
-33,27/02/2027 15:00,Oxford United,Luton Town,-
+33,27/02/2027 12:30,Oxford United,Luton Town,-
 33,27/02/2027 15:00,Plymouth Argyle,Sheffield Wednesday,-
 33,27/02/2027 15:00,Reading,Stockport County,-
 34,06/03/2027 15:00,AFC Wimbledon,Huddersfield Town,-
